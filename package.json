@@ -9,7 +9,7 @@
   "private": true,
   "packageManager": "yarn@4.3.0",
   "devDependencies": {
-    "@hckr_/blendid": "https://github.com/hckr-studio/blendid#d3a38e65035db665b029cc426b16f278884d80a4"
+    "@hckr_/blendid": "https://github.com/hckr-studio/blendid#f2b89914f79c9e888b6071e3924b23c3fe9c8319"
   },
   "scripts": {
     "build": "blendid build",
