@@ -1,0 +1,14 @@
+{
+  "name": "studnice-fest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": "https://github.com/hckr-studio/studnice-fest.git",
+  "author": "Aleš Roubíček <ales@roubicek.name>",
+  "license": "MIT",
+  "private": true,
+  "packageManager": "yarn@4.3.0",
+  "devDependencies": {
+    "@hckr_/blendid": "8.1.1"
+  }
+}
