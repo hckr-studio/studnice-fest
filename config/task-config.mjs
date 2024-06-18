@@ -7,8 +7,8 @@ export default {
   fonts: true,
   static: true,
   svgSprite: true,
-  stylesheets: true,
-  esbuild: true,
+  stylesheets: false,
+  esbuild: false,
 
   browserSync: {
     server: {
