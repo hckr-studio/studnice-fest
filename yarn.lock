@@ -1979,9 +1979,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hckr_/blendid@https://github.com/hckr-studio/blendid#30ece335e31991401f81cf576be0d9daf4e57b2a":
+"@hckr_/blendid@https://github.com/hckr-studio/blendid#b6a5033ec6a87090c8690e272351434426d6e171":
   version: 8.1.1
-  resolution: "@hckr_/blendid@https://github.com/hckr-studio/blendid.git#commit=30ece335e31991401f81cf576be0d9daf4e57b2a"
+  resolution: "@hckr_/blendid@https://github.com/hckr-studio/blendid.git#commit=b6a5033ec6a87090c8690e272351434426d6e171"
   dependencies:
     "@vitejs/plugin-basic-ssl": "npm:1.1.0"
     browser-sync: "npm:3.0.2"
@@ -2038,7 +2038,7 @@ __metadata:
     workbox-build: "npm:7.1.1"
   bin:
     blendid: bin/blendid.js
-  checksum: 10c0/eab136a15fe0220290ee3fbde2c6b07678d0cf28e68766ca78eaf045466e9947502ac05b66e3d10a05e0627ee29a363de9e72eb41929148e98bd1fd25d82ee40
+  checksum: 10c0/a5adee41a086c6e4da6b890d3757e87c46386787cb1f4abc00a338384c787172ba925973d83cf14dc59d22d4f7bafc9f5161aa37da17cdd6f84a45c90b66afde
   languageName: node
   linkType: hard
 
@@ -9249,7 +9249,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "studnice-fest@workspace:."
   dependencies:
-    "@hckr_/blendid": "https://github.com/hckr-studio/blendid#30ece335e31991401f81cf576be0d9daf4e57b2a"
+    "@hckr_/blendid": "https://github.com/hckr-studio/blendid#b6a5033ec6a87090c8690e272351434426d6e171"
   languageName: unknown
   linkType: soft
 
