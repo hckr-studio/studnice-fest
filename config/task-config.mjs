@@ -8,7 +8,7 @@ export default {
   static: true,
   svgSprite: true,
   stylesheets: true,
-  esbuild: false,
+  esbuild: true,
 
   browserSync: {
     server: {

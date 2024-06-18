@@ -1979,9 +1979,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hckr_/blendid@https://github.com/hckr-studio/blendid#758071ae6d2f3dc8535a0f51e962602785451918":
-  version: 8.1.1
-  resolution: "@hckr_/blendid@https://github.com/hckr-studio/blendid.git#commit=758071ae6d2f3dc8535a0f51e962602785451918"
+"@hckr_/blendid@npm:8.2.0":
+  version: 8.2.0
+  resolution: "@hckr_/blendid@npm:8.2.0"
   dependencies:
     "@vitejs/plugin-basic-ssl": "npm:1.1.0"
     browser-sync: "npm:3.0.2"
@@ -2004,7 +2004,6 @@ __metadata:
     gulp-notify: "npm:4.0.0"
     gulp-nunjucks-render: "npm:2.2.3"
     gulp-postcss: "npm:10.0.0"
-    gulp-rename: "npm:2.0.0"
     gulp-rev-delete-original: "npm:0.2.3"
     gulp-rev-rewrite: "npm:=5.0.0"
     gulp-sizereport: "npm:1.2.1"
@@ -2038,7 +2037,7 @@ __metadata:
     workbox-build: "npm:7.1.1"
   bin:
     blendid: bin/blendid.js
-  checksum: 10c0/09467f89a9eba54bbc065d1a37086a20775ed60274397e649484b6642a213c4d260fdfe0a734ebb574677b4ff862c8f7afe0f8f641482bc832ccbf989aed8494
+  checksum: 10c0/bd2ff778ee76866d05ee929515d35f4d2e39abb2c68170e1d24b346d0ae9eaa6cc14b6d0711635bb5a71ba58040bf38aebe081ea0625d9c3ddc344f45b6dede7
   languageName: node
   linkType: hard
 
@@ -5347,13 +5346,6 @@ __metadata:
   peerDependencies:
     postcss: ^8.0.0
   checksum: 10c0/042c2111879acf29a65f001b232326135b1bb15d95ebdb6074815b642aaa76555edb59f26011b975a973b2039b3ea58d0b14c6cf7c8bc566830bf57cda8dc825
-  languageName: node
-  linkType: hard
-
-"gulp-rename@npm:2.0.0":
-  version: 2.0.0
-  resolution: "gulp-rename@npm:2.0.0"
-  checksum: 10c0/59f0e467544ddfbeccc208944cb57801e61cd262ca8db595fb520ce6c56bb265b0f873a3872b7ef6b580e5f3f2bd38d0f382fa271d80f73f845e7d56eb124613
   languageName: node
   linkType: hard
 
@@ -9249,7 +9241,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "studnice-fest@workspace:."
   dependencies:
-    "@hckr_/blendid": "https://github.com/hckr-studio/blendid#758071ae6d2f3dc8535a0f51e962602785451918"
+    "@hckr_/blendid": "npm:8.2.0"
   languageName: unknown
   linkType: soft
 
