@@ -10,5 +10,9 @@
   "packageManager": "yarn@4.3.0",
   "devDependencies": {
     "@hckr_/blendid": "8.1.1"
+  },
+  "scripts": {
+    "build": "blendid build",
+    "start": "blendid"
   }
 }
