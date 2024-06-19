@@ -1,5 +1,12 @@
 {% extends 'layouts/master.njk' %}
 
+{% block head %}
+  <meta name="description" content="{{ event.description }}">
+  <meta property="fb:app_id" content="117540538260775">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ event.name }}">
+  <meta property="og:description" content="{{ event.description }}">
+{% endblock %}
 {% block content %}
   <main>
     <section>

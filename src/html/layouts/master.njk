@@ -9,15 +9,36 @@
   <link rel="manifest" href="{{ 'manifest.json' | assetUrl('static') }}">
   {% include "shared/app-icons.html" %}
   {% block head %}{% endblock %}
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-TB6TV66');</script>
+  <!-- End Google Tag Manager -->
 </head>
 <body vocab="https://schema.org" typeof="Festival">
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TB6TV66" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 <link property="eventStatus" href="https://schema.org/EventScheduled"/>
 <header>
   <h1 property="name">Studnice Fest</h1>
   <p>
     <time property="startDate" datetime="2024-07-26">26.</time>
     -
-    <time property="endDate" datetime="2024-07-27">27. 7. 2024</time>
+    <time property="endDate" datetime="2024-07-27">27.&nbsp;7.&nbsp;2024</time>
   </p>
   <p property="location">Cihelka, Hlinsko v Čechách</p>
 </header>
@@ -33,13 +54,39 @@
       i&nbsp;stanování <strong>(S)</strong>.</p>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
           integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin>
-    <div id="map" style="width: 648px; height: 386px"></div>
+    <div id="map" class="smap"></div>
   </section>
   <hr>
-  <section>
-    <h2>Kontakty</h2>
-    <p>Potřebujete kontaktovat pořadatele?</p>
+  <section class="footer__contacts">
+    <div>
+      <h2>Kontakty</h2>
+      <p>Potřebujete kontaktovat pořadatele?</p>
+    </div>
+    <div>
+      <h3>Jakub Balada</h3>
+      <p><a
+          href="mailto:jakub.balada&#64;studnicefest.cz">jakub.balada&#64;<!-- -->studnicefest.cz</a></p>
+      <h3>Pavel Kosina</h3>
+      <p><a href="tel:+420777886838">+420&nbsp;777&nbsp;886&nbsp;838</a><br>
+        <a href="mailto:pavel.kosina&#64;studnicefest.cz">pavel.kosina&#64;<!-- -->studnicefest.cz</a></p>
+    </div>
+    <div>
+      <div>
+        <a href="https://www.kudyznudy.cz/?utm_source=kzn&amp;utm_medium=partneri_kzn&amp;utm_campaign=banner"
+           title="Kudyznudy.cz - tipy na výlet" target="_blank">
+          <img src="https://www.kudyznudy.cz/getmedia/849ee326-f95a-43ce-812c-be9c5817c81e/KzN_banner_234x60.jpg.aspx"
+               width="234" height="60" alt="Kudyznudy.cz - tipy na výlet">
+        </a>
+      </div>
+      <div>
+        <small class="partner">Studnice Fest podporuje Pardubický kraj</small><br>
+        <a href="https://www.pardubickykraj.cz/">
+          <img src="{{ "pardubicky-kraj.png" | assetUrl("images") }}" width="226" height="50" alt="Pardubický kraj"></a>
+      </div>
+    </div>
+    <div></div>
   </section>
+  <p>© 2017 - {{ currentYear }} Eupathia, z.s.; Web vytvořilo <a href="https://hckr.studio/">hckr.studio</a></p>
 </footer>
 {% block javascript %}
 {% endblock %}
@@ -49,7 +96,10 @@
   import { html } from "https://cdn.jsdelivr.net/npm/uhtml/node.js";
 
   const API_KEY = "S9n6dfE_8AfjsNvRxSwAmFV4-1z5tfk5W7IUajp2D3I";
-  const map = L.map("map", { center: [49.752936007489765, 15.930369570851326], zoom: 16 });
+  const map = L.map("map", {
+    center: [49.752936007489765, 15.930369570851326],
+    zoom: 16
+  });
   L.tileLayer(`https://api.mapy.cz/v1/maptiles/outdoor/256/{z}/{x}/{y}?apikey=${API_KEY}`, {
     minZoom: 0,
     maxZoom: 19,
@@ -63,13 +113,14 @@
         <div>
           <a href="https://mapy.cz/" target="_blank" @click=${e => e.stopPropagation()}>
             <img alt="Mapy.cz" src="https://api.mapy.cz/img/api/logo.svg"></a>
-        </div>`
+        </div>
+      `;
     },
   })
   new LogoControl().addTo(map);
   L.marker([49.753234071335086, 15.930165722966194], { alt: "A", title: "Areál Cihelka" }).addTo(map);
   L.marker([49.7526861, 15.9341575], { alt: "P", title: "Parkoviště" }).addTo(map);
-  L.marker([49.7529775, 15.9336425], { alt: "S", title: "Stanování" }).addTo(map)
+  L.marker([49.7529775, 15.9336425], { alt: "S", title: "Stanování" }).addTo(map);
 </script>
 {{ spriteTarget() }}
 </body>

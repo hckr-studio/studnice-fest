@@ -1,7 +1,6 @@
 import pathConfig from "./path-config.json" with { type: "json" };
 
 export default {
-  html: true,
   images: true,
   cloudinary: false,
   fonts: true,
@@ -9,6 +8,10 @@ export default {
   svgSprite: true,
   stylesheets: true,
   esbuild: true,
+
+  html: {
+    dataFile: "global.mjs",
+  },
 
   browserSync: {
     server: {
