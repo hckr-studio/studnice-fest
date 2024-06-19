@@ -1,0 +1,43 @@
+{#
+Nunjucks Templating!
+Homepage: https://mozilla.github.io/nunjucks/
+Docs: https://mozilla.github.io/nunjucks/api.html
+#}
+
+{% extends 'layouts/master.njk' %}
+
+{% block content %}
+    <h1>{{ title }}</h1>
+    <section>
+        <header>
+            <h2>Info</h2>
+        </header>
+
+    </section>
+    <section>
+        <header>
+            <h2>Kapely</h2>
+        </header>
+    </section>
+    <section>
+        <header>
+            <h2>Vstupenky</h2>
+        </header>
+    </section>
+    <section>
+        <header>
+            <h2>Časový harmonogram</h2>
+        </header>
+    </section>
+
+    {{ sprite("border-bottom", "border", "0 0 585 19") }}
+
+{% endblock %}
+
+{% block javascript %}
+<script type="module">
+    import {helloWorld} from "{{ 'index.js' | assetUrl('esm') }}";
+
+  helloWorld();
+</script>
+{% endblock %}
