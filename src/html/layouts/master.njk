@@ -1,19 +1,163 @@
 {%- from 'macros/helpers.njk' import sprite, spriteTarget -%}
 <!doctype html>
 <html lang="cs">
-  <head>
-    <meta charset="utf-8">
-    <title>{% block title %}{{ title }}{% endblock %}</title>
-    <link rel="stylesheet" href="{{ 'index.css' | assetUrl('stylesheets') }}">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="manifest" href="{{ 'manifest.json' | assetUrl('static') }}">
-    {% include "shared/app-icons.html" %}
-    {% block head %}{% endblock %}
-  </head>
-  <body>
-    {% block content %}{% endblock %}
-    {% block javascript %}
-    {% endblock %}
-    {{ spriteTarget() }}
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>{% block title %}{{ title }}{% endblock %}</title>
+  <link rel="stylesheet" href="{{ 'index.css' | assetUrl('stylesheets') }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="{{ 'manifest.json' | assetUrl('static') }}">
+  {% include "shared/app-icons.html" %}
+  {% block head %}{% endblock %}
+</head>
+<body>
+{% block content %}{% endblock %}
+<footer>
+  <section>
+    <header>
+      <h2>Mapa</h2>
+    </header>
+    <p>Studnice Fest 2024&nbsp;se bude konat na tradičním místě, v&nbsp;areálu Cihelka
+      <strong>(A)</strong> na okraji Hlinska v&nbsp;Čechách. V&nbsp;těsné blízkosti
+      areálu budou vyhrazené prostory k&nbsp;parkování <strong>(P)</strong>
+      i&nbsp;stanování <strong>(S)</strong>.</p>
+    <div id="mapa" style="width: 648px; height: 386px"></div>
+  </section>
+  <hr>
+  <section>
+    <h2>Kontakty</h2>
+    <p>Potřebujete kontaktovat pořadatele?</p>
+  </section>
+</footer>
+{% block javascript %}
+{% endblock %}
+<script src="https://api.mapy.cz/loader.js"></script>
+<script>Loader.load()</script>
+<script>
+  var center = SMap.Coords.fromWGS84(15.930369570851326, 49.752936007489765);
+  var mapa = new SMap(JAK.gel("mapa"), center, 16);
+  mapa.addDefaultLayer(SMap.DEF_TURIST).enable();
+
+  // marker A = areal
+  var znacka = JAK.mel("div");
+  var obrazek = JAK.mel("img", { src: SMap.CONFIG.img + "/marker/drop-red.png" });
+  znacka.appendChild(obrazek);
+
+  var popisek = JAK.mel("div", {}, {
+    position: "absolute",
+    left: "0px",
+    top: "2px",
+    textAlign: "center",
+    width: "22px",
+    color: "white",
+    fontWeight: "bold",
+    fontSize: "16px"
+  });
+  popisek.innerHTML = "A";
+  znacka.appendChild(popisek);
+
+  var layer = new SMap.Layer.Marker();
+  mapa.addLayer(layer).enable();
+  var mCoord = SMap.Coords.fromWGS84(15.930165722966194, 49.753234071335086);
+  var mOpt = {
+    url: znacka,
+    title: "Areál Cihelka"
+  }
+
+  var card = new SMap.Card(150);
+  card.getHeader().innerHTML = "<strong>Areál Cihelka</strong>";
+  //card.getBody().innerHTML = "V tomto prostoru bude probíhat vlastní festival";
+
+  var marker = new SMap.Marker(mCoord, "MyMarkerA", mOpt);
+  marker.decorate(SMap.Marker.Feature.Card, card);
+  layer.addMarker(marker);
+
+  // marker P = parkoviste
+  var znackaP = JAK.mel("div");
+  var obrazekP = JAK.mel("img", { src: SMap.CONFIG.img + "/marker/drop-blue.png" });
+  znackaP.appendChild(obrazekP);
+
+  var popisekP = JAK.mel("div", {}, {
+    position: "absolute",
+    left: "0px",
+    top: "2px",
+    textAlign: "center",
+    width: "22px",
+    color: "white",
+    fontWeight: "bold",
+    fontSize: "16px"
+  });
+  popisekP.innerHTML = "P";
+  znackaP.appendChild(popisekP);
+
+  var layerP = new SMap.Layer.Marker();
+  mapa.addLayer(layerP).enable()
+  var mCoordP = SMap.Coords.fromWGS84(15.9341575, 49.7526861); // 49.7526861N, 15.9341575E // 15.9290069,49.7521736
+  var mOptP = {
+    url: znackaP,
+    title: "Parkoviště"
+  }
+
+  var cardP = new SMap.Card(150);
+  cardP.getHeader().innerHTML = "<strong>Parkoviště</strong>";
+  //cardP.getBody().innerHTML = "Vymezený prostor louky bude sloužit jako parkoviště.";
+
+  var markerP = new SMap.Marker(mCoordP, "MyMarkerP", mOptP);
+  markerP.decorate(SMap.Marker.Feature.Card, cardP);
+  layer.addMarker(markerP);
+
+
+  // marker S = stanovani
+  var znackaS = JAK.mel("div");
+  var obrazekS = JAK.mel("img", { src: SMap.CONFIG.img + "/marker/drop-yellow.png" });
+  znackaS.appendChild(obrazekS);
+
+  var popisekS = JAK.mel("div", {}, {
+    position: "absolute",
+    left: "0px",
+    top: "2px",
+    textAlign: "center",
+    width: "22px",
+    color: "white",
+    fontWeight: "bold",
+    fontSize: "16px"
+  });
+  popisekS.innerHTML = "S";
+  znackaS.appendChild(popisekS);
+
+  var layerS = new SMap.Layer.Marker();
+  mapa.addLayer(layerS).enable()
+  var mCoordS = SMap.Coords.fromWGS84(15.9336425, 49.7529775); // 49.7529775N, 15.9336425E // 15.9338356, 49.7530192
+  var mOptS = {
+    url: znackaS,
+    title: "Stanování"
+  }
+
+  var cardS = new SMap.Card(150);
+  cardS.getHeader().innerHTML = "<strong>Stanování</strong>";
+  //cardS.getBody().innerHTML = "Vymezený prostor louky bude sloužit jako stanové městečko.";
+
+  var markerS = new SMap.Marker(mCoordS, "MyMarkerS", mOptS);
+  markerS.decorate(SMap.Marker.Feature.Card, cardS);
+  layer.addMarker(markerS);
+
+  var overview = new SMap.Control.Overview();
+  mapa.addControl(overview);
+  var scale = new SMap.Control.Scale();
+  mapa.addControl(scale, { left: "8px", bottom: "25px" });
+  var msOpt = SMap.MOUSE_PAN | SMap.MOUSE_ZOOM; // | SMap.MOUSE_WHEEL
+  var mouse = new SMap.Control.Mouse(msOpt);
+  mapa.addControl(mouse);
+  var keyboard = new SMap.Control.Keyboard(SMap.KB_PAN | SMap.KB_ZOOM);
+  mapa.addControl(keyboard);
+  var selection = new SMap.Control.Selection(2);
+  mapa.addControl(selection);
+  var zn = new SMap.Control.ZoomNotification();
+  mapa.addControl(zn);
+  var zoomOpt = { showZoomMenu: false };
+  var zoom = new SMap.Control.Zoom(null, { titles: ["Přiblížit", "Oddálit"], showZoomMenu: false });
+  mapa.addControl(zoom, { right: "8px", top: "16x" });
+</script>
+{{ spriteTarget() }}
+</body>
 </html>

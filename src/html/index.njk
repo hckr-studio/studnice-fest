@@ -1,42 +1,46 @@
-{#
-Nunjucks Templating!
-Homepage: https://mozilla.github.io/nunjucks/
-Docs: https://mozilla.github.io/nunjucks/api.html
-#}
-
 {% extends 'layouts/master.njk' %}
 
 {% block content %}
-    <h1>{{ title }}</h1>
+  <main vocab="https://schema.org" typeof="Festival">
     <section>
-        <header>
-            <h2>Info</h2>
-        </header>
+      <header>
+        <h2>Novinky</h2>
+      </header>
+    </section>
+    <section>
+      <header>
+        <h2>Info</h2>
+      </header>
+    </section>
+    <section>
+      <header>
+        <h2>Kapely</h2>
+      </header>
+    </section>
+    <section>
+      <header>
+        <h2>Vstupenky</h2>
+      </header>
+      <p>Vstupenky budou pravděpodobně dostupné i&nbsp;na místě, nicméně kapacita
+        je omezená. Doporučujeme proto využít předprodeje na&nbsp;<a
+          href="https://goout.net">GoOut.net</a>. V&nbsp;ceně vstupenky je i&nbsp;stanové
+        městečko. Parkovací stání se platí zvlášť.</p>
 
     </section>
     <section>
-        <header>
-            <h2>Kapely</h2>
-        </header>
+      <header>
+        <h2>Časový harmonogram</h2>
+      </header>
+      <p>Hudební produkce bude probíhat na třech jevištích&nbsp;&ndash; hlavní stage,
+        stage “Na Vyhlídce ” a dětský&nbsp;stan.</p>
     </section>
-    <section>
-        <header>
-            <h2>Vstupenky</h2>
-        </header>
-    </section>
-    <section>
-        <header>
-            <h2>Časový harmonogram</h2>
-        </header>
-    </section>
-
-    {{ sprite("border-bottom", "border", "0 0 585 19") }}
+  </main>
 
 {% endblock %}
 
 {% block javascript %}
 <script type="module">
-    import {helloWorld} from "{{ 'index.js' | assetUrl('esm') }}";
+  import {helloWorld} from "{{ 'index.js' | assetUrl('esm') }}";
 
   helloWorld();
 </script>
