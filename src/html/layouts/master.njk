@@ -10,10 +10,20 @@
   {% include "shared/app-icons.html" %}
   {% block head %}{% endblock %}
 </head>
-<body>
+<body vocab="https://schema.org" typeof="Festival">
+<link property="eventStatus" href="https://schema.org/EventScheduled"/>
+<header>
+  <h1 property="name">Studnice Fest</h1>
+  <p>
+    <time property="startDate" datetime="2024-07-26">26.</time>
+    -
+    <time property="endDate" datetime="2024-07-27">27. 7. 2024</time>
+  </p>
+  <p property="location">Cihelka, Hlinsko v Čechách</p>
+</header>
 {% block content %}{% endblock %}
 <footer>
-  <section>
+  <section id="mapa">
     <header>
       <h2>Mapa</h2>
     </header>
@@ -21,7 +31,9 @@
       <strong>(A)</strong> na okraji Hlinska v&nbsp;Čechách. V&nbsp;těsné blízkosti
       areálu budou vyhrazené prostory k&nbsp;parkování <strong>(P)</strong>
       i&nbsp;stanování <strong>(S)</strong>.</p>
-    <div id="mapa" style="width: 648px; height: 386px"></div>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+          integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin>
+    <div id="map" style="width: 648px; height: 386px"></div>
   </section>
   <hr>
   <section>
@@ -31,132 +43,33 @@
 </footer>
 {% block javascript %}
 {% endblock %}
-<script src="https://api.mapy.cz/loader.js"></script>
-<script>Loader.load()</script>
-<script>
-  var center = SMap.Coords.fromWGS84(15.930369570851326, 49.752936007489765);
-  var mapa = new SMap(JAK.gel("mapa"), center, 16);
-  mapa.addDefaultLayer(SMap.DEF_TURIST).enable();
+<script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+        integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin></script>
+<script type="module">
+  import { html } from "https://cdn.jsdelivr.net/npm/uhtml/node.js";
 
-  // marker A = areal
-  var znacka = JAK.mel("div");
-  var obrazek = JAK.mel("img", { src: SMap.CONFIG.img + "/marker/drop-red.png" });
-  znacka.appendChild(obrazek);
-
-  var popisek = JAK.mel("div", {}, {
-    position: "absolute",
-    left: "0px",
-    top: "2px",
-    textAlign: "center",
-    width: "22px",
-    color: "white",
-    fontWeight: "bold",
-    fontSize: "16px"
-  });
-  popisek.innerHTML = "A";
-  znacka.appendChild(popisek);
-
-  var layer = new SMap.Layer.Marker();
-  mapa.addLayer(layer).enable();
-  var mCoord = SMap.Coords.fromWGS84(15.930165722966194, 49.753234071335086);
-  var mOpt = {
-    url: znacka,
-    title: "Areál Cihelka"
-  }
-
-  var card = new SMap.Card(150);
-  card.getHeader().innerHTML = "<strong>Areál Cihelka</strong>";
-  //card.getBody().innerHTML = "V tomto prostoru bude probíhat vlastní festival";
-
-  var marker = new SMap.Marker(mCoord, "MyMarkerA", mOpt);
-  marker.decorate(SMap.Marker.Feature.Card, card);
-  layer.addMarker(marker);
-
-  // marker P = parkoviste
-  var znackaP = JAK.mel("div");
-  var obrazekP = JAK.mel("img", { src: SMap.CONFIG.img + "/marker/drop-blue.png" });
-  znackaP.appendChild(obrazekP);
-
-  var popisekP = JAK.mel("div", {}, {
-    position: "absolute",
-    left: "0px",
-    top: "2px",
-    textAlign: "center",
-    width: "22px",
-    color: "white",
-    fontWeight: "bold",
-    fontSize: "16px"
-  });
-  popisekP.innerHTML = "P";
-  znackaP.appendChild(popisekP);
-
-  var layerP = new SMap.Layer.Marker();
-  mapa.addLayer(layerP).enable()
-  var mCoordP = SMap.Coords.fromWGS84(15.9341575, 49.7526861); // 49.7526861N, 15.9341575E // 15.9290069,49.7521736
-  var mOptP = {
-    url: znackaP,
-    title: "Parkoviště"
-  }
-
-  var cardP = new SMap.Card(150);
-  cardP.getHeader().innerHTML = "<strong>Parkoviště</strong>";
-  //cardP.getBody().innerHTML = "Vymezený prostor louky bude sloužit jako parkoviště.";
-
-  var markerP = new SMap.Marker(mCoordP, "MyMarkerP", mOptP);
-  markerP.decorate(SMap.Marker.Feature.Card, cardP);
-  layer.addMarker(markerP);
-
-
-  // marker S = stanovani
-  var znackaS = JAK.mel("div");
-  var obrazekS = JAK.mel("img", { src: SMap.CONFIG.img + "/marker/drop-yellow.png" });
-  znackaS.appendChild(obrazekS);
-
-  var popisekS = JAK.mel("div", {}, {
-    position: "absolute",
-    left: "0px",
-    top: "2px",
-    textAlign: "center",
-    width: "22px",
-    color: "white",
-    fontWeight: "bold",
-    fontSize: "16px"
-  });
-  popisekS.innerHTML = "S";
-  znackaS.appendChild(popisekS);
-
-  var layerS = new SMap.Layer.Marker();
-  mapa.addLayer(layerS).enable()
-  var mCoordS = SMap.Coords.fromWGS84(15.9336425, 49.7529775); // 49.7529775N, 15.9336425E // 15.9338356, 49.7530192
-  var mOptS = {
-    url: znackaS,
-    title: "Stanování"
-  }
-
-  var cardS = new SMap.Card(150);
-  cardS.getHeader().innerHTML = "<strong>Stanování</strong>";
-  //cardS.getBody().innerHTML = "Vymezený prostor louky bude sloužit jako stanové městečko.";
-
-  var markerS = new SMap.Marker(mCoordS, "MyMarkerS", mOptS);
-  markerS.decorate(SMap.Marker.Feature.Card, cardS);
-  layer.addMarker(markerS);
-
-  var overview = new SMap.Control.Overview();
-  mapa.addControl(overview);
-  var scale = new SMap.Control.Scale();
-  mapa.addControl(scale, { left: "8px", bottom: "25px" });
-  var msOpt = SMap.MOUSE_PAN | SMap.MOUSE_ZOOM; // | SMap.MOUSE_WHEEL
-  var mouse = new SMap.Control.Mouse(msOpt);
-  mapa.addControl(mouse);
-  var keyboard = new SMap.Control.Keyboard(SMap.KB_PAN | SMap.KB_ZOOM);
-  mapa.addControl(keyboard);
-  var selection = new SMap.Control.Selection(2);
-  mapa.addControl(selection);
-  var zn = new SMap.Control.ZoomNotification();
-  mapa.addControl(zn);
-  var zoomOpt = { showZoomMenu: false };
-  var zoom = new SMap.Control.Zoom(null, { titles: ["Přiblížit", "Oddálit"], showZoomMenu: false });
-  mapa.addControl(zoom, { right: "8px", top: "16x" });
+  const API_KEY = "S9n6dfE_8AfjsNvRxSwAmFV4-1z5tfk5W7IUajp2D3I";
+  const map = L.map("map", { center: [49.752936007489765, 15.930369570851326], zoom: 16 });
+  L.tileLayer(`https://api.mapy.cz/v1/maptiles/outdoor/256/{z}/{x}/{y}?apikey=${API_KEY}`, {
+    minZoom: 0,
+    maxZoom: 19,
+    detectRetina: true,
+    attribution: `<a href="https://api.mapy.cz/copyright" target="_blank">&copy; Seznam.cz a.s. a další</a>`,
+  }).addTo(map);
+  const LogoControl = L.Control.extend({
+    options: { position: "bottomleft" },
+    onAdd(map) {
+      return html`
+        <div>
+          <a href="https://mapy.cz/" target="_blank" @click=${e => e.stopPropagation()}>
+            <img alt="Mapy.cz" src="https://api.mapy.cz/img/api/logo.svg"></a>
+        </div>`
+    },
+  })
+  new LogoControl().addTo(map);
+  L.marker([49.753234071335086, 15.930165722966194], { alt: "A", title: "Areál Cihelka" }).addTo(map);
+  L.marker([49.7526861, 15.9341575], { alt: "P", title: "Parkoviště" }).addTo(map);
+  L.marker([49.7529775, 15.9336425], { alt: "S", title: "Stanování" }).addTo(map)
 </script>
 {{ spriteTarget() }}
 </body>
