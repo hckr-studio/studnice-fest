@@ -19,7 +19,7 @@ async function fetchScrapeResults(env, defaultDatasetId) {
   return items.filter(x => x.text);
 }
 
-function updateNews(allNews, items) {
+function updateNewsIndex(allNews, items) {
   const news = items.map(({ timestamp, postId }) => ({ timestamp, postId }));
   for (const { timestamp, postId } of news) {
     allNews.set(postId, { timestamp, postId });
@@ -44,7 +44,7 @@ export async function onRequestPost({ env, request }) {
   const { defaultDatasetId } = body.resource;
   const items = await fetchScrapeResults(env, defaultDatasetId);
   const allNews = await getAllNewsIndex(env);
-  updateNews(allNews, items);
+  updateNewsIndex(allNews, items);
   await saveAllNewsIndex(env, allNews);
   await saveNewsEntries(env, items);
   return new Response(null, { status: 200 });

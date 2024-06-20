@@ -15,5 +15,8 @@
   "scripts": {
     "build": "blendid build",
     "start": "blendid"
+  },
+  "dependencies": {
+    "@thi.ng/transducers": "^9.0.5"
   }
 }
