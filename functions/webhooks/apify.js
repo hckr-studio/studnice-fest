@@ -1,4 +1,9 @@
-export async function onRequestPost({ env, request, data }) {
+export async function onRequestPost({ env, request }) {
+  const url = new URL(request.url);
+  if (url.searchParams.get("secret") !== env.APIFY_WEBHOOK_SECRET) {
+    return new Response("Invalid secret", { status: 403 });
+  }
+
   const body = await request.json();
   const { defaultDatasetId } = body.resource;
   const resp = await fetch(`https://api.apify.com/v2/datasets/${defaultDatasetId}/items`, {
