@@ -133,3 +133,6 @@ dist
 
 # Blendid
 .blendid/
+
+# Cloudflare Pages
+.dev.vars
