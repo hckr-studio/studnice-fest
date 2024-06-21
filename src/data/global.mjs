@@ -1,6 +1,14 @@
 export default {
   title: "STUDNICE FEST 2024",
   currentYear: new Date().getFullYear(),
+  formatDate(s) {
+    const formatter = new Intl.DateTimeFormat("cs", {
+      day: "2-digit",
+      month: "2-digit",
+      year: "numeric"
+    })
+    return formatter.format(new Date(s));
+  },
   event: {
     name: "Studnice Fest",
     startDate: new Date("2024-07-26T17:00:00+02:00"),
