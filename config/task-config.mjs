@@ -1,4 +1,47 @@
+import fs from "node:fs";
+import projectPath from "@hckr_/blendid/lib/projectPath.mjs";
+import logger from "fancy-log";
+import DefaultRegistry from "undertaker-registry";
 import pathConfig from "./path-config.json" with { type: "json" };
+
+class NewsRegistry extends DefaultRegistry {
+  constructor(config, pathConfig) {
+    super();
+    this.config = config;
+    this.dest = projectPath(
+      pathConfig.src,
+      pathConfig.data.src,
+      "news.json",
+    );
+  }
+
+  init({ task }) {
+    async function getLatestNews() {
+      logger.info("Loading latest news…");
+      const resp = await fetch("https://studnice-fest.pages.dev/api/v1/news/latest");
+      const data = await resp.json();
+      if (!resp.ok) {
+        logger.warn("blbý!");
+      }
+      return data.map(x => ({
+        text: x.text,
+        time: x.time,
+        url: x.topLevelUrl,
+        likes: x.likes,
+        image: x.media.at(0)?.thumbnail
+      }));
+    }
+
+    task("prepare-data", async () => {
+      const news = await getLatestNews();
+      return fs.promises.writeFile(
+        this.dest,
+        JSON.stringify(news, null, 2),
+        { encoding: "utf-8" },
+      );
+    });
+  }
+}
 
 export default {
   images: true,
@@ -11,6 +54,7 @@ export default {
 
   html: {
     dataFile: "global.mjs",
+    collections: ["news"],
   },
 
   browserSync: {
@@ -29,6 +73,17 @@ export default {
 
   production: {
     rev: true
+  },
+
+  registries: [new NewsRegistry({}, pathConfig)],
+
+  additionalTasks: {
+    development: {
+      prebuild: ["prepare-data"],
+    },
+    production: {
+      prebuild: ["prepare-data"],
+    },
   },
 
   watch: {
