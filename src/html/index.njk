@@ -13,14 +13,16 @@
       <header>
         <h2>Novinky</h2>
       </header>
-      {% for post in news %}
-      <article>
-        <time datetime="{{ post.time }}">{{ formatDate(post.time) }}</time>
-        {% markdown %}
-        {{ post.text.replace("#vidimesevlese", "").replace("#18vlese", "") }}
-        {% endmarkdown %}
-      </article>
-      {% endfor %}
+      <div class="news-list">
+        {% for post in news %}
+          <article>
+            <a href="/novinky#{{ post.time }}">
+              <time datetime="{{ post.time }}">{{ formatDate(post.time) }}</time>
+              <img src="{{ post.image }}" alt="">
+            </a>
+          </article>
+        {% endfor %}
+      </div>
     </section>
     <section>
       <header>

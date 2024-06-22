@@ -1,3 +1,5 @@
+import { processTypo } from "../esm/lib/texy.js";
+
 export default {
   title: "STUDNICE FEST 2024",
   currentYear: new Date().getFullYear(),
@@ -9,6 +11,7 @@ export default {
     })
     return formatter.format(new Date(s));
   },
+  processTypo,
   event: {
     name: "Studnice Fest",
     startDate: new Date("2024-07-26T17:00:00+02:00"),
