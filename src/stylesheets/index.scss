@@ -73,6 +73,7 @@ body {
 
 h1, h2, h3 {
   font-family: var(--accented-font);
+  font-weight: normal;
 }
 
 h2 {
@@ -324,6 +325,21 @@ section p {
       font-weight: bold;
       line-height: 2;
     }
+  }
+}
+
+.tickets__free {
+  margin: 2em 0;
+  text-align: center;
+
+  h3 {
+    font-size: 1.75em;
+    margin: 0;
+    background: assetUrl("images", "heading-bg.svg") no-repeat center;
+  }
+  p {
+    text-transform: uppercase;
+    letter-spacing: 3px;
   }
 }
 
