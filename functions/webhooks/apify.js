@@ -36,6 +36,7 @@ async function saveNewsEntries(env, items) {
 
 export async function onRequestPost({ env, request }) {
   const url = new URL(request.url);
+  console.log({a:url.searchParams.get("secret"), b: env.APIFY_WEBHOOK_SECRET})
   if (url.searchParams.get("secret") !== env.APIFY_WEBHOOK_SECRET) {
     return new Response("Invalid secret", { status: 403 });
   }
