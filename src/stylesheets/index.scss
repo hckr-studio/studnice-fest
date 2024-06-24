@@ -86,9 +86,61 @@ hr {
   background-image: var(--hr-border-image);
 }
 
-section, footer {
+section, body > header, body > footer {
   max-width: 61.25em;
   margin: 0 auto;
+}
+
+body > header {
+  --logo-color: var(--text-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h1 {
+    height: 74px;
+    width: 166px;
+    display: flex;
+    line-height: 1;
+    text-align: center;
+    align-items: center;
+    font-size: 1.5em;
+  }
+
+  h1 svg {
+    height: 74px;
+    width: auto;
+    flex-grow: 1;
+  }
+
+  nav {
+    width: 166px;
+    text-align: right;
+
+    button {
+      display: inline-flex;
+      align-items: center;
+      gap: 1em;
+      text-transform: uppercase;
+      border: 2px solid var(--text-color);
+      background-color: transparent;
+      line-height: 2;
+    }
+  }
+}
+
+.header__time {
+  font: 1.75em var(--accented-font);
+  margin: 0;
+  text-align: center;
+}
+
+.header__location {
+  font-size: 0.825em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+  text-align: center;
 }
 
 section > header {
@@ -181,6 +233,7 @@ section p {
       height: auto;
       z-index: -1;
     }
+
     time {
       font-size: 5cqi;
       font-weight: 700;
@@ -209,6 +262,7 @@ section p {
   h2:first-of-type, h3:first-of-type {
     margin-top: 0;
   }
+
   p {
     font-size: revert;
     text-align: left;
