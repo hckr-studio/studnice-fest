@@ -52,9 +52,13 @@ export default {
   stylesheets: true,
   esbuild: true,
 
+  generate: {
+    json: [{ collection: "artists" }]
+  },
+
   html: {
     dataFile: "global.mjs",
-    collections: ["news"],
+    collections: ["news", "artists", "schedule"],
   },
 
   browserSync: {
