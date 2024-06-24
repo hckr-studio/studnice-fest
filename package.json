@@ -8,17 +8,17 @@
   "license": "MIT",
   "private": true,
   "packageManager": "yarn@4.3.1",
+  "dependencies": {
+    "@thi.ng/transducers": "9.0.6"
+  },
   "devDependencies": {
-    "@hckr_/blendid": "8.2.0",
-    "fancy-log": "^2.0.0",
-    "undertaker-registry": "^2.0.0",
-    "wrangler": "^3.61.0"
+    "@hckr_/blendid": "8.3.0",
+    "fancy-log": "2.0.0",
+    "undertaker-registry": "2.0.0",
+    "wrangler": "3.61.0"
   },
   "scripts": {
     "build": "blendid build",
     "start": "blendid"
-  },
-  "dependencies": {
-    "@thi.ng/transducers": "^9.0.5"
   }
 }

@@ -1,4 +1,5 @@
-import fs from "node:fs";
+import { writeFile } from "node:fs/promises";
+import { basename } from "node:path";
 import projectPath from "@hckr_/blendid/lib/projectPath.mjs";
 import logger from "fancy-log";
 import DefaultRegistry from "undertaker-registry";
@@ -34,7 +35,7 @@ class NewsRegistry extends DefaultRegistry {
 
     task("prepare-data", async () => {
       const news = await getLatestNews();
-      return fs.promises.writeFile(
+      return writeFile(
         this.dest,
         JSON.stringify(news, null, 2),
         { encoding: "utf-8" },
@@ -53,7 +54,14 @@ export default {
   esbuild: true,
 
   generate: {
-    json: [{ collection: "artists" }]
+    exclude: ["artists.json"],
+    json: [{
+      collection: "artists",
+      stripTitle: true,
+      transform(data, file) {
+        return Object.assign({ filename: basename(file.path) }, data);
+      }
+    }]
   },
 
   html: {

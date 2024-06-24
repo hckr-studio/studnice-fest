@@ -87,7 +87,7 @@ hr {
   background-image: var(--hr-border-image);
 }
 
-section, body > header, body > footer {
+main, section, body > header, body > footer {
   max-width: 61.25em;
   margin: 0 auto;
 }
@@ -352,6 +352,7 @@ section p {
       }
     }
   }
+
   p {
     text-transform: uppercase;
     letter-spacing: 3px;
