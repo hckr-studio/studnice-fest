@@ -199,9 +199,26 @@
     },
   })
   new LogoControl().addTo(map);
-  L.marker([49.753234071335086, 15.930165722966194], { alt: "A", title: "Areál Cihelka" }).addTo(map);
-  L.marker([49.7526861, 15.9341575], { alt: "P", title: "Parkoviště" }).addTo(map);
-  L.marker([49.7529775, 15.9336425], { alt: "S", title: "Stanování" }).addTo(map);
+  const poiArealIcon = L.icon({
+    iconUrl: "{{ "poi-areal.svg" | assetUrl("images") }}",
+    iconSize: [37, 46],
+    iconAnchor: [18, 38],
+  });
+  L.marker([49.753234071335086, 15.930165722966194], { alt: "A", title: "Areál Cihelka" , icon: poiArealIcon}).addTo(map);
+
+  const poiParkingIcon = L.icon({
+    iconUrl: "{{ "poi-parking.svg" | assetUrl("images") }}",
+    iconSize: [37, 46],
+    iconAnchor: [18, 38],
+  });
+  L.marker([49.7526861, 15.9341575], { alt: "P", title: "Parkoviště", icon: poiParkingIcon }).addTo(map);
+
+  const poiTentsIcon = L.icon({
+    iconUrl: "{{ "poi-tents.svg" | assetUrl("images") }}",
+    iconSize: [37, 46],
+    iconAnchor: [18, 38],
+  });
+  L.marker([49.7529775, 15.9336425], { alt: "S", title: "Stanování", icon: poiTentsIcon }).addTo(map);
 </script>
 {{ spriteTarget() }}
 </body>
