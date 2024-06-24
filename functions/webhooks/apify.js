@@ -16,6 +16,7 @@ async function fetchScrapeResults(env, defaultDatasetId) {
   });
   const items = await resp.json();
   // ignore updates without text
+  console.log({ items })
   return items.filter(x => x.text);
 }
 
@@ -36,7 +37,6 @@ async function saveNewsEntries(env, items) {
 
 export async function onRequestPost({ env, request }) {
   const url = new URL(request.url);
-  console.log({a:url.searchParams.get("secret"), b: env})
   if (url.searchParams.get("secret") !== env.APIFY_WEBHOOK_SECRET) {
     return new Response("Invalid secret", { status: 403 });
   }
