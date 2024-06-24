@@ -1,0 +1,12 @@
+{% extends 'layouts/master.njk' %}
+
+{% block content %}
+  <main>
+    <hgroup>
+      <h2>Důležité informace</h2>
+      <p>Co by měl každý návštěvník vědět, než na Studnici vyrazí?</p>
+    </hgroup>
+    {% markdown "informace/text.md" %}
+  </main>
+
+{% endblock %}
