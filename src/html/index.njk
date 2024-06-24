@@ -16,13 +16,14 @@
       <div class="news-list">
         {% for post in news %}
           <article>
-            <a href="/novinky#{{ post.time }}">
+            <a href="/novinky/#{{ post.time }}">
               <time datetime="{{ post.time }}">{{ formatDate(post.time) }}</time>
               <img src="{{ post.image }}" alt="">
             </a>
           </article>
         {% endfor %}
       </div>
+      <a href="/novinky/" class="button">Zobrazit všechny novinky</a>
     </section>
     <section>
       <header>
@@ -84,7 +85,7 @@
 
       <div class="tickets__free">
         <h3>Vstup zdarma</h3>
-        <p>Děti do 150cm, obyvatelé Studnice  a ZTP</p>
+        <p>Děti do 150cm, obyvatelé Studnice a ZTP</p>
       </div>
 
     </section>
@@ -94,6 +95,20 @@
       </header>
       <p>Hudební produkce bude probíhat na třech jevištích&nbsp;&ndash; hlavní stage,
         stage “Na Vyhlídce ” a dětský&nbsp;stan.</p>
+      <div>
+        <div>
+          <h3>Pátek 26. 7.</h3>
+          {% for item in schedule.friday %}
+          <div>{{ item.time }} {{ item.title }} {{ item.stage }}</div>
+          {% endfor %}
+        </div>
+        <div>
+          <h3>Sobota 27. 7.</h3>
+          {% for item in schedule.saturday %}
+            <div>{{ item.time }} {{ item.title }} {{ item.stage }}</div>
+          {% endfor %}
+        </div>
+      </div>
     </section>
   </main>
 

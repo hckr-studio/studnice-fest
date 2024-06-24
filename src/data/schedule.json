@@ -1,0 +1,27 @@
+{
+  "friday": [
+    { "time": "16:00", "title": "SešLOST", "stage": "main", "image": "", "slug": "seslost" },
+    { "time": "17:30", "title": ".theMayRevolution", "stage": "main", "image": "", "slug": "the-may-revolution" },
+    { "time": "18:50", "title": "Corpulent Provocateur", "stage": "outlook", "image": "", "slug": "corpulent-provocateur" },
+    { "time": "20:10", "title": "Letní kapela", "stage": "main", "image": "", "slug": "letni-kapela" },
+    { "time": "21:30", "title": "Lazer Viking", "stage": "outlook", "image": "", "slug": "lazer-viking" },
+    { "time": "22:45", "title": "Tata Bojs", "stage": "main", "image": "", "slug": "tata-bojs" },
+    { "time": "00:10", "title": "Vasilův Rubáš", "stage": "outlook", "image": "", "slug": "vasiluv-rubas" },
+    { "time": "01:10", "title": "Skyline", "stage": "main", "image": "", "slug": "skyline" }
+  ],
+  "saturday": [
+    { "time": "11:30", "title": "B1NARY", "stage": "main", "image": "", "slug": "binary" },
+    { "time": "13:00", "title": "The Valentines", "stage": "main", "image": "", "slug": "the-valentines" },
+    { "time": "14:00", "title": "Pohádka s dlouhým krkem", "stage": "tent", "image": "", "slug": "" },
+    { "time": "14:40", "title": "Fredy & Krasty", "stage": "main", "image": "", "slug": "fredy-krasty" },
+    { "time": "15:40", "title": "Hitovky z pohádek Příběhů měsíční duhy", "stage": "tent", "image": "", "slug": "" },
+    { "time": "16:20", "title": "Mňága a Žďorp", "stage": "main", "image": "", "slug": "mnaga-a-zdorp" },
+    { "time": "17:30", "title": "WYFE", "stage": "outlook", "image": "", "slug": "wyfe" },
+    { "time": "18:50", "title": "Dukla Vozovna", "stage": "main", "image": "", "slug": "dukla-vozovna" },
+    { "time": "20:00", "title": "The Atavists", "stage": "outlook", "image": "", "slug": "the-atavists" },
+    { "time": "21:20", "title": "Monkey Business", "stage": "main", "image": "", "slug": "monkey-business" },
+    { "time": "22:50", "title": "I Love You Honey Bunny", "stage": "outlook", "image": "", "slug": "i-love-you-honey-bunny" },
+    { "time": "00:00", "title": "Gaia Mesiah", "stage": "main", "image": "", "slug": "gaia-mesiah" },
+    { "time": "01:10", "title": "Záviš", "stage": "outlook", "image": "", "slug": "zavis" }
+  ]
+}
