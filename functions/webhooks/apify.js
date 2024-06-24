@@ -16,7 +16,6 @@ async function fetchScrapeResults(env, defaultDatasetId) {
   });
   const items = await resp.json();
   // ignore updates without text
-  console.log({ items })
   return items.filter(x => x.text);
 }
 
@@ -43,6 +42,9 @@ export async function onRequestPost({ env, request }) {
 
   const body = await request.json();
   const { defaultDatasetId } = body.resource;
+  if (!defaultDatasetId) {
+    return new Response("Dataset not found", { status: 404 });
+  }
   const items = await fetchScrapeResults(env, defaultDatasetId);
   const allNews = await getAllNewsIndex(env);
   updateNewsIndex(allNews, items);
