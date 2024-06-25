@@ -242,6 +242,45 @@ section p {
   }
 }
 
+.artists-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(313px, 1fr));
+  gap: 1em;
+
+  article {
+    container-type: inline-size;
+    overflow: hidden;
+    display: grid;
+    grid: [stack] 1fr / [stack] 1fr;
+
+    & > * {
+      grid-area: stack;
+    }
+
+    h3 {
+      font-size: 1.75em;
+      line-height: 10;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.43) 100%) 50% / cover no-repeat;
+      color: #fff;
+      padding: 1em;
+      margin: 0;
+      box-sizing: border-box;
+      height: 50cqh;
+      align-self: end;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      z-index: -1;
+      transition: scale 200ms ease-in-out;
+    }
+
+    &:hover img {
+      scale: 1.2;
+    }
+  }
+}
+
 .tickets__list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(9.2em, 1fr));

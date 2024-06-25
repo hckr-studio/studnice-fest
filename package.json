@@ -12,7 +12,7 @@
     "@thi.ng/transducers": "9.0.6"
   },
   "devDependencies": {
-    "@hckr_/blendid": "8.4.1",
+    "@hckr_/blendid": "8.4.2",
     "fancy-log": "2.0.0",
     "undertaker-registry": "2.0.0",
     "wrangler": "3.61.0"

@@ -35,15 +35,13 @@
       <header>
         <h2>Vystoupí</h2>
       </header>
-      <div>
+      <div class="artists-list">
         {% for key in event.artists %}
           {% set artist = artists[key] %}
           {% set image = images["artists/" + artist.image]["public_id"] %}
-          <article>
+          <article class="artists-list__item">
             <h3>{{ artist.title }}</h3>
-            <a href="/kapely/{{ key }}">
-              <img src="{{ image | cloudinaryUrl() }}" alt="{{ artist.title }}" width="400" height="400" loading="lazy">
-            </a>
+            <img src="{{ image | cloudinaryUrl() }}" alt="{{ artist.title }}" width="400" height="400" loading="lazy">
           </article>
         {% endfor %}
       </div>
@@ -117,7 +115,7 @@
         <div>
           <h3>Sobota 27. 7.</h3>
           {% for item in schedule.saturday %}
-            <div>{{ item.time }} {{ item.title }} {{ item.stage }}</div>
+            <div>{{ item.time }} {{ item.title }} {{ event.stages[item.stage] }}</div>
           {% endfor %}
         </div>
       </div>
