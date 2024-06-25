@@ -90,7 +90,7 @@ export default {
   },
 
   production: {
-    rev: true
+    rev: { exclude: ["favicon.ico", "_headers"] }
   },
 
   registries: [new NewsRegistry({}, pathConfig)],
