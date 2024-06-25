@@ -276,11 +276,11 @@ section p {
       margin: 0;
       box-sizing: border-box;
       align-self: end;
+      order: 2;
     }
     img {
       width: 100%;
       height: auto;
-      z-index: -1;
       transition: scale 200ms ease-in-out;
     }
 
