@@ -139,8 +139,6 @@
       <strong>(A)</strong> na okraji Hlinska v&nbsp;Čechách. V&nbsp;těsné blízkosti
       areálu budou vyhrazené prostory k&nbsp;parkování <strong>(P)</strong>
       i&nbsp;stanování <strong>(S)</strong>.</p>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
-          integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin>
     <div id="map" class="smap"></div>
   </section>
   <hr>
@@ -178,9 +176,13 @@
 {% block javascript %}
 {% endblock %}
 <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
-        integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin></script>
+        integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin defer></script>
 <script type="module">
   import { html } from "https://unpkg.com/uhtml@4.5.9/node.js";
+
+  document.head.appendChild(html`
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+          integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin>`);
 
   const API_KEY = "S9n6dfE_8AfjsNvRxSwAmFV4-1z5tfk5W7IUajp2D3I";
   const map = L.map("map", {
