@@ -14,12 +14,12 @@
         <h2>Novinky</h2>
       </header>
       <div class="news-list">
-        <!-- TODO: use cloudinary fetch to optimize FB images -->
         {% for post in news %}
+          {% set image = images[post.image]["public_id"] %}
           <article>
             <a href="/novinky/#{{ post.time }}">
               <time datetime="{{ post.time }}">{{ formatDate(post.time) }}</time>
-              <img src="{{ post.image }}" alt="" loading="lazy" width="526" height="526">
+              <img src="{{ image | cloudinaryUrl() }}" alt="" loading="lazy" width="526" height="526" sizes="auto">
             </a>
           </article>
         {% endfor %}
@@ -109,7 +109,7 @@
         <div>
           <h3>Pátek 26. 7.</h3>
           {% for item in schedule.friday %}
-          <div>{{ item.time }} {{ item.title }} {{ event.stages[item.stage] }}</div>
+            <div>{{ item.time }} {{ item.title }} {{ event.stages[item.stage] }}</div>
           {% endfor %}
         </div>
         <div>

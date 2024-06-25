@@ -1,5 +1,5 @@
-import { writeFile } from "node:fs/promises";
-import { basename } from "node:path";
+import { writeFile, mkdir } from "node:fs/promises";
+import { basename, join, dirname } from "node:path";
 import projectPath from "@hckr_/blendid/lib/projectPath.mjs";
 import logger from "fancy-log";
 import DefaultRegistry from "undertaker-registry";
@@ -9,11 +9,17 @@ class NewsRegistry extends DefaultRegistry {
   constructor(config, pathConfig) {
     super();
     this.config = config;
-    this.dest = projectPath(
-      pathConfig.src,
-      pathConfig.data.src,
-      "news.json",
-    );
+    this.paths = {
+      dest: projectPath(
+        pathConfig.src,
+        pathConfig.data.src,
+        "news.json",
+      ),
+      imagesDest: projectPath(
+        pathConfig.src,
+        pathConfig.cloudinary.src,
+      )
+    };
   }
 
   init({ task }) {
@@ -35,8 +41,19 @@ class NewsRegistry extends DefaultRegistry {
 
     task("prepare-data", async () => {
       const news = await getLatestNews();
+      const newsImgDir = join(this.paths.imagesDest, "news")
+      await mkdir(newsImgDir, { recursive: true });
+      for (const item of news) {
+        const resp = await fetch(item.image);
+        const url = new URL(item.image);
+        const fileName = url.pathname.split("/").pop();
+        item.image = `news/${fileName}`;
+        const data = Buffer.from(await resp.arrayBuffer());
+        const file = join(newsImgDir, fileName);
+        await writeFile(file, data);
+      }
       return writeFile(
-        this.dest,
+        this.paths.dest,
         JSON.stringify(news, null, 2),
         { encoding: "utf-8" },
       );
