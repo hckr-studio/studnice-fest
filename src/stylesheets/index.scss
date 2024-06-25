@@ -279,9 +279,11 @@ section p {
       order: 2;
     }
     img {
+      order: 1;
       width: 100%;
       height: auto;
       transition: scale 200ms ease-in-out;
+      z-index: -1;
     }
 
     &:first-of-type {
