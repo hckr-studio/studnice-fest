@@ -14,11 +14,12 @@
         <h2>Novinky</h2>
       </header>
       <div class="news-list">
+        <!-- TODO: use cloudinary fetch to optimize FB images -->
         {% for post in news %}
           <article>
             <a href="/novinky/#{{ post.time }}">
               <time datetime="{{ post.time }}">{{ formatDate(post.time) }}</time>
-              <img src="{{ post.image }}" alt="">
+              <img src="{{ post.image }}" alt="" loading="lazy" width="526" height="526">
             </a>
           </article>
         {% endfor %}
@@ -41,7 +42,7 @@
           <article>
             <h3>{{ artist.title }}</h3>
             <a href="/kapely/{{ key }}">
-              <img src="{{ image | cloudinaryUrl() }}" alt="{{ artist.title }}">
+              <img src="{{ image | cloudinaryUrl() }}" alt="{{ artist.title }}" width="400" height="400" loading="lazy">
             </a>
           </article>
         {% endfor %}
