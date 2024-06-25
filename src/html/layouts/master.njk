@@ -8,6 +8,10 @@
   <meta http-equiv="delegate-ch" content="sec-ch-width https://res.cloudinary.com; sec-ch-dpr https://res.cloudinary.com; sec-ch-viewport-width https://res.cloudinary.com;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% include "shared/styles.njk" %}
+  <link rel="preconnect" href="https://res.cloudinary.com">
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="preconnect" href="https://api.mapy.cz">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
   <link rel="manifest" href="{{ 'manifest.json' | assetUrl('static') }}">
   {% include "shared/app-icons.html" %}
   {% block head %}{% endblock %}
