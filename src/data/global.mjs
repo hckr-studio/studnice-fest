@@ -36,7 +36,7 @@ export default {
     ],
     stages: {
       "main": "Hlavní stage",
-      "outlook": "Vyhlídka",
+      "outlook": "Na Vyhlídce",
       "tent": "Dětský stan",
     }
   },

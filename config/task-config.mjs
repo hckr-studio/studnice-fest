@@ -46,7 +46,7 @@ class NewsRegistry extends DefaultRegistry {
 
 export default {
   images: true,
-  cloudinary: false,
+  cloudinary: true,
   fonts: true,
   static: true,
   svgSprite: true,
@@ -72,7 +72,7 @@ export default {
 
   html: {
     dataFile: "global.mjs",
-    collections: ["news", "artists", "schedule"],
+    collections: ["news", "artists", "schedule", "images"],
   },
 
   browserSync: {
