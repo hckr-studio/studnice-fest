@@ -14,9 +14,30 @@ export default {
   processTypo,
   event: {
     name: "Studnice Fest",
-    startDate: new Date("2024-07-26T17:00:00+02:00"),
+    startDate: new Date("2024-07-26T15:00:00+02:00"),
     endDate: new Date("2024-07-28T03:00:00+02:00"),
     location: "Cihelka, Hlinsko v Čechách",
-    description: "Letní hudební festival Studnice Fest je opět tu! V Hlinsku v Čechách se potkáme 26. - 27. 7. 2024"
+    description: "Letní hudební festival Studnice Fest je opět tu! V Hlinsku v Čechách se potkáme 26. - 27. 7. 2024",
+    artists:[
+      "vypsana-fixa",
+      "noha",
+      "lenny",
+      "mydy",
+      "prago-union",
+      "ventolin",
+      "xavier-baumaxa",
+      "imodium",
+      "dukla-vozovna",
+      "volant",
+      "circus-problem",
+      "anatol-svahilec",
+      "the-stryc",
+      "gorale-originale-pardubicensis",
+    ],
+    stages: {
+      "main": "Hlavní stage",
+      "outlook": "Vyhlídka",
+      "tent": "Dětský stan",
+    }
   },
 }

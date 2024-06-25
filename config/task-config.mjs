@@ -60,6 +60,12 @@ export default {
       stripTitle: true,
       transform(data, file) {
         return Object.assign({ filename: basename(file.path) }, data);
+      },
+      mergeOptions: {
+        concatArrays: true,
+        edit(json) {
+          return { [json.filename.split(".").shift()]: json };
+        }
       }
     }]
   },

@@ -34,6 +34,17 @@
       <header>
         <h2>Kapely</h2>
       </header>
+      <div>
+        {% for key in event.artists %}
+          {% set artist = artists[key] %}
+          <article>
+            <a href="/kapely/#{{ key }}">
+              <img src="{{ artist.image }}" alt="{{ artist.title }}">
+            </a>
+            <h3>{{ artist.title }}</h3>
+          </article>
+        {% endfor %}
+      </div>
     </section>
     <section>
       <header>
@@ -99,7 +110,7 @@
         <div>
           <h3>Pátek 26. 7.</h3>
           {% for item in schedule.friday %}
-          <div>{{ item.time }} {{ item.title }} {{ item.stage }}</div>
+          <div>{{ item.time }} {{ item.title }} {{ event.stages[item.stage] }}</div>
           {% endfor %}
         </div>
         <div>
