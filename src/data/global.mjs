@@ -5,7 +5,6 @@ function timeslot(slug, schedule) {
     schedule.friday.map(x => [x.slug, { day: "pátek", time: x.time }]).concat(
       schedule.saturday.map(x => [x.slug, { day: "sobotu", time: x.time }]))
   );
-  console.log(slug, slotsBySlug)
   return slotsBySlug.get(slug);
 }
 
