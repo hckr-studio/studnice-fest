@@ -1,5 +1,14 @@
 import { processTypo } from "../esm/lib/texy.js";
 
+function timeslot(slug, schedule) {
+  const slotsBySlug = new Map(
+    schedule.friday.map(x => [x.slug, { day: "pátek", time: x.time }]).concat(
+      schedule.saturday.map(x => [x.slug, { day: "sobotu", time: x.time }]))
+  );
+  console.log(slug, slotsBySlug)
+  return slotsBySlug.get(slug);
+}
+
 export default {
   title: "STUDNICE FEST 2024",
   currentYear: new Date().getFullYear(),
@@ -12,13 +21,14 @@ export default {
     return formatter.format(new Date(s));
   },
   processTypo,
+  timeslot,
   event: {
     name: "Studnice Fest",
     startDate: new Date("2024-07-26T15:00:00+02:00"),
     endDate: new Date("2024-07-28T03:00:00+02:00"),
     location: "Cihelka, Hlinsko v Čechách",
     description: "Letní hudební festival Studnice Fest je opět tu! V Hlinsku v Čechách se potkáme 26. - 27. 7. 2024",
-    artists:[
+    artists: [
       "vypsana-fixa",
       "noha",
       "lenny",

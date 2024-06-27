@@ -21,6 +21,9 @@
               <time datetime="{{ post.time }}">{{ formatDate(post.time) }}</time>
               <img src="{{ image | cloudinaryUrl() }}" alt="" loading="lazy" width="526" height="526" sizes="auto">
             </a>
+            {% markdown %}
+              {{ processTypo(post.text.replace("#vidimesevlese", "").replace("#18vlese", "")) }}
+            {% endmarkdown %}
           </article>
         {% endfor %}
       </div>
@@ -39,9 +42,11 @@
         {% for key in event.artists %}
           {% set artist = artists[key] %}
           {% set image = images["artists/" + artist.image]["public_id"] %}
+          {% set ts = timeslot(artist.filename.split(".").at(0), schedule) %}
           <article class="artists-list__item">
             <h3>{{ artist.title }}</h3>
             <img src="{{ image | cloudinaryUrl() }}" alt="{{ artist.title }}" width="400" height="400" loading="lazy">
+            <p>vystoupí v <time>{{ ts.day }} ve {{ ts.time }}</time></p>
           </article>
         {% endfor %}
       </div>
