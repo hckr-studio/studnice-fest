@@ -381,7 +381,7 @@ section p {
       top: calc(50% - 15px);
     }
 
-    &--disabled {
+    &.tickets__item--disabled {
       filter: saturate(0);
 
       a.button {
