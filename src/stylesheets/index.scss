@@ -19,9 +19,9 @@
   --accent-color: #27933F;
   --accent2-color: #0C6523;
 
-  --border-top-image: #{assetUrl("images", "border-top.svg")};
-  --border-bottom-image: #{assetUrl("images", "border-bottom.svg")};
-  --hr-border-image: #{assetUrl("images", "horizontal-rule.svg")};
+  --border-top-image: asset-url("images", "border-top.svg");
+  --border-bottom-image: asset-url("images", "border-bottom.svg");
+  --hr-border-image: asset-url("images", "horizontal-rule.svg");
 }
 
 @media (prefers-color-scheme: dark) {
@@ -94,7 +94,7 @@ a.cta {
     left: 8px;
     width: calc(100% - 14px);
     height: calc(100% + 20px);
-    background: assetUrl("images", "cta-bg.svg") no-repeat;
+    background: asset-url("images", "cta-bg.svg") no-repeat;
     background-size: contain;
     transition: transform 200ms ease-in-out;
   }
@@ -164,6 +164,10 @@ body > header {
   text-align: center;
 }
 
+section h2 {
+  text-align: center;
+}
+
 section p {
   text-align: center;
   text-wrap: pretty;
@@ -171,6 +175,8 @@ section p {
   max-width: 34em;
   margin: 0.5em auto 1em;
 }
+
+
 
 .smap {
   width: 100%;
@@ -195,6 +201,7 @@ section p {
   }
 
   h2 {
+    text-align: left;
     margin: 0;
   }
 
@@ -279,6 +286,7 @@ section p {
     grid-column: span 2;
   }
   h2 {
+    text-align: left;
     margin: 0;
   }
 
@@ -426,7 +434,7 @@ section p {
       left: 0;
       right: 0;
       bottom: 0;
-      background: assetUrl("images", "heading-bg.svg") no-repeat center;
+      background: asset-url("images", "heading-bg.svg") no-repeat center;
       @media (prefers-color-scheme: dark) {
         opacity: 0.6;
       }
