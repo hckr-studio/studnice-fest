@@ -1,11 +1,13 @@
 @property --border-top-image {
   syntax: "<image>";
   inherits: true;
+  initial-value: initial;
 }
 
 @property --border-bottom-image {
   syntax: "<image>";
   inherits: true;
+  initial-value: initial;
 }
 
 :root {
@@ -71,6 +73,32 @@ hr {
   height: 6px;
   border: 0;
   background-image: var(--hr-border-image);
+}
+
+/* enable transitions */
+[popover], dialog, ::backdrop {
+  transition: display 300ms allow-discrete,
+  overlay 300ms allow-discrete,
+  opacity 300ms;
+  opacity: 0;
+}
+
+/* IN */
+:popover-open,
+:popover-open::backdrop,
+[open],
+[open]::backdrop {
+  opacity: 1;
+}
+
+/* OUT */
+@starting-style {
+  :popover-open,
+  :popover-open::backdrop,
+  [open],
+  [open]::backdrop {
+    opacity: 0;
+  }
 }
 
 a.cta {
@@ -463,4 +491,24 @@ section p {
     margin: revert;
   }
 }
+
+#menu {
+  text-align: center;
+  font: 2em/2 var(--accented-font);
+  background-color: transparent;
+  border: none;
+
+  &::backdrop {
+    background: oklch(0.116 0.012 345.039 / 0.77);
+    backdrop-filter: blur(12.5px);
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+}
+
+
 
