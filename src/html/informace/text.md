@@ -1,7 +1,7 @@
 ### Podrobněji ke vstupenkám
 
-- Vstupenky jsou stále dostupné v předprodeji až do čtvrtka 28.7. (včetně) za 790 Kč 2-denní a 650 Kč 1-denní.
-- Na místě bude možné zakoupit vstupenky za 890 Kč (dvoudenní) a na jeden den za 750 Kč.
+- Vstupenky jsou stále dostupné v předprodeji až do čtvrtka 25.7. (včetně) za 790/890 Kč 2-denní a 690 Kč 1-denní.
+- Na místě bude možné zakoupit vstupenky za 990 Kč (dvoudenní) a na jeden den za 850 Kč.
 - Nedoporučujeme kupovat vstupenky mimo GoOut (na vstupenku se stejným kódem bude vpuštěn pouze návštěvník, který ji
   předloží jako první).
 - Vstup zdarma pro děti do 150 cm, ZTP a obyvatele Studnic u Hlinska (po předložení platného OP).
@@ -9,10 +9,9 @@
 ### Doprava
 
 - Festival se koná v areálu Cihelka u Hlinska v Čechách.
-- Pokud pojedete autem, tak jeďte v Hlinsku směrem na Svratku (Kameničky) - cesta bude značená.
+- Pokud pojedete autem, dejte pozor na uzavřený mostek v Blatně (průjezd možný pouze na povolenky pro místní). Objížďka vede přes Studnice a Hamry (max. 3,5t). Při průjezdu Studnicemi vzpoměňte na první ročník Studnice festu, který se konal v místním areálu za hřištěm.
 - Pokud pojedete vlakem, tak cílovou stanici volte Hlinsko v Čechách
-- Z vlakového nádraží jsou to necelé 3 km, vyhněte se hlavní silnici 343 mimo Hlinsko a využijte silnici mezi domy,
-  která vede od mostku přes Chrudimku k areálu. Cesta pro pěší bude značená.
+- Z vlakového nádraží jsou to necelé 3 km, vyhněte se hlavní silnici 343 mimo Hlinsko a vezměte to přes Rataje.
 - GPS souřadnice: 49°45'12.0"N 15°55'49.3"E (49.753332, 15.930372)
 
 ### Parkování a stanování
@@ -20,14 +19,12 @@
 - Parkování i stanování je tradičně na louce nad areálem - cesta bude značena.
 - Louka bude rozdělena na dvě části - spodní část bude vyhrazena čistě pro stany, horní část bude sloužit primárně jako
   parkoviště.
-- Počítejte opět s vyšší trávou. Louka bohužel nelze během léta sekat (usadil se na ní modrásek a jsme v CHKO). Holinky
-  s
-  sebou!
+- Letos vyšlo i nedávné sekání, takže výška trávy je přijatelná.
 - Na louku dojedete po lesní cestě, na které se budete míjet s pěšími. Prosíme tedy o velmi opatrnou jízdu a respekt k
   ostatním návštěvníkům.
 - Parkování na místě bude organizováno pořadateli, dbejte prosím jejich instrukcí a doporučení.
-- Přímo u areálu je parkování zakázáno (bude sloužit pouze pro pořadatele a kapely).
-- Stanování je zdarma, parkování za 100 Kč (platba v hotovosti) - dostanete samolepku na sklo.
+- Přímo u areálu je parkování zakázáno (bude sloužit pouze pro kapely, stánkaře a pořadatele).
+- Stanování je zdarma, parkování za 150 Kč (platba v hotovosti) - dostanete samolepku na sklo.
 
 ### Platby v rámci areálu
 
@@ -43,8 +40,7 @@ fronty. Všechny transakce vč. náramku jsou zcela zdarma! Více informací.
 - Kredit si také můžete dobít už dopředu online přes NFCtron Pass. Na označeném dobíjecím místě stačí ukázat QR kód s
   dobitím, který naleznete ve svém účtu NFCtron Pass.
 - Poté už stačí vyrazit na pivo či hamburger. Místo hledání hotovosti stačí přiložit čip ke čtečce na prodejním místě.
-  Na
-  displeji čtečky uvidíte strženou částku a zbývající zůstatek.
+  Na displeji čtečky uvidíte strženou částku a zbývající zůstatek.
 - Pokud vám po skončení akce na čipu zůstane kredit, jednoduše si ho můžete na pár kliknutí zaslat na účet. Více
   informací.
 
@@ -64,9 +60,7 @@ budete potřebovat stále hotovost!
 
 ### Jídlo a pití
 
-- Můžete se těšit na pestřejší nabídku jídla a více stánků - burgery, trhané maso, tortilly, hotdogy, langoše,
-  palačinky,
-  klobásy nebo guláš. V nabídce budou i vegetariánská jídla e něco málo ve veganských verzích.
+- Můžete se těšit na pestřejší nabídku jídla a více stánků - burgery, trhané maso, tortilly, langoše, palačinky, klobásy nebo guláš. V nabídce budou i vegetariánská jídla a něco málo ve veganských verzích.
 - Kvalitní káva tradičně v podání Cafe Biograf.
 - Točit se bude Chotěboř 11 NA.EX z nedalekého pivovaru.
 - Mimo jiné bude dostupné i točené nealko pivo a těšit se můžete také na cider.
@@ -82,8 +76,7 @@ budete potřebovat stále hotovost!
 
 - Opět se můžete těšit na alternativní pódium "Na vyhlídce". Interpreti nám z tohoto místa zpříjemní "pauzy" na hlavním
   pódiu.
-- Po loňském úspěchu na festival přijede také Hookamonk se svými futuristickými vodními dýmkami.
-- Nejen o studnický merch se postarají kluci z Pardubickýho lajfu.
+- Po úspěchu v minulých letech na festival přijede také Hookamonk se svými futuristickými vodními dýmkami.
 - Obdobně jako v předchozích letech mohou naši nejmenší návštěvníci využít dětský stan jako dočasný úkryt před
   festivalovým rejem. V sobotu po obědě pro ně plánujeme i menší hudební program. Stan bude na novém větším místě za
   hlavním pódiem.
