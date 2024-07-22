@@ -9,6 +9,16 @@
 {% endblock %}
 {% block content %}
   <main>
+    <header class="hero">
+      <p>těšíme se na vystoupení</p>
+      <ol>
+        {% for key in event.artists %}
+          {% set artist = artists[key] %}
+          <li><a href="#{{ key }}">{{ artist.title }}</a></li>
+        {% endfor %}
+      </ol>
+      <div><a href="https://goout.net/cs/listky/studnice-fest-2024/ayit/" class="cta">Koupit si vstupenky</a></div>
+    </header>
     <section class="news-list">
       <header>
         <h2>Novinky</h2>
@@ -41,7 +51,7 @@
         {% set artist = artists[key] %}
         {% set image = images["artists/" + artist.image]["public_id"] %}
         {% set ts = timeslot(artist.filename.split(".").at(0), schedule) %}
-        <article class="artists-list__item">
+        <article class="artists-list__item" id="{{ key }}">
           <h3>{{ artist.title }}</h3>
           <img src="{{ image | cloudinaryUrl() }}" alt="{{ artist.title }}" width="400" height="400" loading="lazy">
           <p>vystoupí v

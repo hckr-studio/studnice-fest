@@ -129,6 +129,7 @@ a.cta {
 
   &:hover {
     background-color: var(--accent2-color);
+
     &::before {
       transform: scaleX(-1);
     }
@@ -204,7 +205,41 @@ section p {
   margin: 0.5em auto 1em;
 }
 
+.hero {
+  text-align: center;
+  p {
+    text-transform: uppercase;
+  }
+  ol {
+    display: block;
+    margin: 0 0 1em;
+    padding: 0;
+    text-wrap: balance;
+    list-style-type: none;
+    font: clamp(1.25rem, -0.4167rem + 5.5556vw, 2.5rem)/1.25 var(--accented-font);
 
+    > li {
+      display: inline-block
+    }
+
+    > li::after {
+      content: "•";
+      display: inline-block;
+      padding: 0 0.25em;
+    }
+    > li:last-of-type::after {
+      content: none;
+      display: none;
+    }
+    a {
+      color: var(--text-color);
+      text-decoration: none;
+    }
+    a:hover, a:focus {
+      text-decoration: underline;
+    }
+  }
+}
 
 .smap {
   width: 100%;
@@ -290,7 +325,7 @@ section p {
     grid-row: span 7;
   }
 
-  article+article p {
+  article + article p {
     font-size: 1em;
     max-height: 6em;
     overflow: hidden;
@@ -313,6 +348,7 @@ section p {
   header {
     grid-column: span 2;
   }
+
   h2 {
     text-align: left;
     margin: 0;
@@ -321,6 +357,8 @@ section p {
   article {
     grid-column: span 2;
     grid-row: span 4;
+
+    scroll-margin-block-start: 5em;
 
     container-type: inline-size;
     display: grid;
@@ -331,6 +369,10 @@ section p {
     color: #fff;
     border-radius: var(--corner-radius);
 
+    &:target {
+      border: 1px solid #E1E91B;
+    }
+
     h3 {
       font-size: 1.75em;
       font-weight: 500;
@@ -340,6 +382,7 @@ section p {
       margin: 0;
       order: 3;
     }
+
     img {
       order: 1;
       width: 100%;
@@ -347,6 +390,7 @@ section p {
       transition: scale 300ms ease-in-out;
       border-radius: var(--corner-radius);
     }
+
     p {
       color: rgba(255, 255, 255, 0.77);
       font-size: 0.75em;
@@ -360,6 +404,7 @@ section p {
       grid-row-start: 2;
       grid-row-end: 6;
     }
+
     @container (min-width: 449px) {
       &:nth-of-type(2) {
         grid-row-end: 4;
