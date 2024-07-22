@@ -207,9 +207,11 @@ section p {
 
 .hero {
   text-align: center;
+
   p {
     text-transform: uppercase;
   }
+
   ol {
     display: block;
     margin: 0 0 1em;
@@ -227,14 +229,17 @@ section p {
       display: inline-block;
       padding: 0 0.25em;
     }
+
     > li:last-of-type::after {
       content: none;
       display: none;
     }
+
     a {
       color: var(--text-color);
       text-decoration: none;
     }
+
     a:hover, a:focus {
       text-decoration: underline;
     }
@@ -527,6 +532,7 @@ section p {
   gap: 1em;
 
   h2:first-of-type, h3:first-of-type {
+    text-align: left;
     margin-top: 0;
   }
 
@@ -535,6 +541,21 @@ section p {
     text-align: left;
     max-width: revert;
     margin: revert;
+  }
+}
+
+.footer__social-icons {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1em;
+  }
+  svg {
+    width: 38px;
+    height: 38px;
   }
 }
 
