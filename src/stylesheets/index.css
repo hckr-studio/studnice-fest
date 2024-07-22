@@ -427,7 +427,7 @@ section p {
       font-size: initial;
     }
 
-    p + p {
+    p:nth-of-type(2n) {
       font-size: larger;
       font-weight: bold;
       line-height: 2;
@@ -450,9 +450,10 @@ section p {
   text-align: center;
 
   h3 {
-    font-size: 1.75em;
     margin: 0;
     position: relative;
+    font-size: 1.75em;
+    text-shadow: 1px 1px var(--background-color);
 
     &::before {
       content: "";
