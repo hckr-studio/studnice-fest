@@ -13,18 +13,19 @@
       <header>
         <h2>Novinky</h2>
       </header>
-        {% for post in news %}
-          {% set image = images[post.image]["public_id"] %}
-          <article>
-            <a href="/novinky/#{{ post.time }}">
-              <time datetime="{{ post.time }}">{{ formatDate(post.time) }}</time>
-              <img src="{{ image | cloudinaryUrl() }}" alt="" loading="lazy" width="526" height="526" sizes="auto">
-            </a>
-            {% markdown %}
-              {{ processTypo(post.text.replace("#vidimesevlese", "").replace("#18vlese", "")) }}
-            {% endmarkdown %}
-          </article>
-        {% endfor %}
+      {% for post in news %}
+        {% set image = images[post.image]["public_id"] %}
+        <article>
+          <a href="/novinky/#{{ post.time }}">
+            <time datetime="{{ post.time }}">{{ formatDate(post.time) }}</time>
+            <img alt="" loading="lazy" width="526" height="526" sizes="auto"
+                 src="{{ image | cloudinaryUrl({ crop: 'crop', ar: 1.0, height: 'ih' }) }}" >
+          </a>
+          {% markdown %}
+            {{ processTypo(post.text.replace("#vidimesevlese", "").replace("#18vlese", "")) }}
+          {% endmarkdown %}
+        </article>
+      {% endfor %}
       <a href="/novinky/" class="cta">Zobrazit všechny novinky</a>
     </section>
     <section>
@@ -36,16 +37,18 @@
       <header>
         <h2>Na 18. ročníku vystoupí</h2>
       </header>
-        {% for key in event.artists %}
-          {% set artist = artists[key] %}
-          {% set image = images["artists/" + artist.image]["public_id"] %}
-          {% set ts = timeslot(artist.filename.split(".").at(0), schedule) %}
-          <article class="artists-list__item">
-            <h3>{{ artist.title }}</h3>
-            <img src="{{ image | cloudinaryUrl() }}" alt="{{ artist.title }}" width="400" height="400" loading="lazy">
-            <p>vystoupí v <time>{{ ts.day }} ve {{ ts.time }}</time></p>
-          </article>
-        {% endfor %}
+      {% for key in event.artists %}
+        {% set artist = artists[key] %}
+        {% set image = images["artists/" + artist.image]["public_id"] %}
+        {% set ts = timeslot(artist.filename.split(".").at(0), schedule) %}
+        <article class="artists-list__item">
+          <h3>{{ artist.title }}</h3>
+          <img src="{{ image | cloudinaryUrl() }}" alt="{{ artist.title }}" width="400" height="400" loading="lazy">
+          <p>vystoupí v
+            <time>{{ ts.day }} ve {{ ts.time }}</time>
+          </p>
+        </article>
+      {% endfor %}
     </section>
     <section>
       <header>
