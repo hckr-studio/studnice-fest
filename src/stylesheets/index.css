@@ -20,6 +20,7 @@
   --text-color: #000;
   --accent-color: #27933F;
   --accent2-color: #0C6523;
+  --accent3-color: #E1E91B;
 
   --border-top-image: asset-url("images", "border-top.svg");
   --border-bottom-image: asset-url("images", "border-bottom.svg");
@@ -209,6 +210,7 @@ section p {
   text-align: center;
 
   p {
+    font-variant-caps: all-petite-caps;
     text-transform: uppercase;
   }
 
@@ -375,7 +377,7 @@ section p {
     border-radius: var(--corner-radius);
 
     &:target {
-      border: 1px solid #E1E91B;
+      border: 1px solid var(--accent3-color);
     }
 
     h3 {
@@ -424,6 +426,54 @@ section p {
   }
 }
 
+.lineup {
+  .lineup__days {
+    display: grid;
+    grid-template: "fr sa" / 1fr 1fr;
+    gap: 2em;
+  }
+
+  .lineup__item {
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 1em;
+    padding: 0.5rem 0;
+
+    time, small {
+      font-family: var(--accented-font);
+      width: 2em;
+    }
+
+    em {
+      flex-grow: 2;
+      font-size: 1.3rem;
+      text-wrap: balance;
+    }
+
+    small {
+      font-size: 0.8em;
+      font-variant-caps: all-petite-caps;
+      text-align: end;
+      text-transform: uppercase;
+      width: 6em;
+      align-self: first baseline;
+    }
+
+    small.outlook {
+      color: var(--accent-color);
+    }
+
+    small.tent {
+      color: var(--accent3-color);
+    }
+  }
+  .lineup__item+.lineup__item {
+    border-top: 2px solid var(--text-color);
+  }
+}
+
 .tickets__list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(9.2em, 1fr));
@@ -466,6 +516,10 @@ section p {
         pointer-events: none;
         opacity: 0.3;
       }
+    }
+
+    &.tickets__item--onsite {
+      background-color: var(--accent3-color);
     }
 
     h3, p {
@@ -536,11 +590,16 @@ section p {
     margin-top: 0;
   }
 
+  h3 {
+    font-size: 1.75em;
+    margin: 0;
+  }
+
   p {
     font-size: revert;
     text-align: left;
     max-width: revert;
-    margin: revert;
+    margin: 0 0 0.5em;
   }
 }
 
@@ -553,6 +612,7 @@ section p {
     flex-direction: row-reverse;
     gap: 1em;
   }
+
   svg {
     width: 38px;
     height: 38px;

@@ -26,16 +26,18 @@
       {% for post in news %}
         {% set image = images[post.image]["public_id"] %}
         {% if image %}
-        <article>
-          <a href="/novinky/#{{ post.time }}">
-            <time datetime="{{ post.time }}">{{ formatDate(post.time) }}</time>
-            <img alt="" loading="lazy" width="526" height="526" sizes="auto"
-                 src="{{ image | cloudinaryUrl({ crop: 'crop', ar: 1.0, height: 'ih' }) }}">
-          </a>
-          {% markdown %}
-            {{ processTypo(post.text.replace("#vidimesevlese", "").replace("#18vlese", "")) }}
-          {% endmarkdown %}
-        </article>
+          <article>
+            <a href="/novinky/#{{ post.time }}">
+              <time datetime="{{ post.time }}">{{ formatDate(post.time) }}</time>
+              <img alt="" loading="lazy" width="526" height="526" sizes="auto"
+                   src="{{ image | cloudinaryUrl({ crop: 'crop', ar: 1.0, height: 'ih' }) }}">
+            </a>
+            {% markdown %}
+              {{ processTypo(post.text.replace("#vidimesevlese", "").replace("#18vlese", "")) }}
+
+              Líbilo se {{ post.likes }}×
+            {% endmarkdown %}
+          </article>
         {% endif %}
       {% endfor %}
       <a href="/novinky/" class="cta">Zobrazit všechny novinky</a>
@@ -102,7 +104,7 @@
           <p>790&nbsp;Kč</p>
           <a href="https://goout.net/cs/listky/studnice-fest-2024/ayit/" class="button">Koupit</a>
         </div>
-        <div class="tickets__item">
+        <div class="tickets__item tickets__item--onsite">
           <h3>Na místě</h3>
           <p>2-denní</p>
           <p>990&nbsp;Kč</p>
@@ -116,23 +118,31 @@
         <p>Děti do 150cm, obyvatelé Studnice a ZTP</p>
       </div>
     </section>
-    <section>
+    <section class="lineup">
       <header>
         <h2>Časový harmonogram</h2>
       </header>
       <p>Hudební produkce bude probíhat na třech jevištích&nbsp;&ndash; hlavní stage,
         stage “Na Vyhlídce” a dětský&nbsp;stan.</p>
-      <div>
+      <div class="lineup__days">
         <div>
           <h3>Pátek 26. 7.</h3>
           {% for item in schedule.friday %}
-            <div>{{ item.time }} {{ item.title }} {{ event.stages[item.stage] }}</div>
+            <div class="lineup__item">
+              <time datetime="2024-07-26T{{ item.time }}:00.000+02:00">{{ item.time }}</time>
+              <em>{{ item.title }}</em>
+              <small class="{{ item.stage }}">{{ event.stages[item.stage] }}</small>
+            </div>
           {% endfor %}
         </div>
         <div>
           <h3>Sobota 27. 7.</h3>
           {% for item in schedule.saturday %}
-            <div>{{ item.time }} {{ item.title }} {{ event.stages[item.stage] }}</div>
+            <div class="lineup__item">
+              <time datetime="2024-07-27T{{ item.time }}:00.000+02:00">{{ item.time }}</time>
+              <em>{{ item.title }} </em>
+              <small class="{{ item.stage }}">{{ event.stages[item.stage] }}</small>
+            </div>
           {% endfor %}
         </div>
       </div>

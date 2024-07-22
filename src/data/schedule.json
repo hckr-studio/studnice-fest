@@ -18,9 +18,8 @@
     { "time": "16:20", "title": "Lenny", "stage": "main", "slug": "lenny" },
     { "time": "17:30", "title": "the strýc", "stage": "outlook", "slug": "the-stryc" },
     { "time": "19:00", "title": "Dukla Vozovna", "stage": "main", "slug": "dukla-vozovna" },
-    { "time": "20:10", "title": "TBA", "stage": "outlook", "slug": "" },
+    { "time": "20:10", "title": "Dva", "stage": "outlook", "slug": "dva" },
     { "time": "21:20", "title": "N.O.H.A.", "stage": "main", "slug": "noha" },
-    { "time": "22:20", "title": "TBA", "stage": "outlook", "slug": "" },
     { "time": "23:20", "title": "Imodium", "stage": "main", "slug": "imodium" },
     { "time": "01:00", "title": "Prago Union", "stage": "main", "slug": "prago-union" }
   ]
