@@ -9,7 +9,7 @@
   "private": true,
   "packageManager": "yarn@4.3.1",
   "dependencies": {
-    "@thi.ng/transducers": "9.0.10"
+    "@thi.ng/transducers": "9.0.12"
   },
   "devDependencies": {
     "@hckr_/blendid": "8.5.3",
