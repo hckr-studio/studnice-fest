@@ -25,16 +25,18 @@
       </header>
       {% for post in news %}
         {% set image = images[post.image]["public_id"] %}
+        {% if image %}
         <article>
           <a href="/novinky/#{{ post.time }}">
             <time datetime="{{ post.time }}">{{ formatDate(post.time) }}</time>
             <img alt="" loading="lazy" width="526" height="526" sizes="auto"
-                 src="{{ image | cloudinaryUrl({ crop: 'crop', ar: 1.0, height: 'ih' }) }}" >
+                 src="{{ image | cloudinaryUrl({ crop: 'crop', ar: 1.0, height: 'ih' }) }}">
           </a>
           {% markdown %}
             {{ processTypo(post.text.replace("#vidimesevlese", "").replace("#18vlese", "")) }}
           {% endmarkdown %}
         </article>
+        {% endif %}
       {% endfor %}
       <a href="/novinky/" class="cta">Zobrazit všechny novinky</a>
     </section>
