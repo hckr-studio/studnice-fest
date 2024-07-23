@@ -43,7 +43,7 @@ class NewsRegistry extends DefaultRegistry {
       const news = await getLatestNews();
       const newsImgDir = join(this.paths.imagesDest, "news")
       await mkdir(newsImgDir, { recursive: true });
-      for (const item of news) {
+      for (const item of news.filter(x => x.image)) {
         const resp = await fetch(item.image);
         const url = new URL(item.image);
         const fileName = url.pathname.split("/").pop();
