@@ -10,8 +10,6 @@
   {% include "shared/styles.njk" %}
   <link rel="preconnect" href="https://res.cloudinary.com">
   <link rel="preconnect" href="https://www.googletagmanager.com">
-  <link rel="preconnect" href="https://unpkg.com">
-  <link rel="preconnect" href="https://api.mapy.cz">
   <link rel="stylesheet" href="{{ 'index.css' | assetUrl('stylesheets') }}">
   <link rel="manifest" href="{{ 'manifest.json' | assetUrl('static') }}">
   {% include "shared/app-icons.html" %}
@@ -38,35 +36,35 @@
 <link property="eventStatus" href="https://schema.org/EventScheduled"/>
 <header>
   <h1 property="name">
+    <a href="/" title="Přejít na hlavní stránku">
     {% set logoId = "logo" %}
     {% include "shared/logo.svg" %}
+    </a>
   </h1>
   <div>
     <p class="header__time">
-      <time property="startDate" datetime="2024-07-26">26.</time>
+      <time property="startDate" datetime="{{ event.startDate.toISOString() }}">{{ event.startDate.getDate() }}.</time>
       -
-      <time property="endDate" datetime="2024-07-27">27.&nbsp;7.&nbsp;2024</time>
+      <time property="endDate" datetime="{{ event.endDate.toISOString() }}">{{ event.endDate.getDate() - 1 }}.&nbsp;{{ event.endDate.getMonth() + 1 }}.&nbsp;{{ event.endDate.getFullYear() }}</time>
     </p>
-    <p class="header__location" property="location">Cihelka, Hlinsko v Čechách</p>
+    <p class="header__location" property="location">{{ event.location }}</p>
   </div>
   <nav>
-    <button popovertarget="menu">Menu
-      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="16" viewBox="0 0 40 16" fill="none">
-        <rect y="0.482178" width="40" height="1.65248" fill="var(--text-color)"/>
-        <rect x="10" y="7.09204" width="30" height="1.65248" fill="var(--text-color)"/>
-        <rect x="20" y="13.7019" width="20" height="1.65248" fill="var(--text-color)"/>
-      </svg>
+    <button class="hamburger" popovertarget="menu" title="Otevřít navigační menu">
+      <div class="hamburger__bar"></div>
+      <div class="hamburger__bar"></div>
+      <div class="hamburger__bar"></div>
     </button>
 
     <div id="menu" popover>
       <ul>
         <li><a href="/">Úvod</a></li>
-        <li>Novinky</li>
-        <li>Info</li>
-        <li>Kapely</li>
-        <li>Vstupenky</li>
-        <li>Časový harmonongram</li>
-        <li><a href="#mapa">Mapa</a></li>
+        <li><a href="/novinky/">Novinky</a></li>
+        <li><a href="/informace/">Info</a></li>
+        <li><a href="/#vystoupi">Kdo vystoupí</a></li>
+        <li><a href="/#vstupenky">Vstupenky</a></li>
+        <li><a href="/#harmonogram">Časový harmonongram</a></li>
+        <li><a href="/informace/#mapa">Mapa</a></li>
         <li><a href="#kontakt">Kontakt</a></li>
       </ul>
     </div>

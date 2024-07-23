@@ -3,16 +3,18 @@
 {% block title %}Studnice fest 2024{% endblock %}
 
 {% block head %}
+  <link rel="canonical" href="https://www.studnicefest.cz/">
   <meta name="description" content="{{ event.description }}">
   <meta property="fb:app_id" content="117540538260775">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="{{ event.name }}">
   <meta property="og:description" content="{{ event.description }}">
+  <meta name="twitter:title" content="{{ event.name }}">
 {% endblock %}
 
 {% block content %}
   <main>
-    <header class="hero">
+    <header class="hero" id="header">
       <p>těšíme se na vystoupení</p>
       <ol>
         {% for key in event.artists %}
@@ -22,7 +24,8 @@
       </ol>
       <div><a href="https://goout.net/cs/listky/studnice-fest-2024/ayit/" class="cta">Koupit si vstupenky</a></div>
     </header>
-    <section class="news-list">
+    <section class="news-list" id="novinky">
+      <a name="news"></a>
       <header>
         <h2>Novinky</h2>
       </header>
@@ -45,12 +48,14 @@
       {% endfor %}
       <a href="/novinky/" class="cta">Zobrazit všechny novinky</a>
     </section>
-    <section>
+    <section id="informace-a-upozorneni">
+      <a name="map"></a>
       <header>
         <h2>Info</h2>
       </header>
     </section>
-    <section class="artists-list">
+    <section class="artists-list" id="vystoupi">
+      <a name="bands"></a>
       <header>
         <h2>Na 18. ročníku vystoupí</h2>
       </header>
@@ -67,7 +72,8 @@
         </article>
       {% endfor %}
     </section>
-    <section>
+    <section id="vstupenky">
+      <a name="info"></a>
       <header>
         <h2>Vstupenky</h2>
       </header>
@@ -121,7 +127,7 @@
         <p>Děti do 150cm, obyvatelé Studnice a ZTP</p>
       </div>
     </section>
-    <section class="lineup">
+    <section class="lineup" id="harmonogram">
       <header>
         <h2>Časový harmonogram</h2>
       </header>
