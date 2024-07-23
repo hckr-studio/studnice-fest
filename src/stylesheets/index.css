@@ -427,10 +427,12 @@ section p {
 }
 
 .lineup {
-  .lineup__days {
-    display: grid;
-    grid-template: "fr sa" / 1fr 1fr;
-    gap: 2em;
+  @media screen and (min-width: 840px) {
+    .lineup__days {
+      display: grid;
+      grid-template: "fr sa" / 1fr 1fr;
+      gap: 2em;
+    }
   }
 
   .lineup__item {
