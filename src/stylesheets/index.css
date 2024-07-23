@@ -12,7 +12,7 @@
 
 :root {
   --main-font: 16px Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
-  --accented-font: Bangers, 'Segoe Print', 'Bradley Hand', Chilanka, TSCu_Comic, casual, cursive;
+  --accented-font: 'Caveat Brush', 'Segoe Print', 'Bradley Hand', Chilanka, TSCu_Comic, casual, cursive;
 
   --corner-radius: 15px;
 
@@ -63,6 +63,7 @@ body {
 h1, h2, h3 {
   font-family: var(--accented-font);
   font-weight: normal;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -104,36 +105,41 @@ hr {
 
 a.cta {
   display: inline-block;
-  position: relative;
+  font-size: 0.8rem;
+  line-height: 1;
   text-transform: uppercase;
-  padding: 0.6em 2em;
+  font-variant-caps: titling-caps;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  padding: 0.75rem 2rem;
   color: #fff;
   background-color: var(--accent-color);
-  font-size: 0.8em;
-  font-weight: bold;
-  letter-spacing: 0.1em;
-  text-decoration: none;
-  line-height: 2;
   margin: 1em 0;
 
+  /*
   &::before {
     content: "";
     position: absolute;
-    top: -9px;
+    top: -6px;
+    bottom: -6px;
     left: 8px;
-    width: calc(100% - 14px);
-    height: calc(100% + 20px);
+    right: 8px;
     background: asset-url("images", "cta-bg.svg") no-repeat;
     background-size: contain;
     transition: transform 200ms ease-in-out;
+    z-index: 1;
   }
+  */
 
   &:hover {
     background-color: var(--accent2-color);
 
+    /*
     &::before {
       transform: scaleX(-1);
     }
+    */
   }
 }
 
@@ -163,9 +169,6 @@ body > header {
   }
 
   nav {
-    width: 166px;
-    text-align: right;
-
     button {
       display: inline-flex;
       align-items: center;
@@ -391,13 +394,14 @@ section p {
   container-type: inline-size;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 1em;
+
   @media screen and (min-width: 481px) {
     grid-template-columns: repeat(4, 1fr);
   }
   @media screen and (min-width: 840px) {
     grid-template-columns: repeat(6, 1fr);
   }
-  gap: 1em;
 
   header {
     grid-column: span 2;
