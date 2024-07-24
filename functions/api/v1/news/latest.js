@@ -19,7 +19,7 @@ export async function onRequestGet({ env, request }) {
   const items = await getNewsIndex(env);
   const resultsP = [];
   for (const item of take(pageSize, items)) {
-    result.push(getNewsPost(env, item.postId));
+    resultsP.push(getNewsPost(env, item.postId));
   }
   const result = await Promise.all(resultsP);
   return Response.json(result);
