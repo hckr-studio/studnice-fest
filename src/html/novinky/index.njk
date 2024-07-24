@@ -1,7 +1,28 @@
 {% extends 'layouts/master.njk' %}
 
-{% set title = "Důležité informace" %}
+{% set title = "Novinky" %}
 
 {% block head %}{% endblock %}
 
-{% block content %}{% endblock %}
+{% block content %}
+  <main>
+    <h2>Novinky</h2>
+    {% for post in news %}
+      {% set image = images[post.image] %}
+      <article id="{{ post.time }}">
+        <time datetime="{{ post.time }}">{{ formatDate(post.time) }}</time>
+        {% if image %}
+          <img alt="" loading="lazy" src="{{ image["public_id"] | cloudinaryUrl() }}" style="max-width: 100%">
+        {% endif %}
+        {% markdown %}
+          {{ removeHashtags(post.text) }}
+
+          {% if post.likes %}Líbilo se&nbsp;<data value="{{ post.likes }}">{{ post.likes }}×</data>{% endif %}
+          {% if post.comments %}<br>Okomentováno&nbsp;<data value="{{ post.comments }}">{{ post.comments }}×</data>{% endif %}
+
+          <a href="{{ post.url }}" target="fb">Zapojte se do diskuse na Facebooku</a>
+        {% endmarkdown %}
+      </article>
+    {% endfor %}
+  </main>
+{% endblock %}

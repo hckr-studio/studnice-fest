@@ -25,7 +25,8 @@ class NewsRegistry extends DefaultRegistry {
   init({ task }) {
     async function getLatestNews() {
       logger.info("Loading latest news…");
-      const resp = await fetch("https://studnice-fest.pages.dev/api/v1/news/latest");
+      const query = new URLSearchParams({ pageSize: 10 });
+      const resp = await fetch(`https://studnice-fest.pages.dev/api/v1/news/latest?${query}`);
       try {
         const data = await resp.json();
         if (!resp.ok) {
@@ -37,7 +38,7 @@ class NewsRegistry extends DefaultRegistry {
           url: x.topLevelUrl,
           likes: x.likes,
           comments: x.comments,
-          image: x.media?.at(0)?.thumbnail
+          image: x.media?.filter(x => x["__typename"] === "Photo")?.at(0)?.thumbnail
         }));
       } catch (err) {
         return [];
@@ -49,13 +50,16 @@ class NewsRegistry extends DefaultRegistry {
       const newsImgDir = join(this.paths.imagesDest, "news")
       await mkdir(newsImgDir, { recursive: true });
       for (const item of news.filter(x => x.image)) {
-        const resp = await fetch(item.image);
-        const url = new URL(item.image);
-        const fileName = url.pathname.split("/").pop();
-        item.image = `news/${fileName}`;
-        const data = Buffer.from(await resp.arrayBuffer());
-        const file = join(newsImgDir, fileName);
-        await writeFile(file, data);
+        try {
+          const resp = await fetch(item.image);
+          const url = new URL(item.image);
+          const fileName = url.pathname.split("/").pop();
+          item.image = `news/${fileName}`;
+          const data = Buffer.from(await resp.arrayBuffer());
+          const file = join(newsImgDir, fileName);
+          await writeFile(file, data);
+        }
+        catch (err) {}
       }
       return writeFile(
         this.paths.dest,
@@ -71,7 +75,7 @@ export default {
   cloudinary: true,
   fonts: true,
   static: true,
-  svgSprite: true,
+  svgSprite: false,
   stylesheets: true,
   esbuild: true,
 

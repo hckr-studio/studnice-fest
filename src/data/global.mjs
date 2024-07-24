@@ -1,4 +1,5 @@
 import { processTypo } from "../esm/lib/texy.js";
+import * as transducers from "@thi.ng/transducers";
 
 export default {
   title: "STUDNICE FEST 2024",
@@ -34,10 +35,12 @@ export default {
     }
   },
   currentYear: new Date().getFullYear(),
-  formatDate,
   processTypo,
+  removeHashtags,
   timeslots,
-  formatTime
+  formatDate,
+  formatTime,
+  transducers
 }
 
 function timeslots({ friday, saturday }) {
@@ -63,4 +66,8 @@ function formatDate(s) {
     year: "numeric"
   })
   return formatter.format(new Date(s));
+}
+
+function removeHashtags(s) {
+  return s.replaceAll(/#\S+/g, "");
 }

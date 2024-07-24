@@ -36,22 +36,22 @@
       <header id="news">
         <h2>Novinky</h2>
       </header>
-      {% for post in news %}
-        {% set image = images[post.image]["public_id"] %}
-        {% if image %}
+      {% for post in transducers.take(5, news) %}
+        {% set image = images[post.image] %}
           <article>
             <a href="/novinky/#{{ post.time }}">
               <time datetime="{{ post.time }}">{{ formatDate(post.time) }}</time>
+              {% if image %}
               <img alt="" loading="lazy" width="526" height="526" sizes="auto"
-                   src="{{ image | cloudinaryUrl({ crop: 'crop', ar: 1.0, height: 'ih' }) }}">
+                   src="{{ image["public_id"] | cloudinaryUrl({ crop: 'crop', ar: 1.0, height: 'ih' }) }}">
+              {% endif %}
             </a>
             {% markdown %}
-              {{ processTypo(post.text.replace("#vidimesevlese", "").replace("#18vlese", "")) }}
+              {{ processTypo(removeHashtags(post.text)) }}
 
-              Líbilo se {{ post.likes }}×
+              {% if post.likes %}Líbilo se&nbsp;<data value="{{ post.likes }}">{{ post.likes }}×</data>{% endif %}
             {% endmarkdown %}
           </article>
-        {% endif %}
       {% endfor %}
       <a href="/novinky/" class="cta">Zobrazit všechny novinky</a>
     </section>
