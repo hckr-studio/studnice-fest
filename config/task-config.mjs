@@ -33,13 +33,15 @@ class NewsRegistry extends DefaultRegistry {
         if (!resp.ok) {
           logger.warn("blbý!");
         }
+        // TODO: move this to backend
+        const supportedMediaTypes = new Set(["Photo", "Video", "GenericAttachmentMedia"]);
         return data.map(x => ({
           text: x.text,
           time: x.time,
           url: x.topLevelUrl,
           likes: x.likes,
           comments: x.comments,
-          image: x.media?.filter(x => x["__typename"] === "Photo")?.at(0)?.thumbnail
+          image: x.media?.filter(x => supportedMediaTypes.has(x["__typename"]))?.at(0)?.thumbnail
         }));
       } catch (err) {
         return [];
@@ -57,6 +59,10 @@ class NewsRegistry extends DefaultRegistry {
           const fileName = url.pathname.split("/").at(-1);
           item.image = `news/${fileName}`;
           const data = Buffer.from(await resp.arrayBuffer());
+          if (data.toString() == "URL signature expired") {
+            // skip expired images
+            continue;
+          }
           const file = join(newsImgDir, fileName);
           if (!existsSync(file)) {
             // do not override existing images
