@@ -137,7 +137,6 @@ main, section, body > header, body > footer {
 
 body > header {
   --logo-color: var(--text-color);
-  --text-color: #fff;
   display: flex;
   gap: 0.5em;
   align-items: center;
@@ -145,6 +144,8 @@ body > header {
   position: sticky;
   inset-block-start: -1px;
   z-index: 1000;
+  background-color: transparent;
+  transition: background-color 300ms ease-in;
 
   &.is-pinned {
     --text-color: revert;
@@ -180,6 +181,11 @@ body > header {
       line-height: 1.9;
     }
   }
+}
+
+.is-hp > header {
+  /* force white color on top of hero */
+  --text-color: #fff;
 }
 
 .hamburger {
