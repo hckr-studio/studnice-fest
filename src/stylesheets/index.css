@@ -144,8 +144,6 @@ body > header {
   position: sticky;
   inset-block-start: -1px;
   z-index: 1000;
-  background-color: transparent;
-  transition: background-color 300ms ease-in;
 
   &.is-pinned {
     --text-color: revert;
@@ -171,6 +169,8 @@ body > header {
   }
 
   nav {
+    text-align: right;
+    width: clamp(94px, 4.0417rem + 6.1111vw, 116px);
     button {
       display: inline-flex;
       align-items: center;
@@ -186,6 +186,8 @@ body > header {
 .is-hp > header {
   /* force white color on top of hero */
   --text-color: #fff;
+  background-color: transparent;
+  transition: background-color 300ms ease-in;
 }
 
 .hamburger {
