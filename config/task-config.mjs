@@ -1,5 +1,6 @@
+import { existsSync } from "node:fs";
 import { writeFile, mkdir } from "node:fs/promises";
-import { basename, join, dirname } from "node:path";
+import { basename, join } from "node:path";
 import projectPath from "@hckr_/blendid/lib/projectPath.mjs";
 import logger from "fancy-log";
 import DefaultRegistry from "undertaker-registry";
@@ -25,7 +26,7 @@ class NewsRegistry extends DefaultRegistry {
   init({ task }) {
     async function getLatestNews() {
       logger.info("Loading latest news…");
-      const query = new URLSearchParams({ pageSize: 10 });
+      const query = new URLSearchParams({ pageSize: 15 });
       const resp = await fetch(`https://studnice-fest.pages.dev/api/v1/news/latest?${query}`);
       try {
         const data = await resp.json();
@@ -53,13 +54,16 @@ class NewsRegistry extends DefaultRegistry {
         try {
           const resp = await fetch(item.image);
           const url = new URL(item.image);
-          const fileName = url.pathname.split("/").pop();
+          const fileName = url.pathname.split("/").at(-1);
           item.image = `news/${fileName}`;
           const data = Buffer.from(await resp.arrayBuffer());
           const file = join(newsImgDir, fileName);
-          await writeFile(file, data);
+          if (!existsSync(file)) {
+            // do not override existing images
+            await writeFile(file, data);
+          }
+        } catch (err) {
         }
-        catch (err) {}
       }
       return writeFile(
         this.paths.dest,
