@@ -9,8 +9,11 @@
 ### Doprava
 
 - Festival se koná v areálu Cihelka u Hlinska v Čechách.
-- Pokud pojedete autem, dejte pozor na uzavřený mostek v Blatně (průjezd možný pouze na povolenky pro místní). Objížďka vede přes Studnice a Hamry (max. 3,5t). Při průjezdu Studnicemi vzpoměňte na první ročník Studnice festu, který se konal v místním areálu za hřištěm.
-- Pokud pojedete vlakem, tak cílovou stanici volte [Hlinsko v Čechách](https://jizdnirady.idnes.cz/vlaky/spojeni/?f=&t=Hlinsko+v+%c4%8cech%c3%a1ch&fc=1&tc=100003&submit=false)
+- Pokud pojedete autem, dejte pozor na uzavřený mostek v Blatně (průjezd možný pouze na povolenky pro místní). Objížďka
+  vede přes Studnice a Hamry (max. 3,5t). Při průjezdu Studnicemi vzpoměňte na první ročník Studnice festu, který se
+  konal v místním areálu za hřištěm.
+- Pokud pojedete vlakem, tak cílovou stanici
+  volte [Hlinsko v Čechách](https://jizdnirady.idnes.cz/vlaky/spojeni/?f=&t=Hlinsko+v+%c4%8cech%c3%a1ch&fc=1&tc=100003&submit=false)
 - Z vlakového nádraží jsou to necelé 3 km, vyhněte se hlavní silnici 343 mimo Hlinsko a vezměte to přes Rataje.
 - GPS souřadnice: 49°45'12.0"N 15°55'49.3"E (49.753332, 15.930372)
 
@@ -60,7 +63,8 @@ budete potřebovat stále hotovost!
 
 ### Jídlo a pití
 
-- Můžete se těšit na pestřejší nabídku jídla a více stánků - burgery, trhané maso, tortilly, langoše, palačinky, klobásy nebo guláš. V nabídce budou i vegetariánská jídla a něco málo ve veganských verzích.
+- Můžete se těšit na pestřejší nabídku jídla a více stánků - burgery, trhané maso, tortilly, langoše, palačinky, klobásy
+  nebo guláš. V nabídce budou i vegetariánská jídla a něco málo ve veganských verzích.
 - Kvalitní káva tradičně v podání Cafe Biograf.
 - Točit se bude Chotěboř 11 NA.EX z nedalekého pivovaru.
 - Mimo jiné bude dostupné i točené nealko pivo a těšit se můžete také na cider.
@@ -88,7 +92,10 @@ budete potřebovat stále hotovost!
 - Doporučujeme repelent proti komárům a klíšťatům.
 - V případě přeháněk nebo deště můžeme nabídnout částečně kryté hlediště, prostor před barem i část sezení, takže na
   festivalovém komfortu to ubere minimálně.
-- Jako refresh po pátečním programu doporučujeme sobotní dopolední koupačku v [lomu před obcí Srní](https://mapy.cz/s/2Uq3I) (cca 5km od Cihelky,
-  GPS: N 49°46.65878', E 15°52.87417', [trasa zde](https://mapy.cz/s/2Uq1U)) – před vlakovým nádražím Hlinsko odbočte vlevo, poté vpravo (silnice
+- Jako refresh po pátečním programu doporučujeme sobotní dopolední koupačku
+  v [lomu před obcí Srní](https://mapy.cz/s/2Uq3I) (cca 5km od Cihelky,
+  GPS: N 49°46.65878', E 15°52.87417', [trasa zde](https://mapy.cz/s/2Uq1U)) – před vlakovým nádražím Hlinsko odbočte
+  vlevo, poté vpravo (silnice
   směr Včelákov, Miřetice). Platí se zde sice vstupné, na oplátku je zde nově vybudované zázemí. Dále je v Hlinsku
-  [přírodní koupací biotop](https://www.sportovistehlinsko.cz/sportoviste/koupaci-biotop/) (očekávejte frontu na vstupu). V poledne zpět na Cihelce!
+  [přírodní koupací biotop](https://www.sportovistehlinsko.cz/sportoviste/koupaci-biotop/) (očekávejte frontu na
+  vstupu). V poledne zpět na Cihelce!

@@ -10,6 +10,7 @@
       display: grid;
       grid-template: "aside" "article";
       gap: 1em;
+      align-items: start;
     }
     @media screen and (min-width: 481px) {
       .main {
@@ -21,6 +22,12 @@
       grid-area: aside;
       min-width: clamp(8rem, 2.6667rem + 17.7778vw, 12rem);
       font: clamp(1rem, 0.6667rem + 1.1111vw, 1.25rem) var(--accented-font);
+    }
+    @media screen and (min-width: 481px) {
+      .main aside {
+        position: sticky;
+        top: 4em;
+      }
     }
     .main aside ol {
       list-style-type: none;
