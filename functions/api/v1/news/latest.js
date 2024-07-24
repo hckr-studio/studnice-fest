@@ -10,13 +10,17 @@ async function getNewsPost(env, postId) {
   return item;
 }
 
+/**
+ * @param {EventContext<Env>} context
+ */
 export async function onRequestGet({ env, request }) {
   const url = new URL(request.url);
   const pageSize = parseInt(url.searchParams.get("pageSize") ?? "5");
   const items = await getNewsIndex(env);
-  const result = [];
+  const resultsP = [];
   for (const item of take(pageSize, items)) {
-    result.push(await getNewsPost(env, item.postId));
+    result.push(getNewsPost(env, item.postId));
   }
+  const result = await Promise.all(resultsP);
   return Response.json(result);
 }
