@@ -64,16 +64,19 @@
       <header id="bands">
         <h2>Na 18. ročníku vystoupí</h2>
       </header>
+      {% set tss = timeslots(schedule) %}
       {% for key in event.artists %}
         {% set artist = artists[key] %}
         {% set image = images["artists/" + artist.image]["public_id"] %}
-        {% set ts = timeslot(artist.filename.split(".").at(0), schedule) %}
+        {% set ts = tss.get(artist.filename.split(".").at(0)) %}
         <article class="artists-list__item" id="{{ key }}">
           <h3>{{ artist.title }}</h3>
           <img src="{{ image | cloudinaryUrl() }}" alt="{{ artist.title }}" width="400" height="400" loading="lazy">
+          {% if ts %}
           <p>vystoupí v
-            <time>{{ ts.day }} ve {{ ts.time }}</time>
+            <time>{{ formatTime(ts) }}</time>
           </p>
+          {% endif %}
         </article>
       {% endfor %}
     </section>
