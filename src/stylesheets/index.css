@@ -424,7 +424,7 @@ section p {
 
   article + article p {
     font-size: 1em;
-    max-height: 6em;
+    max-height: 7.5em;
     overflow: hidden;
     text-overflow: ellipsis;
   }
