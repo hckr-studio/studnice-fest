@@ -26,17 +26,22 @@ class NewsRegistry extends DefaultRegistry {
     async function getLatestNews() {
       logger.info("Loading latest news…");
       const resp = await fetch("https://studnice-fest.pages.dev/api/v1/news/latest");
-      const data = await resp.json();
-      if (!resp.ok) {
-        logger.warn("blbý!");
+      try {
+        const data = await resp.json();
+        if (!resp.ok) {
+          logger.warn("blbý!");
+        }
+        return data.map(x => ({
+          text: x.text,
+          time: x.time,
+          url: x.topLevelUrl,
+          likes: x.likes,
+          comments: x.comments,
+          image: x.media?.at(0)?.thumbnail
+        }));
+      } catch (err) {
+        return [];
       }
-      return data.map(x => ({
-        text: x.text,
-        time: x.time,
-        url: x.topLevelUrl,
-        likes: x.likes,
-        image: x.media.at(0)?.thumbnail
-      }));
     }
 
     task("prepare-data", async () => {
