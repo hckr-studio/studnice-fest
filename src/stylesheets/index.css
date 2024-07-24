@@ -10,6 +10,12 @@
   initial-value: initial;
 }
 
+@property --text-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: initial;
+}
+
 :root {
   --main-font: 16px Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
   --accented-font: 'Caveat Brush', 'Segoe Print', 'Bradley Hand', Chilanka, TSCu_Comic, casual, cursive;
@@ -57,7 +63,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: geometricPrecision;
-  margin: 0 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -117,52 +122,39 @@ a.cta {
   background-color: var(--accent-color);
   margin: 1em 0;
 
-  /*
-  &::before {
-    content: "";
-    position: absolute;
-    top: -6px;
-    bottom: -6px;
-    left: 8px;
-    right: 8px;
-    background: asset-url("images", "cta-bg.svg") no-repeat;
-    background-size: contain;
-    transition: transform 200ms ease-in-out;
-    z-index: 1;
-  }
-  */
-
   &:hover {
     background-color: var(--accent2-color);
-
-    /*
-    &::before {
-      transform: scaleX(-1);
-    }
-    */
   }
 }
 
 main, section, body > header, body > footer {
   max-width: 61.25em;
   margin: 0 auto;
+  @media screen and (max-width: 840px) {
+    margin: 0 8px;
+  }
 }
 
 body > header {
   --logo-color: var(--text-color);
+  --text-color: #fff;
   display: flex;
   gap: 0.5em;
   align-items: center;
   justify-content: space-between;
   position: sticky;
-  inset-block-start: 0;
+  inset-block-start: -1px;
   z-index: 1000;
-  background-color: var(--background-color);
-  border-image-outset: 0 100vw;
-  border-image-slice: 0 fill;
-  border-image-width: 0;
-  border-image-repeat: stretch;
-  border-image-source: linear-gradient(0deg, var(--background-color), var(--background-color));
+
+  &.is-pinned {
+    --text-color: revert;
+    background-color: var(--background-color);
+    border-image-outset: 0 100vw;
+    border-image-slice: 0 fill;
+    border-image-width: 0;
+    border-image-repeat: stretch;
+    border-image-source: linear-gradient(0deg, var(--background-color), var(--background-color));
+  }
 
   h1 {
     line-height: 1;
@@ -171,6 +163,10 @@ body > header {
 
   h1 svg {
     width: auto;
+  }
+
+  p {
+    color: var(--text-color);
   }
 
   nav {
@@ -264,9 +260,9 @@ section p {
   --text-color: white;
   color: var(--text-color);
   text-align: center;
-  margin-bottom: 2em;
-  padding: 2em clamp(1em, -0.3333rem + 4.4444vw, 2em) clamp(2em, 0rem + 6.6667vw, 6em);
-  background: image-set(
+  translate: 0 -5em;
+  padding: 6em clamp(1em, -0.3333rem + 4.4444vw, 2em) clamp(2em, 0rem + 6.6667vw, 6em);
+  background: #1E1E1E image-set(
     cloudinary-url("hero-bg.jpg", '{"dpr": 1}') 1x,
     cloudinary-url("hero-bg.jpg", '{"dpr": 1.5}') 1.5x,
     cloudinary-url("hero-bg.jpg", '{"dpr": 2}') 2x
