@@ -2,27 +2,88 @@
 
 {% set title = "Novinky" %}
 
-{% block head %}{% endblock %}
+{% block head %}
+  <style>
+    article {
+      color-scheme: dark;
+      border-radius: var(--corner-radius);
+      background-color: #000;
+      color: #fff;
+      padding: 8px;
+
+      display: grid;
+      grid-auto-flow: row;
+      align-content: start;
+      gap: 4px;
+    }
+
+    article img {
+      width: 100%;
+      height: auto;
+      order: 1;
+      border-radius: var(--corner-radius);
+    }
+
+    article time {
+      font-family: var(--accented-font);
+      font-weight: 700;
+      line-height: 1.2;
+      color: #fff;
+      z-index: 1;
+      margin-top: 0.5em;
+      order: 2;
+    }
+
+    article p {
+      text-align: left;
+      margin: 0.25em 0;
+      order: 3;
+    }
+
+    article.has-image {
+      grid-row: span 2;
+    }
+
+    article.has-image.has-long-text {
+      grid-row: span 3;
+    }
+
+    article.has-image.has-xlong-text {
+      grid-row: span 4;
+    }
+
+    .article-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      grid-template-rows: masonry;
+      gap: 1em;
+    }
+  </style>
+{% endblock %}
 
 {% block content %}
   <main>
     <h2>Novinky</h2>
-    {% for post in news %}
-      {% set image = images[post.image] %}
-      <article id="{{ post.time }}">
-        <time datetime="{{ post.time }}">{{ formatDate(post.time) }}</time>
-        {% if image %}
-          <img alt="" loading="lazy" src="{{ image["public_id"] | cloudinaryUrl() }}" style="max-width: 100%">
-        {% endif %}
-        {% markdown %}
-          {{ removeHashtags(post.text) }}
+    <div class="article-list">
+      {% for post in news %}
+        {% set image = images[post.image] %}
+        <article id="{{ post.time }}" class="{{ "has-image" if image }} {{ "has-long-text" if post.text.length > 200 }} {{ "has-xlong-text" if post.text.length > 400 }}">
+          <time datetime="{{ post.time }}">{{ formatDate(post.time) }}</time>
+          {% if image %}
+            <img alt="" loading="lazy" src="{{ image["public_id"] | cloudinaryUrl() }}">
+          {% endif %}
+          {% markdown %}
+            {{ post.text }}
 
-          {% if post.likes %}Líbilo se&nbsp;<data value="{{ post.likes }}">{{ post.likes }}×</data>{% endif %}
-          {% if post.comments %}<br>Okomentováno&nbsp;<data value="{{ post.comments }}">{{ post.comments }}×</data>{% endif %}
+            {% if post.likes %}Líbilo se&nbsp;
+              <data value="{{ post.likes }}">{{ post.likes }}×</data>{{ "; " if post.comments }}{% endif %}
+            {% if post.comments %}Okomentováno&nbsp;
+              <data value="{{ post.comments }}">{{ post.comments }}×</data>{% endif %}
 
-          <a href="{{ post.url }}" target="fb">Zapojte se do diskuse na Facebooku</a>
-        {% endmarkdown %}
-      </article>
-    {% endfor %}
+            <a href="{{ post.url }}" target="fb">Zapojte se do diskuse na Facebooku</a>
+          {% endmarkdown %}
+        </article>
+      {% endfor %}
+    </div>
   </main>
 {% endblock %}
