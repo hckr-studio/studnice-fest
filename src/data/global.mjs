@@ -34,27 +34,33 @@ export default {
     }
   },
   currentYear: new Date().getFullYear(),
-  formatDate(s) {
-    const formatter = new Intl.DateTimeFormat("cs", {
-      day: "2-digit",
-      month: "2-digit",
-      year: "numeric"
-    })
-    return formatter.format(new Date(s));
-  },
+  formatDate,
   processTypo,
   timeslots,
   formatTime
 }
 
-function timeslots(schedule) {
+function timeslots({ friday, saturday }) {
   return new Map(
-    schedule.friday.map(x => [x.slug, { day: "pátek", time: x.time }]).concat(
-      schedule.saturday.map(x => [x.slug, { day: "sobotu", time: x.time }]))
+    friday.map(x => [x.slug, { day: "pátek", time: x.time }]).concat(
+      saturday.map(x => [x.slug, { day: "sobotu", time: x.time }]))
   );
 }
 
+function hasLongPreposition(time) {
+  return time.startsWith("2") || time.startsWith("12") || time.startsWith("13") || time.startsWith("14");
+}
+
 function formatTime({ day, time }) {
-  const preposition = time.startsWith("2") || time.startsWith("12") || time.startsWith("13") || time.startsWith("14") ? "ve" : "v";
+  const preposition = hasLongPreposition(time) ? "ve" : "v";
   return `${day} ${preposition} ${time}`;
+}
+
+function formatDate(s) {
+  const formatter = new Intl.DateTimeFormat("cs", {
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric"
+  })
+  return formatter.format(new Date(s));
 }
