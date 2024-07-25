@@ -34,6 +34,10 @@ async function saveNewsEntries(env, items) {
   return items;
 }
 
+function triggerSiteBuild(env) {
+  return fetch(env.DEPLOY_HOOK, { method: "POST" });
+}
+
 export async function onRequestPost({ env, request }) {
   const url = new URL(request.url);
   if (url.searchParams.get("secret") !== env.APIFY_WEBHOOK_SECRET) {
@@ -50,5 +54,6 @@ export async function onRequestPost({ env, request }) {
   updateNewsIndex(allNews, items);
   await saveAllNewsIndex(env, allNews);
   await saveNewsEntries(env, items);
+  await triggerSiteBuild(env);
   return new Response(null, { status: 200 });
 }
