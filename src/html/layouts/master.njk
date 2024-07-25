@@ -162,19 +162,13 @@
 </footer>
 
 <script type="module">
-  const el = document.querySelector("body>header")
-  const observer = new IntersectionObserver(
+  new IntersectionObserver(
     ([e]) => e.target.classList.toggle("is-pinned", e.intersectionRatio < 1),
     { threshold: [1] }
-  );
-  observer.observe(el);
+  ).observe(document.querySelector("body>header"));
 
   const menu = document.getElementById("menu");
-  menu.addEventListener("click", e => {
-    if (e.target.hash) {
-      menu.hidePopover();
-    }
-  });
+  menu.addEventListener("click", e => e.target.hash && menu.hidePopover());
 </script>
 {% block javascript %}
 {% endblock %}
