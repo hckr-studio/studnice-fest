@@ -1,13 +1,11 @@
 import { take } from "@thi.ng/transducers";
 
 async function getNewsIndex(env) {
-  const items = (await env.NEWS.get("/news", "json")) ?? [];
-  return items;
+  return (await env.NEWS.get("/news", "json")) ?? [];
 }
 
 async function getNewsPost(env, postId) {
-  const item = await env.NEWS.get(`/news/${postId}`, "json");
-  return item;
+  return env.NEWS.get(`/news/${postId}`, "json");
 }
 
 /**
