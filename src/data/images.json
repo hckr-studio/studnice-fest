@@ -766,5 +766,29 @@
     "existing": true,
     "api_key": "932534542617127",
     "original_filename": "449839784_848670839962339_3505718273908515410_n"
+  },
+  "news/452747792_1023601023100594_54153794237551462_n.jpg": {
+    "asset_id": "4b06330b7d741e7bf0ceca9dced5cea3",
+    "public_id": "news/452747792_1023601023100594_54153794237551462_n",
+    "version": 1721883117,
+    "version_id": "a0baa78a377340574d592005da6174ce",
+    "signature": "cb5b327f73b34488f57bca5b591ad1201cf7b624",
+    "width": 960,
+    "height": 540,
+    "format": "jpg",
+    "resource_type": "image",
+    "created_at": "2024-07-25T04:51:57Z",
+    "tags": [],
+    "bytes": 136033,
+    "type": "upload",
+    "etag": "31c57fdc14822db25c5715638baca4f1",
+    "placeholder": false,
+    "url": "http://res.cloudinary.com/studnicefest/image/upload/v1721883117/news/452747792_1023601023100594_54153794237551462_n.jpg",
+    "secure_url": "https://res.cloudinary.com/studnicefest/image/upload/v1721883117/news/452747792_1023601023100594_54153794237551462_n.jpg",
+    "asset_folder": "news",
+    "display_name": "452747792_1023601023100594_54153794237551462_n",
+    "existing": true,
+    "api_key": "932534542617127",
+    "original_filename": "452747792_1023601023100594_54153794237551462_n"
   }
 }

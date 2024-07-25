@@ -368,6 +368,12 @@ section p {
 
   .cta {
     place-self: center;
+    grid-column: span 2;
+  }
+  @media screen and (min-width: 840px) {
+    .cta {
+      grid-column: span 4;
+    }
   }
 
   article {
@@ -379,6 +385,7 @@ section p {
     grid-row: span 4;
 
     a {
+      container-type: inline-size;
       display: grid;
       grid-auto-flow: row;
       filter: saturate(0.3);
