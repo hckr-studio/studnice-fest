@@ -42,8 +42,8 @@
             <a href="/novinky/#{{ post.time }}">
               <time datetime="{{ post.time }}">{{ formatDate(post.time) }}</time>
               {% if image %}
-              <img alt="" width="462" height="462" loading="lazy"
-                   src="{{ image["public_id"] | cloudinaryUrl({ dpr: 'auto', crop: 'fill', ar: 1.0, width: "auto:40:480", flags: null }) }}">
+              <img alt="" width="462" height="462" loading="lazy" sizes="(min-width: 840px) 462px, 88.43vw"
+                   src="{{ image["public_id"] | cloudinaryUrl({ crop: 'fill', ar: 1.0 }) }}">
               {% endif %}
             </a>
             {% markdown %}
@@ -79,7 +79,7 @@
         {% set ts = tss.get(artist.filename.split(".").at(0)) %}
         <article class="artists-list__item" id="{{ key }}">
           <h3>{{ artist.title }}</h3>
-          <img src="{{ image | cloudinaryUrl() }}" alt="{{ artist.title }}" width="296" height="296" loading="lazy" sizes="auto">
+          <img src="{{ image | cloudinaryUrl() }}" alt="{{ artist.title }}" width="296" height="296" loading="lazy" sizes="(min-width: 840px) 296px, 88.43vw">
           {% if ts %}
           <p>vystoupí v
             <time>{{ formatTime(ts) }}</time>
