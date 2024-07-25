@@ -168,6 +168,13 @@
     { threshold: [1] }
   );
   observer.observe(el);
+
+  const menu = document.getElementById("menu");
+  menu.addEventListener("click", e => {
+    if (e.target.hash) {
+      menu.hidePopover();
+    }
+  });
 </script>
 {% block javascript %}
 {% endblock %}

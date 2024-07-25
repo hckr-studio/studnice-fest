@@ -128,6 +128,7 @@ a.cta {
 }
 
 main, section, body > header, body > footer {
+  scroll-margin-block-start: 5em;
   max-width: 61.25em;
   margin: 0 auto;
   @media screen and (max-width: 840px) {
