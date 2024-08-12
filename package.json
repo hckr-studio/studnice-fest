@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@cloudflare/workers-types": "4.20240806.0",
-    "@hckr_/blendid": "8.5.5",
+    "@hckr_/blendid": "8.6.0",
     "fancy-log": "2.0.0",
     "undertaker-registry": "2.0.0",
     "wrangler": "3.70.0"
