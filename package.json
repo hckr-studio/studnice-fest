@@ -16,7 +16,7 @@
     "@hckr_/blendid": "8.6.0",
     "fancy-log": "2.0.0",
     "undertaker-registry": "2.0.0",
-    "wrangler": "3.78.3"
+    "wrangler": "3.78.4"
   },
   "scripts": {
     "build": "blendid build --production",
