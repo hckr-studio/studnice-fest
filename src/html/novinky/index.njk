@@ -5,10 +5,7 @@
 {% block head_stylesheets %}
   <style>
     article {
-      color-scheme: dark;
-      border-radius: var(--corner-radius);
-      background-color: #000;
-      color: #fff;
+      background-color: var(--blue-background-color);
       padding: 8px;
 
       display: grid;
@@ -23,14 +20,12 @@
       width: 100%;
       height: auto;
       order: 1;
-      border-radius: var(--corner-radius);
     }
 
     article time {
       font-family: var(--accented-font);
       font-weight: 700;
       line-height: 1.2;
-      color: #fff;
       z-index: 1;
       margin-top: 0.5em;
       order: 2;
@@ -42,27 +37,38 @@
       order: 3;
     }
 
+    article a {
+      word-break: break-word;
+    }
+
     article:target {
       border: 1px solid var(--accent3-color);
     }
 
-    article.has-image {
-      grid-row: span 2;
+    @supports not (grid-template-rows: masonry) {
+      article.has-image {
+        grid-row: span 2;
+      }
+
+      article.has-image.has-long-text {
+        grid-row: span 3;
+      }
+
+      article.has-image.has-xlong-text {
+        grid-row: span 4;
+      }
     }
 
-    article.has-image.has-long-text {
-      grid-row: span 3;
-    }
-
-    article.has-image.has-xlong-text {
-      grid-row: span 4;
-    }
 
     .article-list {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
       grid-template-rows: auto;
       gap: 1em;
+
+      @supports (grid-template-rows: masonry) {
+        grid-template-rows: masonry;
+      }
     }
   </style>
 {% endblock %}
@@ -73,10 +79,12 @@
     <div class="article-list">
       {% for post in news %}
         {% set image = images[post.image] %}
-        <article id="{{ post.time }}" class="{{ "has-image" if image }} {{ "has-long-text" if post.text.length > 200 }} {{ "has-xlong-text" if post.text.length > 400 }}">
+        <article id="{{ post.time }}"
+                 class="{{ "has-image" if image }} {{ "has-long-text" if post.text.length > 200 }} {{ "has-xlong-text" if post.text.length > 400 }}">
           <time datetime="{{ post.time }}">{{ formatDate(post.time) }}</time>
           {% if image %}
-            <img alt="" width="{{ image.width }}" height="{{ image.height }}" loading="lazy" sizes="(min-width: 840px) 300px, 88.43vw"
+            <img alt="" width="{{ image.width }}" height="{{ image.height }}" loading="lazy"
+                 sizes="(min-width: 840px) 300px, 88.43vw"
                  src="{{ image["public_id"] | cloudinaryUrl() }}">
           {% endif %}
           {% markdown %}
