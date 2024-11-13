@@ -80,11 +80,6 @@
         <article class="artists-list__item" id="{{ key }}">
           <h3>{{ artist.title }}</h3>
           <img src="{{ image | cloudinaryUrl() }}" alt="{{ artist.title }}" width="296" height="296" loading="lazy" sizes="(min-width: 840px) 296px, 88.43vw">
-          {% if ts %}
-          <p>vystoupí v
-            <time>{{ formatTime(ts) }}</time>
-          </p>
-          {% endif %}
         </article>
       {% endfor %}
     </section>

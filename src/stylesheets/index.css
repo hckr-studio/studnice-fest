@@ -480,7 +480,6 @@ section p {
 
     container-type: inline-size;
     display: grid;
-    grid: 1fr [stack] / 1fr [stack];
     overflow: hidden;
 
     &:target {
@@ -498,14 +497,14 @@ section p {
       background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.43) 100%) 50% / cover no-repeat;
       color: #fff;
       margin: 0;
-      grid-area: stack;
+      grid-area: 1/1;
       width: 100%;
       z-index: 10;
       place-self: end center;
     }
 
     img {
-      grid-area: stack;
+      grid-area: 1/1;
       width: 100%;
       height: auto;
       transition: scale 500ms cubic-bezier(.5, -.25, .75, 1);
@@ -513,15 +512,6 @@ section p {
       &:hover {
         scale: 1.1;
       }
-    }
-
-    p {
-      font-size: 0.75em;
-      font-weight: 800;
-      text-align: left;
-      margin: 0.75em 0;
-      order: 2;
-      display: none;
     }
   }
 }
