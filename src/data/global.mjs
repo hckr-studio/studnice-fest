@@ -2,6 +2,9 @@ import { processTypo } from "../esm/lib/texy.js";
 import * as transducers from "@thi.ng/transducers";
 
 export default {
+  meta: {
+    title: "Studnice fest"
+  },
   title: "STUDNICE FEST 2024",
   event: {
     name: "Studnice Fest",

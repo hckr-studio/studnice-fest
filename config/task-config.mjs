@@ -4,7 +4,7 @@ import { basename, join } from "node:path";
 import projectPath from "@hckr_/blendid/lib/projectPath.mjs";
 import logger from "fancy-log";
 import DefaultRegistry from "undertaker-registry";
-import pathConfig from "./path-config.json" with { type: "json" };
+import pathConfig from "./path-config.mjs";
 
 class NewsRegistry extends DefaultRegistry {
   constructor(config, pathConfig) {

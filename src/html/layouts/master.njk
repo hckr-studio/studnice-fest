@@ -3,17 +3,17 @@
 <html lang="cs">
 <head>
   <meta charset="utf-8">
-  <title>{% block title %}{{ title }} - Studnice fest{% endblock %}</title>
-  <meta http-equiv="delegate-ch"
-        content="sec-ch-width https://res.cloudinary.com; sec-ch-dpr https://res.cloudinary.com; sec-ch-viewport-width https://res.cloudinary.com;">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  {% include "shared/styles.njk" %}
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta http-equiv="delegate-ch" content="sec-ch-width https://res.cloudinary.com; sec-ch-dpr https://res.cloudinary.com; sec-ch-viewport-width https://res.cloudinary.com;">
+  {% block head_pragma %}{% endblock %}
+  <title>{% block title %}{{ title }} - {{ meta.title }}{% endblock %}</title>
   <link rel="preconnect" href="https://res.cloudinary.com">
   <link rel="preconnect" href="https://www.googletagmanager.com">
+  {% block head_preconnect %}{% endblock %}
   <link rel="stylesheet" href="{{ 'index.css' | assetUrl('stylesheets') }}">
-  <link rel="manifest" href="{{ 'manifest.json' | assetUrl('static') }}">
-  {% include "shared/app-icons.html" %}
-  {% block head %}{% endblock %}
+  {% block head_stylesheets %}{% endblock %}
+  {% include "shared/styles.njk" %}
+  {% block head_preload %}{% block preload %}{% endblock %}{% endblock %}
   <!-- Google Tag Manager -->
   <script>(function (w, d, s, l, i) {
       w[l] = w[l] || [];
@@ -24,6 +24,15 @@
       f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-TB6TV66');</script>
   <!-- End Google Tag Manager -->
+  {% block head_async_scripts %}{% endblock %}
+  <meta name="color-scheme" content="light dark">
+  <link rel="manifest" href="{{ 'manifest.json' | assetUrl('static') }}">
+  <meta name="generator" content="{{ generator or '@hckr_/blendid - static site generator and assets pipeline' }}">
+  <meta name="author" content="https://hckr.studio/">
+  {% include "shared/app-icons.html" %}
+  <!--[if lt IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script><![endif]-->
+  {% block head %}{% endblock %}
 </head>
 <body vocab="https://schema.org" typeof="Festival" class="{{ bodyClass }}">
 <!-- Google Tag Manager (noscript) -->
@@ -170,8 +179,7 @@
   const menu = document.getElementById("menu");
   menu.addEventListener("click", e => e.target.hash && menu.hidePopover());
 </script>
-{% block javascript %}
-{% endblock %}
+{% block scripts %}{% endblock %}
 {{ spriteTarget() }}
 </body>
 </html>

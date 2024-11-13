@@ -2,9 +2,12 @@
 
 {% set title = "Důležité informace" %}
 
-{% block head %}
+{% block head_preconnect %}
   <link rel="preconnect" href="https://unpkg.com">
   <link rel="preconnect" href="https://api.mapy.cz">
+{% endblock %}
+
+{% block head_stylesheets %}
   <style>
     .main {
       display: grid;
@@ -78,7 +81,7 @@
   </main>
 {% endblock %}
 
-{% block javascript %}
+{% block scripts %}
 <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
         integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin defer></script>
 <script type="module">
