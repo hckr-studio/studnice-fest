@@ -25,7 +25,7 @@
   --background-color: #fff;
   --text-color: #000;
 
-    --blue-background-color: oklch(96.2% 0.013 255.505);
+  --blue-background-color: oklch(96.2% 0.013 255.505);
 
   --accent-color: oklch(52.1% 0.091 140.577);
   --accent2-color: oklch(59.5% 0.112 55.497);
@@ -278,7 +278,7 @@ section p {
   text-align: center;    text-transform: uppercase;
   text-shadow: 1px 1px #333;
   translate: 0 -5em;
-  padding: 6em clamp(1em, -0.3333rem + 4.4444vw, 2em) clamp(2em, 0rem + 6.6667vw, 6em);
+  padding: 6em clamp(1em, -0.3333rem + 4.4444vw, 2em) calc(200px + clamp(2em, 0rem + 6.6667vw, 6em));
   background: #1E1E1E image-set(
     cloudinary-url("hero-bg.jpg", '{"dpr": 1}') 1x,
     cloudinary-url("hero-bg.jpg", '{"dpr": 1.5}') 1.5x,
@@ -286,6 +286,21 @@ section p {
   ) no-repeat;
   background-position: center top;
   background-size: cover;
+  position: relative;
+
+  &:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    height: 200px;
+    background-image: asset-url("images", "trees.svg");
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-position: bottom center;
+  }
 
   hgroup {
     margin-bottom: 4em;
@@ -676,6 +691,7 @@ body > footer {
   background-image: radial-gradient(#E8FFE5, #A1F9FF);
   max-width: 100%;
   padding-block-start: 2em;
+  margin-block-start: 4em;
 
   > p {
     text-align: center;
