@@ -672,6 +672,27 @@ section p {
   }
 }
 
+body > footer {
+  background-image: radial-gradient(#E8FFE5, #A1F9FF);
+  max-width: 100%;
+  padding-block-start: 2em;
+
+  > p {
+    text-align: center;
+  }
+
+  &:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 200px;
+    background-image: asset-url("images", "trees.svg");
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-position: bottom center;
+  }
+}
+
 .footer__contacts {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(14em, 1fr));
