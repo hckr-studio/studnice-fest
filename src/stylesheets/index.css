@@ -25,9 +25,10 @@
   --background-color: #fff;
   --text-color: #000;
 
-  --blue-background-color: oklch(96.2% 0.013 255.505);
+  --blue-background-color: light-dark(#edf3fb, #4b4d4f);
 
-  --accent-color: oklch(52.1% 0.091 140.577);
+  --accent-color: oklch(58.4% 0.155 147);
+  --accent-color-darker: oklch(44.3% 0.127 147);
   --accent2-color: oklch(59.5% 0.112 55.497);
   --accent3-color: oklch(68.4% 0.143 50.468);
 
@@ -130,7 +131,7 @@ a.cta {
   margin: 1em 0;
 
   &:hover {
-    background-color: var(--accent2-color);
+    background-color: var(--accent-color-darker);
   }
 }
 
@@ -678,7 +679,7 @@ section p {
 }
 
 body > footer {
-  background-image: radial-gradient(#E8FFE5, #A1F9FF);
+  background-image: radial-gradient(light-dark(#E8FFE5, #747e72), light-dark(#A1F9FF, #567b7e));
   max-width: 100%;
   padding-block-start: 2em;
   margin-block-start: 4em;
@@ -787,15 +788,25 @@ body > footer {
 
 #vstupenky,
 #informace-a-upozorneni {
+  max-width: 100%;
   margin-block: 3em;
+  margin-inline: 0;
   padding-block: 3em;
-  background-image: asset-url("images", "wood.svg");
+  --background-image: asset-url("images", "wood.svg");
+  background-image: var(--background-image);
   background-size: cover;
   background-repeat: no-repeat;
 
+  @media (prefers-color-scheme: dark) {
+    --background-image: asset-url("images", "wood-dark.svg");
+  }
   h2 {
     color: var(--accent3-color)
   }
+}
+
+.pardubicky-kraj {
+  mix-blend-mode: darken;
 }
 
 
