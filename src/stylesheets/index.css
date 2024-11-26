@@ -20,7 +20,7 @@
   --main-font: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
   --accented-font: Dosis, system-ui, sans-serif;
 
-  --corner-radius: 0;
+  --corner-radius: 15px;
 
   --background-color: #fff;
   --text-color: #000;
@@ -131,6 +131,7 @@ a.cta {
   padding: 0.75rem 2rem;
   color: #fff;
   background-color: var(--accent-color);
+  border-radius: var(--corner-radius);
   margin: 1em 0;
 
   &:hover {
@@ -403,6 +404,7 @@ section p {
 
   article {
     background-color: var(--blue-background-color);
+    border-radius: var(--corner-radius);
 
     padding: 10px;
     grid-row: span 4;
@@ -423,7 +425,8 @@ section p {
     img {
       width: 100%;
       height: auto;
-      clip-path: xywh(0 0 100% 92% round 0);
+      border-radius: var(--corner-radius);
+      clip-path: xywh(0 0 100% 92% round var(--corner-radius));
       z-index: -1;
       order: 1;
     }
@@ -481,6 +484,7 @@ section p {
     grid-column: span 2;
 
     scroll-margin-block-start: 5em;
+    border-radius: var(--corner-radius);
 
     container-type: inline-size;
     display: grid;
@@ -802,6 +806,7 @@ body > footer {
   background-image: var(--background-image);
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: var(--corner-radius);
 
   @media (prefers-color-scheme: dark) {
     --background-image: asset-url("images", "wood-dark.svg");
