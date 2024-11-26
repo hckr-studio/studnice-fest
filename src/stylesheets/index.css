@@ -25,13 +25,13 @@
   --background-color: #fff;
   --text-color: #000;
 
-  --blue-background-color: #edf3fb;
-  --blue-background-color: light-dark(#edf3fb, #4b4d4f);
+  --blue-background-color: #dbedfb;
+  --blue-background-color: light-dark(#dbedfb, #4b4d4f);
 
-  --accent-color: oklch(58.4% 0.155 147);
-  --accent-color-darker: oklch(44.3% 0.127 147);
-  --accent2-color: oklch(59.5% 0.112 55.497);
-  --accent3-color: oklch(68.4% 0.143 50.468);
+  --accent-color: oklch(60% 0.155 147);
+  --accent-color-darker: oklch(44% 0.127 147);
+  --accent2-color: oklch(60% 0.112 55.497);
+  --accent3-color: oklch(71% 0.197 46.756);
 
   --border-top-image: asset-url("images", "border-top.svg");
   --border-bottom-image: asset-url("images", "border-bottom.svg");
