@@ -27,7 +27,7 @@
         {% endfor %}
       </ol>
       <div>
-        <a href="https://goout.net/cs/listky/studnice-fest-2024/ayit/" class="cta">Koupit si vstupenky</a>
+        <a href="{{ tickets.url }}" class="cta">Koupit si vstupenky</a>
       </div>
     </section>
   </div>
@@ -38,20 +38,21 @@
       </header>
       {% for post in transducers.take(5, news) %}
         {% set image = images[post.image] %}
-          <article>
-            <a href="/novinky/#{{ post.time }}">
-              <time datetime="{{ post.time }}">{{ formatDate(post.time) }}</time>
-              {% if image %}
+        <article>
+          <a href="/novinky/#{{ post.time }}">
+            <time datetime="{{ post.time }}">{{ formatDate(post.time) }}</time>
+            {% if image %}
               <img alt="" width="462" height="462" loading="lazy" sizes="(min-width: 840px) 462px, 88.43vw"
                    src="{{ image["public_id"] | cloudinaryUrl({ crop: 'fill', ar: 1.0 }) }}">
-              {% endif %}
-            </a>
-            {% markdown %}
-              {{ processTypo(removeHashtags(post.text)) }}
+            {% endif %}
+          </a>
+          {% markdown %}
+            {{ processTypo(removeHashtags(post.text)) }}
 
-              {% if post.likes %}Líbilo se&nbsp;<data value="{{ post.likes }}">{{ post.likes }}×</data>{% endif %}
-            {% endmarkdown %}
-          </article>
+            {% if post.likes %}Líbilo se&nbsp;
+              <data value="{{ post.likes }}">{{ post.likes }}×</data>{% endif %}
+          {% endmarkdown %}
+        </article>
       {% endfor %}
       <a href="/novinky/" class="cta">Zobrazit všechny novinky</a>
     </section>
@@ -79,7 +80,8 @@
         {% set ts = tss.get(artist.filename.split(".").at(0)) %}
         <article class="artists-list__item" id="{{ key }}">
           <h3>{{ artist.title }}</h3>
-          <img src="{{ image | cloudinaryUrl() }}" alt="{{ artist.title }}" width="296" height="296" loading="lazy" sizes="(min-width: 840px) 296px, 88.43vw">
+          <img src="{{ image | cloudinaryUrl() }}" alt="{{ artist.title }}" width="296" height="296" loading="lazy"
+               sizes="(min-width: 840px) 296px, 88.43vw">
         </article>
       {% endfor %}
     </section>
@@ -90,16 +92,26 @@
       </header>
       <p>Vstupenky budou pravděpodobně dostupné i&nbsp;na místě, nicméně kapacita
         je omezená. Doporučujeme proto využít předprodeje na&nbsp;<a
-          href="https://goout.net">GoOut.net</a>. V&nbsp;ceně vstupenky je i&nbsp;stanové
+          href="https://tickets.nfctron.com">NFCTron.cz</a>. V&nbsp;ceně vstupenky je i&nbsp;stanové
         městečko. Parkovací stání se platí zvlášť.</p>
 
       <div class="tickets__list">
-        <div class="tickets__item tickets__item--disabled">
-          <h3>1.&nbsp;vlna vstupenek</h3>
-          <p>2-denní</p>
-          <p>540&nbsp;Kč</p>
-          <a href="" class="button">Vyprodáno</a>
-        </div>
+        {% for wave, tickets in tickets.waves %}
+          {% set isCurrentWave = tickets.currentWave == wave %}
+          {% for ticket in tickets %}
+            <div class="tickets__item {{ "tickets__item--disabled" if not isCurrentWave }}">
+              <h3>{{ wave }}.&nbsp;vlna vstupenek</h3>
+              <p>{{ ticket.days }}-denní</p>
+              <p>{{ ticket.price }}&nbsp;Kč</p>
+              {% if isCurrentWave %}
+                <a href="{{ tickets.url }}" class="button">Koupit</a>
+              {% else %}
+                <a href="" class="button">Vyprodáno</a>
+              {% endif %}
+            </div>
+          {% endfor %}
+        {% endfor %}
+        {#
         <div class="tickets__item tickets__item--disabled">
           <h3>2.&nbsp;vlna vstupenek</h3>
           <p>2-denní</p>
@@ -131,6 +143,7 @@
           <p>2-denní</p>
           <p>990&nbsp;Kč</p>
         </div>
+        #}
       </div>
 
       <div class="tickets__free">

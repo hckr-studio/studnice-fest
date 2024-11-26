@@ -6,13 +6,18 @@ export default {
     title: "Studnice fest",
     url: "https://www.studnicefest.cz/"
   },
-  title: "STUDNICE FEST 2024",
+  title: "STUDNICE FEST 2025",
+  tickets: {
+    url: "https://tickets.nfctron.com/event/eupathia/studnice-fest-2025",
+    currentWave: 1,
+    waves: { 1: [{ days: 2, price: 590 }] },
+  },
   event: {
     name: "Studnice Fest",
-    startDate: new Date("2024-07-26T15:00:00+02:00"),
-    endDate: new Date("2024-07-28T03:00:00+02:00"),
+    startDate: new Date("2025-07-25T15:00:00+02:00"),
+    endDate: new Date("2025-07-27T03:00:00+02:00"),
     location: "Cihelka, Hlinsko v Čechách",
-    description: "Letní hudební festival Studnice Fest je opět tu! V Hlinsku v Čechách se potkáme 26. - 27. 7. 2024",
+    description: "Letní hudební festival Studnice Fest je opět tu! V Hlinsku v Čechách se potkáme 25. - 26. 7. 2025",
     artists: [
       "vypsana-fixa",
       "noha",
