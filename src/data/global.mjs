@@ -3,7 +3,8 @@ import * as transducers from "@thi.ng/transducers";
 
 export default {
   meta: {
-    title: "Studnice fest"
+    title: "Studnice fest",
+    url: "https://www.studnicefest.cz/"
   },
   title: "STUDNICE FEST 2024",
   event: {

@@ -1,5 +1,4 @@
 {% extends 'layouts/master.njk' %}
-
 {% set title = "Důležité informace" %}
 
 {% block head_preconnect %}
@@ -53,7 +52,7 @@
         {% markdown "informace/text.md" %}
       </article>
       <aside>
-        <nav>
+        <nav aria-label="Obsah stránky">
           <ol>
             <li><a href="#podrobněji-ke-vstupenkám">Podrobněji ke vstupenkám</a></li>
             <li><a href="#doprava">Doprava</a></li>

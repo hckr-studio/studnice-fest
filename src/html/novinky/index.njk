@@ -1,5 +1,4 @@
 {% extends 'layouts/master.njk' %}
-
 {% set title = "Novinky" %}
 
 {% block head_stylesheets %}
@@ -59,16 +58,12 @@
       }
     }
 
-
     .article-list {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
       grid-template-rows: auto;
+      grid-template-rows: masonry;
       gap: 1em;
-
-      @supports (grid-template-rows: masonry) {
-        grid-template-rows: masonry;
-      }
     }
   </style>
 {% endblock %}
