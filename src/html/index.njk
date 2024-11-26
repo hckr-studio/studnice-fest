@@ -15,10 +15,7 @@
 
 {% block content %}
   <div class="hero" id="header">
-    <hgroup>
-      <h2>18. ročník</h2>
-      <p>#vidimesevlese</p>
-    </hgroup>
+    <hgroup></hgroup>
     <section>
       <ol>
         {% for key in event.artists %}
@@ -26,6 +23,7 @@
           <li><a href="#{{ key }}">{{ artist.title }}</a></li>
         {% endfor %}
       </ol>
+      <p>#vidimesevlese</p>
       <div>
         <a href="{{ tickets.url }}" class="cta">Koupit si vstupenky</a>
       </div>
