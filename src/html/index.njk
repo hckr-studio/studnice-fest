@@ -69,7 +69,7 @@
     </section>
     <section class="artists-list" id="vystoupi">
       <header id="bands">
-        <h2>Na 18. ročníku vystoupí</h2>
+        <h2>Na 18. ročníku vystoupili</h2>
       </header>
       {% set tss = timeslots(schedule) %}
       {% for key in event.artists %}
@@ -109,39 +109,6 @@
             </div>
           {% endfor %}
         {% endfor %}
-        {#
-        <div class="tickets__item tickets__item--disabled">
-          <h3>2.&nbsp;vlna vstupenek</h3>
-          <p>2-denní</p>
-          <p>640&nbsp;Kč</p>
-          <a href="" class="button">Vyprodáno</a>
-        </div>
-        <div class="tickets__item  tickets__item--disabled">
-          <h3>3.&nbsp;vlna vstupenek</h3>
-          <p>2-denní</p>
-          <p>740&nbsp;Kč</p>
-          <a href="" class="button">Vyprodáno</a>
-        </div>
-        <div class="tickets__item">
-          <h3>4.&nbsp;vlna vstupenek</h3>
-          <p>1-denní</p>
-          <p>690&nbsp;Kč</p>
-          <a href="https://goout.net/cs/listky/studnice-fest-2024/ayit/" class="button">Koupit</a>
-        </div>
-        <div class="tickets__item">
-          <h3>4.&nbsp;vlna vstupenek</h3>
-          <p>2-denní</p>
-          <p>790&nbsp;Kč</p>
-          <a href="https://goout.net/cs/listky/studnice-fest-2024/ayit/" class="button">Koupit</a>
-        </div>
-        <div class="tickets__item tickets__item--onsite">
-          <h3>Na místě</h3>
-          <p>1-denní</p>
-          <p>850&nbsp;Kč</p>
-          <p>2-denní</p>
-          <p>990&nbsp;Kč</p>
-        </div>
-        #}
       </div>
 
       <div class="tickets__free">
@@ -149,6 +116,7 @@
         <p>Děti do 150cm, obyvatelé Studnice a ZTP</p>
       </div>
     </section>
+    {#
     <section class="lineup" id="harmonogram">
       <header>
         <h2>Časový harmonogram</h2>
@@ -178,5 +146,6 @@
         </div>
       </div>
     </section>
+    #}
   </main>
 {% endblock %}
