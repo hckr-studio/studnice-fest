@@ -1,5 +1,5 @@
 import DefaultRegistry from "undertaker-registry";
-import projectPath from "@hckr_/blendid/lib/projectPath.mjs.mjs";
+import projectPath from "@hckr_/blendid/lib/projectPath.mjs";
 import logger from "fancy-log";
 import { join } from "node:path";
 import { mkdir, writeFile } from "node:fs/promises";

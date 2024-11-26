@@ -27,6 +27,11 @@ export default {
     "dest": "assets/img"
   },
 
+  "cloudflare": {
+    "src": "cloudflare",
+    "dest": ""
+  },
+
   "cloudinary": {
     "src": "cloudinary",
     "dest": ""

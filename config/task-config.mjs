@@ -4,6 +4,7 @@ import { NewsRegistry } from "./news-registry.mjs";
 
 export default {
   images: true,
+  cloudflare: true,
   cloudinary: true,
   fonts: true,
   static: true,
@@ -22,7 +23,7 @@ export default {
       mergeOptions: {
         concatArrays: true,
         edit(json) {
-          return { [json.filename.split(".").shift()]: json };
+          return { [json.filename.split(".").at(0)]: json };
         }
       }
     }]
@@ -37,14 +38,6 @@ export default {
     server: {
       baseDir: pathConfig.dest
     }
-  },
-
-  workboxBuild: {
-    globDirectory: pathConfig.dest,
-    globPatterns: ["**/*.{html,json,js,css,png,jpg,gif,svg}"],
-    // Create service-worker.js source file and define `swSrc` to use `injectManifest` method
-    // swSrc: `${pathConfig.src}/sw.js`,
-    swDest: `${pathConfig.dest}/sw.prod.js`
   },
 
   production: {
