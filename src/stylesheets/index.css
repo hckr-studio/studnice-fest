@@ -39,6 +39,22 @@
 
   --trees: asset-url("images", "trees.svg");
 
+  /* layout measures */
+  --root: clamp(max(1em, 20px), 1.2em + 0.5vw, 2em);
+  --line-height: 1.5;
+  --smaller: 0.8em;
+  --line: calc(1rem * var(--line-height));
+  --measure: 84ch;
+  --gap: 1rem;
+  --half-gap: calc(var(--gap) / 2);
+  --shim: calc(var(--gap) / 4);
+  --half-shim: calc(var(--shim) / 2);
+  --spacer: clamp(
+    var(--gap) * 1.5,
+    var(--gap) + 4vw,
+    min(var(--gap) * 6, 20vmin)
+  );
+
   font-size: 100%;
   color-scheme: light dark;
   accent-color: var(--accent-color);
@@ -49,6 +65,57 @@
   :root {
     --background-color: #1E1E1E;
     --text-color: #fff;
+  }
+}
+
+@view-transition {
+  navigation: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition {
+    navigation: auto;
+  }
+
+  /* enable transitions */
+  [popover], dialog, ::backdrop {
+    transition: display 300ms allow-discrete,
+    overlay 300ms allow-discrete,
+    opacity 300ms;
+    opacity: 0;
+  }
+
+  /* IN */
+  :popover-open,
+  :popover-open::backdrop,
+  [open],
+  [open]::backdrop {
+    opacity: 1;
+  }
+
+  /* OUT */
+  @starting-style {
+    :popover-open,
+    :popover-open::backdrop,
+    [open],
+    [open]::backdrop {
+      opacity: 0;
+    }
+  }
+}
+
+html {
+  --margin: var(--gap, 1em);
+  --inset: var(--gap, 1em);
+  --outset: 0px;
+
+  block-size: 100%;
+}
+
+@media (min-width: 40em) {
+  html {
+    --margin: var(--spacer, 2em);
+    --outset: calc(var(--inset) * -1);
   }
 }
 
@@ -74,6 +141,40 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: geometricPrecision;
+  scroll-behavior: smooth;
+}
+
+body {
+  --wide: 100vw - 30em;
+
+  box-sizing: border-box;
+  min-block-size: 100%;
+  container-type: inline-size;
+
+  display: grid;
+  row-gap: var(--spacer);
+  grid-template-columns:
+    [full-start] var(--margin)
+    [page-start] minmax(0, 0.5fr)
+    [extra-start] minmax(0, 1fr)
+    [wide-start] minmax(0, clamp(0px, var(--wide), var(--spacer, 3em)))
+    [main-start] minmax(12ch, var(--measure))
+    [main-end] minmax(0, clamp(0px, var(--wide), var(--gap, 1em)))
+    [wide-end] minmax(0, 1fr)
+    [extra-end] minmax(0, 0.5fr)
+    [page-end] var(--margin)
+    [full-end];
+}
+
+:where(body) > * {
+  grid-column: var(--body-column, wide);
+  margin-block: 0;
+}
+
+@media (max-width: 30em) {
+  body {
+    overflow-wrap: break-word;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -141,22 +242,34 @@ a.cta {
 
 main, section, body > header, body > footer {
   scroll-margin-block-start: 5em;
-  max-width: 61.25em;
-  margin: 0 auto;
-  @media screen and (max-width: 840px) {
-    margin: 0 8px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: subgrid;
+
+  > * {
+    grid-column: var(--main-column, main);
   }
 }
 
 body > header {
   --logo-color: var(--text-color);
-  display: flex;
-  gap: 0.5em;
-  align-items: center;
-  justify-content: space-between;
+  --body-column: full;
+  grid-row: 1;
+  place-self: start stretch;
+
   position: sticky;
   inset-block-start: -1px;
   z-index: 1000;
+
+  display: grid;
+  grid-template-columns: inherit;
+  align-items: center;
+
+  > * {
+    grid-row: 1;
+  }
 
   &.is-pinned {
     --text-color: revert;
@@ -171,10 +284,16 @@ body > header {
   h1 {
     line-height: 1;
     margin: 0.25em 0;
+    grid-column: extra;
+    width: max-content;
   }
 
   h1 svg {
     width: auto;
+  }
+
+  div {
+    grid-column: main;
   }
 
   p {
@@ -182,8 +301,10 @@ body > header {
   }
 
   nav {
-    text-align: right;
-    width: clamp(94px, 4.0417rem + 6.1111vw, 116px);
+    grid-column: extra;
+    place-self: end;
+    width: max-content;
+    height: 70%;
 
     button {
       display: inline-flex;
@@ -279,21 +400,30 @@ section p {
 }
 
 .hero {
+  --body-column: full;
+  grid-row: 1;
   --text-color: white;
+  --hero-bg-medium: image-set(
+    cloudinary-url("hero-bg.jpg", '{"dpr": 1}') 1x,
+    cloudinary-url("hero-bg.jpg", '{"dpr": 1.5}') 1.5x,
+    cloudinary-url("hero-bg.jpg", '{"dpr": 2}') 2x
+  );
+  /* TODO: mobile and wide sizes */
+  --hero-bg: var(--hero-bg-medium);
+
   color: var(--text-color);
   text-align: center;
   text-transform: uppercase;
   text-shadow: 1px 1px #333;
-  translate: 0 -5em;
-  padding: 6em clamp(1em, -0.3333rem + 4.4444vw, 2em) calc(200px + clamp(2em, 0rem + 6.6667vw, 6em));
-  background: #1E1E1E image-set(
-    cloudinary-url("hero-bg.jpg", '{"dpr": 1}') 1x,
-    cloudinary-url("hero-bg.jpg", '{"dpr": 1.5}') 1.5x,
-    cloudinary-url("hero-bg.jpg", '{"dpr": 2}') 2x
-  ) no-repeat;
+  background: #1E1E1E var(--hero-bg) no-repeat;
   background-position: center top;
   background-size: cover;
-  position: relative;
+
+  display: grid;
+  gap: 2em;
+
+  height: 100svh;
+  height: 100cqh;
 
   p {
     font-family: var(--accented-font);
@@ -307,19 +437,18 @@ section p {
     max-width: 30ch;
     text-wrap: balance;
     list-style-type: none;
-    font: 600 clamp(1.25rem, -0.4167rem + 5.5556vw, 2.5rem)/1.25 var(--accented-font);
+    font: 600 clamp(1.75rem, -0.4167rem + 5.5556vw, 2.5rem)/1.25 var(--accented-font);
 
     li {
       display: inline;
       line-break: strict;
 
       &[data-level="1"] {
-        font-size: larger;
-        font-weight: 800;
+        font-size: 1.45em;
       }
 
       &[data-level="3"] {
-        font-size: smaller;
+        font-size: 0.75em;
         font-weight: 500;
       }
     }
@@ -453,6 +582,7 @@ section p {
 
 .artists-list {
   --columns: 2;
+  --colspan: 1;
 
   container-type: inline-size;
   display: grid;
@@ -461,6 +591,7 @@ section p {
 
   @media screen and (min-width: 481px) {
     --columns: 4;
+    --colspan: 2;
   }
   @media screen and (min-width: 840px) {
     --columns: 6;
@@ -475,7 +606,7 @@ section p {
   }
 
   article {
-    grid-column: span 2;
+    grid-column: span var(--colspan);
 
     scroll-margin-block-start: 5em;
     border-radius: var(--corner-radius);
@@ -486,6 +617,10 @@ section p {
 
     &:target {
       border: 1px solid var(--accent3-color);
+    }
+
+    &[data-level="1"] {
+      --colspan: 2;
     }
 
     h3 {
@@ -685,17 +820,25 @@ section p {
 }
 
 body > footer {
+  --body-column: full;
   background-image: radial-gradient(#E8FFE5, #A1F9FF);
   background-image: radial-gradient(light-dark(#E8FFE5, #747e72), light-dark(#A1F9FF, #567b7e));
   max-width: 100%;
   padding-block-start: 2em;
   margin-block-start: 4em;
+  display: grid;
+  grid-template-columns: subgrid;
+
+  > * {
+    grid-column: var(--footer-column, extra);
+  }
 
   > p {
     text-align: center;
   }
 
   &:after {
+    grid-column: full;
     content: "";
     display: block;
     width: 100%;
@@ -712,6 +855,7 @@ body > footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(14em, 1fr));
   gap: 1em;
+
 
   h2:first-of-type, h3:first-of-type {
     text-align: left;
@@ -796,6 +940,7 @@ body > footer {
 
 #vstupenky,
 #informace-a-upozorneni {
+  --main-column: wide;
   --background-image: asset-url("images", "wood.svg");
 
   max-width: 100%;

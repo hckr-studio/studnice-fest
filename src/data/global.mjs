@@ -7,6 +7,9 @@ export default {
     title: "Studnice fest",
     url: "https://www.studnicefest.cz/"
   },
+  hero: {
+    heading: ""
+  },
   tickets: {
     url: "https://tickets.nfctron.com/event/eupathia/studnice-fest-2025",
     currentWave: 1,
