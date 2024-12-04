@@ -96,18 +96,21 @@
       <div class="tickets__list">
         {% for wave, items in tickets.waves %}
           {% set isCurrentWave = (tickets.currentWave == wave) %}
-          {% for ticket in items %}
-            <div class="tickets__item {{ "tickets__item--disabled" if not isCurrentWave }}">
-              <h3>{{ wave }}.&nbsp;vlna vstupenek</h3>
-              <p>{{ ticket.days }}-denní</p>
-              <p>{{ ticket.price }}&nbsp;Kč</p>
-              {% if isCurrentWave %}
-                <a href="{{ tickets.url }}" class="button">Koupit</a>
-              {% else %}
-                <a href="" class="button">Vyprodáno</a>
-              {% endif %}
-            </div>
-          {% endfor %}
+          {% if wave <= tickets.currentWave %}
+            {# show only past and current waves #}
+            {% for ticket in items %}
+              <div class="tickets__item {{ "tickets__item--disabled" if not isCurrentWave }}">
+                <h3>{{ wave }}.&nbsp;vlna vstupenek</h3>
+                <p>{{ ticket.days }}-denní</p>
+                <p>{{ ticket.price }}&nbsp;Kč</p>
+                {% if isCurrentWave %}
+                  <a href="{{ tickets.url }}" class="button">Koupit</a>
+                {% else %}
+                  <a href="" class="button">Vyprodáno</a>
+                {% endif %}
+              </div>
+            {% endfor %}
+          {% endif %}
         {% endfor %}
       </div>
 
