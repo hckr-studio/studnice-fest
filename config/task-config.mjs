@@ -31,7 +31,7 @@ export default {
 
   html: {
     dataFile: "global.mjs",
-    collections: ["news", "artists", "schedule", "images"],
+    collections: ["news", "artists", "images"],
   },
 
   browserSync: {

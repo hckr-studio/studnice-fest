@@ -20,7 +20,9 @@
       <ol>
         {% for key in event.artists %}
           {% set artist = artists[key] %}
-          <li><a href="#{{ key }}">{{ artist.title }}</a></li>
+          {% if artist.heroLevel %}
+            <li data-level="{{ artist.heroLevel }}"><a href="#{{ key }}">{{ artist.title }}</a></li>
+          {% endif %}
         {% endfor %}
       </ol>
       <p>#vidimesevlese</p>
@@ -71,11 +73,11 @@
       <header id="bands">
         <h2>Na 18. ročníku vystoupili</h2>
       </header>
-      {% set tss = timeslots(schedule) %}
+      {% set tss = timeslots(lineup) %}
       {% for key in event.artists %}
         {% set artist = artists[key] %}
         {% set image = images["artists/" + artist.image]["public_id"] %}
-        {% set ts = tss.get(artist.filename.split(".").at(0)) %}
+        {% set ts = tss.get(key) %}
         <article class="artists-list__item" id="{{ key }}">
           <h3>{{ artist.title }}</h3>
           <img src="{{ image | cloudinaryUrl() }}" alt="{{ artist.title }}" width="296" height="296" loading="lazy"
@@ -119,36 +121,37 @@
         <p>Děti do 150cm, obyvatelé Studnice a ZTP</p>
       </div>
     </section>
-    {#
-    <section class="lineup" id="harmonogram">
-      <header>
-        <h2>Časový harmonogram</h2>
-      </header>
-      <p>Hudební produkce bude probíhat na třech jevištích&nbsp;&ndash; hlavní stage,
-        stage „Na Vyhlídce“ a dětský&nbsp;stan.</p>
-      <div class="lineup__days">
-        <div>
-          <h3>Pátek 26. 7.</h3>
-          {% for item in schedule.friday %}
-            <div class="lineup__item">
-              <time datetime="2024-07-26T{{ item.time }}:00.000+02:00">{{ item.time }}</time>
-              <strong>{{ item.title }}</strong>
+
+    {% if lineup.visible %}
+      <section class="lineup" id="harmonogram">
+        <header>
+          <h2>Časový harmonogram</h2>
+        </header>
+        <p>Hudební produkce bude probíhat na třech jevištích&nbsp;&ndash; hlavní stage,
+          stage „Na Vyhlídce“ a dětský&nbsp;stan.</p>
+        <div class="lineup__days">
+          {% macro lineupItem(item) %}
+            {% set artist = artists[item.slug] %}
+            <div class="lineup__item" data-artist-id="{{ item.slug }}">
+              <time datetime="{{ item.date }}T{{ item.time }}:00.000+02:00">{{ item.time }}</time>
+              <strong>{{ artist.title or item.title }}</strong>
               <small class="{{ item.stage }}">{{ event.stages[item.stage] }}</small>
             </div>
-          {% endfor %}
+          {% endmacro %}
+          <div>
+            <h3>{{ lineup.friday.title }}</h3>
+            {% for item in lineup.friday.schedule %}
+              {{ lineupItem(item) }}
+            {% endfor %}
+          </div>
+          <div>
+            <h3>{{ lineup.saturday.title }}</h3>
+            {% for item in lineup.saturday.schedule %}
+              {{ lineupItem(item) }}
+            {% endfor %}
+          </div>
         </div>
-        <div>
-          <h3>Sobota 27. 7.</h3>
-          {% for item in schedule.saturday %}
-            <div class="lineup__item">
-              <time datetime="2024-07-27T{{ item.time }}:00.000+02:00">{{ item.time }}</time>
-              <strong>{{ item.title }}</strong>
-              <small class="{{ item.stage }}">{{ event.stages[item.stage] }}</small>
-            </div>
-          {% endfor %}
-        </div>
-      </div>
-    </section>
-    #}
+      </section>
+    {% endif %}
   </main>
 {% endblock %}

@@ -96,8 +96,8 @@ hr {
 /* enable transitions */
 [popover], dialog, ::backdrop {
   transition: display 300ms allow-discrete,
-    overlay 300ms allow-discrete,
-    opacity 300ms;
+  overlay 300ms allow-discrete,
+  opacity 300ms;
   opacity: 0;
 }
 
@@ -184,6 +184,7 @@ body > header {
   nav {
     text-align: right;
     width: clamp(94px, 4.0417rem + 6.1111vw, 116px);
+
     button {
       display: inline-flex;
       align-items: center;
@@ -280,7 +281,8 @@ section p {
 .hero {
   --text-color: white;
   color: var(--text-color);
-  text-align: center;    text-transform: uppercase;
+  text-align: center;
+  text-transform: uppercase;
   text-shadow: 1px 1px #333;
   translate: 0 -5em;
   padding: 6em clamp(1em, -0.3333rem + 4.4444vw, 2em) calc(200px + clamp(2em, 0rem + 6.6667vw, 6em));
@@ -293,29 +295,6 @@ section p {
   background-size: cover;
   position: relative;
 
-  &:after {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 0;
-    height: 200px;
-    background-image: var(--trees);
-    background-repeat: repeat-x;
-    background-size: contain;
-    background-position: bottom center;
-  }
-
-  hgroup {
-    margin-bottom: 4em;
-  }
-  hgroup>h2 {
-    margin-bottom: 0;
-  }
-  hgroup>p {
-    margin-top: 0;
-  }
   p {
     font-family: var(--accented-font);
     font-weight: 700;
@@ -323,25 +302,39 @@ section p {
 
   ol {
     display: block;
-    margin: 0 0 1em;
+    margin: 2em auto;
     padding: 0;
+    max-width: 30ch;
     text-wrap: balance;
     list-style-type: none;
     font: 600 clamp(1.25rem, -0.4167rem + 5.5556vw, 2.5rem)/1.25 var(--accented-font);
 
-    > li {
-      display: inline-block
+    li {
+      display: inline;
+      line-break: strict;
+
+      &[data-level="1"] {
+        font-size: larger;
+        font-weight: 800;
+      }
+
+      &[data-level="3"] {
+        font-size: smaller;
+        font-weight: 500;
+      }
     }
 
-    > li::after {
+    li[data-level="2"] + li[data-level="2"]::before,
+    li[data-level="3"] + li[data-level="3"]::before {
       content: "•";
-      display: inline-block;
-      padding: 0 0.25em;
+      display: inline;
+      padding-inline: 0.25em 0.4em;
     }
 
-    > li:last-of-type::after {
-      content: none;
-      display: none;
+    li[data-level="1"] + li[data-level="2"]::before,
+    li[data-level="2"] + li[data-level="3"]::before {
+      content: "\a";
+      white-space: pre;
     }
 
     a {
@@ -349,8 +342,8 @@ section p {
       text-decoration: none;
       text-decoration-thickness: 0;
       transition: color 300ms ease-in,
-        text-decoration 300ms allow-discrete,
-        text-decoration-thickness 300ms ease-in;
+      text-decoration 300ms allow-discrete,
+      text-decoration-thickness 300ms ease-in;
     }
 
     a:hover, a:focus {
@@ -783,8 +776,8 @@ body > footer {
     text-decoration: none;
     text-decoration-thickness: 0;
     transition: color 300ms ease-in,
-      text-decoration 300ms allow-discrete,
-      text-decoration-thickness 300ms ease-in;
+    text-decoration 300ms allow-discrete,
+    text-decoration-thickness 300ms ease-in;
   }
 
   a:hover {
@@ -817,6 +810,7 @@ body > footer {
   @media (prefers-color-scheme: dark) {
     --background-image: asset-url("images", "wood-dark.svg");
   }
+
   h2 {
     color: var(--accent3-color);
     @media (prefers-color-scheme: dark) {
