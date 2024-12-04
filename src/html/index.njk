@@ -73,7 +73,7 @@
     </section>
     <section class="artists-list" id="vystoupi">
       <header id="bands">
-        <h2>Na 18. ročníku vystoupili</h2>
+        <h2>{{ lineup.heading }}</h2>
       </header>
       {% set tss = timeslots(lineup) %}
       {% for key in event.artists %}
@@ -88,8 +88,7 @@
       {% endfor %}
     </section>
     <section id="vstupenky">
-      <a name="info"></a>
-      <header>
+      <header id="info">
         <h2>Vstupenky</h2>
       </header>
       <p>Vstupenky budou pravděpodobně dostupné i&nbsp;na místě, nicméně kapacita

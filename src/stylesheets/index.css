@@ -940,7 +940,6 @@ body > footer {
 
 #vstupenky,
 #informace-a-upozorneni {
-  --main-column: wide;
   --background-image: asset-url("images", "wood.svg");
 
   max-width: 100%;
