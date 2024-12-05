@@ -485,6 +485,11 @@ section p {
       }
     }
   }
+
+  .cta {
+    font-size: larger;
+    text-shadow: none;
+  }
 }
 
 .smap {
