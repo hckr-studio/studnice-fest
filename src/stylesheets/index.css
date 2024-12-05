@@ -247,7 +247,7 @@ main, section, body > header, body > footer {
 main {
   display: grid;
   grid-template-columns: subgrid;
-  gap: 4em;
+  row-gap: 4em;
 
   > * {
     grid-column: var(--main-column, main);
