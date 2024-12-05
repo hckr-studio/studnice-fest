@@ -59,6 +59,7 @@ export class NewsRegistry extends DefaultRegistry {
           item.image = `news/${fileName}`;
           const data = Buffer.from(await resp.arrayBuffer());
           if (data.toString() == "URL signature expired") {
+            console.warn("URL signature expired", { url: url.href });
             // skip expired images
             continue;
           }
