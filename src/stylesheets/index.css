@@ -274,12 +274,8 @@ body > header {
 
   &.is-pinned {
     --text-color: revert;
-    background-color: var(--background-color);
-    border-image-outset: 0 100vw;
-    border-image-slice: 0 fill;
-    border-image-width: 0;
-    border-image-repeat: stretch;
-    border-image-source: linear-gradient(0deg, var(--background-color), var(--background-color));
+    background-color: color-mix(in srgb, var(--background-color), transparent 15%);
+    backdrop-filter: blur(4px);
   }
 
   h1 {
@@ -305,7 +301,7 @@ body > header {
     grid-column: extra;
     place-self: end;
     width: max-content;
-    height: 70%;
+    height: 75%;
 
     button {
       display: inline-flex;
