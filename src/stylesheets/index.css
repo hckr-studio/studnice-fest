@@ -628,7 +628,7 @@ section p {
     h3 {
       font-size: 1.75em;
       font-weight: 700;
-      line-height: 1.75;
+      line-height: 1.25;
       text-transform: uppercase;
       text-shadow: 1px 1px #333;
       text-align: center;
@@ -637,7 +637,9 @@ section p {
       color: #fff;
       margin: 0;
       grid-area: 1/1;
-      width: 100%;
+      width: calc(100% - 2em);
+      padding-inline: 1em;
+      padding-block: 0.25em;
       z-index: 10;
       place-self: end center;
     }

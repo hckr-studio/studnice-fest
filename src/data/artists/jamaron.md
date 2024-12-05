@@ -1,5 +1,5 @@
 ---
-image: jamaron.jpg
+image: jamaron.avif
 heroLevel: 3
 ---
 
