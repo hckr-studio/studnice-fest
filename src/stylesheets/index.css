@@ -421,7 +421,7 @@ section p {
   background-size: cover;
 
   display: grid;
-  gap: 2em;
+  row-gap: 2em;
 
   min-height: 100svh;
   min-height: 100cqh;
