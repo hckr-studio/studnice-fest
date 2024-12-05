@@ -826,8 +826,7 @@ section p {
 
 body > footer {
   --body-column: full;
-  background-image: radial-gradient(#E8FFE5, #A1F9FF);
-  background-image: radial-gradient(light-dark(#E8FFE5, #747e72), light-dark(#A1F9FF, #567b7e));
+  background-color: var(--blue-background-color);
   max-width: 100%;
   padding-block-start: 2em;
   display: grid;
