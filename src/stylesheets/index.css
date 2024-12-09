@@ -415,6 +415,7 @@ section p {
 
   display: grid;
   row-gap: 2em;
+  padding-inline: 1em;
 
   min-height: 100svh;
   min-height: 100cqh;
@@ -425,14 +426,16 @@ section p {
   }
 
   ol {
-    zoom: 1.2;
     display: block;
-    margin: 2em auto;
+    margin-block: 2em;
     padding: 0;
     max-width: 30ch;
     text-wrap: balance;
     list-style-type: none;
-    font: 600 clamp(1.75rem, -0.4167rem + 5.5556vw, 2.5rem)/1.25 var(--accented-font);
+    font-family: var(--accented-font);
+    line-height: 1.25;
+    font-weight: 600;
+    font-size: clamp(1.75rem, 6vw, 3rem);
 
     li {
       display: inline;
