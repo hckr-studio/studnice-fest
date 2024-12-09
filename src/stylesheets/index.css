@@ -23,9 +23,13 @@
   --corner-radius: 15px;
 
   --background-color: #fff;
+  --background-color: light-dark(#fff, #1E1E1E);
   --text-color: #000;
+  --text-color: light-dark(#000, #fff);
 
-  --blue-background-color: #dbedfb;
+  --blue-background-color: oklch(94% 2.7% 241);
+  --light-blue-background-color: oklch(98% 2.7% 241);
+  --dark-blue-background-color: oklch(30% 2.7% 241);
   --blue-background-color: light-dark(#dbedfb, #4b4d4f);
 
   --accent-color: oklch(60% 0.155 147);
@@ -59,13 +63,6 @@
   color-scheme: light dark;
   accent-color: var(--accent-color);
   interpolate-size: allow-keywords;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background-color: #1E1E1E;
-    --text-color: #fff;
-  }
 }
 
 @view-transition {
@@ -127,7 +124,7 @@ body {
 
 body {
   color: var(--text-color);
-  background-color: var(--background-color);
+  background-color: light-dark(var(--light-blue-background-color), var(--dark-blue-background-color));
   font-family: var(--main-font);
   letter-spacing: 0;
   line-height: 1.5;
