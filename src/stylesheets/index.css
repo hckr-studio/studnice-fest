@@ -428,6 +428,7 @@ section p {
   ol {
     display: block;
     margin-block: 2em;
+    margin-inline: auto;
     padding: 0;
     max-width: 30ch;
     text-wrap: balance;
