@@ -534,12 +534,10 @@ section p {
       container-type: inline-size;
       display: grid;
       grid-auto-flow: row;
-      filter: saturate(0.3);
-      transition: filter 200ms ease-in-out;
       text-decoration: none;
 
       &:hover {
-        filter: saturate(1);
+        text-decoration: underline;
       }
     }
 
@@ -549,7 +547,6 @@ section p {
       height: auto;
       border-radius: var(--border-radius);
       clip-path: xywh(0 0 100% 92% round var(--border-radius));
-      z-index: -1;
       order: 1;
     }
 
