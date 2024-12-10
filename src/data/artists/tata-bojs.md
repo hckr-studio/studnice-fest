@@ -1,6 +1,6 @@
 ---
 image: tata-bojs.jpg
-heroLevel: 2
+heroLevel: 1
 ---
 
 # Tata Bojs
