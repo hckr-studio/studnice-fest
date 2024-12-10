@@ -1,6 +1,6 @@
 ---
 image: skyline.jpg
-heroLevel: 3
+heroLevel: 2
 ---
 
 # Skyline
