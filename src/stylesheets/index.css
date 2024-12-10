@@ -765,8 +765,10 @@ section p {
     &.tickets__item--disabled {
       filter: saturate(0);
 
-      a.button {
+      a {
         pointer-events: none;
+      }
+      .button {
         opacity: 0.3;
       }
     }
@@ -790,6 +792,10 @@ section p {
       font-weight: bold;
       line-height: 2;
       text-transform: none;
+    }
+
+    a:any-link {
+      text-decoration: none;
     }
 
     .button {
