@@ -20,8 +20,10 @@ export default {
       1: [{ days: 2, price: 590 }],
       2: [{ days: 2, price: 690 }],
       3: [{ days: 2, price: 790 }],
-      4: [{ days: 1, price: 790 }, { days: 2, price: 890 }],
-      onsite: [{ days: 2, price: 850 },{ days: 2, price: 990 }],
+      4: [{ days: 2, price: 890 }],
+      5: [{ days: 2, price: 990 }],
+      6: [{ days: 1, price: 790 }, { days: 2, price: 1090 }],
+      onsite: [{ days: 1, price: 950 },{ days: 2, price: 1190 }],
     },
   },
   event: {
@@ -31,12 +33,8 @@ export default {
     location: "Cihelka, Hlinsko v Čechách",
     description: "Letní hudební festival Studnice Fest je opět tu! V Hlinsku v Čechách se potkáme 25. - 26. 7. 2025",
     artists: [
-      "the-subways",
       "tata-bojs",
-      "pokac",
       "skyline",
-      "the-prostitutes",
-      "fast-food-orchestra",
       "jamaron",
       "mucha",
       "dukla-vozovna"
