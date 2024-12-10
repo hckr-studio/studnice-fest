@@ -74,7 +74,7 @@
   <main>
     <h2>Novinky</h2>
     <div class="article-list">
-      {% for post in news %}
+      {% for post in filterNews(news) %}
         {% set image = images[post.image] %}
         <article id="{{ post.time }}"
                  class="{{ "has-image" if image }} {{ "has-long-text" if post.text.length > 200 }} {{ "has-xlong-text" if post.text.length > 400 }}">

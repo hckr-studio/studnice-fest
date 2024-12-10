@@ -10,6 +10,9 @@ export default {
   hero: {
     heading: ""
   },
+  newsList: {
+    exclude: ["https://www.facebook.com/100063521171808/posts/1029078449219518"]
+  },
   tickets: {
     url: "https://tickets.nfctron.com/event/eupathia/studnice-fest-2025",
     currentWave: 2, //"onsite",
@@ -83,6 +86,10 @@ export default {
   timeslots,
   formatDate,
   formatTime,
+  filterNews(news) {
+    const excluded = new Set(this.ctx.newsList.exclude);
+    return news.filter(({url}) => !excluded.has(url));
+  },
   transducers
 }
 

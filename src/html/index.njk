@@ -38,7 +38,7 @@
       <header id="news">
         <h2>Novinky</h2>
       </header>
-      {% for post in transducers.take(5, news) %}
+      {% for post in transducers.take(5, filterNews(news)) %}
         {% set image = images[post.image] %}
         <article>
           <a href="/novinky/#{{ post.time }}">
