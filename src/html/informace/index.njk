@@ -60,7 +60,7 @@
       aspect-ratio: 1.91;
       background-image:
         linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.0) 33%),
-        url("{{"info-bg.jpg" | cloudinaryUrl() }}");
+        url("{{ images["info-bg.jpg"].public_id | cloudinaryUrl() }}");
       background-repeat: no-repeat;
       background-size: cover;
       padding-inline: 2em;

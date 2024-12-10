@@ -44,7 +44,8 @@
           <a href="/novinky/#{{ post.time }}">
             <time datetime="{{ post.time }}">{{ formatDate(post.time) }}</time>
             {% if image %}
-              <img alt="" width="462" height="462" loading="lazy" sizes="(min-width: 840px) 462px, 88.43vw"
+              <img alt="" width="462" height="462" loading="lazy"
+                   sizes="(min-width: 840px) 462px, 88.43vw"
                    src="{{ image["public_id"] | cloudinaryUrl({ crop: 'fill', ar: 1.0 }) }}">
             {% endif %}
           </a>

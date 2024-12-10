@@ -565,7 +565,7 @@ section p {
       width: 100%;
       height: auto;
       border-radius: var(--border-radius);
-      clip-path: xywh(0 0 100% 92% round var(--border-radius));
+      clip-path: inset(0 0 8% 0 round var(--border-radius));
       order: 1;
     }
 
