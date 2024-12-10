@@ -23,7 +23,7 @@
         {% for key in event.artists %}
           {% set artist = artists[key] %}
           {% if artist.heroLevel %}
-            <li data-level="{{ artist.heroLevel }}"><a href="#{{ key }}">{{ artist.title }}</a></li>
+            <li data-level="{{ artist.heroLevel }}">{#<a href="#{{ key }}">#}{{ artist.title }}{#</a>#}</li>
           {% endif %}
         {% endfor %}
       </ol>
