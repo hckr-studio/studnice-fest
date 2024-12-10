@@ -82,7 +82,8 @@
         {% set ts = tss.get(key) %}
         <article class="artists-list__item" id="{{ key }}" data-level="{{ artist.heroLevel }}">
           <h3>{{ artist.title }}</h3>
-          <img src="{{ image | cloudinaryUrl(ar=1,crop="fill",gravity="auto") }}" alt="{{ artist.title }}" width="296" height="296" loading="lazy"
+          <img src="{{ image | cloudinaryUrl(ar=1,crop="fill",gravity="auto") }}" alt="{{ artist.title }}"
+               width="296" height="296" loading="lazy"
                sizes="(min-width: 840px) 296px, 88.43vw">
         </article>
       {% endfor %}
