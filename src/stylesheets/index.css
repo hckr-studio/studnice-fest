@@ -866,14 +866,17 @@ body > footer {
     text-align: center;
   }
 
-  &:after {
+  &::after {
     grid-column: full;
     content: "";
     display: block;
     width: 100%;
     height: 200px;
     background: var(--trees) repeat-x bottom center;
-    background-size: contain;
+    background-size: cover;
+    @media (min-width: 1024px) {
+      background-size: contain;
+    }
   }
 
   a:any-link {
