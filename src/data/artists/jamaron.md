@@ -1,6 +1,6 @@
 ---
 image: jamaron.avif
-heroLevel: 3
+heroLevel: 2
 ---
 
 # Jamaron
