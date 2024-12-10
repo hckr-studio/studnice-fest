@@ -1,6 +1,6 @@
 ---
 image: i-love-you-honey-bunny.jpg
-heroLevel: 2
+heroLevel: 3
 ---
 
 # I Love You Honey Bunny
