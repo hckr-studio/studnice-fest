@@ -37,7 +37,8 @@ export default {
       "skyline",
       "jamaron",
       "mucha",
-      "dukla-vozovna"
+      "dukla-vozovna",
+      "i-love-you-honey-bunny"
     ],
     stages: {
       main: "Hlavní stage",
