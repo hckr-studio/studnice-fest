@@ -1391,5 +1391,29 @@
     "existing": true,
     "api_key": "932534542617127",
     "original_filename": "469751242_120213992069290375_7372308395272107706_n"
+  },
+  "artists/i-love-you-honey-bunny.jpg": {
+    "asset_id": "07016e2043d19b18fd688af0bbc816e8",
+    "public_id": "artists/i-love-you-honey-bunny",
+    "version": 1733853750,
+    "version_id": "671ade41d878d3fb6699b06200212f74",
+    "signature": "3a4ec25e790ca43faf7a1ce3c61f54a8be233e61",
+    "width": 2048,
+    "height": 2048,
+    "format": "jpg",
+    "resource_type": "image",
+    "created_at": "2024-12-10T18:02:30Z",
+    "tags": [],
+    "bytes": 424539,
+    "type": "upload",
+    "etag": "6d9e927e203de0f9c74f84efb3be42fc",
+    "placeholder": false,
+    "url": "http://res.cloudinary.com/studnicefest/image/upload/v1733853750/artists/i-love-you-honey-bunny.jpg",
+    "secure_url": "https://res.cloudinary.com/studnicefest/image/upload/v1733853750/artists/i-love-you-honey-bunny.jpg",
+    "asset_folder": "artists",
+    "display_name": "i-love-you-honey-bunny",
+    "existing": false,
+    "original_filename": "i-love-you-honey-bunny",
+    "api_key": "932534542617127"
   }
 }
