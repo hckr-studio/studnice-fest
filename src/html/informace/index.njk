@@ -14,34 +14,59 @@
       gap: 1em;
       align-items: start;
     }
+
     .main aside {
       grid-area: aside;
       min-width: clamp(8rem, 2.6667rem + 17.7778vw, 12rem);
       font: clamp(1rem, 0.6667rem + 1.1111vw, 1.25rem) var(--accented-font);
     }
+
     .main article {
       background-color: var(--background-color);
       border-radius: var(--corner-radius);
       padding-inline: 1em;
     }
+
     @media screen and (min-width: 481px) {
       .main {
         grid-template: "aside article";
         grid-template-columns: clamp(8rem, 2.6667rem + 17.7778vw, 12rem) 1fr;
       }
+
       .main aside {
         position: sticky;
         top: 4em;
       }
     }
+
     .main aside ol {
       list-style-type: none;
       margin: 0.8em 0 0;
       padding: 0;
     }
+
     .main aside ol li {
       padding: 0.3em 0;
       text-wrap: balance;
+    }
+
+    main > hgroup {
+      grid-column: wide;
+      border-radius: var(--corner-radius);
+      display: flex;
+      flex-flow: column;
+      justify-content: flex-end;
+      aspect-ratio: 1.91;
+      background-image:
+        linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.0) 33%),
+        url("{{"info-bg.jpg" | cloudinaryUrl() }}");
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-inline: 2em;
+    }
+
+    main > hgroup > h2 {
+      margin-block: 0;
     }
   </style>
 {% endblock %}
@@ -65,7 +90,8 @@
             <li><a href="#platby-v-rámci-areálu">Platby v rámci areálu</a></li>
             <li><a href="#vstup-do-areálu">Vstup do areálu</a></li>
             <li><a href="#jídlo-a-pití">Jídlo a pití</a></li>
-            <li><a href="#stage-na-vyhlídce-dětský-stan-a-doprovodný-program">Stage Na vyhlídce, dětský stan a doprovodný program</a></li>
+            <li><a href="#stage-na-vyhlídce-dětský-stan-a-doprovodný-program">Stage Na vyhlídce, dětský stan a
+                doprovodný program</a></li>
             <li><a href="#počasí-a-koupání">Počasí a koupání</a></li>
             <li><a href="#mapa">Mapa</a></li>
           </ol>
@@ -86,61 +112,61 @@
 {% endblock %}
 
 {% block scripts %}
-<script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
-        integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin defer></script>
-<script type="module">
-  import {html} from "https://unpkg.com/uhtml@4.5.9/node.js";
+  <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+          integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin defer></script>
+  <script type="module">
+    import { html } from "https://unpkg.com/uhtml@4.5.9/node.js";
 
-  document.head.appendChild(html`
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
-        integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin>`);
+    document.head.appendChild(html`
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+            integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin>`);
 
-  const API_KEY = "S9n6dfE_8AfjsNvRxSwAmFV4-1z5tfk5W7IUajp2D3I";
-  const map = L.map("map", {
-    center: [49.752936007489765, 15.930369570851326],
-    zoom: 16
-  });
-  L.tileLayer(`https://api.mapy.cz/v1/maptiles/outdoor/256/{z}/{x}/{y}?apikey=${API_KEY}`, {
-    minZoom: 0,
-    maxZoom: 19,
-    detectRetina: true,
-    attribution: `<a href="https://api.mapy.cz/copyright" target="_blank">&copy; Seznam.cz a.s. a další</a>`,
-  }).addTo(map);
-  const LogoControl = L.Control.extend({
-    options: {position: "bottomleft"},
-    onAdd(map) {
-      return html`
-        <div>
-          <a href="https://mapy.cz/" target="_blank" @click=${e => e.stopPropagation()}>
-            <img alt="Mapy.cz" src="https://api.mapy.cz/img/api/logo.svg" loading="lazy"></a>
-        </div>
-      `;
-    },
-  })
-  new LogoControl().addTo(map);
-  const poiArealIcon = L.icon({
-    iconUrl: "{{ "poi-areal.svg" | assetUrl("images") }}",
-    iconSize: [37, 46],
-    iconAnchor: [18, 38],
-  });
-  L.marker([49.753234071335086, 15.930165722966194], {
-    alt: "A",
-    title: "Areál Cihelka",
-    icon: poiArealIcon
-  }).addTo(map);
+    const API_KEY = "S9n6dfE_8AfjsNvRxSwAmFV4-1z5tfk5W7IUajp2D3I";
+    const map = L.map("map", {
+      center: [49.752936007489765, 15.930369570851326],
+      zoom: 16
+    });
+    L.tileLayer(`https://api.mapy.cz/v1/maptiles/outdoor/256/{z}/{x}/{y}?apikey=${API_KEY}`, {
+      minZoom: 0,
+      maxZoom: 19,
+      detectRetina: true,
+      attribution: `<a href="https://api.mapy.cz/copyright" target="_blank">&copy; Seznam.cz a.s. a další</a>`,
+    }).addTo(map);
+    const LogoControl = L.Control.extend({
+      options: { position: "bottomleft" },
+      onAdd(map) {
+        return html`
+          <div>
+            <a href="https://mapy.cz/" target="_blank" @click=${e => e.stopPropagation()}>
+              <img alt="Mapy.cz" src="https://api.mapy.cz/img/api/logo.svg" loading="lazy"></a>
+          </div>
+        `;
+      },
+    })
+    new LogoControl().addTo(map);
+    const poiArealIcon = L.icon({
+      iconUrl: "{{ "poi-areal.svg" | assetUrl("images") }}",
+      iconSize: [37, 46],
+      iconAnchor: [18, 38],
+    });
+    L.marker([49.753234071335086, 15.930165722966194], {
+      alt: "A",
+      title: "Areál Cihelka",
+      icon: poiArealIcon
+    }).addTo(map);
 
-  const poiParkingIcon = L.icon({
-    iconUrl: "{{ "poi-parking.svg" | assetUrl("images") }}",
-    iconSize: [37, 46],
-    iconAnchor: [18, 38],
-  });
-  L.marker([49.7526861, 15.9341575], { alt: "P", title: "Parkoviště", icon: poiParkingIcon }).addTo(map);
+    const poiParkingIcon = L.icon({
+      iconUrl: "{{ "poi-parking.svg" | assetUrl("images") }}",
+      iconSize: [37, 46],
+      iconAnchor: [18, 38],
+    });
+    L.marker([49.7526861, 15.9341575], { alt: "P", title: "Parkoviště", icon: poiParkingIcon }).addTo(map);
 
-  const poiTentsIcon = L.icon({
-    iconUrl: "{{ "poi-tents.svg" | assetUrl("images") }}",
-    iconSize: [37, 46],
-    iconAnchor: [18, 38],
-  });
-  L.marker([49.7529775, 15.9336425], { alt: "S", title: "Stanování", icon: poiTentsIcon }).addTo(map);
-</script>
+    const poiTentsIcon = L.icon({
+      iconUrl: "{{ "poi-tents.svg" | assetUrl("images") }}",
+      iconSize: [37, 46],
+      iconAnchor: [18, 38],
+    });
+    L.marker([49.7529775, 15.9336425], { alt: "S", title: "Stanování", icon: poiTentsIcon }).addTo(map);
+  </script>
 {% endblock %}
