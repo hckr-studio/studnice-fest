@@ -16,6 +16,12 @@
   initial-value: initial;
 }
 
+@property --logo-color {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: unset;
+}
+
 :root {
   --main-font: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
   --accented-font: Dosis, system-ui, sans-serif;
@@ -252,7 +258,6 @@ main {
 }
 
 body > header {
-  --logo-color: var(--text-color);
   --body-column: full;
   grid-row: 1;
   place-self: start stretch;
@@ -282,6 +287,16 @@ body > header {
     width: max-content;
   }
 
+  h1 a {
+    --logo-color: var(--text-color);
+    display: flex;
+    transition: --logo-color 200ms ease-in-out;
+
+    &:hover {
+      --logo-color: var(--accent3-color);
+    }
+  }
+
   h1 svg {
     width: auto;
   }
@@ -296,9 +311,8 @@ body > header {
 
   nav {
     grid-column: extra;
-    place-self: end;
+    justify-self: end;
     width: max-content;
-    height: 75%;
 
     button {
       display: inline-flex;
