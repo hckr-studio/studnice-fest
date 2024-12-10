@@ -1,6 +1,6 @@
 ---
 image: mucha.jpg
-heroLevel: 3
+heroLevel: 2
 ---
 
 # Mucha
