@@ -305,8 +305,9 @@ body > header {
     width: auto;
   }
 
-  div {
+  > div {
     grid-column: main;
+    padding-block: 0.25em;
   }
 
   p {
