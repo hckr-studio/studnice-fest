@@ -451,11 +451,11 @@ section p {
     margin-block-start: 4em;
   }
 
-  > p {
+  p {
     font-family: var(--accented-font);
     font-weight: 700;
     width: min-content;
-    padding: 0.5em 2em;
+    padding: 0.5em 1em;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-image: radial-gradient(ellipse farthest-side at center, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0) 100%);
