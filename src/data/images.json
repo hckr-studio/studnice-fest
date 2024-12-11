@@ -1415,5 +1415,29 @@
     "existing": false,
     "original_filename": "i-love-you-honey-bunny",
     "api_key": "932534542617127"
+  },
+  "hero-bg-big.jpg": {
+    "asset_id": "da3e4cbcbd54801a10485872d30e9e28",
+    "public_id": "hero-bg-big",
+    "version": 1733898876,
+    "version_id": "f786dfb3fbba7d6b202b61d8134578d9",
+    "signature": "dc2a3b3d7b90c2628d9936e10b3d1f190aaae626",
+    "width": 3360,
+    "height": 1680,
+    "format": "jpg",
+    "resource_type": "image",
+    "created_at": "2024-12-11T06:34:36Z",
+    "tags": [],
+    "bytes": 2486298,
+    "type": "upload",
+    "etag": "ba623f7955f9a46a2b850f25a932bd27",
+    "placeholder": false,
+    "url": "http://res.cloudinary.com/studnicefest/image/upload/v1733898876/hero-bg-big.jpg",
+    "secure_url": "https://res.cloudinary.com/studnicefest/image/upload/v1733898876/hero-bg-big.jpg",
+    "asset_folder": "",
+    "display_name": "hero-bg-big",
+    "existing": false,
+    "original_filename": "hero-bg-big",
+    "api_key": "932534542617127"
   }
 }
