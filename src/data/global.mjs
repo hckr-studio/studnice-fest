@@ -47,7 +47,8 @@ export default {
       "jamaron",
       "mucha",
       "dukla-vozovna",
-      "i-love-you-honey-bunny"
+      "i-love-you-honey-bunny",
+      "brixtn"
     ],
     stages: {
       main: "Hlavní stage",
