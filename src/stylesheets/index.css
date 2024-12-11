@@ -412,9 +412,9 @@ section p {
   grid-row: 1;
   --text-color: white;
   --hero-bg-medium: image-set(
-    cloudinary-url("hero-bg-big.jpg", '{"dpr": 1}') 1x,
-    cloudinary-url("hero-bg-big.jpg", '{"dpr": 1.5}') 1.5x,
-    cloudinary-url("hero-bg-big.jpg", '{"dpr": 2}') 2x
+    cloudinary-url(var(--img-hero-bg-big), '{"dpr": 1}') 1x,
+    cloudinary-url(var(--img-hero-bg-big), '{"dpr": 1.5}') 1.5x,
+    cloudinary-url(var(--img-hero-bg-big), '{"dpr": 2}') 2x
   );
   /* TODO: mobile and wide sizes */
   --hero-bg: var(--hero-bg-medium);

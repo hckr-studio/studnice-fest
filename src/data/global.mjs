@@ -8,7 +8,8 @@ export default {
     url: "https://www.studnicefest.cz/"
   },
   hero: {
-    heading: ""
+    heading: "",
+    "bg-big": "hero-bg-big.jpg"
   },
   newsList: {
     exclude: ["https://www.facebook.com/100063521171808/posts/1029078449219518"]
