@@ -38,7 +38,7 @@
       }
     </style>
     <hgroup>
-      <h2>{{ hero.heading }}</h2>
+      {% if hero.heading %}<h2>{{ hero.heading }}</h2>{% endif %}
     </hgroup>
     <section>
       <ol>
