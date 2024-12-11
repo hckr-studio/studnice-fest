@@ -285,11 +285,14 @@ body > header {
     line-height: 1;
     margin: 0.25em 0;
     grid-column: extra;
-    width: max-content;
+    position: relative;
+    height: 100%;
   }
 
   h1 a {
     --logo-color: var(--text-color);
+    position: absolute;
+    top: 0.125em;
     display: flex;
     transition: --logo-color 200ms ease-in-out;
 
