@@ -14,7 +14,7 @@ export default {
     footer: "#VidimeSeVLese",
     "bg-big": "hero-bg-big.jpg",
     "bg-medium": "hero-bg-big.jpg",
-    "bg-small": "hero-bg-big.jpg"
+    "bg-small": "hero-bg-small.jpg"
   },
   info: {
     visible: false,
