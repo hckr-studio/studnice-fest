@@ -422,6 +422,7 @@ body > header {
   margin: 0;
   text-align: center;
   text-wrap: nowrap;
+  font-weight: 700;
 }
 
 .header__location {
