@@ -162,7 +162,7 @@ body {
     [extra-start] minmax(0, 1fr)
     [wide-start] minmax(0, clamp(0px, var(--wide), var(--spacer, 3em)))
     [main-start] minmax(12ch, var(--measure))
-    [main-end] minmax(0, clamp(0px, var(--wide), var(--gap, 1em)))
+    [main-end] minmax(0, clamp(0px, var(--wide), var(--spacer, 3em)))
     [wide-end] minmax(0, 1fr)
     [extra-end] minmax(0, 0.5fr)
     [page-end] var(--margin)
