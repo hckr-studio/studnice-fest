@@ -10,6 +10,7 @@ export default {
   hero: {
     heading: "",
     text: "19. ročník festivalu",
+    cta: "Koupit si vstupenky",
     footer: "#VidimeSeVLese",
     "bg-big": "hero-bg-big.jpg",
     "bg-medium": "hero-bg-big.jpg",

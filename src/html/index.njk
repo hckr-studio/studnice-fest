@@ -51,7 +51,7 @@
       </ol>
       {% if hero.text %}<p>{{ hero.text }}</p>{% endif %}
       <div>
-        <a href="{{ tickets.url }}" class="cta">Koupit si vstupenky</a>
+        <a href="{{ tickets.url }}" class="cta">{{ hero.cta }}</a>
       </div>
       {% if hero.footer %}<p>{{ hero.footer }}</p>{% endif %}
     </section>
