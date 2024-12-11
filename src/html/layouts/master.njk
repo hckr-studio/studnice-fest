@@ -93,9 +93,11 @@
       <ul>
         <li><a href="/">Úvod</a></li>
         <li><a href="/novinky/">Novinky</a></li>
+        {% if info.visible %}<li><a href="/informace/">Důležité informace</a></li>{% endif %}
         <li><a href="/#vystoupi">Kdo vystoupí</a></li>
         <li><a href="/#vstupenky">Vstupenky</a></li>
         {% if lineup.visible %}<li><a href="/#harmonogram">Časový harmonogram</a></li>{% endif %}
+        {% if info.visible %}<li><a href="/informace/#mapa">Mapa</a></li>{% endif %}
         <li><a href="#kontakt">Kontakt</a></li>
       </ul>
     </div>

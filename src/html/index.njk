@@ -82,7 +82,8 @@
       {% endfor %}
       <a href="/novinky/" class="cta">Zobrazit všechny novinky</a>
     </section>
-    <!--  <section id="informace-a-upozorneni">
+    {% if info.visible %}
+      <section id="informace-a-upozorneni">
         <header id="map">
           <h2>Důležité informace</h2>
         </header>
@@ -94,7 +95,8 @@
             <a href="/informace/" class="cta">Chci to vidět</a>
           </p>
         </article>
-      </section> -->
+      </section>
+    {% endif %}
     <section class="artists-list" id="vystoupi">
       <header id="bands">
         <h2>{{ lineup.heading }}</h2>

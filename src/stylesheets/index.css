@@ -544,6 +544,10 @@ section p {
   font-family: var(--main-font);
 }
 
+#mapa {
+  scroll-margin-block-start: 5em;
+}
+
 .news-list {
   --columns: 2;
 

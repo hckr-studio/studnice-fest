@@ -16,6 +16,9 @@ export default {
     "bg-medium": "hero-bg-big.jpg",
     "bg-small": "hero-bg-big.jpg"
   },
+  info: {
+    visible: false,
+  },
   newsList: {
     exclude: ["https://www.facebook.com/100063521171808/posts/1029078449219518"]
   },
