@@ -49,6 +49,7 @@
           {% endif %}
         {% endfor %}
       </ol>
+      {% if hero.text %}<p>{{ hero.text }}</p>{% endif %}
       <div>
         <a href="{{ tickets.url }}" class="cta">Koupit si vstupenky</a>
       </div>

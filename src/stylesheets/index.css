@@ -457,7 +457,7 @@ section p {
   p {
     font-family: var(--accented-font);
     font-weight: 700;
-    width: min-content;
+    width: max-content;
     padding: 0.5em 1em;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -921,7 +921,6 @@ body > footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(14em, 1fr));
   gap: 1em;
-
 
   h2:first-of-type, h3:first-of-type {
     text-align: left;
