@@ -14,7 +14,29 @@
 {% endblock %}
 
 {% block content %}
-  <div class="hero" id="header" style="--img-hero-bg-big: '{{ hero["bg-big"] }}'">
+  <div class="hero" id="header">
+    <style>
+      {% set small = images[hero["bg-small"]].public_id %}
+      {% set medium = images[hero["bg-medium"]].public_id %}
+      {% set big = images[hero["bg-big"]].public_id %}
+      .hero {
+        --hero-bg-small: image-set(
+          "{{ small | cloudinaryUrl({dpr:1,width:480}) }}" 1x,
+          "{{ small | cloudinaryUrl({dpr:1.5,width:480}) }}" 1.5x,
+          "{{ small | cloudinaryUrl({dpr:2,width:480}) }}" 2x
+        );
+        --hero-bg-medium: image-set(
+          "{{ medium | cloudinaryUrl({dpr:1,width:1280}) }}" 1x,
+          "{{ medium | cloudinaryUrl({dpr:1.5,width:1280}) }}" 1.5x,
+          "{{ medium | cloudinaryUrl({dpr:2,width:1280}) }}" 2x
+        );
+        --hero-bg-big: image-set(
+          "{{ big | cloudinaryUrl({dpr:1}) }}" 1x,
+          "{{ big | cloudinaryUrl({dpr:1.5}) }}" 1.5x,
+          "{{ big | cloudinaryUrl({dpr:2}) }}" 2x
+        );
+      }
+    </style>
     <hgroup>
       <h2>{{ hero.heading }}</h2>
     </hgroup>
@@ -23,7 +45,7 @@
         {% for key in event.artists %}
           {% set artist = artists[key] %}
           {% if artist.heroLevel %}
-            <li data-level="{{ artist.heroLevel }}">{#<a href="#{{ key }}">#}{{ artist.title }}{#</a>#}</li>
+            <li data-level="{{ artist.heroLevel }}">{# <a href="#{{ key }}"> #}{{ artist.title }}{# </a> #}</li>
           {% endif %}
         {% endfor %}
       </ol>
@@ -59,19 +81,19 @@
       {% endfor %}
       <a href="/novinky/" class="cta">Zobrazit všechny novinky</a>
     </section>
-  <!--  <section id="informace-a-upozorneni">
-      <header id="map">
-        <h2>Důležité informace</h2>
-      </header>
-      <article>
-        <p>Zajímá vás jak je to s&nbsp;dopravou, jídlem, placením a tak vůbec?
-          Všechny důležité informace jsme pro vás sepsali na samostatné
-          stránce.</p>
-        <p>
-          <a href="/informace/" class="cta">Chci to vidět</a>
-        </p>
-      </article>
-    </section> -->
+    <!--  <section id="informace-a-upozorneni">
+        <header id="map">
+          <h2>Důležité informace</h2>
+        </header>
+        <article>
+          <p>Zajímá vás jak je to s&nbsp;dopravou, jídlem, placením a tak vůbec?
+            Všechny důležité informace jsme pro vás sepsali na samostatné
+            stránce.</p>
+          <p>
+            <a href="/informace/" class="cta">Chci to vidět</a>
+          </p>
+        </article>
+      </section> -->
     <section class="artists-list" id="vystoupi">
       <header id="bands">
         <h2>{{ lineup.heading }}</h2>
@@ -116,14 +138,14 @@
               {% for ticket in items %}
                 <div class="tickets__item {{ "tickets__item--disabled" if not isCurrentWave }}">
                   <a href="{{ tickets.url }}">
-                  <h3>{{ wave }}.&nbsp;vlna vstupenek</h3>
-                  <p>{{ ticket.days }}-denní</p>
-                  <p>{{ ticket.price }}&nbsp;Kč</p>
-                  {% if isCurrentWave %}
-                    <a href="{{ tickets.url }}" class="button">Koupit</a>
-                  {% else %}
-                    <a href="" class="button">Vyprodáno</a>
-                  {% endif %}
+                    <h3>{{ wave }}.&nbsp;vlna vstupenek</h3>
+                    <p>{{ ticket.days }}-denní</p>
+                    <p>{{ ticket.price }}&nbsp;Kč</p>
+                    {% if isCurrentWave %}
+                      <a href="{{ tickets.url }}" class="button">Koupit</a>
+                    {% else %}
+                      <a href="" class="button">Vyprodáno</a>
+                    {% endif %}
                   </a>
                 </div>
               {% endfor %}

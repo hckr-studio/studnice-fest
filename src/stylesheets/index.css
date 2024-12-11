@@ -411,13 +411,7 @@ section p {
   --body-column: full;
   grid-row: 1;
   --text-color: white;
-  --hero-bg-medium: image-set(
-    cloudinary-url(var(--img-hero-bg-big), '{"dpr": 1}') 1x,
-    cloudinary-url(var(--img-hero-bg-big), '{"dpr": 1.5}') 1.5x,
-    cloudinary-url(var(--img-hero-bg-big), '{"dpr": 2}') 2x
-  );
-  /* TODO: mobile and wide sizes */
-  --hero-bg: var(--hero-bg-medium);
+  --hero-bg: var(--hero-bg-small);
 
   color: var(--text-color);
   text-align: center;
@@ -433,6 +427,14 @@ section p {
 
   min-height: 100svh;
   min-height: 100cqh;
+
+  @media screen and (min-width: 480px) {
+    --hero-bg: var(--hero-bg-medium);
+  }
+
+  @media screen and (min-width: 1280px) {
+    --hero-bg: var(--hero-bg-big);
+  }
 
   p {
     font-family: var(--accented-font);
