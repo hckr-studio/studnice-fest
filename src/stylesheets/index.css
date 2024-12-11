@@ -660,7 +660,9 @@ section p {
     text-overflow: ellipsis;
   }
 }
-
+article h2 {
+  text-align: center;
+}
 .artists-list {
   --columns: 2;
   --colspan: 1;
