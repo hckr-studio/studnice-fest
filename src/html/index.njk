@@ -53,7 +53,7 @@
       <div>
         <a href="{{ tickets.url }}" class="cta">Koupit si vstupenky</a>
       </div>
-      <p>#vidimesevlese</p>
+      {% if hero.footer %}<p>{{ hero.footer }}</p>{% endif %}
     </section>
   </div>
   <main>
