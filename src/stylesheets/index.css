@@ -421,7 +421,6 @@ section p {
   color: var(--text-color);
   text-align: center;
   text-transform: uppercase;
-  text-shadow: 1px 1px #333;
   background: #1E1E1E var(--hero-bg) no-repeat;
   background-position: center top;
   background-size: cover;
@@ -535,7 +534,6 @@ section p {
 
   .cta {
     font-size: larger;
-    text-shadow: none;
   }
 }
 
@@ -949,8 +947,11 @@ body > footer {
     padding: 0;
     list-style-type: none;
     display: flex;
-    flex-direction: row-reverse;
     gap: 1em;
+
+    @media screen and (min-width: 800px) {
+      flex-direction: row-reverse;
+    }
   }
 
   svg {
