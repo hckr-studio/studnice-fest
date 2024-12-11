@@ -1,5 +1,5 @@
 ---
-image: lenny.jpg
+image: brixtn.jpg
 ---
 
-# Lenny
+# Brixtn
