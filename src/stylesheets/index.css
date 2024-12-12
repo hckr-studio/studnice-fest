@@ -24,7 +24,7 @@
 
 :root {
   --main-font: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
-  --accented-font: Dosis, "fallback for Dosis", "fallback for Dosis on Android", system-ui, sans-serif;
+  --accented-font: Dosis, sans-serif-condensed, "fallback for Dosis", sans-serif;
 
   --corner-radius: 15px;
 
