@@ -579,6 +579,10 @@ section p {
 
 #mapa {
   scroll-margin-block-start: 5em;
+
+  .is-hp & h2 {
+    text-align: center;
+  }
 }
 
 .news-list {
@@ -660,9 +664,7 @@ section p {
     text-overflow: ellipsis;
   }
 }
-article h2 {
-  text-align: center;
-}
+
 .artists-list {
   --columns: 2;
   --colspan: 1;
