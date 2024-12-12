@@ -494,7 +494,7 @@ section p {
     padding: 0.5em 1em;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-image: radial-gradient(ellipse farthest-side at center, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0) 100%);
+    background-image: radial-gradient(closest-side at center, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0) 100%);
     background-size: contain;
   }
 
