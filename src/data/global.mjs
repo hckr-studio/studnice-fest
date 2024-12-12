@@ -42,6 +42,7 @@ export default {
     location: "Cihelka, Hlinsko v Čechách",
     description: "Letní hudební festival Studnice Fest je opět tu! V Hlinsku v Čechách se potkáme 25. - 26. 7. 2025",
     artists: [
+      "the-subways",
       "tata-bojs",
       "skyline",
       "jamaron",
