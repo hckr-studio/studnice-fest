@@ -49,6 +49,7 @@ export default {
       "mucha",
       "dukla-vozovna",
       "i-love-you-honey-bunny",
+      "volant",
       "brixtn"
     ],
     stages: {
