@@ -47,6 +47,7 @@ export default {
       "skyline",
       "jamaron",
       "mucha",
+      "fast-food-orchestra",
       "dukla-vozovna",
       "i-love-you-honey-bunny",
       "volant",
