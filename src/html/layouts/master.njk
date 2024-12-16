@@ -5,8 +5,6 @@
   <meta charset="utf-8">
   {% block head_pragma %}
     <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-    <meta http-equiv="delegate-ch"
-          content="sec-ch-width https://res.cloudinary.com; sec-ch-dpr https://res.cloudinary.com; sec-ch-viewport-width https://res.cloudinary.com;">
   {% endblock %}
   <title>{% block title %}{{ title }} - {{ meta.title }}{% endblock %}</title>
   {% block head_preconnect %}
@@ -56,14 +54,12 @@
   <!-- End Google Tag Manager -->
   {% block head_async_scripts %}{% endblock %}
   <meta name="color-scheme" content="dark light">
-  <meta name="theme-color" content="#3b4a55" scheme="dark">
-  <meta name="theme-color" content="#cfe4f2" scheme="light">
+  <meta name="theme-color" content="#3b4a55" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#cfe4f2" media="(prefers-color-scheme: light)">
   <link rel="manifest" href="{{ 'manifest.json' | assetUrl('static') }}">
   <meta name="generator" content="{{ generator or '@hckr_/blendid - static site generator and assets pipeline' }}">
   <meta name="author" content="https://hckr.studio/">
   {% include "shared/app-icons.html" %}
-  <!--[if lt IE 9]>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script><![endif]-->
   {% block head %}{% endblock %}
 </head>
 <body vocab="https://schema.org" typeof="{{ bodySchema }}" class="{{ bodyClass }}">
