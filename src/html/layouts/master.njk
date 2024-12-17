@@ -1,4 +1,5 @@
 {%- from 'macros/helpers.njk' import sprite, spriteTarget -%}
+{% set GTM_ID = "G-1V8Y40118V" %}
 <!doctype html>
 <html lang="cs">
 <head>
@@ -42,16 +43,15 @@
     <link rel="preload" href="{{ "dosis.latin.woff2" | assetUrl("fonts") }}" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="{{ "dosis.latin-ext.woff2" | assetUrl("fonts") }}" as="font" type="font/woff2" crossorigin>
   {% endblock %}
-  <!-- Google Tag Manager -->
-  <script>(function (w, d, s, l, i) {
-      w[l] = w[l] || [];
-      w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
-      var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
-      j.async = true;
-      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-      f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-TB6TV66');</script>
-  <!-- End Google Tag Manager -->
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ GTM_ID }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', '{{ GTM_ID }}');
+  </script>
   {% block head_async_scripts %}{% endblock %}
   <meta name="color-scheme" content="dark light">
   <meta name="theme-color" content="#3b4a55" media="(prefers-color-scheme: dark)">
@@ -65,7 +65,7 @@
 <body vocab="https://schema.org" typeof="{{ bodySchema }}" class="{{ bodyClass }}">
 <!-- Google Tag Manager (noscript) -->
 <noscript>
-  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TB6TV66" height="0" width="0"
+  <iframe src="https://www.googletagmanager.com/ns.html?id={{ GTM_ID }}" height="0" width="0"
           style="display:none;visibility:hidden"></iframe>
 </noscript>
 <!-- End Google Tag Manager (noscript) -->
