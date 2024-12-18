@@ -48,6 +48,7 @@ export default {
       "jamaron",
       "mucha",
       "fast-food-orchestra",
+      "vojtaano",
       "dukla-vozovna",
       "i-love-you-honey-bunny",
       "volant",
