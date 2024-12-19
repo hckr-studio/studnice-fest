@@ -45,6 +45,7 @@ export default {
       "the-subways",
       "tata-bojs",
       "skyline",
+      "pokac",
       "jamaron",
       "mucha",
       "fast-food-orchestra",
