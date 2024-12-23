@@ -54,6 +54,7 @@ export default {
       "i-love-you-honey-bunny",
       "volant",
       "dukla",
+      "zavis",
       "brixtn"
     ],
     stages: {
