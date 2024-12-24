@@ -13,7 +13,7 @@ function formatDate(s) {
 }
 
 function removeHashtags(s) {
-  return s.replaceAll(/#\S+/g, "");
+  return s.replaceAll(/#\S+/g, "").trim();
 }
 
 export default {
