@@ -1,6 +1,20 @@
-import { basename } from "node:path";
+import { take } from "@thi.ng/transducers";
 import pathConfig from "./path-config.mjs";
 import { NewsRegistry } from "./news-registry.mjs";
+import { processTypo } from "../src/esm/lib/texy.js";
+
+function formatDate(s) {
+  const formatter = new Intl.DateTimeFormat("cs", {
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric"
+  })
+  return formatter.format(new Date(s));
+}
+
+function removeHashtags(s) {
+  return s.replaceAll(/#\S+/g, "");
+}
 
 export default {
   images: true,
@@ -18,12 +32,12 @@ export default {
       collection: "artists",
       stripTitle: true,
       transform(data, file) {
-        return Object.assign({ filename: basename(file.path) }, data);
+        return Object.assign({ filename: file.basename, slug: file.stem }, data);
       },
       mergeOptions: {
         concatArrays: true,
         edit(json) {
-          return { [json.filename.split(".").at(0)]: json };
+          return { [json.slug]: json };
         }
       }
     }]
@@ -32,6 +46,18 @@ export default {
   html: {
     dataFile: "global.mjs",
     collections: ["news", "artists", "images"],
+    nunjucksRender: {
+      filters: {
+        take(arr, n) {
+          return take(n, arr);
+        },
+        processTypo(string, locale) {
+          return processTypo(string, { locale });
+        },
+        formatDate,
+        removeHashtags
+      }
+    }
   },
 
   browserSync: {

@@ -1,8 +1,8 @@
-import { processTypo } from "../esm/lib/texy.js";
-import * as transducers from "@thi.ng/transducers";
-
 export default {
   title: "STUDNICE FEST 2025",
+  analytics: {
+    gtmID: "G-1V8Y40118V",
+  },
   meta: {
     title: "Studnice fest",
     url: "https://www.studnicefest.cz/"
@@ -98,16 +98,12 @@ export default {
     },
   },
   currentYear: new Date().getFullYear(),
-  processTypo,
-  removeHashtags,
   timeslots,
-  formatDate,
   formatTime,
   filterNews(news) {
     const excluded = new Set(this.ctx.newsList.exclude);
     return news.filter(({url}) => !excluded.has(url));
-  },
-  transducers
+  }
 }
 
 function timeslots({ friday, saturday }) {
@@ -124,17 +120,4 @@ function hasLongPreposition(time) {
 function formatTime({ day, time }) {
   const preposition = hasLongPreposition(time) ? "ve" : "v";
   return `${day} ${preposition} ${time}`;
-}
-
-function formatDate(s) {
-  const formatter = new Intl.DateTimeFormat("cs", {
-    day: "2-digit",
-    month: "2-digit",
-    year: "numeric"
-  })
-  return formatter.format(new Date(s));
-}
-
-function removeHashtags(s) {
-  return s.replaceAll(/#\S+/g, "");
 }

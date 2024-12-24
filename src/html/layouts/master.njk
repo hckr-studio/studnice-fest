@@ -1,5 +1,4 @@
-{%- from 'macros/helpers.njk' import sprite, spriteTarget -%}
-{% set GTM_ID = "G-1V8Y40118V" %}
+{%- from "macros/helpers.njk" import sprite, spriteTarget -%}
 <!doctype html>
 <html lang="cs">
 <head>
@@ -44,13 +43,13 @@
     <link rel="preload" href="{{ "dosis.latin-ext.woff2" | assetUrl("fonts") }}" as="font" type="font/woff2" crossorigin>
   {% endblock %}
   <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ GTM_ID }}"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ analytics.gtmID }}"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', '{{ GTM_ID }}');
+    gtag('config', '{{ analytics.gtmID }}');
   </script>
   {% block head_async_scripts %}{% endblock %}
   <meta name="color-scheme" content="dark light">
@@ -65,7 +64,7 @@
 <body vocab="https://schema.org" typeof="{{ bodySchema }}" class="{{ bodyClass }}">
 <!-- Google Tag Manager (noscript) -->
 <noscript>
-  <iframe src="https://www.googletagmanager.com/ns.html?id={{ GTM_ID }}" height="0" width="0"
+  <iframe src="https://www.googletagmanager.com/ns.html?id={{ analytics.gtmID }}" height="0" width="0"
           style="display:none;visibility:hidden"></iframe>
 </noscript>
 <!-- End Google Tag Manager (noscript) -->

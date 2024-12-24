@@ -64,11 +64,11 @@
       <header id="news">
         <h2>Novinky</h2>
       </header>
-      {% for post in transducers.take(5, filterNews(news)) %}
+      {% for post in filterNews(news) | take(5) %}
         {% set image = images[post.image] %}
         <article>
           <a href="/novinky/#{{ post.time }}">
-            <time datetime="{{ post.time }}">{{ formatDate(post.time) }}</time>
+            <time datetime="{{ post.time }}">{{ post.time | formatDate }}</time>
             {% if image %}
               <img alt="" width="462" height="462" loading="lazy"
                    sizes="(min-width: 840px) 462px, 88.43vw"
@@ -76,7 +76,7 @@
             {% endif %}
           </a>
           {% markdown %}
-            {{ processTypo(removeHashtags(post.text)) }}
+            {{ post.text | removeHashtags }}
 
             {% if post.likes %}Líbilo se&nbsp;
               <data value="{{ post.likes }}">{{ post.likes }}×</data>{% endif %}
