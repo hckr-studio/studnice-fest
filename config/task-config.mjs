@@ -13,7 +13,7 @@ export default {
   esbuild: true,
 
   generate: {
-    exclude: ["artists.json"],
+    exclude: ["artists.json", "news.json", "images.json"],
     json: [{
       collection: "artists",
       stripTitle: true,
