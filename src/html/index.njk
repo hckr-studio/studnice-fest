@@ -76,7 +76,7 @@
             {% endif %}
           </a>
           {% markdown %}
-            {{ post.text | removeHashtags | processTypo("cs") }}
+            {{ post.text | removeHashtags }}
 
             {% if post.likes %}Líbilo se&nbsp;
               <data value="{{ post.likes }}">{{ post.likes }}×</data>{% endif %}

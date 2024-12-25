@@ -1,7 +1,7 @@
+import { texyTypography } from "@hckr_/blendid/lib/texy.mjs";
 import { take } from "@thi.ng/transducers";
 import pathConfig from "./path-config.mjs";
 import { NewsRegistry } from "./news-registry.mjs";
-import { processTypo } from "../src/esm/lib/texy.js";
 
 function formatDate(s) {
   const formatter = new Intl.DateTimeFormat("cs", {
@@ -44,15 +44,12 @@ export default {
   },
 
   html: {
-    dataFile: "global.mjs",
     collections: ["news", "artists", "images"],
+    markedExtensions: [texyTypography("cs")],
     nunjucksRender: {
       filters: {
         take(arr, n) {
           return take(n, arr);
-        },
-        processTypo(string, locale) {
-          return processTypo(string, { locale });
         },
         formatDate,
         removeHashtags

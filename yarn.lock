@@ -49,10 +49,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cloudflare/workers-types@npm:4.20241218.0":
-  version: 4.20241218.0
-  resolution: "@cloudflare/workers-types@npm:4.20241218.0"
-  checksum: 10c0/c5ffc4330e49d0e6e9a6da88b51a9229c495f6d63324ab318cef30c41a18a770f4ddb07f38816ebdb6d52f5e5528418529364ba929f625f4255aec2d7c8502e3
+"@cloudflare/workers-types@npm:4.20241224.0":
+  version: 4.20241224.0
+  resolution: "@cloudflare/workers-types@npm:4.20241224.0"
+  checksum: 10c0/b246bdbad6a1c5f50dd9e89404adee74b090b28768a6a66e22164d6e6a3409159c52c13dff5b0626a6f1dc357d0104680ee1ed5cb038618dd39b6d6836ec3c94
   languageName: node
   linkType: hard
 
@@ -921,9 +921,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hckr_/blendid@npm:9.0.2":
-  version: 9.0.2
-  resolution: "@hckr_/blendid@npm:9.0.2"
+"@hckr_/blendid@npm:9.1.0":
+  version: 9.1.0
+  resolution: "@hckr_/blendid@npm:9.1.0"
   dependencies:
     "@csstools/postcss-gamut-mapping": "npm:2.0.6"
     "@vitejs/plugin-basic-ssl": "npm:1.2.0"
@@ -972,7 +972,7 @@ __metadata:
     vite: "npm:6.0.5"
   bin:
     blendid: bin/blendid.js
-  checksum: 10c0/22242d874bbf8c79fa8654a83d3c323a87f8868ac175a605fb825ad7dcb94943c82be5a177d321610441d65c8a8f700da7cbd52dcb8a3b7254a752b4cac06f00
+  checksum: 10c0/b931260ea576d6855f1166fc8074bd6525cc1b5e42f11bd81375188bafb60ed20aaf50b2fa9054a960db182f938c43284cc8d4d9d7679feecf2624799efa4c80
   languageName: node
   linkType: hard
 
@@ -1836,17 +1836,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001599, caniuse-lite@npm:^1.0.30001629":
-  version: 1.0.30001636
-  resolution: "caniuse-lite@npm:1.0.30001636"
-  checksum: 10c0/e5f965b4da7bae1531fd9f93477d015729ff9e3fa12670ead39a9e6cdc4c43e62c272d47857c5cc332e7b02d697cb3f2f965a1030870ac7476da60c2fc81ee94
-  languageName: node
-  linkType: hard
-
-"caniuse-lite@npm:^1.0.30001646":
-  version: 1.0.30001651
-  resolution: "caniuse-lite@npm:1.0.30001651"
-  checksum: 10c0/7821278952a6dbd17358e5d08083d258f092e2a530f5bc1840657cb140fbbc5ec44293bc888258c44a18a9570cde149ed05819ac8320b9710cf22f699891e6ad
+"caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001599, caniuse-lite@npm:^1.0.30001629, caniuse-lite@npm:^1.0.30001646":
+  version: 1.0.30001690
+  resolution: "caniuse-lite@npm:1.0.30001690"
+  checksum: 10c0/646bd469032afa90400a84dec30a2b00a6eda62c03ead358117e3f884cda8aacec02ec058a6dbee5eaf9714f83e483b9b0eb4fb42febb8076569f5ca40f1d347
   languageName: node
   linkType: hard
 
@@ -6372,8 +6365,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "studnice-fest@workspace:."
   dependencies:
-    "@cloudflare/workers-types": "npm:4.20241218.0"
-    "@hckr_/blendid": "npm:9.0.2"
+    "@cloudflare/workers-types": "npm:4.20241224.0"
+    "@hckr_/blendid": "npm:9.1.0"
     "@thi.ng/transducers": "npm:9.2.10"
     fancy-log: "npm:2.0.0"
     undertaker-registry: "npm:2.0.0"
