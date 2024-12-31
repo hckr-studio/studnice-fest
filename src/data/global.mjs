@@ -55,7 +55,8 @@ export default {
       "volant",
       "dukla",
       "zavis",
-      "brixtn"
+      "brixtn",
+      "rozalie"
     ],
     stages: {
       main: "Hlavní stage",
