@@ -46,6 +46,7 @@ export default {
       "tata-bojs",
       "skyline",
       "pokac",
+      "the-prostitutes",
       "jamaron",
       "mucha",
       "fast-food-orchestra",
