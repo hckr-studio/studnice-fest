@@ -57,7 +57,9 @@ export default {
       "dukla",
       "zavis",
       "brixtn",
-      "rozalie"
+      "rozalie",
+      "neni-zac"
+      
     ],
     stages: {
       main: "Hlavní stage",
