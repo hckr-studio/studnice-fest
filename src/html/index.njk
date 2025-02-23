@@ -45,12 +45,11 @@
     </hgroup>
     <section>
       <ol>
-        {% for key in event.artists %}
-          {% set artist = artists[key] %}
-          {% if artist.heroLevel %}
-            <li data-level="{{ artist.heroLevel }}">{# <a href="#{{ key }}"> #}{{ artist.title }}{# </a> #}</li>
-          {% endif %}
-        {% endfor %}
+        <li data-level="1">The Subways</li>
+        <li data-level="2">Tata Bojs</li>
+        <li data-level="2">Skyline</li>
+        <li data-level="2">Pokáč</li>
+        <li data-level=3>The Prostitutes<li data-level=3>Jamaron<li data-level=3>Mucha<li data-level=3>Fast Food Orchestra<li data-level=3>Vojtaano<li data-level=3>Dukla Vozovna<li data-level=3>Volant
       </ol>
       {% if hero.text %}<p>{{ hero.text }}</p>{% endif %}
       <div>
