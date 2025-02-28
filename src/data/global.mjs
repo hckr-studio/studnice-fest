@@ -58,7 +58,10 @@ export default {
       "zavis",
       "brixtn",
       "rozalie",
-      "neni-zac"
+      "rodan",
+      "neni-zac",
+      "anicka",
+      "ty-brdo-divadlo"
       
     ],
     stages: {
