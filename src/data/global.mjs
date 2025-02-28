@@ -61,7 +61,7 @@ export default {
       "rodan",
       "neni-zac",
       "anicka",
-      "ty-brdo-divadlo"
+      "tybrdo-divadlo"
       
     ],
     stages: {
