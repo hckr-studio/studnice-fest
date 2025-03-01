@@ -7,7 +7,7 @@
   "author": "Aleš Roubíček <ales@roubicek.name>",
   "license": "MIT",
   "private": true,
-  "packageManager": "yarn@4.5.3",
+  "packageManager": "yarn@4.7.0",
   "dependencies": {
     "@thi.ng/transducers": "9.2.10"
   },
