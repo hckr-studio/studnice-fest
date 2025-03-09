@@ -9,10 +9,10 @@
   "private": true,
   "packageManager": "yarn@4.7.0",
   "dependencies": {
-    "@thi.ng/transducers": "9.2.10"
+    "@thi.ng/transducers": "9.2.21"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20241224.0",
+    "@cloudflare/workers-types": "4.20250303.0",
     "@hckr_/blendid": "9.3.2",
     "fancy-log": "2.0.0",
     "undertaker-registry": "2.0.0",
