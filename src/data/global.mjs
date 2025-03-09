@@ -25,15 +25,15 @@ export default {
   tickets: {
     url: "https://tickets.nfctron.com/event/eupathia/studnice-fest-2025",
     currentWave: 4, //"onsite",
-    waves: {
-      1: [{ days: 2, price: 590 }],
-      2: [{ days: 2, price: 690 }],
-      3: [{ days: 2, price: 790 }],
-      4: [{ days: 2, price: 890 }],
-      5: [{ days: 2, price: 990 }],
-      6: [{ days: 1, price: 790 }, { days: 2, price: 1090 }],
-      onsite: [{ days: 1, price: 950 },{ days: 2, price: 1190 }],
-    },
+    waves: [
+      ["onsite", [{ days: 1, price: 950 },{ days: 2, price: 1190 }]],
+      [6, [{ days: 1, price: 790 }, { days: 2, price: 1090 }]],
+      [5, [{ days: 2, price: 990 }]],
+      [4, [{ days: 2, price: 890 }]],
+      [3, [{ days: 2, price: 790 }]],
+      [2, [{ days: 2, price: 690 }]],
+      [1, [{ days: 2, price: 590 }]],
+    ],
   },
   event: {
     name: "Studnice Fest",
@@ -62,7 +62,7 @@ export default {
       "neni-zac",
       "anicka",
       "tybrdo-divadlo"
-      
+
     ],
     stages: {
       main: "Hlavní stage",

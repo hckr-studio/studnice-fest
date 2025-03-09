@@ -129,10 +129,10 @@
       <div class="tickets__list">
         {% for wave, items in tickets.waves %}
           {% set isCurrentWave = (tickets.currentWave == wave) %}
-          {% set onsite = (wave == "onsite") %}
+          {% set isOnsite = (wave == "onsite") %}
           {# show only past and current waves #}
           {% if wave <= tickets.currentWave %}
-            {% if onsite %}
+            {% if isOnsite %}
               <div class="tickets__item tickets__item--onsite">
                 <h3>Na místě</h3>
                 {% for ticket in items %}
