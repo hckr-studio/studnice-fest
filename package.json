@@ -18,6 +18,9 @@
     "undertaker-registry": "2.0.0",
     "wrangler": "3.99.0"
   },
+  "resolutions": {
+    "esbuild": "0.25.0"
+  },
   "scripts": {
     "build": "blendid build --production",
     "start": "blendid"
