@@ -25,7 +25,7 @@ export class NewsRegistry extends DefaultRegistry {
   init({ task }) {
     async function getLatestNews() {
       logger.info("Loading latest news…");
-      const query = new URLSearchParams({ pageSize: 15 });
+      const query = new URLSearchParams({ pageSize: 100 });
       const resp = await fetch(`https://studnice-fest.pages.dev/api/v1/news/latest?${query}`);
       try {
         const data = await resp.json();
