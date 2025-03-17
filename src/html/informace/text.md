@@ -1,8 +1,8 @@
 ### Podrobněji ke vstupenkám
 
-- Vstupenky jsou stále dostupné v předprodeji až do čtvrtka 25.7. (včetně) za 790/890 Kč 2-denní a 690 Kč 1-denní.
-- Na místě bude možné zakoupit vstupenky za 990 Kč (dvoudenní) a na jeden den za 850 Kč.
-- Nedoporučujeme kupovat vstupenky mimo GoOut (na vstupenku se stejným kódem bude vpuštěn pouze návštěvník, který ji
+- Vstupenky jsou stále dostupné v předprodeji až do čtvrtka 24.7. (včetně) za 990/1090 Kč 2-denní a 890 Kč 1-denní.
+- Pokud se vstupeny nevyprodají v předprodeji, tak bude na místě možné zakoupit vstupenky za 1190 Kč (dvoudenní) a na jeden den za 990 Kč.
+- Nedoporučujeme kupovat vstupenky mimo oficiální předprodej (na vstupenku se stejným kódem bude vpuštěn pouze návštěvník, který ji
   předloží jako první).
 - Vstup zdarma pro děti do 150 cm, ZTP a obyvatele Studnic u Hlinska (po předložení platného OP).
 
