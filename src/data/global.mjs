@@ -27,7 +27,7 @@ export default {
     currentWave: 4, //"onsite",
     waves: [
       ["onsite", [{ days: 1, price: 950 },{ days: 2, price: 1190 }]],
-      [6, [{ days: 1, price: 790 }, { days: 2, price: 1090 }]],
+      [6, [{ days: 1, price: 890 }, { days: 2, price: 1090 }]],
       [5, [{ days: 2, price: 990 }]],
       [4, [{ days: 2, price: 890 }]],
       [3, [{ days: 2, price: 790 }]],
@@ -71,36 +71,37 @@ export default {
     }
   },
   lineup: {
-    visible: false,
+    visible: true,
     heading: "Na 19. ročníku vystoupí",
     friday: {
       title: "Pátek 25. 7.",
       schedule: [
-        { date: "2025-07-25", time: "16:00", stage: "main", slug: "zadnej-stres" },
-        { date: "2025-07-25", time: "18:00", stage: "main", slug: "volant" },
-        { date: "2025-07-25", time: "19:10", stage: "outlook", slug: "anatol-svahilec" },
-        { date: "2025-07-25", time: "20:25", stage: "main", slug: "vypsana-fixa" },
-        { date: "2025-07-25", time: "21:50", stage: "outlook", slug: "xavier-baumaxa" },
-        { date: "2025-07-25", time: "23:00", stage: "main", slug: "mydy" },
-        { date: "2025-07-26", time: "00:00", stage: "outlook", slug: "zavis" },
-        { date: "2025-07-26", time: "01:00", stage: "main", slug: "ventolin" }
+        { date: "2025-07-25", time: "16:00", stage: "main", slug: "neni-zac" },
+        { date: "2025-07-25", time: "18:00", stage: "main", slug: "dukla-vozovna" },
+        { date: "2025-07-25", time: "19:00", stage: "outlook", title: "Vojtaano stand-up" },
+        { date: "2025-07-25", time: "19:50", stage: "main", slug: "mucha" },
+        { date: "2025-07-25", time: "21:00", stage: "outlook", slug: "brixtn" },
+        { date: "2025-07-25", time: "22:30", stage: "main", slug: "tata-bojs" },
+        { date: "2025-07-25", time: "23:50", stage: "outlook", slug: "vojtaano" },
+        { date: "2025-07-26", time: "01:00", stage: "main", slug: "jamaron" }
       ]
     },
     saturday: {
       title: "Sobota 26. 7.",
       schedule: [
-        { date: "2025-07-26", time: "11:30", stage: "main", slug: "gorale-originale-pardubicensis" },
-        { date: "2025-07-26", time: "13:00", stage: "main", slug: "drum-for-fun" },
-        { date: "2025-07-26", time: "14:00", stage: "tent", title: "Pohádka s dlouhým krkem" },
-        { date: "2025-07-26", time: "14:30", stage: "main", slug: "circus-problem" },
-        { date: "2025-07-26", time: "15:40", stage: "tent", title: "Hitovky z pohádek Příběhů měsíční duhy" },
-        { date: "2025-07-26", time: "16:20", stage: "main", slug: "lenny" },
-        { date: "2025-07-26", time: "17:30", stage: "outlook", slug: "the-stryc" },
-        { date: "2025-07-26", time: "19:00", stage: "main", slug: "dukla-vozovna" },
-        { date: "2025-07-26", time: "20:10", stage: "outlook", slug: "dva" },
-        { date: "2025-07-26", time: "21:20", stage: "main", slug: "noha" },
-        { date: "2025-07-26", time: "23:20", stage: "main", slug: "imodium" },
-        { date: "2025-07-27", time: "01:00", stage: "main", slug: "prago-union" }
+        { date: "2025-07-26", time: "11:30", stage: "main", slug: "rodan" },
+        { date: "2025-07-26", time: "12:20", stage: "tent", slug: "anicka" },
+        { date: "2025-07-26", time: "13:10", stage: "main", slug: "fast-food-orchestra" },
+        { date: "2025-07-26", time: "14:10", stage: "tent", slug: "tybrdo-divadlo" },
+        { date: "2025-07-26", time: "15:00", stage: "main", slug: "volant" },
+        { date: "2025-07-26", time: "16:10", stage: "outlook", slug: "pokac" },
+        { date: "2025-07-26", time: "17:30", stage: "main", slug: "i-love-you-honey-bunny" },
+        { date: "2025-07-26", time: "18:40", stage: "outlook", slug: "rozalie" },
+        { date: "2025-07-26", time: "20:00", stage: "main", slug: "the-prostitutes" },
+        { date: "2025-07-26", time: "21:10", stage: "outlook", slug: "dukla" },
+        { date: "2025-07-26", time: "22:40", stage: "main", slug: "the-subways" }
+        { date: "2025-07-26", time: "23:50", stage: "tent", slug: "zavis" }
+        { date: "2025-07-27", time: "21:00", stage: "main", slug: "skyline" }
       ]
     },
   },
