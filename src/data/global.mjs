@@ -101,7 +101,7 @@ export default {
         { date: "2025-07-26", time: "21:10", stage: "outlook", slug: "dukla" },
         { date: "2025-07-26", time: "22:40", stage: "main", slug: "the-subways" },
         { date: "2025-07-26", time: "23:50", stage: "tent", slug: "zavis" },
-        { date: "2025-07-27", time: "21:00", stage: "main", slug: "skyline" }
+        { date: "2025-07-27", time: "01:00", stage: "main", slug: "skyline" }
       ]
     },
   },
