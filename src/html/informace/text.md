@@ -9,9 +9,7 @@
 ### Doprava
 
 - Festival se koná v areálu Cihelka u Hlinska v Čechách.
-- Pokud pojedete autem, dejte pozor na uzavřený mostek v Blatně (průjezd možný pouze na povolenky pro místní). Objížďka
-  vede přes Studnice a Hamry (max. 3,5t). Při průjezdu Studnicemi vzpoměňte na první ročník Studnice festu, který se
-  konal v místním areálu za hřištěm.
+- Pokud pojedete autem, jeďte z Hlinska směr Kameničky.
 - Pokud pojedete vlakem, tak cílovou stanici
   volte [Hlinsko v Čechách](https://jizdnirady.idnes.cz/vlaky/spojeni/?f=&t=Hlinsko+v+%c4%8cech%c3%a1ch&fc=1&tc=100003&submit=false)
 - Z vlakového nádraží jsou to necelé 3 km, vyhněte se hlavní silnici 343 mimo Hlinsko a vezměte to přes Rataje.
@@ -22,17 +20,16 @@
 - Parkování i stanování je tradičně na louce nad areálem - cesta bude značena.
 - Louka bude rozdělena na dvě části - spodní část bude vyhrazena čistě pro stany, horní část bude sloužit primárně jako
   parkoviště.
-- Letos vyšlo i nedávné sekání, takže výška trávy je přijatelná.
+- Stav louky - výšky trávy zveřejníme během července.
 - Na louku dojedete po lesní cestě, na které se budete míjet s pěšími. Prosíme tedy o velmi opatrnou jízdu a respekt k
   ostatním návštěvníkům.
 - Parkování na místě bude organizováno pořadateli, dbejte prosím jejich instrukcí a doporučení.
 - Přímo u areálu je parkování zakázáno (bude sloužit pouze pro kapely, stánkaře a pořadatele).
-- Stanování je zdarma, parkování za 150 Kč (platba v hotovosti) - dostanete samolepku na sklo.
+- Stanování je zdarma, parkování za 200 Kč (platba v hotovosti) - dostanete samolepku na sklo.
 
 ### Platby v rámci areálu
 
-Letošní Studnice bude opět “cashless” se systémem NFCtron. Loni se nám systém osvědčil a prakticky jsme neměli větší
-fronty. Všechny transakce vč. náramku jsou zcela zdarma! Více informací.
+Letošní Studnice bude typicky “cashless” se systémem NFCtron. A kredit si můžete samozřejmě dobít předem. Všechny transakce vč. náramku jsou zcela zdarma! Více informací - doplníme.
 
 #### Jak to typicky probíhá?
 
@@ -45,7 +42,7 @@ fronty. Všechny transakce vč. náramku jsou zcela zdarma! Více informací.
 - Poté už stačí vyrazit na pivo či hamburger. Místo hledání hotovosti stačí přiložit čip ke čtečce na prodejním místě.
   Na displeji čtečky uvidíte strženou částku a zbývající zůstatek.
 - Pokud vám po skončení akce na čipu zůstane kredit, jednoduše si ho můžete na pár kliknutí zaslat na účet. Více
-  informací.
+  informací - doplníme.
 
 #### Na co je třeba ještě myslet?
 
@@ -63,10 +60,10 @@ budete potřebovat stále hotovost!
 
 ### Jídlo a pití
 
-- Můžete se těšit na pestřejší nabídku jídla a více stánků - burgery, trhané maso, tortilly, langoše, palačinky, klobásy
+- Můžete se těšit na pestrou nabídku jídla - burgery, trhané maso, tortilly, langoše, palačinky, klobásy
   nebo guláš. V nabídce budou i vegetariánská jídla a něco málo ve veganských verzích.
 - Kvalitní káva tradičně v podání Cafe Biograf.
-- Točit se bude Chotěboř 11 NA.EX z nedalekého pivovaru.
+- Točit se bude Chotěboř 11 NA.EX z nedalekého pivovaru a specialitou na lesním baru bude navíc Amercian Pale Ale z pivovaru Clock.
 - Mimo jiné bude dostupné i točené nealko pivo a těšit se můžete také na cider.
 - Standardem je již Lesní bar s kavlitními drinky (i nealko), premiovými rumy, giny a whisky.
 - Snídaně - stejně jako loni se můžete těšit na snídaně, které budou k dispozici v areálu v sobotu ráno od 9 do 11
@@ -74,7 +71,7 @@ budete potřebovat stále hotovost!
   Biograf. Neváhejte tedy nastartovat sobotu pořádnou snídaní!
 - Kelímky budou vratné NickNack s klipem a zálohované 50 Kč
 - V areálu nebudou dostupné cigarety. Buď se předzásobte nebo využijte zdravější verzi od Hookamonk.
-- Platby v areálu budou probíhat v rámci bezkontaktního systému NFCtron viz platby v areálu
+- Platby v areálu budou probíhat v rámci bezkontaktního systému NFCtron viz platby v areálu.
 
 ### Stage Na vyhlídce, dětský stan a doprovodný program
 
