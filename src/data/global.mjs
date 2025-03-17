@@ -99,8 +99,8 @@ export default {
         { date: "2025-07-26", time: "18:40", stage: "outlook", slug: "rozalie" },
         { date: "2025-07-26", time: "20:00", stage: "main", slug: "the-prostitutes" },
         { date: "2025-07-26", time: "21:10", stage: "outlook", slug: "dukla" },
-        { date: "2025-07-26", time: "22:40", stage: "main", slug: "the-subways" }
-        { date: "2025-07-26", time: "23:50", stage: "tent", slug: "zavis" }
+        { date: "2025-07-26", time: "22:40", stage: "main", slug: "the-subways" },
+        { date: "2025-07-26", time: "23:50", stage: "tent", slug: "zavis" },
         { date: "2025-07-27", time: "21:00", stage: "main", slug: "skyline" }
       ]
     },
