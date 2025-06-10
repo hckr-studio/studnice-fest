@@ -144,8 +144,8 @@
               {% for ticket in items %}
                 <div class="tickets__item {{ "tickets__item--disabled" if not isCurrentWave }}">
                   <a href="{{ tickets.url }}">
-                    <h3>{{ wave }}.&nbsp;vlna vstupenek</h3>
-                    <p>{{ ticket.days }}-denní</p>
+                    <h3>{{ ticket.days }}-denní</h3>
+                    <p>{{ wave }}.&nbsp;vlna vstupenek</p>
                     <p>{{ ticket.price }}&nbsp;Kč</p>
                     {% if isCurrentWave %}
                       <a href="{{ tickets.url }}" class="button">Koupit</a>
