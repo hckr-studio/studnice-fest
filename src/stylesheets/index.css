@@ -754,7 +754,7 @@ section p {
 
   .lineup__days > div {
     display: grid;
-    grid-template-columns: 4ch 1fr auto;
+    grid-template-columns: 4.5ch 1fr auto;
     height: fit-content;
     column-gap: 1ch;
   }
