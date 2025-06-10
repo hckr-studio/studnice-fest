@@ -5,6 +5,30 @@ import { join } from "node:path";
 import { mkdir, writeFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 
+async function getLatestNews() {
+  logger.info("Loading latest news…");
+  const query = new URLSearchParams({ pageSize: 100 });
+  const resp = await fetch(`https://studnice-fest.pages.dev/api/v1/news/latest?${query}`);
+  try {
+    const data = await resp.json();
+    if (!resp.ok) {
+      logger.warn("blbý!");
+    }
+    // TODO: move this to backend
+    const supportedMediaTypes = new Set(["Photo", "Video", "GenericAttachmentMedia"]);
+    return data.map(x => ({
+      text: x.text,
+      time: x.time,
+      url: x.topLevelUrl,
+      likes: x.likes,
+      comments: x.comments,
+      image: x.media?.filter(x => supportedMediaTypes.has(x["__typename"]))?.at(0)?.thumbnail
+    }));
+  } catch (err) {
+    return [];
+  }
+}
+
 export class NewsRegistry extends DefaultRegistry {
   constructor(config, pathConfig) {
     super();
@@ -23,29 +47,6 @@ export class NewsRegistry extends DefaultRegistry {
   }
 
   init({ task }) {
-    async function getLatestNews() {
-      logger.info("Loading latest news…");
-      const query = new URLSearchParams({ pageSize: 100 });
-      const resp = await fetch(`https://studnice-fest.pages.dev/api/v1/news/latest?${query}`);
-      try {
-        const data = await resp.json();
-        if (!resp.ok) {
-          logger.warn("blbý!");
-        }
-        // TODO: move this to backend
-        const supportedMediaTypes = new Set(["Photo", "Video", "GenericAttachmentMedia"]);
-        return data.map(x => ({
-          text: x.text,
-          time: x.time,
-          url: x.topLevelUrl,
-          likes: x.likes,
-          comments: x.comments,
-          image: x.media?.filter(x => supportedMediaTypes.has(x["__typename"]))?.at(0)?.thumbnail
-        }));
-      } catch (err) {
-        return [];
-      }
-    }
 
     task("prepare-data", async () => {
       const news = await getLatestNews();

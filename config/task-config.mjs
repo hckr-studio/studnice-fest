@@ -57,12 +57,6 @@ export default {
     }
   },
 
-  browserSync: {
-    server: {
-      baseDir: pathConfig.dest
-    }
-  },
-
   production: {
     rev: { exclude: ["favicon.ico", "_headers"] }
   },
