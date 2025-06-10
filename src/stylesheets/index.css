@@ -742,7 +742,7 @@ section p {
 
 .lineup {
   --_day-gap: 1lh;
-  @container (width > 850px) {
+  @container (width > 864px) {
     --main-column: wide;
     --_day-gap: 0;
     .lineup__days {
