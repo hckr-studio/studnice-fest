@@ -28,7 +28,7 @@ export default {
     waves: [
       ["onsite", [{ days: 1, price: 990 },{ days: 2, price: 1190 }]],
       [6, [{ days: 2, price: 1090 }, { days: 1, price: 890 }]],
-      [5, [{ days: 2, price: 990 }, { days: 1, price: 890 }]],
+      [5, [{ days: 2, price: 990 }]],
       [4, [{ days: 2, price: 890 }]],
       [3, [{ days: 2, price: 790 }]],
       [2, [{ days: 2, price: 690 }]],
