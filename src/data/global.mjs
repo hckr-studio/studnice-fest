@@ -24,7 +24,7 @@ export default {
   },
   tickets: {
     url: "https://tickets.nfctron.com/event/eupathia/studnice-fest-2025",
-    currentWave: 5, //"onsite",
+    currentWave: 6, //"onsite",
     waves: [
       ["onsite", [{ days: 1, price: 990 },{ days: 2, price: 1190 }]],
       [6, [{ days: 2, price: 1090 }, { days: 1, price: 890 }]],
