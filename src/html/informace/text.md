@@ -25,7 +25,7 @@
   ostatním návštěvníkům.
 - Parkování na místě bude organizováno pořadateli, dbejte prosím jejich instrukcí a doporučení.
 - Přímo u areálu je parkování zakázáno (bude sloužit pouze pro kapely, stánkaře a pořadatele).
-- Stanování je zdarma, parkování za 200 Kč (platba v hotovosti) - dostanete samolepku na sklo.
+- Stanování je zdarma, parkování za 200 Kč v předprodeji, 250 Kč na místě (platba v hotovosti) - dostanete samolepku na sklo.
 
 ### Platby v rámci areálu
 
