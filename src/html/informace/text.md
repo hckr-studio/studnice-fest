@@ -18,9 +18,9 @@
 ### Parkování a stanování
 
 - Parkování i stanování je tradičně na louce nad areálem - cesta bude značena.
-- Louka bude rozdělena na dvě části - spodní část bude vyhrazena čistě pro stany, horní část bude sloužit primárně jako
-  parkoviště.
-- Stav louky - výšky trávy zveřejníme během července.
+- Louka bude rozdělena na tři části - spodní část bude vyhrazena čistě pro stany, střední část bude sloužit jako
+  parkoviště a horní část pro spaní v autě, dodávky, karavy apod.
+- Stav louky - výšku trávy zveřejníme během července - sekání je často omezeno výskytem modráska :)
 - Na louku dojedete po lesní cestě, na které se budete míjet s pěšími. Prosíme tedy o velmi opatrnou jízdu a respekt k
   ostatním návštěvníkům.
 - Parkování na místě bude organizováno pořadateli, dbejte prosím jejich instrukcí a doporučení.
@@ -61,7 +61,7 @@ budete potřebovat stále hotovost!
 ### Jídlo a pití
 
 - Můžete se těšit na pestrou nabídku jídla - burgery, trhané maso, tortilly, langoše, palačinky, klobásy
-  nebo guláš. V nabídce budou i vegetariánská jídla a něco málo ve veganských verzích.
+  nebo guláš. V nabídce budou i vegetariánská/veganská jídla.
 - Kvalitní káva tradičně v podání Cafe Biograf.
 - Točit se bude Chotěboř 11 NA.EX z nedalekého pivovaru a specialitou na lesním baru bude navíc Amercian Pale Ale z pivovaru Clock.
 - Mimo jiné bude dostupné i točené nealko pivo a těšit se můžete také na cider.
