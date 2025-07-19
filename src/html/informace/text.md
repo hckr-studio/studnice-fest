@@ -1,6 +1,6 @@
 ### Podrobněji ke vstupenkám
 
-- Vstupenky jsou stále dostupné v předprodeji až do čtvrtka 24.7. (včetně) za 990/1090 Kč 2-denní a 890 Kč 1-denní.
+- Vstupenky jsou stále dostupné v [předprodeji](https://tickets.nfctron.com/event/eupathia/studnice-fest-2025) až do čtvrtka 24.7. (včetně) za 1090 Kč 2-denní a 890 Kč 1-denní.
 - Pokud se vstupeny nevyprodají v předprodeji, tak bude na místě možné zakoupit vstupenky za 1190 Kč (dvoudenní) a na jeden den za 990 Kč.
 - Nedoporučujeme kupovat vstupenky mimo oficiální předprodej (na vstupenku se stejným kódem bude vpuštěn pouze návštěvník, který ji
   předloží jako první).
@@ -25,7 +25,7 @@
   ostatním návštěvníkům.
 - Parkování na místě bude organizováno pořadateli, dbejte prosím jejich instrukcí a doporučení.
 - Přímo u areálu je parkování zakázáno (bude sloužit pouze pro kapely, stánkaře a pořadatele).
-- Stanování je zdarma, parkování za 150 Kč v předprodeji, 200 Kč na místě (platba v hotovosti) - dostanete samolepku na sklo.
+- Stanování je zdarma, parkování za 150 Kč v [předprodeji](https://tickets.nfctron.com/event/eupathia/studnice-fest-2025), 200 Kč na místě (platba v hotovosti) - dostanete samolepku na sklo.
 
 ### Platby v rámci areálu
 
