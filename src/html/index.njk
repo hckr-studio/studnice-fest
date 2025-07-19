@@ -100,6 +100,37 @@
         </article>
       </section>
     {% endif %}
+    {% if lineup.visible %}
+      <section class="lineup" id="harmonogram">
+        <header>
+          <h2>Časový harmonogram</h2>
+        </header>
+        <p>Hudební produkce bude probíhat na třech jevištích&nbsp;&ndash; hlavní stage,
+          stage „Na Vyhlídce“ a dětský&nbsp;stan.</p>
+        <div class="lineup__days">
+          {% macro lineupItem(item) %}
+            {% set artist = artists[item.slug] %}
+            <div class="lineup__item" data-artist-id="{{ item.slug }}">
+              <time datetime="{{ item.date }}T{{ item.time }}:00.000+02:00">{{ item.time }}</time>
+              <strong>{{ artist.title or item.title }}</strong>
+              <small class="{{ item.stage }}">{{ event.stages[item.stage] }}</small>
+            </div>
+          {% endmacro %}
+          <div>
+            <h3>{{ lineup.friday.title }}</h3>
+            {% for item in lineup.friday.schedule %}
+              {{ lineupItem(item) }}
+            {% endfor %}
+          </div>
+          <div>
+            <h3>{{ lineup.saturday.title }}</h3>
+            {% for item in lineup.saturday.schedule %}
+              {{ lineupItem(item) }}
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+    {% endif %}
     <section class="artists-list" id="vystoupi">
       <header id="bands">
         <h2>{{ lineup.heading }}</h2>
@@ -165,37 +196,6 @@
       </div>
     </section>
 
-    {% if lineup.visible %}
-      <section class="lineup" id="harmonogram">
-        <header>
-          <h2>Časový harmonogram</h2>
-        </header>
-        <p>Hudební produkce bude probíhat na třech jevištích&nbsp;&ndash; hlavní stage,
-          stage „Na Vyhlídce“ a dětský&nbsp;stan.</p>
-        <div class="lineup__days">
-          {% macro lineupItem(item) %}
-            {% set artist = artists[item.slug] %}
-            <div class="lineup__item" data-artist-id="{{ item.slug }}">
-              <time datetime="{{ item.date }}T{{ item.time }}:00.000+02:00">{{ item.time }}</time>
-              <strong>{{ artist.title or item.title }}</strong>
-              <small class="{{ item.stage }}">{{ event.stages[item.stage] }}</small>
-            </div>
-          {% endmacro %}
-          <div>
-            <h3>{{ lineup.friday.title }}</h3>
-            {% for item in lineup.friday.schedule %}
-              {{ lineupItem(item) }}
-            {% endfor %}
-          </div>
-          <div>
-            <h3>{{ lineup.saturday.title }}</h3>
-            {% for item in lineup.saturday.schedule %}
-              {{ lineupItem(item) }}
-            {% endfor %}
-          </div>
-        </div>
-      </section>
-    {% endif %}
     <article id="mapa">
       <header>
         <h2>Mapa</h2>
