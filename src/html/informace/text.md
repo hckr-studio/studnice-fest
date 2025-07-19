@@ -41,8 +41,7 @@ Letošní Studnice bude typicky “cashless” se systémem NFCtron. A kredit si
   dobitím, který naleznete ve svém účtu NFCtron Pass.
 - Poté už stačí vyrazit na pivo či hamburger. Místo hledání hotovosti stačí přiložit čip ke čtečce na prodejním místě.
   Na displeji čtečky uvidíte strženou částku a zbývající zůstatek.
-- Pokud vám po skončení akce na čipu zůstane kredit, jednoduše si ho můžete na pár kliknutí zaslat na účet. Více
-  informací - doplníme.
+- Pokud vám po skončení akce na čipu zůstane kredit, jednoduše si ho můžete na pár kliknutí zaslat na účet. Pokud si ho nevyberte, tak skončí u nás u pořadatelů a využijeme ho na zvelebování dalších ročníků :)
 
 #### Na co je třeba ještě myslet?
 
@@ -63,14 +62,14 @@ budete potřebovat stále hotovost!
 - Můžete se těšit na pestrou nabídku jídla - burgery, trhané maso, tortilly, langoše, palačinky, klobásy
   nebo guláš. V nabídce budou i vegetariánská/veganská jídla.
 - Kvalitní káva tradičně v podání Cafe Biograf.
-- Točit se bude Chotěboř 11 NA.EX z nedalekého pivovaru a specialitou na lesním baru bude navíc Amercian Pale Ale z pivovaru Clock.
+- Točit se bude Chotěboř 11 NA.EX z nedalekého pivovaru a specialitou na letošním ročníku bude navíc Amercian Pale Ale z pivovaru Clock.
 - Mimo jiné bude dostupné i točené nealko pivo a těšit se můžete také na cider.
 - Standardem je již Lesní bar s kavlitními drinky (i nealko), premiovými rumy, giny a whisky.
 - Snídaně - stejně jako loni se můžete těšit na snídaně, které budou k dispozici v areálu v sobotu ráno od 9 do 11
   hodin. Budete si moct dát english breakfast, palačinky, polévku, párečky či koláče a vše zapít výbornou kávou z Café
   Biograf. Neváhejte tedy nastartovat sobotu pořádnou snídaní!
 - Kelímky budou vratné NickNack s klipem a zálohované 50 Kč
-- V areálu nebudou dostupné cigarety. Buď se předzásobte nebo využijte zdravější verzi od Hookamonk.
+- V areálu nebudou dostupné cigarety.
 - Platby v areálu budou probíhat v rámci bezkontaktního systému NFCtron viz platby v areálu.
 
 ### Stage Na vyhlídce, dětský stan a doprovodný program
