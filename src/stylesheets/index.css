@@ -864,10 +864,17 @@ section p {
         opacity: 0.3;
       }
     }
-
+    &.tickets__item--oneday {
+      padding-inline: 1.75em;
+    }
     &.tickets__item--onsite {
       background-color: var(--accent3-color);
       padding-inline: 3.25em;
+    }
+
+    &.tickets__item--parking {
+      background-color: var(--accent2-color);
+      padding-inline: 2.25em;
     }
 
     h3, p {

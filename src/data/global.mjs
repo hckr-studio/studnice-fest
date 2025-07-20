@@ -26,14 +26,18 @@ export default {
     url: "https://tickets.nfctron.com/event/eupathia/studnice-fest-2025",
     currentWave: 6, //"onsite",
     waves: [
-      ["onsite", [{ days: 1, price: 990 },{ days: 2, price: 1190 }]],
-      [6, [{ days: 2, price: 1090 }, { days: 1, price: 890 }]],
+      ["onsite", [{ days: 1, price: 990 }, { days: 2, price: 1190 }]],
+      [6, [
+        { days: 2, price: 1090, id: "ticket-group-content-651201b9-d36e-4e67-96b7-1674d1662f7a" },
+        { days: 1, price: 890, id: "ticket-group-609e91ee-d505-41f4-99ea-edb2d82fcc1c" }]
+      ],
       [5, [{ days: 2, price: 990 }]],
       [4, [{ days: 2, price: 890 }]],
       [3, [{ days: 2, price: 790 }]],
       [2, [{ days: 2, price: 690 }]],
       [1, [{ days: 2, price: 590 }]],
     ],
+    parking: { days: 2, price: 150, id: "ticket-group-7e605dcc-ee61-4f10-a41c-3261d1de7025" },
   },
   event: {
     name: "Studnice Fest",
@@ -110,7 +114,7 @@ export default {
   formatTime,
   filterNews(news) {
     const excluded = new Set(this.ctx.newsList.exclude);
-    return news.filter(({url}) => !excluded.has(url));
+    return news.filter(({ url }) => !excluded.has(url));
   }
 }
 
