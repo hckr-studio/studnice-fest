@@ -1,15 +1,15 @@
 ### Podrobněji ke vstupenkám
 
-- Vstupenky jsou stále dostupné v [předprodeji](https://tickets.nfctron.com/event/eupathia/studnice-fest-2025) až do čtvrtka 24.7. (včetně) za 1090 Kč 2-denní a 890 Kč 1-denní.
-- Pokud se vstupeny nevyprodají v předprodeji, tak bude na místě možné zakoupit vstupenky za 1190 Kč (dvoudenní) a na jeden den za 990 Kč.
+- Vstupenky jsou zatím stále dostupné v [předprodeji](https://tickets.nfctron.com/event/eupathia/studnice-fest-2025) až do čtvrtka 24.7. (včetně) za 1090 Kč 2-denní (posledních méně než 150 ks) a 890 Kč 1-denní.
+- Na místě s největší pravděpodobností už nebudou vůbec, pokud se vstupeny nevyprodají v předprodeji, tak budou za 1190 Kč (dvoudenní) a na jeden den za 990 Kč.
 - Nedoporučujeme kupovat vstupenky mimo oficiální předprodej (na vstupenku se stejným kódem bude vpuštěn pouze návštěvník, který ji
   předloží jako první).
 - Vstup zdarma pro děti do 150 cm, ZTP a obyvatele Studnic u Hlinska (po předložení platného OP).
 
 ### Doprava
 
-- Festival se koná v areálu Cihelka u Hlinska v Čechách.
-- Pokud pojedete autem, jeďte z Hlinska směr Kameničky.
+- Festival se koná v areálu [Cihelka](https://maps.app.goo.gl/3u582mbjLMaMM3Uj6) u Hlinska v Čechách.
+- Pokud pojedete autem, jeďte z Hlinska směr Kameničky - jen pozor, aktuálně je v Hlinsku - Blatno zavřený most a pokud se situace nezmění, tak následujte oficiální objížďku.
 - Pokud pojedete vlakem, tak cílovou stanici
   volte [Hlinsko v Čechách](https://jizdnirady.idnes.cz/vlaky/spojeni/?f=&t=Hlinsko+v+%c4%8cech%c3%a1ch&fc=1&tc=100003&submit=false)
 - Z vlakového nádraží jsou to necelé 3 km, vyhněte se hlavní silnici 343 mimo Hlinsko a vezměte to přes Rataje.
@@ -20,7 +20,7 @@
 - Parkování i stanování je tradičně na louce nad areálem - cesta bude značena.
 - Louka bude rozdělena na tři části - spodní část bude vyhrazena čistě pro stany, střední část bude sloužit jako
   parkoviště a horní část pro spaní v autě, dodávky, karavy apod.
-- Stav louky - výšku trávy zveřejníme během července - sekání je často omezeno výskytem modráska :)
+- Stav louky - výška trávy je pět o něco vyšší - sekání je často omezeno výskytem modráska :) - přibalte dle počasí holiny a repelent
 - Na louku dojedete po lesní cestě, na které se budete míjet s pěšími. Prosíme tedy o velmi opatrnou jízdu a respekt k
   ostatním návštěvníkům.
 - Parkování na místě bude organizováno pořadateli, dbejte prosím jejich instrukcí a doporučení.
@@ -29,7 +29,7 @@
 
 ### Platby v rámci areálu
 
-Letošní Studnice bude typicky “cashless” se systémem NFCtron. A kredit si můžete samozřejmě dobít předem. Všechny transakce vč. náramku jsou zcela zdarma! Více informací - doplníme.
+Letošní Studnice bude typicky “cashless” se systémem NFCtron. A kredit si můžete samozřejmě [dobít předem](https://pass.nfctron.com/event/eupathia/studnice-fest-2025/overview). Všechny transakce vč. náramku jsou zcela zdarma! 
 
 #### Jak to typicky probíhá?
 
@@ -45,7 +45,7 @@ Letošní Studnice bude typicky “cashless” se systémem NFCtron. A kredit si
 
 #### Na co je třeba ještě myslet?
 
-Placení náramky bude probíhat pouze uvnitř areálu, takže pro zakoupení vstupenky na místě nebo zaplacení parkovného
+Placení náramky bude probíhat pouze uvnitř areálu, takže pro zakoupení vstupenky na místě nebo zaplacení parkovného (pokud si ho nekopíte v předprodeji)
 budete potřebovat stále hotovost!
 
 ### Vstup do areálu
@@ -63,7 +63,7 @@ budete potřebovat stále hotovost!
   nebo guláš. V nabídce budou i vegetariánská/veganská jídla.
 - Kvalitní káva tradičně v podání Cafe Biograf.
 - Točit se bude Chotěboř 11 NA.EX z nedalekého pivovaru a specialitou na letošním ročníku bude navíc Amercian Pale Ale z pivovaru Clock.
-- Mimo jiné bude dostupné i točené nealko pivo a těšit se můžete také na cider.
+- Mimo jiné bude dostupné i točené nealko pivo (ochucené i neochucené) a těšit se můžete také na cider.
 - Standardem je již Lesní bar s kavlitními drinky (i nealko), premiovými rumy, giny a whisky.
 - Snídaně - stejně jako loni se můžete těšit na snídaně, které budou k dispozici v areálu v sobotu ráno od 9 do 11
   hodin. Budete si moct dát english breakfast, palačinky, polévku, párečky či koláče a vše zapít výbornou kávou z Café
@@ -76,14 +76,14 @@ budete potřebovat stále hotovost!
 
 - Opět se můžete těšit na alternativní pódium "Na vyhlídce". Interpreti nám z tohoto místa zpříjemní "pauzy" na hlavním
   pódiu.
-- Po úspěchu v minulých letech na festival přijede také Hookamonk se svými futuristickými vodními dýmkami.
+- V rohu naproti hlavnímu podiu bude chill-out zóna kde si buete moct užít blízkost lesa a u toho pozorovat z dálky kapely.
 - Obdobně jako v předchozích letech mohou naši nejmenší návštěvníci využít dětský stan jako dočasný úkryt před
-  festivalovým rejem. V sobotu po obědě pro ně plánujeme i menší hudební program. Stan bude na novém větším místě za
+  festivalovým rejem. V sobotu odpoledne se nejmenší mohou teěšit na divadelní vystoupení TýBrďo divadlo!, určitě si ovšem užijí i Fast Foody od 13:10 nebo Pokáče od 16:10! Stan bude na novém větším místě za
   hlavním pódiem.
 
 ### Počasí a koupání
 
-- Jedete (skoro) na Vysočinu, navíc areál je (ještě pořád) v lese - počítejte s teplotou cca o 5 stupňů nižší než ve
+- Jedete (skoro) na Vysočinu, navíc areál je (ještě pořád) v lese - počítejte s teplotou něco nižší než ve
   městě.
 - Doporučujeme repelent proti komárům a klíšťatům.
 - V případě přeháněk nebo deště můžeme nabídnout částečně kryté hlediště, prostor před barem i část sezení, takže na
@@ -94,4 +94,4 @@ budete potřebovat stále hotovost!
   vlevo, poté vpravo (silnice
   směr Včelákov, Miřetice). Platí se zde sice vstupné, na oplátku je zde nově vybudované zázemí. Dále je v Hlinsku
   [přírodní koupací biotop](https://www.sportovistehlinsko.cz/sportoviste/koupaci-biotop/) (očekávejte frontu na
-  vstupu). V poledne zpět na Cihelce!
+  vstupu). Po 11 zpět na Cihelce!
