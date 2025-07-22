@@ -65,6 +65,7 @@ export default {
       "rodan",
       "neni-zac",
       "anicka",
+      "slavicek",
       "tybrdo-divadlo"
 
     ],
