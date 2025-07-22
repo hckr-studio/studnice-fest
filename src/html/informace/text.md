@@ -96,14 +96,14 @@ budete potřebovat stále hotovost!
   hlavním pódiem.
 - Současně na Studnici můžete zažít Flow ateliér - detaily níže v samostatné sekci.
     
-#### Program Flow Atelieru na Studnici
-##### Harmonogram
-- 10-11:15 Flow jóga a intuitivní pohyb s Petrou
+### Program Flow Atelieru na Studnici
+#### Harmonogram
+- 10:00 - 11:15 Flow jóga a intuitivní pohyb s Petrou
 - 11:15 - 12:15 Flow malování světla s Míšou
-- 15 - 16:30 Flow rodina s Petrou, Míšou a Janou
-- 17-18:30 Flow sushi s Janou
+- 15:00 - 16:30 Flow rodina s Petrou, Míšou a Janou
+- 17:00 - 18:30 Flow sushi s Janou
 
-🧘🏽‍♀️ Flow jóga a intuitivní pohyb 10-11:15
+#### 🧘🏽‍♀️ Flow jóga a intuitivní pohyb 10:00 - 11:15
 Přijďte zahájit druhý den festivalu energetickou vzpruhou v podobě jógy a vědomé práce s energií ve svém těle při inituitivním pohybu.
 
 Nejdřív se pořádně rozdýcháme, pak rozproudíme tělo jemnými ásanami a postupně přejdeme do aktivnější fáze intuitivního pohyb, abychom na závěr nechali vše ve svém těle uvolnit v závěrečné relaxaci.
@@ -113,19 +113,19 @@ S sebou podložku na cvičení, šátek na přikrytí při relaxaci, pohodlné o
 Vhodné pro všechny, kteří se chtějí na začátku dne rozhýbat.
 Předchozí zkušenost s jógou není nutná.
 
-🎨 Flow malování světla 11:15-12:15
+#### 🎨 Flow malování světla 11:15 - 12:15
 Přijďte si s dětmi (nebo i sami) pro jedinečný symbol – malovaný jemnou bílou barvou na čelo, tvář či ruku.
 Symboly radosti, klidu a síly malujeme s lehkostí, intuicí a laskavým dotekem.
 Každý si odnese svůj vlastní zářivý otisk – malý rituál, který pohladí duši a rozzáří oči.
 Rádi namalujeme i dospělé – každé srdce si zaslouží zazářit. ✨
 
-❤️ Flow rodina 15-16:30
+#### ❤️ Flow rodina 15:00 - 16:30
 Po obědě jsme si pro vás ve připravily program pro rodiče s dětmi.
 Společně se rozhýbeme, aby se tělo pěkně vyřádilo. Ponoříme se do vzájemné důvěry a hry. Vyrobíme si čarovné chřestidlo, které umí propojit s naším vnitřním světem a aktivujeme ho rituálem v šamanském kruhu. 
 Na závěr si užijeme pečující relaxaci.
 Vsechny děti i rodiče i odvážlivci bez dětí vítáni 
 
-🍣 Flow sushi (nejen) pro děti 17-18:30
+#### 🍣 Flow sushi (nejen) pro děti 17:00 - 18:30
 Pojď si vyzkoušet, jaké to je stát se sushi mistrem!
 
 Na našem stánku si můžete vlastnoručně vytvořit:
@@ -136,9 +136,9 @@ Na našem stánku si můžete vlastnoručně vytvořit:
 Přijďte si hravě zamotat vlastní kousek Japonska!
 
 Vhodné pro malé i větší děti, pod vedením zkušené sushi lektorky. 
-Příspěvek na materiál 150,-/ osoba
+Příspěvek na materiál 150 Kč / osoba
 
-Programem vás provede:
+#### Programem vás provede:
 
 Petra Kohoutková - zabývá se jógou, psychoterapií, osobnostním rozvojem a studiem různých duchovních směrů přes 20 let. V posledních letech je její práce obohacená o šamanské techniky. Ve Flow Atelieru iniciuje ženské kruhy, provází individuálními i skupinovými rituály, vede lekce jógy, dělá masáže a provází individuálně klienty na jejich cestě sebepoznání.
 
