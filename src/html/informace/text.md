@@ -20,7 +20,7 @@
 - Parkování i stanování je tradičně na louce nad areálem - cesta bude značena.
 - Louka bude rozdělena na tři části - spodní část bude vyhrazena čistě pro stany, střední část bude sloužit jako
   parkoviště a horní část pro spaní v autě, dodávky, karavy apod.
-- Stav louky - výška trávy je pět o něco vyšší - sekání je často omezeno výskytem modráska :) - přibalte dle počasí holiny a repelent
+- Stav louky - výška trávy je opět o něco vyšší (sekání je často omezeno výskytem modráska:) - přibalte dle počasí holiny a repelent.
 - Na louku dojedete po lesní cestě, na které se budete míjet s pěšími. Prosíme tedy o velmi opatrnou jízdu a respekt k
   ostatním návštěvníkům.
 - Parkování na místě bude organizováno pořadateli, dbejte prosím jejich instrukcí a doporučení.
@@ -34,7 +34,7 @@ Letošní Studnice bude typicky “cashless” se systémem NFCtron. A kredit si
 #### Jak to typicky probíhá?
 
 - Na vstupu po předložení/zakoupení vstupenky od nás obdržíte náramek s čipem. Ten bude jednak sloužit pro vstup do
-  areálu
+  areálu.
   a také pro veškeré platby v rámci areálu Studnice Festu.
 - Následně si na čip dobijete kredit na dobíjecím místě - zaplatit můžete hotově nebo platební kartou.
 - Kredit si také můžete dobít už dopředu online přes NFCtron Pass. Na označeném dobíjecím místě stačí ukázat QR kód s
@@ -78,7 +78,7 @@ budete potřebovat stále hotovost!
   pódiu.
 - V rohu naproti hlavnímu podiu bude chill-out zóna kde si buete moct užít blízkost lesa a u toho pozorovat z dálky kapely.
 - Obdobně jako v předchozích letech mohou naši nejmenší návštěvníci využít dětský stan jako dočasný úkryt před
-  festivalovým rejem. V sobotu odpoledne se nejmenší mohou teěšit na divadelní vystoupení TýBrďo divadlo!, určitě si ovšem užijí i Fast Foody od 13:10 nebo Pokáče od 16:10! Stan bude na novém větším místě za
+  festivalovým rejem. V sobotu odpoledne se nejmenší mohou těšit na divadelní vystoupení TýBrďo divadlo!, určitě si ovšem užijí i Fast Foody od 13:10 nebo Pokáče od 16:10! Stan bude klasicky za
   hlavním pódiem.
 
 ### Počasí a koupání
