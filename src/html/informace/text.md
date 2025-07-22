@@ -71,16 +71,7 @@ budete potřebovat stále hotovost!
 - Kelímky budou vratné NickNack s klipem a zálohované 50 Kč
 - V areálu nebudou dostupné cigarety.
 - Platby v areálu budou probíhat v rámci bezkontaktního systému NFCtron viz platby v areálu.
-
-### Stage Na vyhlídce, dětský stan a doprovodný program
-
-- Opět se můžete těšit na alternativní pódium "Na vyhlídce". Interpreti nám z tohoto místa zpříjemní "pauzy" na hlavním
-  pódiu.
-- V rohu naproti hlavnímu podiu bude chill-out zóna kde si buete moct užít blízkost lesa a u toho pozorovat z dálky kapely.
-- Obdobně jako v předchozích letech mohou naši nejmenší návštěvníci využít dětský stan jako dočasný úkryt před
-  festivalovým rejem. V sobotu odpoledne se nejmenší mohou těšit na divadelní vystoupení TýBrďo divadlo!, určitě si ovšem užijí i Fast Foody od 13:10 nebo Pokáče od 16:10! Stan bude klasicky za
-  hlavním pódiem.
-
+  
 ### Počasí a koupání
 
 - Jedete (skoro) na Vysočinu, navíc areál je (ještě pořád) v lese - počítejte s teplotou něco nižší než ve
@@ -95,3 +86,65 @@ budete potřebovat stále hotovost!
   směr Včelákov, Miřetice). Platí se zde sice vstupné, na oplátku je zde nově vybudované zázemí. Dále je v Hlinsku
   [přírodní koupací biotop](https://www.sportovistehlinsko.cz/sportoviste/koupaci-biotop/) (očekávejte frontu na
   vstupu). Po 11 zpět na Cihelce!
+### Stage Na vyhlídce, dětský stan a doprovodný program
+
+- Opět se můžete těšit na alternativní pódium "Na vyhlídce". Interpreti nám z tohoto místa zpříjemní "pauzy" na hlavním
+  pódiu.
+- V rohu naproti hlavnímu podiu bude chill-out zóna kde si buete moct užít blízkost lesa a u toho pozorovat z dálky kapely.
+- Obdobně jako v předchozích letech mohou naši nejmenší návštěvníci využít dětský stan jako dočasný úkryt před
+  festivalovým rejem. V sobotu odpoledne se nejmenší mohou těšit na divadelní vystoupení TýBrďo divadlo!, určitě si ovšem užijí i Fast Foody od 13:10 nebo Pokáče od 16:10! Stan bude klasicky za
+  hlavním pódiem.
+- Současně na Studnici můžete zažít Flow ateliér - detaily níže v samostatné sekci.
+    
+  ### Program Flow Atelieru na Studnici
+Harmonogram
+- 10-11:15 Flow jóga a intuitivní pohyb s Petrou
+- 11:15 - 12:15 Flow malování světla s Míšou
+- 15 - 16:30 Flow rodina s Petrou, Míšou a Janou
+- 17-18:30 Flow sushi s Janou
+
+🧘🏽‍♀️ Flow jóga a intuitivní pohyb 10-11:15
+Přijďte zahájit druhý den festivalu energetickou vzpruhou v podobě jógy a vědomé práce s energií ve svém těle při inituitivním pohybu.
+
+Nejdřív se pořádně rozdýcháme, pak rozproudíme tělo jemnými ásanami a postupně přejdeme do aktivnější fáze intuitivního pohyb, abychom na závěr nechali vše ve svém těle uvolnit v závěrečné relaxaci.
+
+S sebou podložku na cvičení, šátek na přikrytí při relaxaci, pohodlné oblečení, voda.
+
+Vhodné pro všechny, kteří se chtějí na začátku dne rozhýbat.
+Předchozí zkušenost s jógou není nutná.
+
+🎨 Flow malování světla 11:15-12:15
+Přijďte si s dětmi (nebo i sami) pro jedinečný symbol – malovaný jemnou bílou barvou na čelo, tvář či ruku.
+Symboly radosti, klidu a síly malujeme s lehkostí, intuicí a laskavým dotekem.
+Každý si odnese svůj vlastní zářivý otisk – malý rituál, který pohladí duši a rozzáří oči.
+Rádi namalujeme i dospělé – každé srdce si zaslouží zazářit. ✨
+
+❤️ Flow rodina 15-16:30
+Po obědě jsme si pro vás ve připravily program pro rodiče s dětmi.
+Společně se rozhýbeme, aby se tělo pěkně vyřádilo. Ponoříme se do vzájemné důvěry a hry. Vyrobíme si čarovné chřestidlo, které umí propojit s naším vnitřním světem a aktivujeme ho rituálem v šamanském kruhu. 
+Na závěr si užijeme pečující relaxaci.
+Vsechny děti i rodiče i odvážlivci bez dětí vítáni 
+
+🍣 Flow sushi (nejen) pro děti 17-18:30
+Pojď si vyzkoušet, jaké to je stát se sushi mistrem!
+
+Na našem stánku si můžete vlastnoručně vytvořit:
+🎨 Barevnou sushi rýži – obarvi si ji přírodními barvami
+🍙 Temari sushi kuličky – malé, kulaté a roztomilé
+🌸 Temaki kornoutky – japonská dobrota, co padne přímo do ruky!
+
+Přijďte si hravě zamotat vlastní kousek Japonska!
+
+Vhodné pro malé i větší děti, pod vedením zkušené sushi lektorky. 
+Příspěvek na materiál 150,-/ osoba
+
+Programem vás provede:
+
+Petra Kohoutková - zabývá se jógou, psychoterapií, osobnostním rozvojem a studiem různých duchovních směrů přes 20 let. V posledních letech je její práce obohacená o šamanské techniky. Ve Flow Atelieru iniciuje ženské kruhy, provází individuálními i skupinovými rituály, vede lekce jógy, dělá masáže a provází individuálně klienty na jejich cestě sebepoznání.
+
+Míša Kmochová – provází ženy na cestě k větší lehkosti, vnitřnímu klidu a hlubšímu propojení se sebou. Ve své práci propojuje koučink s vnímáním prostoru a těla, zklidňující rituály, relaxační techniky a jemnou energetickou péči. Pomáhá uvolnit stres, emoční napětí a podporuje ženy v návratu k jejich vnitřnímu zdroji. Nabízí také ošetření Access Bars.
+
+Jana Beskydová se věnuje sushi od roku 2008. Vařila v japonské restauraci v Kanadě, v asijské kuchyni na Novém Zélandu a v Japonsku vedla sushi workshopy. Dnes působí v Čechách, kde s radostí sdílí své zkušenosti skrze gurmánské zážitky. Ve Flow Atelieru si s ní můžete užít kurzy sushi a japonské kuchyně.
+
+V případě dotazů se na nás můžete obrátit na www.flow-atelier.cz, kde najdete i jednotlivé kontakty na lektorky.
+Těšíme se na společné Flow ❤️
