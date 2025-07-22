@@ -2,4 +2,4 @@
 image: slavicek.jpg
 ---
 
-# Skavíček
+# Slavíček
