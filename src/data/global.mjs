@@ -82,6 +82,7 @@ export default {
       title: "Pátek 25. 7.",
       schedule: [
         { date: "2025-07-25", time: "16:00", stage: "main", slug: "neni-zac" },
+        { date: "2025-07-25", time: "17:00", stage: "outlook", title: "Slavíček" },
         { date: "2025-07-25", time: "18:00", stage: "main", slug: "dukla-vozovna" },
         { date: "2025-07-25", time: "19:00", stage: "outlook", title: "Vojtaano stand-up" },
         { date: "2025-07-25", time: "19:50", stage: "main", slug: "mucha" },
