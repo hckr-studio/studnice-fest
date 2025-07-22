@@ -96,8 +96,8 @@ budete potřebovat stále hotovost!
   hlavním pódiem.
 - Současně na Studnici můžete zažít Flow ateliér - detaily níže v samostatné sekci.
     
-  ### Program Flow Atelieru na Studnici
-Harmonogram
+#### Program Flow Atelieru na Studnici
+##### Harmonogram
 - 10-11:15 Flow jóga a intuitivní pohyb s Petrou
 - 11:15 - 12:15 Flow malování světla s Míšou
 - 15 - 16:30 Flow rodina s Petrou, Míšou a Janou
