@@ -1,7 +1,7 @@
 ### Podrobněji ke vstupenkám
 
-- Vstupenky jsou zatím stále dostupné v [předprodeji](https://tickets.nfctron.com/event/eupathia/studnice-fest-2025) až do čtvrtka 24.7. (včetně) za 1090 Kč 2-denní (posledních méně než 150 ks) a 890 Kč 1-denní.
-- Na místě s největší pravděpodobností už nebudou vůbec, pokud se vstupeny nevyprodají v předprodeji, tak budou za 1190 Kč (dvoudenní) a na jeden den za 990 Kč.
+- Vstupenky jsou stále dostupné v [předprodeji](https://tickets.nfctron.com/event/eupathia/studnice-fest-2025) až za 1090 Kč 2-denní (posledních méně než 50 ks) a 890 Kč 1-denní.
+- Na místě vstupenky zatím jsou za 1190 Kč (dvoudenní) a na jeden den za 990 Kč. Ale stále můžete využít předprodeje!
 - Nedoporučujeme kupovat vstupenky mimo oficiální předprodej (na vstupenku se stejným kódem bude vpuštěn pouze návštěvník, který ji
   předloží jako první).
 - Vstup zdarma pro děti do 150 cm, ZTP a obyvatele Studnic u Hlinska (po předložení platného OP).
