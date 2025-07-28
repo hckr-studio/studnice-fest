@@ -37,7 +37,7 @@ export default {
       [2, [{ days: 2, price: 790 }]],
       [1, [{ days: 2, price: 690 }]],
     ],
-    parking: { days: 2, price: 150, id: "ticket-group-7e605dcc-ee61-4f10-a41c-3261d1de7025" },
+    
   },
   event: {
     name: "Studnice Fest",
