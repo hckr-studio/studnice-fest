@@ -24,7 +24,7 @@ export default {
   },
   tickets: {
     url: "https://tickets.nfctron.com/event/eupathia/studnice-fest-2026",
-    currentWave: 1, //"onsite",
+    currentWave: 2, //"onsite",
     waves: [
       ["onsite", [{ days: 1, price: 990 }, { days: 2, price: 1190 }]],
       [6, [
