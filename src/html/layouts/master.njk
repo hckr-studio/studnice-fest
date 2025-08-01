@@ -27,6 +27,7 @@
       src: url({{ "dosis.latin-ext.woff2" | assetUrl("fonts") }}) format("woff2");
       unicode-range: U+0100-0101, U+0104-0130, U+0132-0151, U+0154-017F, U+018F, U+0192, U+01A0-01A1, U+01AF-01B0, U+01FA-01FF, U+0218-021B, U+0237, U+0259, U+1E80-1E85, U+1E9E, U+20A1, U+20A4, U+20A6, U+20A8-20AA, U+20AD-20AE, U+20B1-20B2, U+20B4-20B5, U+20B8-20BA, U+20BD, U+20BF;
     }
+
     @font-face {
       font-family: "fallback for Dosis";
       src: local("Arial");
@@ -40,7 +41,8 @@
   {% block head_stylesheets %}{% endblock %}
   {% block head_preload %}
     <link rel="preload" href="{{ "dosis.latin.woff2" | assetUrl("fonts") }}" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="{{ "dosis.latin-ext.woff2" | assetUrl("fonts") }}" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ "dosis.latin-ext.woff2" | assetUrl("fonts") }}" as="font" type="font/woff2"
+          crossorigin>
   {% endblock %}
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ analytics.gtmID }}"></script>
@@ -97,11 +99,14 @@
       <ul>
         <li><a href="/">Úvod</a></li>
         <li><a href="/novinky/">Novinky</a></li>
-        {% if info.visible %}<li><a href="/informace/">Důležité informace</a></li>{% endif %}
+        {% if info.visible %}
+          <li><a href="/informace/">Důležité informace</a></li>{% endif %}
         <li><a href="/#vystoupi">Kdo vystoupí</a></li>
         <li><a href="/#vstupenky">Vstupenky</a></li>
-        {% if lineup.visible %}<li><a href="/#harmonogram">Časový harmonogram</a></li>{% endif %}
-        {% if info.visible %}<li><a href="/informace/#mapa">Mapa</a></li>{% endif %}
+        {% if lineup.visible %}
+          <li><a href="/#harmonogram">Časový harmonogram</a></li>{% endif %}
+        {% if info.visible %}
+          <li><a href="/informace/#mapa">Mapa</a></li>{% endif %}
         <li><a href="#kontakt">Kontakt</a></li>
       </ul>
     </div>
@@ -110,7 +115,7 @@
 {% block content %}{% endblock %}
 <footer>
   <section class="footer__contacts">
-    {#<div id="kontakt">
+    {# <div id="kontakt">
       <!--<h2>Kontakty</h2>
       <p>Potřebujete kontaktovat pořadatele?</p>-->
     </div> #}
@@ -123,7 +128,10 @@
         <a href="mailto:pavel.kosina&#64;studnicefest.cz">pavel.kosina&#64;<!-- -->studnicefest.cz</a></p>
     </div>
     <div class="footer__social-icons">
-<a href="https://www.kudyznudy.cz/?utm_source=kzn&utm_medium=partneri_kzn&utm_campaign=banner" target="_blank"><img src="https://www.kudyznudy.cz/getmedia/fc5f14ae-5cc6-4aab-9303-1cdfb20659d2/1012102023-online-bannery-hq-234x60.jpg.aspx" width="234"  height="60" alt="Kudyznudy.cz"></a>
+      <a href="https://www.kudyznudy.cz/?utm_source=kzn&utm_medium=partneri_kzn&utm_campaign=banner"
+         target="_blank"><img
+          src="https://www.kudyznudy.cz/getmedia/fc5f14ae-5cc6-4aab-9303-1cdfb20659d2/1012102023-online-bannery-hq-234x60.jpg.aspx"
+          width="234" height="60" alt="Kudyznudy.cz"></a>
       <ul>
         <li><a href="https://www.facebook.com/StudniceFest/" target="fb">
             <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 40 40">
@@ -207,5 +215,9 @@
   menu.addEventListener("click", e => e.target.hash && menu.hidePopover());
 </script>
 {% block scripts %}{% endblock %}
+<!-- Cloudflare Web Analytics -->
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon='{"token": "d4e35f9424184914a6ab86393b9a16ac"}'></script>
+<!-- End Cloudflare Web Analytics -->
 </body>
 </html>
