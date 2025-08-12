@@ -9,7 +9,7 @@
   "private": true,
   "packageManager": "yarn@4.9.2",
   "dependencies": {
-    "@thi.ng/transducers": "9.4.2"
+    "@thi.ng/transducers": "9.6.8"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "4.20250620.0",
