@@ -8,7 +8,7 @@ Site uses [`@hckr_/blendid`](https://github.com/hckr-studio/blendid) for develop
 
 To run the site in development mode with hot reloading run:
 
-```bash
+```shell
 op run --env-file=.env --no-masking -- yarn start
 ```
 
