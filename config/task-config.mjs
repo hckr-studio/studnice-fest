@@ -44,7 +44,7 @@ export default {
   },
 
   html: {
-    collections: ["news", "artists", "images"],
+    data: {collections: ["news", "artists", "images"]},
     markedExtensions: [texyTypography("cs")],
     nunjucksRender: {
       filters: {

@@ -19,9 +19,9 @@
 {% block content %}
   <div class="hero" id="header">
     <style>
-      {% set small = images[hero["bg-small"]] %}
-      {% set medium = images[hero["bg-medium"]] %}
-      {% set big = images[hero["bg-big"]] %}
+      {% set small = collections.images[hero["bg-small"]] %}
+      {% set medium = collections.images[hero["bg-medium"]] %}
+      {% set big = collections.images[hero["bg-big"]] %}
       .hero {
         --lqip-small: {{ small.matadata.lqip }};
         --lqip-medium: {{ medium.matadata.lqip }};
@@ -49,7 +49,7 @@
     <section>
       <ol>
         {% for key in event.artists %}
-          {% set artist = artists[key] %}
+          {% set artist = collections.artists[key] %}
           {% if artist.heroLevel %}
             <li data-level="{{ artist.heroLevel }}">{# <a href="#{{ key }}"> #}{{ artist.title }}{# </a> #}</li>
           {% endif %}
@@ -67,9 +67,9 @@
       <header id="news">
         <h2>Novinky</h2>
       </header>
-      {% for post in filterNews(news) | take(5) %}
-        {% set image = images[post.image] %}
-        {% set metadata =  images[post.image].metadata %}
+      {% for post in filterNews(collections.news) | take(5) %}
+        {% set image =  collections.images[post.image] %}
+        {% set metadata =  image.metadata %}
         <article>
           <a href="/novinky/#{{ post.time }}">
             <time datetime="{{ post.time }}">{{ post.time | formatDate }}</time>
@@ -114,7 +114,7 @@
           stage „Na Vyhlídce“ a dětský&nbsp;stan.</p>
         <div class="lineup__days">
           {% macro lineupItem(item) %}
-            {% set artist = artists[item.slug] %}
+            {% set artist = collections.artists[item.slug] %}
             <div class="lineup__item" data-artist-id="{{ item.slug }}">
               <time datetime="{{ item.date }}T{{ item.time }}:00.000+02:00">{{ item.time }}</time>
               <strong>{{ artist.title or item.title }}</strong>
@@ -142,13 +142,13 @@
       </header>
       {% set tss = timeslots(lineup) %}
       {% for key in event.artists %}
-        {% set artist = artists[key] %}
-        {% set image = images["artists/" + artist.image]["public_id"] %}
-        {% set metadata =  images["artists/" + artist.image].metadata %}
+        {% set artist = collections.artists[key] %}
+        {% set image = collections.images["artists/" + artist.image] %}
+        {% set metadata =  image.metadata %}
         {% set ts = tss.get(key) %}
         <article class="artists-list__item" id="{{ key }}" data-level="{{ artist.heroLevel }}">
           <h3>{{ artist.title }}</h3>
-          <img src="{{ image | cloudinaryUrl(ar=1,crop="fill",gravity="auto") }}" alt="{{ artist.title }}"
+          <img src="{{ image.public_id | cloudinaryUrl(ar=1,crop="fill",gravity="auto") }}" alt="{{ artist.title }}"
                style="{% if metadata.lqip %}--lqip:{{ metadata.lqip }}{% endif %}"
                width="296" height="296" loading="lazy"
                sizes="(min-width: 840px) 296px, 88.43vw">

@@ -1,75 +1,84 @@
 {
-  "hero-bg-big.jpg": {
+  "hero-bg-big.avif": {
     "asset_id": "084509ad1065f3412185a5d29d720bbc",
     "public_id": "hero-bg-big",
-    "version": 1754995363,
-    "version_id": "19e97b0bf67da49ec14298736f546a6b",
-    "signature": "f42708f07548f5b7831fc0104e613ce81a7ac7c5",
+    "version": 1755147428,
+    "version_id": "6741339ae51754df91e2e6bed0295efd",
+    "signature": "c1380fffb1cd2f23670f11e1b26c5a8555f10220",
     "width": 3360,
     "height": 1680,
-    "format": "jpg",
+    "format": "avif",
     "resource_type": "image",
     "created_at": "2025-08-12T10:42:43Z",
     "tags": [],
-    "bytes": 2486298,
+    "bytes": 530056,
     "type": "upload",
-    "etag": "ba623f7955f9a46a2b850f25a932bd27",
+    "etag": "2c9b21b492e8559001568750d99779ee",
     "placeholder": false,
-    "url": "http://res.cloudinary.com/studnice-fest/image/upload/v1754995363/hero-bg-big.jpg",
-    "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995363/hero-bg-big.jpg",
+    "url": "http://res.cloudinary.com/studnice-fest/image/upload/v1755147428/hero-bg-big.avif",
+    "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1755147428/hero-bg-big.avif",
     "asset_folder": "",
     "display_name": "hero-bg-big",
-    "existing": false,
-    "original_filename": "hero-bg-big",
-    "api_key": "224734247257462"
+    "metadata": {
+      "lqip": 170339
+    },
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "hero-bg-big"
   },
-  "hero-bg-small.jpg": {
+  "hero-bg-small.avif": {
     "asset_id": "f07a7ddabcdba4f2b811aa9a19e47a53",
     "public_id": "hero-bg-small",
-    "version": 1754995365,
-    "version_id": "fe712765fa2286aa479ed66a69eb7832",
-    "signature": "5ff8f39d3a9ea06f38eeca2c2465f8c869e47fb8",
+    "version": 1755147430,
+    "version_id": "114a683c5bd53245eda6eb27f146f03f",
+    "signature": "d713d7bbe4571505a6cea10e30deb23c8865b7f8",
     "width": 960,
     "height": 1920,
-    "format": "jpg",
+    "format": "avif",
     "resource_type": "image",
     "created_at": "2025-08-12T10:42:45Z",
     "tags": [],
-    "bytes": 2210951,
+    "bytes": 277269,
     "type": "upload",
-    "etag": "fb92ddface93ad44983f9925d05a8573",
+    "etag": "62ddb9e415a1164c7d4d4a3ab6f4e02f",
     "placeholder": false,
-    "url": "http://res.cloudinary.com/studnice-fest/image/upload/v1754995365/hero-bg-small.jpg",
-    "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995365/hero-bg-small.jpg",
+    "url": "http://res.cloudinary.com/studnice-fest/image/upload/v1755147430/hero-bg-small.avif",
+    "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1755147430/hero-bg-small.avif",
     "asset_folder": "",
     "display_name": "hero-bg-small",
-    "existing": false,
-    "original_filename": "hero-bg-small",
-    "api_key": "224734247257462"
+    "metadata": {
+      "lqip": -103837
+    },
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "hero-bg-small"
   },
-  "info-bg.jpg": {
+  "info-bg.avif": {
     "asset_id": "1d1632cdf3b428452d8742368ec64293",
     "public_id": "info-bg",
-    "version": 1754995366,
-    "version_id": "5aa1ad676b638b80296fa07a6fd69fa2",
-    "signature": "4a538526b3c9cece38c31ca1264ec5558cf3fd88",
+    "version": 1755147431,
+    "version_id": "23826014596489fc3d482ec70874ae32",
+    "signature": "6c071a2d44bc7af9d2404f43d8997230a90cfe4c",
     "width": 1630,
     "height": 852,
-    "format": "jpg",
+    "format": "avif",
     "resource_type": "image",
     "created_at": "2025-08-12T10:42:46Z",
     "tags": [],
-    "bytes": 1056766,
+    "bytes": 60710,
     "type": "upload",
-    "etag": "73ae747466e21b9692a6842f1ccde9a8",
+    "etag": "b6b997de11866b92e745c5d63d606e50",
     "placeholder": false,
-    "url": "http://res.cloudinary.com/studnice-fest/image/upload/v1754995366/info-bg.jpg",
-    "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995366/info-bg.jpg",
+    "url": "http://res.cloudinary.com/studnice-fest/image/upload/v1755147431/info-bg.avif",
+    "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1755147431/info-bg.avif",
     "asset_folder": "",
     "display_name": "info-bg",
-    "existing": false,
-    "original_filename": "info-bg",
-    "api_key": "224734247257462"
+    "metadata": {
+      "lqip": -91614
+    },
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "info-bg"
   },
   "artists/anatol-svahilec.jpg": {
     "asset_id": "11c0138c321e042ea109cef8c3f22628",
@@ -94,9 +103,9 @@
     "metadata": {
       "lqip": -456276
     },
-    "overwritten": true,
-    "original_filename": "anatol-svahilec",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "anatol-svahilec"
   },
   "artists/anicka.jpg": {
     "asset_id": "cef3654adc1a51e7292ac579d2d585a1",
@@ -121,9 +130,9 @@
     "metadata": {
       "lqip": 496995
     },
-    "overwritten": true,
-    "original_filename": "anicka",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "anicka"
   },
   "artists/brixtn.jpg": {
     "asset_id": "0b6b38f10c5250bcb703a19ac885ad74",
@@ -148,9 +157,9 @@
     "metadata": {
       "lqip": 169316
     },
-    "overwritten": true,
-    "original_filename": "brixtn",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "brixtn"
   },
   "artists/circus-problem.jpg": {
     "asset_id": "ea9ab4fd1f069c5c698d47543d157f4a",
@@ -175,9 +184,9 @@
     "metadata": {
       "lqip": 517411
     },
-    "overwritten": true,
-    "original_filename": "circus-problem",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "circus-problem"
   },
   "artists/drum-for-fun.jpg": {
     "asset_id": "d7455a6726a14aab12bc99a4e65df321",
@@ -202,9 +211,9 @@
     "metadata": {
       "lqip": 175651
     },
-    "overwritten": true,
-    "original_filename": "drum-for-fun",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "drum-for-fun"
   },
   "artists/dukla-vozovna.jpg": {
     "asset_id": "acb938ec2864f6f0d7793444239b94a8",
@@ -229,9 +238,9 @@
     "metadata": {
       "lqip": 431468
     },
-    "overwritten": true,
-    "original_filename": "dukla-vozovna",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "dukla-vozovna"
   },
   "artists/dukla.jpg": {
     "asset_id": "d2f91347c295a662a97534d81914df61",
@@ -256,9 +265,9 @@
     "metadata": {
       "lqip": -173597
     },
-    "overwritten": true,
-    "original_filename": "dukla",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "dukla"
   },
   "artists/fast-food-orchestra.jpg": {
     "asset_id": "6a14532ca30f832d42eac41744a486f1",
@@ -283,9 +292,9 @@
     "metadata": {
       "lqip": 86491
     },
-    "overwritten": true,
-    "original_filename": "fast-food-orchestra",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "fast-food-orchestra"
   },
   "artists/gop.jpg": {
     "asset_id": "7724a56868330f2584325817a452ddca",
@@ -310,9 +319,9 @@
     "metadata": {
       "lqip": -175901
     },
-    "overwritten": true,
-    "original_filename": "gop",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "gop"
   },
   "artists/i-love-you-honey-bunny.jpg": {
     "asset_id": "7c5e0d30d04ed5b1ce022edaefa24b3b",
@@ -337,9 +346,9 @@
     "metadata": {
       "lqip": 164067
     },
-    "overwritten": true,
-    "original_filename": "i-love-you-honey-bunny",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "i-love-you-honey-bunny"
   },
   "artists/imodium.jpg": {
     "asset_id": "ba529ff3f32d091c0f296315ca17bbf7",
@@ -364,9 +373,9 @@
     "metadata": {
       "lqip": -87773
     },
-    "overwritten": true,
-    "original_filename": "imodium",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "imodium"
   },
   "artists/jamaron.avif": {
     "asset_id": "0489c380c2e2a9cc28db793a88356cfd",
@@ -380,7 +389,6 @@
     "resource_type": "image",
     "created_at": "2025-08-12T10:42:55Z",
     "tags": [],
-    "pages": 1,
     "bytes": 554788,
     "type": "upload",
     "etag": "d81330d762d66288fd3407d947e7ef49",
@@ -392,9 +400,9 @@
     "metadata": {
       "lqip": -173533
     },
-    "overwritten": true,
-    "original_filename": "jamaron",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "jamaron"
   },
   "artists/lenny.jpg": {
     "asset_id": "e1df9e9057bb873b6e486d4421c7256d",
@@ -419,9 +427,9 @@
     "metadata": {
       "lqip": -109332
     },
-    "overwritten": true,
-    "original_filename": "lenny",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "lenny"
   },
   "artists/mucha.jpg": {
     "asset_id": "c88fb7207abe4f061fba7bff27ce4a0e",
@@ -446,9 +454,9 @@
     "metadata": {
       "lqip": 164067
     },
-    "overwritten": true,
-    "original_filename": "mucha",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "mucha"
   },
   "artists/mydy.jpg": {
     "asset_id": "0b2d5d34ddd8f6751a8b5eb3c3e6d411",
@@ -473,9 +481,9 @@
     "metadata": {
       "lqip": -179997
     },
-    "overwritten": true,
-    "original_filename": "mydy",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "mydy"
   },
   "artists/neni-zac.jpg": {
     "asset_id": "ecfe715dc3fc70cbc7f81960c0286bb7",
@@ -500,9 +508,9 @@
     "metadata": {
       "lqip": 164323
     },
-    "overwritten": true,
-    "original_filename": "neni-zac",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "neni-zac"
   },
   "artists/noha.jpg": {
     "asset_id": "7bf595ecd6c3e9a40d61e7b6e288b5d0",
@@ -527,9 +535,9 @@
     "metadata": {
       "lqip": -92821
     },
-    "overwritten": true,
-    "original_filename": "noha",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "noha"
   },
   "artists/pokac.jpg": {
     "asset_id": "6e9bd30d2b9d73cfcbc4eb3ee2b4cc8c",
@@ -554,9 +562,9 @@
     "metadata": {
       "lqip": 168675
     },
-    "overwritten": true,
-    "original_filename": "pokac",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "pokac"
   },
   "artists/prago-union.jpg": {
     "asset_id": "9fd8ca832c563892eb8fed1b65fdc6b8",
@@ -581,9 +589,9 @@
     "metadata": {
       "lqip": 152931
     },
-    "overwritten": true,
-    "original_filename": "prago-union",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "prago-union"
   },
   "artists/rodan.jpg": {
     "asset_id": "18d27974472615e9d5f4c96713016da0",
@@ -608,9 +616,9 @@
     "metadata": {
       "lqip": -174429
     },
-    "overwritten": true,
-    "original_filename": "rodan",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "rodan"
   },
   "artists/rozalie.jpg": {
     "asset_id": "3f4fcc4337eb6a0cae263b7d6de9fee0",
@@ -635,9 +643,9 @@
     "metadata": {
       "lqip": -102869
     },
-    "overwritten": true,
-    "original_filename": "rozalie",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "rozalie"
   },
   "artists/skyline.jpg": {
     "asset_id": "3406b43989d57e2eb0a8c84df6265efe",
@@ -662,9 +670,9 @@
     "metadata": {
       "lqip": -97116
     },
-    "overwritten": true,
-    "original_filename": "skyline",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "skyline"
   },
   "artists/slavicek.jpg": {
     "asset_id": "7fa653ca1148afbdc9375832e55aac12",
@@ -689,9 +697,9 @@
     "metadata": {
       "lqip": -104861
     },
-    "overwritten": true,
-    "original_filename": "slavicek",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "slavicek"
   },
   "artists/tata-bojs.jpg": {
     "asset_id": "9f8ebf7a6de1e020a4694eec388d438c",
@@ -716,9 +724,9 @@
     "metadata": {
       "lqip": 169307
     },
-    "overwritten": true,
-    "original_filename": "tata-bojs",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "tata-bojs"
   },
   "artists/the-prostitutes.jpg": {
     "asset_id": "64c7a594ea9bb73b495a15732e4ebc50",
@@ -743,9 +751,9 @@
     "metadata": {
       "lqip": -163613
     },
-    "overwritten": true,
-    "original_filename": "the-prostitutes",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "the-prostitutes"
   },
   "artists/the-stryc.jpg": {
     "asset_id": "269840a800397c8f03be9cf032129764",
@@ -770,9 +778,9 @@
     "metadata": {
       "lqip": -88725
     },
-    "overwritten": true,
-    "original_filename": "the-stryc",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "the-stryc"
   },
   "artists/the-subways.jpg": {
     "asset_id": "ce633b54dbc8e310b4c1de9abce5bccc",
@@ -797,9 +805,9 @@
     "metadata": {
       "lqip": 154220
     },
-    "overwritten": true,
-    "original_filename": "the-subways",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "the-subways"
   },
   "artists/tybrdo-divadlo.jpg": {
     "asset_id": "94fa156e0ce70248c7f04a8a17ca271d",
@@ -824,9 +832,9 @@
     "metadata": {
       "lqip": -108253
     },
-    "overwritten": true,
-    "original_filename": "tybrdo-divadlo",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "tybrdo-divadlo"
   },
   "artists/ventolin.jpg": {
     "asset_id": "3750538639adb06321b834be6c1e1543",
@@ -851,9 +859,9 @@
     "metadata": {
       "lqip": 223523
     },
-    "overwritten": true,
-    "original_filename": "ventolin",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "ventolin"
   },
   "artists/vojtaano.jpg": {
     "asset_id": "f40e411e6f109f2c2e5f1b60e184ee42",
@@ -878,9 +886,9 @@
     "metadata": {
       "lqip": -157405
     },
-    "overwritten": true,
-    "original_filename": "vojtaano",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "vojtaano"
   },
   "artists/volant.jpg": {
     "asset_id": "eb91e68a170c36b372ebd05926858bd7",
@@ -905,9 +913,9 @@
     "metadata": {
       "lqip": 169324
     },
-    "overwritten": true,
-    "original_filename": "volant",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "volant"
   },
   "artists/vypsana-fixa.jpg": {
     "asset_id": "74d479d036a386643356d0df7c1b80df",
@@ -932,9 +940,9 @@
     "metadata": {
       "lqip": -163357
     },
-    "overwritten": true,
-    "original_filename": "vypsana-fixa",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "vypsana-fixa"
   },
   "artists/xavier-baumaxa.jpg": {
     "asset_id": "0e7e2b8bc89e09ff58ff026271acd186",
@@ -959,9 +967,9 @@
     "metadata": {
       "lqip": 153947
     },
-    "overwritten": true,
-    "original_filename": "xavier-baumaxa",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "xavier-baumaxa"
   },
   "artists/zadnej-stres.jpg": {
     "asset_id": "3fa454530a60512ca57f200750716511",
@@ -986,9 +994,9 @@
     "metadata": {
       "lqip": 431715
     },
-    "overwritten": true,
-    "original_filename": "zadnej-stres",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "zadnej-stres"
   },
   "artists/zavis.jpg": {
     "asset_id": "d67c742e79111591b2996d3aa3df4932",
@@ -1013,9 +1021,9 @@
     "metadata": {
       "lqip": 152940
     },
-    "overwritten": true,
-    "original_filename": "zavis",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "zavis"
   },
   "news/441588382_972434928217204_9162007406013587490_n.jpg": {
     "asset_id": "52d16160b882ed0e6fbad7e20c45e831",
@@ -1040,9 +1048,9 @@
     "metadata": {
       "lqip": -441108
     },
-    "overwritten": true,
-    "original_filename": "441588382_972434928217204_9162007406013587490_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "441588382_972434928217204_9162007406013587490_n"
   },
   "news/441921405_991694342957929_5458715841803571892_n.jpg": {
     "asset_id": "7da43054fcf14126e9a625131cd61d19",
@@ -1067,9 +1075,9 @@
     "metadata": {
       "lqip": 251235
     },
-    "overwritten": true,
-    "original_filename": "441921405_991694342957929_5458715841803571892_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "441921405_991694342957929_5458715841803571892_n"
   },
   "news/441921499_993243529469677_1207359064988181573_n.jpg": {
     "asset_id": "1a8f1769f167be8db841e244c79de18f",
@@ -1094,9 +1102,9 @@
     "metadata": {
       "lqip": -110365
     },
-    "overwritten": true,
-    "original_filename": "441921499_993243529469677_1207359064988181573_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "441921499_993243529469677_1207359064988181573_n"
   },
   "news/448494832_996629192464444_283977038052028105_n.jpg": {
     "asset_id": "62b4cc3e85932e2fb664f586cc113bec",
@@ -1121,9 +1129,9 @@
     "metadata": {
       "lqip": 496995
     },
-    "overwritten": true,
-    "original_filename": "448494832_996629192464444_283977038052028105_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "448494832_996629192464444_283977038052028105_n"
   },
   "news/448829434_999270775533619_938633491946659986_n.jpg": {
     "asset_id": "ba7bc25b884efac8d68933376db9f0ee",
@@ -1148,9 +1156,9 @@
     "metadata": {
       "lqip": -178973
     },
-    "overwritten": true,
-    "original_filename": "448829434_999270775533619_938633491946659986_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "448829434_999270775533619_938633491946659986_n"
   },
   "news/449125160_1003566418437388_2277307855422052534_n.jpg": {
     "asset_id": "54d954036d0ed43a1f78c64406c26635",
@@ -1175,9 +1183,9 @@
     "metadata": {
       "lqip": 174435
     },
-    "overwritten": true,
-    "original_filename": "449125160_1003566418437388_2277307855422052534_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "449125160_1003566418437388_2277307855422052534_n"
   },
   "news/449839784_848670839962339_3505718273908515410_n.jpg": {
     "asset_id": "4b9ffaccf31adc745f3f5a07b05fe697",
@@ -1202,9 +1210,9 @@
     "metadata": {
       "lqip": -371484
     },
-    "overwritten": true,
-    "original_filename": "449839784_848670839962339_3505718273908515410_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "449839784_848670839962339_3505718273908515410_n"
   },
   "news/449953341_1012792914181405_1667950485648175188_n.jpg": {
     "asset_id": "f89304f6441e092147a5374e5a3a2444",
@@ -1229,9 +1237,9 @@
     "metadata": {
       "lqip": 173411
     },
-    "overwritten": true,
-    "original_filename": "449953341_1012792914181405_1667950485648175188_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "449953341_1012792914181405_1667950485648175188_n"
   },
   "news/451050986_1016914127102617_4360611385296254246_n.jpg": {
     "asset_id": "76f6d762d201f49a31a5fe305a481f2a",
@@ -1256,9 +1264,9 @@
     "metadata": {
       "lqip": 170467
     },
-    "overwritten": true,
-    "original_filename": "451050986_1016914127102617_4360611385296254246_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "451050986_1016914127102617_4360611385296254246_n"
   },
   "news/451314753_1018323683628328_5219366391662850907_n.jpg": {
     "asset_id": "d0bbbd67312c48ce78176a96f4f5feb4",
@@ -1283,9 +1291,9 @@
     "metadata": {
       "lqip": -108189
     },
-    "overwritten": true,
-    "original_filename": "451314753_1018323683628328_5219366391662850907_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "451314753_1018323683628328_5219366391662850907_n"
   },
   "news/451511469_120210642990820375_4771886436266424877_n.jpg": {
     "asset_id": "bc04d39e59f6a5f45686846294618283",
@@ -1310,9 +1318,9 @@
     "metadata": {
       "lqip": 191140
     },
-    "overwritten": true,
-    "original_filename": "451511469_120210642990820375_4771886436266424877_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "451511469_120210642990820375_4771886436266424877_n"
   },
   "news/452140257_1024270466366983_3067702678060700633_n.jpg": {
     "asset_id": "4546e462c4273695076450e095109a1b",
@@ -1337,9 +1345,9 @@
     "metadata": {
       "lqip": 158308
     },
-    "overwritten": true,
-    "original_filename": "452140257_1024270466366983_3067702678060700633_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "452140257_1024270466366983_3067702678060700633_n"
   },
   "news/452143981_1023128513147845_3742924909748628709_n.jpg": {
     "asset_id": "daf443a27b6b35220b4401df8fd44115",
@@ -1364,9 +1372,9 @@
     "metadata": {
       "lqip": -87709
     },
-    "overwritten": true,
-    "original_filename": "452143981_1023128513147845_3742924909748628709_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "452143981_1023128513147845_3742924909748628709_n"
   },
   "news/452145911_1024623856331644_481113107281272683_n.jpg": {
     "asset_id": "b469d6576bfefa3887ee587ff777fe78",
@@ -1391,9 +1399,9 @@
     "metadata": {
       "lqip": -154013
     },
-    "overwritten": true,
-    "original_filename": "452145911_1024623856331644_481113107281272683_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "452145911_1024623856331644_481113107281272683_n"
   },
   "news/452169776_1021069260020437_4712073039821735942_n.jpg": {
     "asset_id": "62472a00fa06b802e6dc205a9a08da80",
@@ -1418,9 +1426,9 @@
     "metadata": {
       "lqip": 170467
     },
-    "overwritten": true,
-    "original_filename": "452169776_1021069260020437_4712073039821735942_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "452169776_1021069260020437_4712073039821735942_n"
   },
   "news/452257405_1024511356342894_4032254603311764859_n.jpg": {
     "asset_id": "3f9e4eae9ed6958b3596667f7d5efe66",
@@ -1445,9 +1453,9 @@
     "metadata": {
       "lqip": 165347
     },
-    "overwritten": true,
-    "original_filename": "452257405_1024511356342894_4032254603311764859_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "452257405_1024511356342894_4032254603311764859_n"
   },
   "news/452264057_340947719074218_9013685901311398990_n.jpg": {
     "asset_id": "d626f14b044825bf468ed281c12ef2f6",
@@ -1472,9 +1480,9 @@
     "metadata": {
       "lqip": 169315
     },
-    "overwritten": true,
-    "original_filename": "452264057_340947719074218_9013685901311398990_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "452264057_340947719074218_9013685901311398990_n"
   },
   "news/452444030_1025170549610308_1802162221459982871_n.jpg": {
     "asset_id": "9dbf0c876b83ae99e019ec98d24079cc",
@@ -1499,9 +1507,9 @@
     "metadata": {
       "lqip": -104861
     },
-    "overwritten": true,
-    "original_filename": "452444030_1025170549610308_1802162221459982871_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "452444030_1025170549610308_1802162221459982871_n"
   },
   "news/452481770_1025064039620959_2603719944554684593_n.jpg": {
     "asset_id": "922f830ab56938048969542b839944bf",
@@ -1526,9 +1534,9 @@
     "metadata": {
       "lqip": 170467
     },
-    "overwritten": true,
-    "original_filename": "452481770_1025064039620959_2603719944554684593_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "452481770_1025064039620959_2603719944554684593_n"
   },
   "news/452747792_1023601023100594_54153794237551462_n.jpg": {
     "asset_id": "50de6e8090d36cedcb2ac2eb0e430bf8",
@@ -1553,9 +1561,9 @@
     "metadata": {
       "lqip": 154212
     },
-    "overwritten": true,
-    "original_filename": "452747792_1023601023100594_54153794237551462_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "452747792_1023601023100594_54153794237551462_n"
   },
   "news/452846306_1026864066107623_2666071539920268575_n.jpg": {
     "asset_id": "8346eb055d78150c428161897329e777",
@@ -1580,9 +1588,9 @@
     "metadata": {
       "lqip": 168164
     },
-    "overwritten": true,
-    "original_filename": "452846306_1026864066107623_2666071539920268575_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "452846306_1026864066107623_2666071539920268575_n"
   },
   "news/452926134_120210916102260375_6158050160944084413_n.jpg": {
     "asset_id": "4bc4e52d5961840bb698b33aeb80125b",
@@ -1607,9 +1615,9 @@
     "metadata": {
       "lqip": 168164
     },
-    "overwritten": true,
-    "original_filename": "452926134_120210916102260375_6158050160944084413_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "452926134_120210916102260375_6158050160944084413_n"
   },
   "news/453013449_1025252289602134_9099117645221823717_n.jpg": {
     "asset_id": "4d091d89c7706e8ef1e07f0ef181271d",
@@ -1634,9 +1642,9 @@
     "metadata": {
       "lqip": 158307
     },
-    "overwritten": true,
-    "original_filename": "453013449_1025252289602134_9099117645221823717_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "453013449_1025252289602134_9099117645221823717_n"
   },
   "news/453034803_1025924009534962_370930897524711041_n.jpg": {
     "asset_id": "a9eca362ab45cc2c97198f17d71f102c",
@@ -1661,9 +1669,9 @@
     "metadata": {
       "lqip": 240228
     },
-    "overwritten": true,
-    "original_filename": "453034803_1025924009534962_370930897524711041_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "453034803_1025924009534962_370930897524711041_n"
   },
   "news/453059562_1708220876669955_8514127982661870162_n.jpg": {
     "asset_id": "35f70c09df971e8fb17b50db48a600d5",
@@ -1688,9 +1696,9 @@
     "metadata": {
       "lqip": 416348
     },
-    "overwritten": true,
-    "original_filename": "453059562_1708220876669955_8514127982661870162_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "453059562_1708220876669955_8514127982661870162_n"
   },
   "news/453097104_1025898162870880_51768963684707810_n.jpg": {
     "asset_id": "788b5b8c26399923d493244f7c895d59",
@@ -1715,9 +1723,9 @@
     "metadata": {
       "lqip": -71324
     },
-    "overwritten": true,
-    "original_filename": "453097104_1025898162870880_51768963684707810_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "453097104_1025898162870880_51768963684707810_n"
   },
   "news/453170710_1025950522865644_9180404551048238360_n.jpg": {
     "asset_id": "97250281af6dde12efe009349a65ca19",
@@ -1742,9 +1750,9 @@
     "metadata": {
       "lqip": -169629
     },
-    "overwritten": true,
-    "original_filename": "453170710_1025950522865644_9180404551048238360_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "453170710_1025950522865644_9180404551048238360_n"
   },
   "news/453200541_1026137352846961_8176060721353022714_n.jpg": {
     "asset_id": "9fa8c65a5579f1650bbec0b2c79bee23",
@@ -1769,9 +1777,9 @@
     "metadata": {
       "lqip": 157082
     },
-    "overwritten": true,
-    "original_filename": "453200541_1026137352846961_8176060721353022714_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "453200541_1026137352846961_8176060721353022714_n"
   },
   "news/453300164_1026227942837902_5999754293378886740_n.jpg": {
     "asset_id": "859e97d20ee47bfd68d103d21c82f434",
@@ -1796,9 +1804,9 @@
     "metadata": {
       "lqip": 219491
     },
-    "overwritten": true,
-    "original_filename": "453300164_1026227942837902_5999754293378886740_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "453300164_1026227942837902_5999754293378886740_n"
   },
   "news/453301126_1026400042820692_1364070381327412073_n.jpg": {
     "asset_id": "d89f097b59adc351eff565a395ca61b9",
@@ -1823,9 +1831,9 @@
     "metadata": {
       "lqip": 235811
     },
-    "overwritten": true,
-    "original_filename": "453301126_1026400042820692_1364070381327412073_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "453301126_1026400042820692_1364070381327412073_n"
   },
   "news/464690289_1105163401611022_448652478247754511_n.jpg": {
     "asset_id": "c38d953827f902dcc26b0208cf559c9a",
@@ -1850,9 +1858,9 @@
     "metadata": {
       "lqip": 235810
     },
-    "overwritten": true,
-    "original_filename": "464690289_1105163401611022_448652478247754511_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "464690289_1105163401611022_448652478247754511_n"
   },
   "news/466800563_1113461684114527_7460449887792046368_n.jpg": {
     "asset_id": "ae18d50abdccb42a3220738c6f0944e8",
@@ -1877,9 +1885,9 @@
     "metadata": {
       "lqip": 513315
     },
-    "overwritten": true,
-    "original_filename": "466800563_1113461684114527_7460449887792046368_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "466800563_1113461684114527_7460449887792046368_n"
   },
   "news/468658070_120214085329790375_6093681607087819473_n.jpg": {
     "asset_id": "0a317d7b7e1188c1508651bb59cf0d91",
@@ -1904,9 +1912,9 @@
     "metadata": {
       "lqip": 165092
     },
-    "overwritten": true,
-    "original_filename": "468658070_120214085329790375_6093681607087819473_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "468658070_120214085329790375_6093681607087819473_n"
   },
   "news/469097590_120213852725650375_4346814167422345699_n.jpg": {
     "asset_id": "069ba07cd36d9f01c859ac4cf60c988d",
@@ -1931,9 +1939,9 @@
     "metadata": {
       "lqip": 513315
     },
-    "overwritten": true,
-    "original_filename": "469097590_120213852725650375_4346814167422345699_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "469097590_120213852725650375_4346814167422345699_n"
   },
   "news/469224535_1128745342586161_2985509076381270288_n.jpg": {
     "asset_id": "c9d5b386e4f49a7fc78b2c604e3779c6",
@@ -1958,9 +1966,9 @@
     "metadata": {
       "lqip": 234843
     },
-    "overwritten": true,
-    "original_filename": "469224535_1128745342586161_2985509076381270288_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "469224535_1128745342586161_2985509076381270288_n"
   },
   "news/469285649_120213891645520375_9001296018523882760_n.jpg": {
     "asset_id": "40d32c939ab0e188faec62c38b15f1cf",
@@ -1985,9 +1993,9 @@
     "metadata": {
       "lqip": 514403
     },
-    "overwritten": true,
-    "original_filename": "469285649_120213891645520375_9001296018523882760_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "469285649_120213891645520375_9001296018523882760_n"
   },
   "news/469326761_1129484699178892_968035381544734496_n.jpg": {
     "asset_id": "abeedf436c84835a6d7794bc9b49086b",
@@ -2012,9 +2020,9 @@
     "metadata": {
       "lqip": 103906
     },
-    "overwritten": true,
-    "original_filename": "469326761_1129484699178892_968035381544734496_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "469326761_1129484699178892_968035381544734496_n"
   },
   "news/469394171_1132386305555398_2048614252510763894_n.jpg": {
     "asset_id": "895927adf6ac2a10f4b795ab3de40deb",
@@ -2039,9 +2047,9 @@
     "metadata": {
       "lqip": 165092
     },
-    "overwritten": true,
-    "original_filename": "469394171_1132386305555398_2048614252510763894_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "469394171_1132386305555398_2048614252510763894_n"
   },
   "news/469436249_120214085221740375_1834893697580584675_n.jpg": {
     "asset_id": "533bad7ef995dacf4228f4cb6dcf5522",
@@ -2066,9 +2074,9 @@
     "metadata": {
       "lqip": 164067
     },
-    "overwritten": true,
-    "original_filename": "469436249_120214085221740375_1834893697580584675_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "469436249_120214085221740375_1834893697580584675_n"
   },
   "news/469549012_1131868392273856_7423158881483678109_n.jpg": {
     "asset_id": "6bdee8c9398c04947140d427518c1270",
@@ -2093,9 +2101,9 @@
     "metadata": {
       "lqip": 164067
     },
-    "overwritten": true,
-    "original_filename": "469549012_1131868392273856_7423158881483678109_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "469549012_1131868392273856_7423158881483678109_n"
   },
   "news/469751111_120214125982060375_1520377101426015376_n.jpg": {
     "asset_id": "b21938c33859336f222a3800e2943039",
@@ -2120,9 +2128,9 @@
     "metadata": {
       "lqip": 235876
     },
-    "overwritten": true,
-    "original_filename": "469751111_120214125982060375_1520377101426015376_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "469751111_120214125982060375_1520377101426015376_n"
   },
   "news/469751113_120213966852790375_1224610293699350421_n.jpg": {
     "asset_id": "0846894e3cd2d532435010299b15082c",
@@ -2147,9 +2155,9 @@
     "metadata": {
       "lqip": 234843
     },
-    "overwritten": true,
-    "original_filename": "469751113_120213966852790375_1224610293699350421_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "469751113_120213966852790375_1224610293699350421_n"
   },
   "news/469751242_120213992069290375_7372308395272107706_n.jpg": {
     "asset_id": "b0723e804d17fc8dc1095762dc533124",
@@ -2174,9 +2182,9 @@
     "metadata": {
       "lqip": 103906
     },
-    "overwritten": true,
-    "original_filename": "469751242_120213992069290375_7372308395272107706_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "469751242_120213992069290375_7372308395272107706_n"
   },
   "news/469752795_120214292084390375_1712797536943805647_n.jpg": {
     "asset_id": "b56dfcce3c0f8d718f276097bcb473ca",
@@ -2201,9 +2209,9 @@
     "metadata": {
       "lqip": -179996
     },
-    "overwritten": true,
-    "original_filename": "469752795_120214292084390375_1712797536943805647_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "469752795_120214292084390375_1712797536943805647_n"
   },
   "news/469764628_120214192285290375_7815344610374625467_n.jpg": {
     "asset_id": "5d5172f0d702b850036a26d200fbfe75",
@@ -2228,9 +2236,9 @@
     "metadata": {
       "lqip": 239971
     },
-    "overwritten": true,
-    "original_filename": "469764628_120214192285290375_7815344610374625467_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "469764628_120214192285290375_7815344610374625467_n"
   },
   "news/469858023_1133219848805377_1942032479325380947_n.jpg": {
     "asset_id": "5322a438a9a93153e8e28f6cb05d46eb",
@@ -2255,9 +2263,9 @@
     "metadata": {
       "lqip": 252260
     },
-    "overwritten": true,
-    "original_filename": "469858023_1133219848805377_1942032479325380947_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "469858023_1133219848805377_1942032479325380947_n"
   },
   "news/469904592_1133804972080198_6444601213339189530_n.jpg": {
     "asset_id": "22e6dd9d3565e5481da43be1b95aae2a",
@@ -2282,9 +2290,9 @@
     "metadata": {
       "lqip": 235876
     },
-    "overwritten": true,
-    "original_filename": "469904592_1133804972080198_6444601213339189530_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "469904592_1133804972080198_6444601213339189530_n"
   },
   "news/470157748_1136807515113277_7478260843579468287_n.jpg": {
     "asset_id": "cc0cc0fc9db3f068913a9d1a91e6fa46",
@@ -2309,9 +2317,9 @@
     "metadata": {
       "lqip": 154211
     },
-    "overwritten": true,
-    "original_filename": "470157748_1136807515113277_7478260843579468287_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "470157748_1136807515113277_7478260843579468287_n"
   },
   "news/470195686_1134620228665339_5736100585239419450_n.jpg": {
     "asset_id": "2f2cbffda8b3d0b63cb5f27c22158bc9",
@@ -2336,9 +2344,9 @@
     "metadata": {
       "lqip": 239971
     },
-    "overwritten": true,
-    "original_filename": "470195686_1134620228665339_5736100585239419450_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "470195686_1134620228665339_5736100585239419450_n"
   },
   "news/470234291_1136936985100330_9031824890093056640_n.jpg": {
     "asset_id": "c80ce07e2c16b65925b5eadf61457bc3",
@@ -2363,9 +2371,9 @@
     "metadata": {
       "lqip": 82147
     },
-    "overwritten": true,
-    "original_filename": "470234291_1136936985100330_9031824890093056640_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "470234291_1136936985100330_9031824890093056640_n"
   },
   "news/470473320_120214292109430375_2493103909946229092_n.jpg": {
     "asset_id": "afb109a8c0e95d2b26711dfe0f13234d",
@@ -2390,9 +2398,9 @@
     "metadata": {
       "lqip": -109085
     },
-    "overwritten": true,
-    "original_filename": "470473320_120214292109430375_2493103909946229092_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "470473320_120214292109430375_2493103909946229092_n"
   },
   "news/470606347_1139098811550814_5758538582435792156_n.jpg": {
     "asset_id": "62a117cc677597cd43ff549fa89cc850",
@@ -2417,9 +2425,9 @@
     "metadata": {
       "lqip": 169699
     },
-    "overwritten": true,
-    "original_filename": "470606347_1139098811550814_5758538582435792156_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "470606347_1139098811550814_5758538582435792156_n"
   },
   "news/470608428_1138366001624095_5298997308606208259_n.jpg": {
     "asset_id": "ba3ec0a39c31a6f419e678a21f948948",
@@ -2444,9 +2452,9 @@
     "metadata": {
       "lqip": -179997
     },
-    "overwritten": true,
-    "original_filename": "470608428_1138366001624095_5298997308606208259_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "470608428_1138366001624095_5298997308606208259_n"
   },
   "news/470844272_1139912871469408_3869954720503344659_n.jpg": {
     "asset_id": "0b3df4ab0492716601bb811a69d64183",
@@ -2471,9 +2479,9 @@
     "metadata": {
       "lqip": -109085
     },
-    "overwritten": true,
-    "original_filename": "470844272_1139912871469408_3869954720503344659_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "470844272_1139912871469408_3869954720503344659_n"
   },
   "news/470879751_120214260121610375_6605965928643341316_n.jpg": {
     "asset_id": "8c71366d3c0a225328b88ab5a60169ff",
@@ -2498,9 +2506,9 @@
     "metadata": {
       "lqip": 82147
     },
-    "overwritten": true,
-    "original_filename": "470879751_120214260121610375_6605965928643341316_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "470879751_120214260121610375_6605965928643341316_n"
   },
   "news/471164481_1142229674571061_3683564821939941375_n.jpg": {
     "asset_id": "58e37fd25fd7eb9a68dc7138ee1bc349",
@@ -2525,9 +2533,9 @@
     "metadata": {
       "lqip": 169380
     },
-    "overwritten": true,
-    "original_filename": "471164481_1142229674571061_3683564821939941375_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "471164481_1142229674571061_3683564821939941375_n"
   },
   "news/471220318_1148274827299879_9114220777054746340_n.jpg": {
     "asset_id": "628ae99bcc44318534a11cc21fba4938",
@@ -2552,9 +2560,9 @@
     "metadata": {
       "lqip": 503075
     },
-    "overwritten": true,
-    "original_filename": "471220318_1148274827299879_9114220777054746340_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "471220318_1148274827299879_9114220777054746340_n"
   },
   "news/471931043_120214471662860375_6411716118462005538_n.jpg": {
     "asset_id": "70e5e9b595db2754b99218e7b23ce505",
@@ -2579,9 +2587,9 @@
     "metadata": {
       "lqip": -178973
     },
-    "overwritten": true,
-    "original_filename": "471931043_120214471662860375_6411716118462005538_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "471931043_120214471662860375_6411716118462005538_n"
   },
   "news/474595985_1164622382331790_4297055107299502503_n.jpg": {
     "asset_id": "4c831de1275091ec6f68937a3d3830a1",
@@ -2606,9 +2614,9 @@
     "metadata": {
       "lqip": 147684
     },
-    "overwritten": true,
-    "original_filename": "474595985_1164622382331790_4297055107299502503_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "474595985_1164622382331790_4297055107299502503_n"
   },
   "news/477875083_1185750670218961_3609524125544817237_n.jpg": {
     "asset_id": "d3e745927e6796b0fe155ca1eec663a0",
@@ -2633,9 +2641,9 @@
     "metadata": {
       "lqip": 513379
     },
-    "overwritten": true,
-    "original_filename": "477875083_1185750670218961_3609524125544817237_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "477875083_1185750670218961_3609524125544817237_n"
   },
   "news/480313372_1190957896364905_6158252774261981105_n.jpg": {
     "asset_id": "cd123f9a473afef1337f7ff6cd25be38",
@@ -2660,9 +2668,9 @@
     "metadata": {
       "lqip": 82147
     },
-    "overwritten": true,
-    "original_filename": "480313372_1190957896364905_6158252774261981105_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "480313372_1190957896364905_6158252774261981105_n"
   },
   "news/480448815_1192154196245275_6992410307998658723_n.jpg": {
     "asset_id": "d04e7c379af87c15dd41d16e9892096c",
@@ -2687,9 +2695,9 @@
     "metadata": {
       "lqip": 147683
     },
-    "overwritten": true,
-    "original_filename": "480448815_1192154196245275_6992410307998658723_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "480448815_1192154196245275_6992410307998658723_n"
   },
   "news/480478548_1194049452722416_1975298719742302617_n.jpg": {
     "asset_id": "4b2ba8a453fde62fbcecd5aa93201aa7",
@@ -2714,9 +2722,9 @@
     "metadata": {
       "lqip": -179988
     },
-    "overwritten": true,
-    "original_filename": "480478548_1194049452722416_1975298719742302617_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "480478548_1194049452722416_1975298719742302617_n"
   },
   "news/480677784_1188347169959311_8449259729783127635_n.jpg": {
     "asset_id": "b4d463ab1e1d82cd64a26445eb9fb118",
@@ -2741,9 +2749,9 @@
     "metadata": {
       "lqip": 513371
     },
-    "overwritten": true,
-    "original_filename": "480677784_1188347169959311_8449259729783127635_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "480677784_1188347169959311_8449259729783127635_n"
   },
   "news/480761175_120216428673930375_4456371332511522161_n.jpg": {
     "asset_id": "e290c4c39bdd352e37d2e372bd07e6a2",
@@ -2768,9 +2776,9 @@
     "metadata": {
       "lqip": 513379
     },
-    "overwritten": true,
-    "original_filename": "480761175_120216428673930375_4456371332511522161_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "480761175_120216428673930375_4456371332511522161_n"
   },
   "news/491959660_1243935601067134_7088561563480328918_n.jpg": {
     "asset_id": "a2c802396dc57fe8396e9ff94d3a86f7",
@@ -2795,9 +2803,9 @@
     "metadata": {
       "lqip": 82147
     },
-    "overwritten": true,
-    "original_filename": "491959660_1243935601067134_7088561563480328918_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "491959660_1243935601067134_7088561563480328918_n"
   },
   "news/492323567_1242620984531929_7504827637953347074_n.jpg": {
     "asset_id": "5b3572d7c94e4720acad86037820330a",
@@ -2822,9 +2830,9 @@
     "metadata": {
       "lqip": 503075
     },
-    "overwritten": true,
-    "original_filename": "492323567_1242620984531929_7504827637953347074_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "492323567_1242620984531929_7504827637953347074_n"
   },
   "news/492374576_1244001771060517_5360823943474899650_n.jpg": {
     "asset_id": "00525842bc0279db0ee91d39f8a6f367",
@@ -2849,9 +2857,9 @@
     "metadata": {
       "lqip": -179988
     },
-    "overwritten": true,
-    "original_filename": "492374576_1244001771060517_5360823943474899650_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "492374576_1244001771060517_5360823943474899650_n"
   },
   "news/492416132_1243991681061526_2244182259806715204_n.jpg": {
     "asset_id": "76ad0dc4db8b31dc5de26f25588feaff",
@@ -2876,9 +2884,9 @@
     "metadata": {
       "lqip": 147683
     },
-    "overwritten": true,
-    "original_filename": "492416132_1243991681061526_2244182259806715204_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "492416132_1243991681061526_2244182259806715204_n"
   },
   "news/492557564_1243925087734852_1501020511084624790_n.jpg": {
     "asset_id": "5d5fd45270866464bc56aa0251bd69bd",
@@ -2903,9 +2911,9 @@
     "metadata": {
       "lqip": 513371
     },
-    "overwritten": true,
-    "original_filename": "492557564_1243925087734852_1501020511084624790_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "492557564_1243925087734852_1501020511084624790_n"
   },
   "news/493544127_1243002834493744_4720337775089543098_n.jpg": {
     "asset_id": "5b54e170f5d7c306456b00fef5b7328d",
@@ -2930,9 +2938,9 @@
     "metadata": {
       "lqip": 147684
     },
-    "overwritten": true,
-    "original_filename": "493544127_1243002834493744_4720337775089543098_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "493544127_1243002834493744_4720337775089543098_n"
   },
   "news/495278063_1276594121134615_6923833638232698194_n.jpg": {
     "asset_id": "6cb7b70f6a1d98add29820054344426f",
@@ -2957,9 +2965,9 @@
     "metadata": {
       "lqip": 169443
     },
-    "overwritten": true,
-    "original_filename": "495278063_1276594121134615_6923833638232698194_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "495278063_1276594121134615_6923833638232698194_n"
   },
   "news/504257640_1281087457351948_6628872914733315363_n.jpg": {
     "asset_id": "f7b02ff045a568580baacd1667c73a75",
@@ -2984,9 +2992,9 @@
     "metadata": {
       "lqip": 174819
     },
-    "overwritten": true,
-    "original_filename": "504257640_1281087457351948_6628872914733315363_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "504257640_1281087457351948_6628872914733315363_n"
   },
   "news/505410272_9762371197225913_1621932711008459042_n.jpg": {
     "asset_id": "e184143ae3ed804a0517e8a08f241dc4",
@@ -3011,9 +3019,9 @@
     "metadata": {
       "lqip": 174819
     },
-    "overwritten": true,
-    "original_filename": "505410272_9762371197225913_1621932711008459042_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "505410272_9762371197225913_1621932711008459042_n"
   },
   "news/508403876_1423476835517148_4705069028339164524_n.jpg": {
     "asset_id": "c6dcb7575ece2a8485dc6cde7efaebfb",
@@ -3038,9 +3046,9 @@
     "metadata": {
       "lqip": 174819
     },
-    "overwritten": true,
-    "original_filename": "508403876_1423476835517148_4705069028339164524_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "508403876_1423476835517148_4705069028339164524_n"
   },
   "news/516337387_1316980717095955_9087713918238166240_n.jpg": {
     "asset_id": "552535268ae9e020b0f21f3813446645",
@@ -3065,9 +3073,9 @@
     "metadata": {
       "lqip": 169315
     },
-    "overwritten": true,
-    "original_filename": "516337387_1316980717095955_9087713918238166240_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "516337387_1316980717095955_9087713918238166240_n"
   },
   "news/516363965_1323222146471812_8045310025431229541_n.jpg": {
     "asset_id": "6ccde6d1f83bb11947789ab969a755ff",
@@ -3092,9 +3100,9 @@
     "metadata": {
       "lqip": 497963
     },
-    "overwritten": true,
-    "original_filename": "516363965_1323222146471812_8045310025431229541_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "516363965_1323222146471812_8045310025431229541_n"
   },
   "news/516425911_1317369570390403_5507537412575034891_n.jpg": {
     "asset_id": "03d6b561da90b88354df38268e669241",
@@ -3119,9 +3127,9 @@
     "metadata": {
       "lqip": 169444
     },
-    "overwritten": true,
-    "original_filename": "516425911_1317369570390403_5507537412575034891_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "516425911_1317369570390403_5507537412575034891_n"
   },
   "news/516752169_1318218433638850_6138889862673661098_n.jpg": {
     "asset_id": "95615cabed2673c113f9e080692facf5",
@@ -3146,9 +3154,9 @@
     "metadata": {
       "lqip": 157284
     },
-    "overwritten": true,
-    "original_filename": "516752169_1318218433638850_6138889862673661098_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "516752169_1318218433638850_6138889862673661098_n"
   },
   "news/516789322_1787639658766689_3325532440998972787_n.jpg": {
     "asset_id": "5cb0f7aee33c9cbe7aea264bf2af3e8f",
@@ -3173,9 +3181,9 @@
     "metadata": {
       "lqip": -261909
     },
-    "overwritten": true,
-    "original_filename": "516789322_1787639658766689_3325532440998972787_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "516789322_1787639658766689_3325532440998972787_n"
   },
   "news/519419187_1313775510749809_6816286863374403167_n.jpg": {
     "asset_id": "72403904feb86d18dc81f7f3bb314957",
@@ -3200,9 +3208,9 @@
     "metadata": {
       "lqip": -103709
     },
-    "overwritten": true,
-    "original_filename": "519419187_1313775510749809_6816286863374403167_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "519419187_1313775510749809_6816286863374403167_n"
   },
   "news/519480978_1316451613815532_5442266653015697465_n.jpg": {
     "asset_id": "48b9093656a04300f3da8a6ba63371f9",
@@ -3227,9 +3235,9 @@
     "metadata": {
       "lqip": 174819
     },
-    "overwritten": true,
-    "original_filename": "519480978_1316451613815532_5442266653015697465_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "519480978_1316451613815532_5442266653015697465_n"
   },
   "news/519484542_1318771803583513_7651386982911475631_n.jpg": {
     "asset_id": "3e46e2a10b8aa93bdd1796062ef181ad",
@@ -3254,9 +3262,9 @@
     "metadata": {
       "lqip": 92772
     },
-    "overwritten": true,
-    "original_filename": "519484542_1318771803583513_7651386982911475631_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "519484542_1318771803583513_7651386982911475631_n"
   },
   "news/520259866_1319203880206972_8551308550497422203_n.jpg": {
     "asset_id": "8b4cd6d5d8b5bdd91213ad37cae5addc",
@@ -3281,9 +3289,9 @@
     "metadata": {
       "lqip": -169373
     },
-    "overwritten": true,
-    "original_filename": "520259866_1319203880206972_8551308550497422203_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "520259866_1319203880206972_8551308550497422203_n"
   },
   "news/521583268_1319639563496737_4907031449832058557_n.jpg": {
     "asset_id": "59718ec99d321620b9d9442848d2c42a",
@@ -3308,9 +3316,9 @@
     "metadata": {
       "lqip": -26012
     },
-    "overwritten": true,
-    "original_filename": "521583268_1319639563496737_4907031449832058557_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "521583268_1319639563496737_4907031449832058557_n"
   },
   "news/522192012_705021772348099_9188732319707879294_n.jpg": {
     "asset_id": "4030870bcd264d477f2fb784a7a069e9",
@@ -3335,9 +3343,9 @@
     "metadata": {
       "lqip": -103709
     },
-    "overwritten": true,
-    "original_filename": "522192012_705021772348099_9188732319707879294_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "522192012_705021772348099_9188732319707879294_n"
   },
   "news/523116109_1319834843477209_6678400118808173812_n.jpg": {
     "asset_id": "39a1f550089a2e16bf7000ebb6b40188",
@@ -3362,9 +3370,9 @@
     "metadata": {
       "lqip": -108189
     },
-    "overwritten": true,
-    "original_filename": "523116109_1319834843477209_6678400118808173812_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "523116109_1319834843477209_6678400118808173812_n"
   },
   "news/523352562_1247690479806283_7835909073780687582_n.jpg": {
     "asset_id": "9000284b802645e189ebb8208a95b676",
@@ -3389,9 +3397,9 @@
     "metadata": {
       "lqip": -88413
     },
-    "overwritten": true,
-    "original_filename": "523352562_1247690479806283_7835909073780687582_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "523352562_1247690479806283_7835909073780687582_n"
   },
   "news/523498476_1320569653403728_7444828812858697712_n.jpg": {
     "asset_id": "3cd7ad1dcff07c8e67a9f19993458a40",
@@ -3416,9 +3424,9 @@
     "metadata": {
       "lqip": 109156
     },
-    "overwritten": true,
-    "original_filename": "523498476_1320569653403728_7444828812858697712_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "523498476_1320569653403728_7444828812858697712_n"
   },
   "news/523861914_1549071959244056_4004149624692388468_n.jpg": {
     "asset_id": "b78417aaeffdaea624ee22dcc4bc19dd",
@@ -3443,9 +3451,9 @@
     "metadata": {
       "lqip": 91554
     },
-    "overwritten": true,
-    "original_filename": "523861914_1549071959244056_4004149624692388468_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "523861914_1549071959244056_4004149624692388468_n"
   },
   "news/523974551_1319887823471911_7309806504342628283_n.jpg": {
     "asset_id": "ebcbd313bf5a1cff2ee836bf063adc36",
@@ -3470,9 +3478,9 @@
     "metadata": {
       "lqip": 239972
     },
-    "overwritten": true,
-    "original_filename": "523974551_1319887823471911_7309806504342628283_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "523974551_1319887823471911_7309806504342628283_n"
   },
   "news/524148766_1320736403387053_3122837224732162702_n.jpg": {
     "asset_id": "78e9feead4c0d293c567f19ab0c2421a",
@@ -3497,9 +3505,9 @@
     "metadata": {
       "lqip": 170340
     },
-    "overwritten": true,
-    "original_filename": "524148766_1320736403387053_3122837224732162702_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "524148766_1320736403387053_3122837224732162702_n"
   },
   "news/524173724_2204024490047118_6874133789236689804_n.jpg": {
     "asset_id": "5fafa99b8781c7a0e8c9e306d9b44029",
@@ -3524,9 +3532,9 @@
     "metadata": {
       "lqip": 170275
     },
-    "overwritten": true,
-    "original_filename": "524173724_2204024490047118_6874133789236689804_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "524173724_2204024490047118_6874133789236689804_n"
   },
   "news/524190757_1320117830115577_966403662017485906_n.jpg": {
     "asset_id": "9a73b7888b94fc1877fee7f119950d92",
@@ -3551,9 +3559,9 @@
     "metadata": {
       "lqip": -103901
     },
-    "overwritten": true,
-    "original_filename": "524190757_1320117830115577_966403662017485906_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "524190757_1320117830115577_966403662017485906_n"
   },
   "news/524305466_1320487893411904_498252978551960034_n.jpg": {
     "asset_id": "591fb015695ab7fe06ef7be3afed75fe",
@@ -3578,9 +3586,9 @@
     "metadata": {
       "lqip": 431459
     },
-    "overwritten": true,
-    "original_filename": "524305466_1320487893411904_498252978551960034_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "524305466_1320487893411904_498252978551960034_n"
   },
   "news/524489018_1503859064289374_8533369135449262556_n.jpg": {
     "asset_id": "bf31d33e71e37193c1cc9d8f06a8f5df",
@@ -3605,9 +3613,9 @@
     "metadata": {
       "lqip": 169315
     },
-    "overwritten": true,
-    "original_filename": "524489018_1503859064289374_8533369135449262556_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "524489018_1503859064289374_8533369135449262556_n"
   },
   "news/524728668_809135921448988_2895840552947867387_n.jpg": {
     "asset_id": "7a1eb14fab660e037db32c197535fdc2",
@@ -3632,9 +3640,9 @@
     "metadata": {
       "lqip": 157027
     },
-    "overwritten": true,
-    "original_filename": "524728668_809135921448988_2895840552947867387_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "524728668_809135921448988_2895840552947867387_n"
   },
   "news/524806557_1562721618044541_7209764002667965342_n.jpg": {
     "asset_id": "badc808bf437362b2751124f0322ce13",
@@ -3659,9 +3667,9 @@
     "metadata": {
       "lqip": 169308
     },
-    "overwritten": true,
-    "original_filename": "524806557_1562721618044541_7209764002667965342_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "524806557_1562721618044541_7209764002667965342_n"
   },
   "news/525005649_1324706386323388_3080774829592701131_n.jpg": {
     "asset_id": "e29d4aea810fc306073281b65db5229b",
@@ -3686,9 +3694,9 @@
     "metadata": {
       "lqip": 228706
     },
-    "overwritten": true,
-    "original_filename": "525005649_1324706386323388_3080774829592701131_n",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "525005649_1324706386323388_3080774829592701131_n"
   },
   "news/525505675_2234356287029904_3640305143215266304_n.jpg": {
     "asset_id": "7602f6cfdf985b432b42fe1a16843a04",
@@ -3713,92 +3721,8 @@
     "metadata": {
       "lqip": 235811
     },
-    "overwritten": true,
-    "original_filename": "525505675_2234356287029904_3640305143215266304_n",
-    "api_key": "224734247257462"
-  },
-  "hero-bg-big.avif": {
-    "asset_id": "084509ad1065f3412185a5d29d720bbc",
-    "public_id": "hero-bg-big",
-    "version": 1755147428,
-    "version_id": "6741339ae51754df91e2e6bed0295efd",
-    "signature": "c1380fffb1cd2f23670f11e1b26c5a8555f10220",
-    "width": 3360,
-    "height": 1680,
-    "format": "avif",
-    "resource_type": "image",
-    "created_at": "2025-08-12T10:42:43Z",
-    "tags": [],
-    "pages": 1,
-    "bytes": 530056,
-    "type": "upload",
-    "etag": "2c9b21b492e8559001568750d99779ee",
-    "placeholder": false,
-    "url": "http://res.cloudinary.com/studnice-fest/image/upload/v1755147428/hero-bg-big.avif",
-    "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1755147428/hero-bg-big.avif",
-    "asset_folder": "",
-    "display_name": "hero-bg-big",
-    "metadata": {
-      "lqip": 170339
-    },
-    "overwritten": true,
-    "original_filename": "hero-bg-big",
-    "api_key": "224734247257462"
-  },
-  "hero-bg-small.avif": {
-    "asset_id": "f07a7ddabcdba4f2b811aa9a19e47a53",
-    "public_id": "hero-bg-small",
-    "version": 1755147430,
-    "version_id": "114a683c5bd53245eda6eb27f146f03f",
-    "signature": "d713d7bbe4571505a6cea10e30deb23c8865b7f8",
-    "width": 960,
-    "height": 1920,
-    "format": "avif",
-    "resource_type": "image",
-    "created_at": "2025-08-12T10:42:45Z",
-    "tags": [],
-    "pages": 1,
-    "bytes": 277269,
-    "type": "upload",
-    "etag": "62ddb9e415a1164c7d4d4a3ab6f4e02f",
-    "placeholder": false,
-    "url": "http://res.cloudinary.com/studnice-fest/image/upload/v1755147430/hero-bg-small.avif",
-    "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1755147430/hero-bg-small.avif",
-    "asset_folder": "",
-    "display_name": "hero-bg-small",
-    "metadata": {
-      "lqip": -103837
-    },
-    "overwritten": true,
-    "original_filename": "hero-bg-small",
-    "api_key": "224734247257462"
-  },
-  "info-bg.avif": {
-    "asset_id": "1d1632cdf3b428452d8742368ec64293",
-    "public_id": "info-bg",
-    "version": 1755147431,
-    "version_id": "23826014596489fc3d482ec70874ae32",
-    "signature": "6c071a2d44bc7af9d2404f43d8997230a90cfe4c",
-    "width": 1630,
-    "height": 852,
-    "format": "avif",
-    "resource_type": "image",
-    "created_at": "2025-08-12T10:42:46Z",
-    "tags": [],
-    "pages": 1,
-    "bytes": 60710,
-    "type": "upload",
-    "etag": "b6b997de11866b92e745c5d63d606e50",
-    "placeholder": false,
-    "url": "http://res.cloudinary.com/studnice-fest/image/upload/v1755147431/info-bg.avif",
-    "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1755147431/info-bg.avif",
-    "asset_folder": "",
-    "display_name": "info-bg",
-    "metadata": {
-      "lqip": -91614
-    },
-    "overwritten": true,
-    "original_filename": "info-bg",
-    "api_key": "224734247257462"
+    "existing": true,
+    "api_key": "224734247257462",
+    "original_filename": "525505675_2234356287029904_3640305143215266304_n"
   }
 }
