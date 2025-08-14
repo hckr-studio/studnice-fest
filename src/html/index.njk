@@ -17,11 +17,11 @@
 {% endblock %}
 
 {% block content %}
-  <div class="hero" id="header" style="--lqip:">
+  {% set small = collections.images[hero["bg-small"]] %}
+  {% set medium = collections.images[hero["bg-medium"]] %}
+  {% set big = collections.images[hero["bg-big"]] %}
+  <div class="hero" id="header" style="--lqip: {{ small.metadata.lqip }}">
     <style>
-      {% set small = collections.images[hero["bg-small"]] %}
-      {% set medium = collections.images[hero["bg-medium"]] %}
-      {% set big = collections.images[hero["bg-big"]] %}
       .hero {
         --lqip-small: {{ small.metadata.lqip }};
         --lqip-medium: {{ medium.metadata.lqip }};
