@@ -450,19 +450,19 @@ section p {
   --body-column: full;
   --text-color: white;
   --hero-bg: var(--hero-bg-small);
+  --lqip: var(--lqip-small) !important;
   @media screen and (min-width: 480px) {
     --hero-bg: var(--hero-bg-medium);
+    --lqip: var(--lqip-medium) !important;
   }
   @media screen and (min-width: 1280px) {
     --hero-bg: var(--hero-bg-big);
+    --lqip: var(--lqip-big) !important;
   }
 
   color: var(--text-color);
   text-align: center;
   text-transform: uppercase;
-  background: #1E1E1E var(--hero-bg) no-repeat;
-  background-position: center top;
-  background-size: cover;
 
   grid-row: 1;
   display: grid;
@@ -471,6 +471,20 @@ section p {
 
   min-height: 100svh;
   min-height: 100cqh;
+
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: var(--hero-bg) no-repeat;
+    background-position: center top;
+    background-size: cover;
+  }
+  & > * {
+    z-index: 2;
+  }
 
   hgroup:has(h2) {
     justify-self: center;

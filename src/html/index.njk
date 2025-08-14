@@ -17,15 +17,15 @@
 {% endblock %}
 
 {% block content %}
-  <div class="hero" id="header">
+  <div class="hero" id="header" style="--lqip:">
     <style>
       {% set small = collections.images[hero["bg-small"]] %}
       {% set medium = collections.images[hero["bg-medium"]] %}
       {% set big = collections.images[hero["bg-big"]] %}
       .hero {
-        --lqip-small: {{ small.matadata.lqip }};
-        --lqip-medium: {{ medium.matadata.lqip }};
-        --lqip-big: {{ big.matadata.lqip }};
+        --lqip-small: {{ small.metadata.lqip }};
+        --lqip-medium: {{ medium.metadata.lqip }};
+        --lqip-big: {{ big.metadata.lqip }};
         --hero-bg-small: image-set(
           "{{ small.public_id | cloudinaryUrl({dpr:1,width:480}) }}" 1x,
           "{{ small.public_id | cloudinaryUrl({dpr:1.5,width:480}) }}" 1.5x,
