@@ -91,7 +91,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995366/artists/anatol-svahilec.jpg",
     "asset_folder": "artists",
     "display_name": "anatol-svahilec",
-    "existing": false,
+    "metadata": {
+      "lqip": -456276
+    },
+    "overwritten": true,
     "original_filename": "anatol-svahilec",
     "api_key": "224734247257462"
   },
@@ -115,7 +118,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995367/artists/anicka.jpg",
     "asset_folder": "artists",
     "display_name": "anicka",
-    "existing": false,
+    "metadata": {
+      "lqip": 496995
+    },
+    "overwritten": true,
     "original_filename": "anicka",
     "api_key": "224734247257462"
   },
@@ -139,7 +145,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995369/artists/brixtn.jpg",
     "asset_folder": "artists",
     "display_name": "brixtn",
-    "existing": false,
+    "metadata": {
+      "lqip": 169316
+    },
+    "overwritten": true,
     "original_filename": "brixtn",
     "api_key": "224734247257462"
   },
@@ -163,7 +172,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995370/artists/circus-problem.jpg",
     "asset_folder": "artists",
     "display_name": "circus-problem",
-    "existing": false,
+    "metadata": {
+      "lqip": 517411
+    },
+    "overwritten": true,
     "original_filename": "circus-problem",
     "api_key": "224734247257462"
   },
@@ -187,7 +199,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995370/artists/drum-for-fun.jpg",
     "asset_folder": "artists",
     "display_name": "drum-for-fun",
-    "existing": false,
+    "metadata": {
+      "lqip": 175651
+    },
+    "overwritten": true,
     "original_filename": "drum-for-fun",
     "api_key": "224734247257462"
   },
@@ -211,7 +226,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995371/artists/dukla-vozovna.jpg",
     "asset_folder": "artists",
     "display_name": "dukla-vozovna",
-    "existing": false,
+    "metadata": {
+      "lqip": 431468
+    },
+    "overwritten": true,
     "original_filename": "dukla-vozovna",
     "api_key": "224734247257462"
   },
@@ -235,7 +253,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995372/artists/dukla.jpg",
     "asset_folder": "artists",
     "display_name": "dukla",
-    "existing": false,
+    "metadata": {
+      "lqip": -173597
+    },
+    "overwritten": true,
     "original_filename": "dukla",
     "api_key": "224734247257462"
   },
@@ -259,7 +280,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995372/artists/fast-food-orchestra.jpg",
     "asset_folder": "artists",
     "display_name": "fast-food-orchestra",
-    "existing": false,
+    "metadata": {
+      "lqip": 86491
+    },
+    "overwritten": true,
     "original_filename": "fast-food-orchestra",
     "api_key": "224734247257462"
   },
@@ -283,7 +307,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995373/artists/gop.jpg",
     "asset_folder": "artists",
     "display_name": "gop",
-    "existing": false,
+    "metadata": {
+      "lqip": -175901
+    },
+    "overwritten": true,
     "original_filename": "gop",
     "api_key": "224734247257462"
   },
@@ -307,7 +334,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995374/artists/i-love-you-honey-bunny.jpg",
     "asset_folder": "artists",
     "display_name": "i-love-you-honey-bunny",
-    "existing": false,
+    "metadata": {
+      "lqip": 164067
+    },
+    "overwritten": true,
     "original_filename": "i-love-you-honey-bunny",
     "api_key": "224734247257462"
   },
@@ -331,7 +361,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995374/artists/imodium.jpg",
     "asset_folder": "artists",
     "display_name": "imodium",
-    "existing": false,
+    "metadata": {
+      "lqip": -87773
+    },
+    "overwritten": true,
     "original_filename": "imodium",
     "api_key": "224734247257462"
   },
@@ -356,7 +389,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995375/artists/jamaron.avif",
     "asset_folder": "artists",
     "display_name": "jamaron",
-    "existing": false,
+    "metadata": {
+      "lqip": -173533
+    },
+    "overwritten": true,
     "original_filename": "jamaron",
     "api_key": "224734247257462"
   },
@@ -380,7 +416,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995376/artists/lenny.jpg",
     "asset_folder": "artists",
     "display_name": "lenny",
-    "existing": false,
+    "metadata": {
+      "lqip": -109332
+    },
+    "overwritten": true,
     "original_filename": "lenny",
     "api_key": "224734247257462"
   },
@@ -404,7 +443,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995377/artists/mucha.jpg",
     "asset_folder": "artists",
     "display_name": "mucha",
-    "existing": false,
+    "metadata": {
+      "lqip": 164067
+    },
+    "overwritten": true,
     "original_filename": "mucha",
     "api_key": "224734247257462"
   },
@@ -428,7 +470,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995378/artists/mydy.jpg",
     "asset_folder": "artists",
     "display_name": "mydy",
-    "existing": false,
+    "metadata": {
+      "lqip": -179997
+    },
+    "overwritten": true,
     "original_filename": "mydy",
     "api_key": "224734247257462"
   },
@@ -452,7 +497,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995379/artists/neni-zac.jpg",
     "asset_folder": "artists",
     "display_name": "neni-zac",
-    "existing": false,
+    "metadata": {
+      "lqip": 164323
+    },
+    "overwritten": true,
     "original_filename": "neni-zac",
     "api_key": "224734247257462"
   },
@@ -476,7 +524,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995379/artists/noha.jpg",
     "asset_folder": "artists",
     "display_name": "noha",
-    "existing": false,
+    "metadata": {
+      "lqip": -92821
+    },
+    "overwritten": true,
     "original_filename": "noha",
     "api_key": "224734247257462"
   },
@@ -500,7 +551,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995380/artists/pokac.jpg",
     "asset_folder": "artists",
     "display_name": "pokac",
-    "existing": false,
+    "metadata": {
+      "lqip": 168675
+    },
+    "overwritten": true,
     "original_filename": "pokac",
     "api_key": "224734247257462"
   },
@@ -524,7 +578,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995381/artists/prago-union.jpg",
     "asset_folder": "artists",
     "display_name": "prago-union",
-    "existing": false,
+    "metadata": {
+      "lqip": 152931
+    },
+    "overwritten": true,
     "original_filename": "prago-union",
     "api_key": "224734247257462"
   },
@@ -548,7 +605,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995382/artists/rodan.jpg",
     "asset_folder": "artists",
     "display_name": "rodan",
-    "existing": false,
+    "metadata": {
+      "lqip": -174429
+    },
+    "overwritten": true,
     "original_filename": "rodan",
     "api_key": "224734247257462"
   },
@@ -572,7 +632,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995382/artists/rozalie.jpg",
     "asset_folder": "artists",
     "display_name": "rozalie",
-    "existing": false,
+    "metadata": {
+      "lqip": -102869
+    },
+    "overwritten": true,
     "original_filename": "rozalie",
     "api_key": "224734247257462"
   },
@@ -596,7 +659,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995383/artists/skyline.jpg",
     "asset_folder": "artists",
     "display_name": "skyline",
-    "existing": false,
+    "metadata": {
+      "lqip": -97116
+    },
+    "overwritten": true,
     "original_filename": "skyline",
     "api_key": "224734247257462"
   },
@@ -620,7 +686,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995384/artists/slavicek.jpg",
     "asset_folder": "artists",
     "display_name": "slavicek",
-    "existing": false,
+    "metadata": {
+      "lqip": -104861
+    },
+    "overwritten": true,
     "original_filename": "slavicek",
     "api_key": "224734247257462"
   },
@@ -644,7 +713,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995384/artists/tata-bojs.jpg",
     "asset_folder": "artists",
     "display_name": "tata-bojs",
-    "existing": false,
+    "metadata": {
+      "lqip": 169307
+    },
+    "overwritten": true,
     "original_filename": "tata-bojs",
     "api_key": "224734247257462"
   },
@@ -668,7 +740,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995385/artists/the-prostitutes.jpg",
     "asset_folder": "artists",
     "display_name": "the-prostitutes",
-    "existing": false,
+    "metadata": {
+      "lqip": -163613
+    },
+    "overwritten": true,
     "original_filename": "the-prostitutes",
     "api_key": "224734247257462"
   },
@@ -692,7 +767,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995386/artists/the-stryc.jpg",
     "asset_folder": "artists",
     "display_name": "the-stryc",
-    "existing": false,
+    "metadata": {
+      "lqip": -88725
+    },
+    "overwritten": true,
     "original_filename": "the-stryc",
     "api_key": "224734247257462"
   },
@@ -716,7 +794,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995387/artists/the-subways.jpg",
     "asset_folder": "artists",
     "display_name": "the-subways",
-    "existing": false,
+    "metadata": {
+      "lqip": 154220
+    },
+    "overwritten": true,
     "original_filename": "the-subways",
     "api_key": "224734247257462"
   },
@@ -740,7 +821,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995388/artists/tybrdo-divadlo.jpg",
     "asset_folder": "artists",
     "display_name": "tybrdo-divadlo",
-    "existing": false,
+    "metadata": {
+      "lqip": -108253
+    },
+    "overwritten": true,
     "original_filename": "tybrdo-divadlo",
     "api_key": "224734247257462"
   },
@@ -764,7 +848,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995389/artists/ventolin.jpg",
     "asset_folder": "artists",
     "display_name": "ventolin",
-    "existing": false,
+    "metadata": {
+      "lqip": 223523
+    },
+    "overwritten": true,
     "original_filename": "ventolin",
     "api_key": "224734247257462"
   },
@@ -788,7 +875,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995389/artists/vojtaano.jpg",
     "asset_folder": "artists",
     "display_name": "vojtaano",
-    "existing": false,
+    "metadata": {
+      "lqip": -157405
+    },
+    "overwritten": true,
     "original_filename": "vojtaano",
     "api_key": "224734247257462"
   },
@@ -812,7 +902,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995390/artists/volant.jpg",
     "asset_folder": "artists",
     "display_name": "volant",
-    "existing": false,
+    "metadata": {
+      "lqip": 169324
+    },
+    "overwritten": true,
     "original_filename": "volant",
     "api_key": "224734247257462"
   },
@@ -836,7 +929,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995391/artists/vypsana-fixa.jpg",
     "asset_folder": "artists",
     "display_name": "vypsana-fixa",
-    "existing": false,
+    "metadata": {
+      "lqip": -163357
+    },
+    "overwritten": true,
     "original_filename": "vypsana-fixa",
     "api_key": "224734247257462"
   },
@@ -860,7 +956,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995391/artists/xavier-baumaxa.jpg",
     "asset_folder": "artists",
     "display_name": "xavier-baumaxa",
-    "existing": false,
+    "metadata": {
+      "lqip": 153947
+    },
+    "overwritten": true,
     "original_filename": "xavier-baumaxa",
     "api_key": "224734247257462"
   },
@@ -884,7 +983,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995392/artists/zadnej-stres.jpg",
     "asset_folder": "artists",
     "display_name": "zadnej-stres",
-    "existing": false,
+    "metadata": {
+      "lqip": 431715
+    },
+    "overwritten": true,
     "original_filename": "zadnej-stres",
     "api_key": "224734247257462"
   },
@@ -908,7 +1010,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995393/artists/zavis.jpg",
     "asset_folder": "artists",
     "display_name": "zavis",
-    "existing": false,
+    "metadata": {
+      "lqip": 152940
+    },
+    "overwritten": true,
     "original_filename": "zavis",
     "api_key": "224734247257462"
   },
@@ -932,7 +1037,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995394/news/441588382_972434928217204_9162007406013587490_n.jpg",
     "asset_folder": "news",
     "display_name": "441588382_972434928217204_9162007406013587490_n",
-    "existing": false,
+    "metadata": {
+      "lqip": -441108
+    },
+    "overwritten": true,
     "original_filename": "441588382_972434928217204_9162007406013587490_n",
     "api_key": "224734247257462"
   },
@@ -956,7 +1064,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995395/news/441921405_991694342957929_5458715841803571892_n.jpg",
     "asset_folder": "news",
     "display_name": "441921405_991694342957929_5458715841803571892_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 251235
+    },
+    "overwritten": true,
     "original_filename": "441921405_991694342957929_5458715841803571892_n",
     "api_key": "224734247257462"
   },
@@ -980,7 +1091,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995395/news/441921499_993243529469677_1207359064988181573_n.jpg",
     "asset_folder": "news",
     "display_name": "441921499_993243529469677_1207359064988181573_n",
-    "existing": false,
+    "metadata": {
+      "lqip": -110365
+    },
+    "overwritten": true,
     "original_filename": "441921499_993243529469677_1207359064988181573_n",
     "api_key": "224734247257462"
   },
@@ -1004,7 +1118,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995396/news/448494832_996629192464444_283977038052028105_n.jpg",
     "asset_folder": "news",
     "display_name": "448494832_996629192464444_283977038052028105_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 496995
+    },
+    "overwritten": true,
     "original_filename": "448494832_996629192464444_283977038052028105_n",
     "api_key": "224734247257462"
   },
@@ -1028,7 +1145,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995397/news/448829434_999270775533619_938633491946659986_n.jpg",
     "asset_folder": "news",
     "display_name": "448829434_999270775533619_938633491946659986_n",
-    "existing": false,
+    "metadata": {
+      "lqip": -178973
+    },
+    "overwritten": true,
     "original_filename": "448829434_999270775533619_938633491946659986_n",
     "api_key": "224734247257462"
   },
@@ -1052,7 +1172,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995397/news/449125160_1003566418437388_2277307855422052534_n.jpg",
     "asset_folder": "news",
     "display_name": "449125160_1003566418437388_2277307855422052534_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 174435
+    },
+    "overwritten": true,
     "original_filename": "449125160_1003566418437388_2277307855422052534_n",
     "api_key": "224734247257462"
   },
@@ -1076,7 +1199,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995398/news/449839784_848670839962339_3505718273908515410_n.jpg",
     "asset_folder": "news",
     "display_name": "449839784_848670839962339_3505718273908515410_n",
-    "existing": false,
+    "metadata": {
+      "lqip": -371484
+    },
+    "overwritten": true,
     "original_filename": "449839784_848670839962339_3505718273908515410_n",
     "api_key": "224734247257462"
   },
@@ -1100,7 +1226,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995399/news/449953341_1012792914181405_1667950485648175188_n.jpg",
     "asset_folder": "news",
     "display_name": "449953341_1012792914181405_1667950485648175188_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 173411
+    },
+    "overwritten": true,
     "original_filename": "449953341_1012792914181405_1667950485648175188_n",
     "api_key": "224734247257462"
   },
@@ -1124,7 +1253,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995399/news/451050986_1016914127102617_4360611385296254246_n.jpg",
     "asset_folder": "news",
     "display_name": "451050986_1016914127102617_4360611385296254246_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 170467
+    },
+    "overwritten": true,
     "original_filename": "451050986_1016914127102617_4360611385296254246_n",
     "api_key": "224734247257462"
   },
@@ -1148,7 +1280,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995400/news/451314753_1018323683628328_5219366391662850907_n.jpg",
     "asset_folder": "news",
     "display_name": "451314753_1018323683628328_5219366391662850907_n",
-    "existing": false,
+    "metadata": {
+      "lqip": -108189
+    },
+    "overwritten": true,
     "original_filename": "451314753_1018323683628328_5219366391662850907_n",
     "api_key": "224734247257462"
   },
@@ -1172,7 +1307,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995401/news/451511469_120210642990820375_4771886436266424877_n.jpg",
     "asset_folder": "news",
     "display_name": "451511469_120210642990820375_4771886436266424877_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 191140
+    },
+    "overwritten": true,
     "original_filename": "451511469_120210642990820375_4771886436266424877_n",
     "api_key": "224734247257462"
   },
@@ -1196,9 +1334,12 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995139/news/452140257_1024270466366983_3067702678060700633_n.jpg",
     "asset_folder": "news",
     "display_name": "452140257_1024270466366983_3067702678060700633_n",
-    "existing": true,
-    "api_key": "224734247257462",
-    "original_filename": "452140257_1024270466366983_3067702678060700633_n"
+    "metadata": {
+      "lqip": 158308
+    },
+    "overwritten": true,
+    "original_filename": "452140257_1024270466366983_3067702678060700633_n",
+    "api_key": "224734247257462"
   },
   "news/452143981_1023128513147845_3742924909748628709_n.jpg": {
     "asset_id": "daf443a27b6b35220b4401df8fd44115",
@@ -1220,7 +1361,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995402/news/452143981_1023128513147845_3742924909748628709_n.jpg",
     "asset_folder": "news",
     "display_name": "452143981_1023128513147845_3742924909748628709_n",
-    "existing": false,
+    "metadata": {
+      "lqip": -87709
+    },
+    "overwritten": true,
     "original_filename": "452143981_1023128513147845_3742924909748628709_n",
     "api_key": "224734247257462"
   },
@@ -1244,9 +1388,12 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995140/news/452145911_1024623856331644_481113107281272683_n.jpg",
     "asset_folder": "news",
     "display_name": "452145911_1024623856331644_481113107281272683_n",
-    "existing": true,
-    "api_key": "224734247257462",
-    "original_filename": "452145911_1024623856331644_481113107281272683_n"
+    "metadata": {
+      "lqip": -154013
+    },
+    "overwritten": true,
+    "original_filename": "452145911_1024623856331644_481113107281272683_n",
+    "api_key": "224734247257462"
   },
   "news/452169776_1021069260020437_4712073039821735942_n.jpg": {
     "asset_id": "62472a00fa06b802e6dc205a9a08da80",
@@ -1268,7 +1415,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995403/news/452169776_1021069260020437_4712073039821735942_n.jpg",
     "asset_folder": "news",
     "display_name": "452169776_1021069260020437_4712073039821735942_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 170467
+    },
+    "overwritten": true,
     "original_filename": "452169776_1021069260020437_4712073039821735942_n",
     "api_key": "224734247257462"
   },
@@ -1292,9 +1442,12 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995141/news/452257405_1024511356342894_4032254603311764859_n.jpg",
     "asset_folder": "news",
     "display_name": "452257405_1024511356342894_4032254603311764859_n",
-    "existing": true,
-    "api_key": "224734247257462",
-    "original_filename": "452257405_1024511356342894_4032254603311764859_n"
+    "metadata": {
+      "lqip": 165347
+    },
+    "overwritten": true,
+    "original_filename": "452257405_1024511356342894_4032254603311764859_n",
+    "api_key": "224734247257462"
   },
   "news/452264057_340947719074218_9013685901311398990_n.jpg": {
     "asset_id": "d626f14b044825bf468ed281c12ef2f6",
@@ -1316,9 +1469,12 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995141/news/452264057_340947719074218_9013685901311398990_n.jpg",
     "asset_folder": "news",
     "display_name": "452264057_340947719074218_9013685901311398990_n",
-    "existing": true,
-    "api_key": "224734247257462",
-    "original_filename": "452264057_340947719074218_9013685901311398990_n"
+    "metadata": {
+      "lqip": 169315
+    },
+    "overwritten": true,
+    "original_filename": "452264057_340947719074218_9013685901311398990_n",
+    "api_key": "224734247257462"
   },
   "news/452444030_1025170549610308_1802162221459982871_n.jpg": {
     "asset_id": "9dbf0c876b83ae99e019ec98d24079cc",
@@ -1340,9 +1496,12 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995142/news/452444030_1025170549610308_1802162221459982871_n.jpg",
     "asset_folder": "news",
     "display_name": "452444030_1025170549610308_1802162221459982871_n",
-    "existing": true,
-    "api_key": "224734247257462",
-    "original_filename": "452444030_1025170549610308_1802162221459982871_n"
+    "metadata": {
+      "lqip": -104861
+    },
+    "overwritten": true,
+    "original_filename": "452444030_1025170549610308_1802162221459982871_n",
+    "api_key": "224734247257462"
   },
   "news/452481770_1025064039620959_2603719944554684593_n.jpg": {
     "asset_id": "922f830ab56938048969542b839944bf",
@@ -1364,9 +1523,12 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995143/news/452481770_1025064039620959_2603719944554684593_n.jpg",
     "asset_folder": "news",
     "display_name": "452481770_1025064039620959_2603719944554684593_n",
-    "existing": true,
-    "api_key": "224734247257462",
-    "original_filename": "452481770_1025064039620959_2603719944554684593_n"
+    "metadata": {
+      "lqip": 170467
+    },
+    "overwritten": true,
+    "original_filename": "452481770_1025064039620959_2603719944554684593_n",
+    "api_key": "224734247257462"
   },
   "news/452747792_1023601023100594_54153794237551462_n.jpg": {
     "asset_id": "50de6e8090d36cedcb2ac2eb0e430bf8",
@@ -1388,7 +1550,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995405/news/452747792_1023601023100594_54153794237551462_n.jpg",
     "asset_folder": "news",
     "display_name": "452747792_1023601023100594_54153794237551462_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 154212
+    },
+    "overwritten": true,
     "original_filename": "452747792_1023601023100594_54153794237551462_n",
     "api_key": "224734247257462"
   },
@@ -1412,9 +1577,12 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995144/news/452846306_1026864066107623_2666071539920268575_n.jpg",
     "asset_folder": "news",
     "display_name": "452846306_1026864066107623_2666071539920268575_n",
-    "existing": true,
-    "api_key": "224734247257462",
-    "original_filename": "452846306_1026864066107623_2666071539920268575_n"
+    "metadata": {
+      "lqip": 168164
+    },
+    "overwritten": true,
+    "original_filename": "452846306_1026864066107623_2666071539920268575_n",
+    "api_key": "224734247257462"
   },
   "news/452926134_120210916102260375_6158050160944084413_n.jpg": {
     "asset_id": "4bc4e52d5961840bb698b33aeb80125b",
@@ -1436,7 +1604,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995406/news/452926134_120210916102260375_6158050160944084413_n.jpg",
     "asset_folder": "news",
     "display_name": "452926134_120210916102260375_6158050160944084413_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 168164
+    },
+    "overwritten": true,
     "original_filename": "452926134_120210916102260375_6158050160944084413_n",
     "api_key": "224734247257462"
   },
@@ -1460,9 +1631,12 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995144/news/453013449_1025252289602134_9099117645221823717_n.jpg",
     "asset_folder": "news",
     "display_name": "453013449_1025252289602134_9099117645221823717_n",
-    "existing": true,
-    "api_key": "224734247257462",
-    "original_filename": "453013449_1025252289602134_9099117645221823717_n"
+    "metadata": {
+      "lqip": 158307
+    },
+    "overwritten": true,
+    "original_filename": "453013449_1025252289602134_9099117645221823717_n",
+    "api_key": "224734247257462"
   },
   "news/453034803_1025924009534962_370930897524711041_n.jpg": {
     "asset_id": "a9eca362ab45cc2c97198f17d71f102c",
@@ -1484,9 +1658,12 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995145/news/453034803_1025924009534962_370930897524711041_n.jpg",
     "asset_folder": "news",
     "display_name": "453034803_1025924009534962_370930897524711041_n",
-    "existing": true,
-    "api_key": "224734247257462",
-    "original_filename": "453034803_1025924009534962_370930897524711041_n"
+    "metadata": {
+      "lqip": 240228
+    },
+    "overwritten": true,
+    "original_filename": "453034803_1025924009534962_370930897524711041_n",
+    "api_key": "224734247257462"
   },
   "news/453059562_1708220876669955_8514127982661870162_n.jpg": {
     "asset_id": "35f70c09df971e8fb17b50db48a600d5",
@@ -1508,9 +1685,12 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995146/news/453059562_1708220876669955_8514127982661870162_n.jpg",
     "asset_folder": "news",
     "display_name": "453059562_1708220876669955_8514127982661870162_n",
-    "existing": true,
-    "api_key": "224734247257462",
-    "original_filename": "453059562_1708220876669955_8514127982661870162_n"
+    "metadata": {
+      "lqip": 416348
+    },
+    "overwritten": true,
+    "original_filename": "453059562_1708220876669955_8514127982661870162_n",
+    "api_key": "224734247257462"
   },
   "news/453097104_1025898162870880_51768963684707810_n.jpg": {
     "asset_id": "788b5b8c26399923d493244f7c895d59",
@@ -1532,9 +1712,12 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995146/news/453097104_1025898162870880_51768963684707810_n.jpg",
     "asset_folder": "news",
     "display_name": "453097104_1025898162870880_51768963684707810_n",
-    "existing": true,
-    "api_key": "224734247257462",
-    "original_filename": "453097104_1025898162870880_51768963684707810_n"
+    "metadata": {
+      "lqip": -71324
+    },
+    "overwritten": true,
+    "original_filename": "453097104_1025898162870880_51768963684707810_n",
+    "api_key": "224734247257462"
   },
   "news/453170710_1025950522865644_9180404551048238360_n.jpg": {
     "asset_id": "97250281af6dde12efe009349a65ca19",
@@ -1556,7 +1739,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995408/news/453170710_1025950522865644_9180404551048238360_n.jpg",
     "asset_folder": "news",
     "display_name": "453170710_1025950522865644_9180404551048238360_n",
-    "existing": false,
+    "metadata": {
+      "lqip": -169629
+    },
+    "overwritten": true,
     "original_filename": "453170710_1025950522865644_9180404551048238360_n",
     "api_key": "224734247257462"
   },
@@ -1580,7 +1766,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995409/news/453200541_1026137352846961_8176060721353022714_n.jpg",
     "asset_folder": "news",
     "display_name": "453200541_1026137352846961_8176060721353022714_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 157082
+    },
+    "overwritten": true,
     "original_filename": "453200541_1026137352846961_8176060721353022714_n",
     "api_key": "224734247257462"
   },
@@ -1604,7 +1793,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995409/news/453300164_1026227942837902_5999754293378886740_n.jpg",
     "asset_folder": "news",
     "display_name": "453300164_1026227942837902_5999754293378886740_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 219491
+    },
+    "overwritten": true,
     "original_filename": "453300164_1026227942837902_5999754293378886740_n",
     "api_key": "224734247257462"
   },
@@ -1628,7 +1820,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995410/news/453301126_1026400042820692_1364070381327412073_n.jpg",
     "asset_folder": "news",
     "display_name": "453301126_1026400042820692_1364070381327412073_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 235811
+    },
+    "overwritten": true,
     "original_filename": "453301126_1026400042820692_1364070381327412073_n",
     "api_key": "224734247257462"
   },
@@ -1652,7 +1847,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995411/news/464690289_1105163401611022_448652478247754511_n.jpg",
     "asset_folder": "news",
     "display_name": "464690289_1105163401611022_448652478247754511_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 235810
+    },
+    "overwritten": true,
     "original_filename": "464690289_1105163401611022_448652478247754511_n",
     "api_key": "224734247257462"
   },
@@ -1676,7 +1874,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995411/news/466800563_1113461684114527_7460449887792046368_n.jpg",
     "asset_folder": "news",
     "display_name": "466800563_1113461684114527_7460449887792046368_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 513315
+    },
+    "overwritten": true,
     "original_filename": "466800563_1113461684114527_7460449887792046368_n",
     "api_key": "224734247257462"
   },
@@ -1700,7 +1901,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995412/news/468658070_120214085329790375_6093681607087819473_n.jpg",
     "asset_folder": "news",
     "display_name": "468658070_120214085329790375_6093681607087819473_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 165092
+    },
+    "overwritten": true,
     "original_filename": "468658070_120214085329790375_6093681607087819473_n",
     "api_key": "224734247257462"
   },
@@ -1724,7 +1928,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995413/news/469097590_120213852725650375_4346814167422345699_n.jpg",
     "asset_folder": "news",
     "display_name": "469097590_120213852725650375_4346814167422345699_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 513315
+    },
+    "overwritten": true,
     "original_filename": "469097590_120213852725650375_4346814167422345699_n",
     "api_key": "224734247257462"
   },
@@ -1748,7 +1955,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995413/news/469224535_1128745342586161_2985509076381270288_n.jpg",
     "asset_folder": "news",
     "display_name": "469224535_1128745342586161_2985509076381270288_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 234843
+    },
+    "overwritten": true,
     "original_filename": "469224535_1128745342586161_2985509076381270288_n",
     "api_key": "224734247257462"
   },
@@ -1772,7 +1982,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995414/news/469285649_120213891645520375_9001296018523882760_n.jpg",
     "asset_folder": "news",
     "display_name": "469285649_120213891645520375_9001296018523882760_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 514403
+    },
+    "overwritten": true,
     "original_filename": "469285649_120213891645520375_9001296018523882760_n",
     "api_key": "224734247257462"
   },
@@ -1796,7 +2009,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995415/news/469326761_1129484699178892_968035381544734496_n.jpg",
     "asset_folder": "news",
     "display_name": "469326761_1129484699178892_968035381544734496_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 103906
+    },
+    "overwritten": true,
     "original_filename": "469326761_1129484699178892_968035381544734496_n",
     "api_key": "224734247257462"
   },
@@ -1820,7 +2036,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995416/news/469394171_1132386305555398_2048614252510763894_n.jpg",
     "asset_folder": "news",
     "display_name": "469394171_1132386305555398_2048614252510763894_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 165092
+    },
+    "overwritten": true,
     "original_filename": "469394171_1132386305555398_2048614252510763894_n",
     "api_key": "224734247257462"
   },
@@ -1844,7 +2063,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995417/news/469436249_120214085221740375_1834893697580584675_n.jpg",
     "asset_folder": "news",
     "display_name": "469436249_120214085221740375_1834893697580584675_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 164067
+    },
+    "overwritten": true,
     "original_filename": "469436249_120214085221740375_1834893697580584675_n",
     "api_key": "224734247257462"
   },
@@ -1868,7 +2090,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995417/news/469549012_1131868392273856_7423158881483678109_n.jpg",
     "asset_folder": "news",
     "display_name": "469549012_1131868392273856_7423158881483678109_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 164067
+    },
+    "overwritten": true,
     "original_filename": "469549012_1131868392273856_7423158881483678109_n",
     "api_key": "224734247257462"
   },
@@ -1892,7 +2117,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995418/news/469751111_120214125982060375_1520377101426015376_n.jpg",
     "asset_folder": "news",
     "display_name": "469751111_120214125982060375_1520377101426015376_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 235876
+    },
+    "overwritten": true,
     "original_filename": "469751111_120214125982060375_1520377101426015376_n",
     "api_key": "224734247257462"
   },
@@ -1916,7 +2144,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995419/news/469751113_120213966852790375_1224610293699350421_n.jpg",
     "asset_folder": "news",
     "display_name": "469751113_120213966852790375_1224610293699350421_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 234843
+    },
+    "overwritten": true,
     "original_filename": "469751113_120213966852790375_1224610293699350421_n",
     "api_key": "224734247257462"
   },
@@ -1940,7 +2171,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995419/news/469751242_120213992069290375_7372308395272107706_n.jpg",
     "asset_folder": "news",
     "display_name": "469751242_120213992069290375_7372308395272107706_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 103906
+    },
+    "overwritten": true,
     "original_filename": "469751242_120213992069290375_7372308395272107706_n",
     "api_key": "224734247257462"
   },
@@ -1964,7 +2198,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995420/news/469752795_120214292084390375_1712797536943805647_n.jpg",
     "asset_folder": "news",
     "display_name": "469752795_120214292084390375_1712797536943805647_n",
-    "existing": false,
+    "metadata": {
+      "lqip": -179996
+    },
+    "overwritten": true,
     "original_filename": "469752795_120214292084390375_1712797536943805647_n",
     "api_key": "224734247257462"
   },
@@ -1988,7 +2225,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995420/news/469764628_120214192285290375_7815344610374625467_n.jpg",
     "asset_folder": "news",
     "display_name": "469764628_120214192285290375_7815344610374625467_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 239971
+    },
+    "overwritten": true,
     "original_filename": "469764628_120214192285290375_7815344610374625467_n",
     "api_key": "224734247257462"
   },
@@ -2012,7 +2252,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995421/news/469858023_1133219848805377_1942032479325380947_n.jpg",
     "asset_folder": "news",
     "display_name": "469858023_1133219848805377_1942032479325380947_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 252260
+    },
+    "overwritten": true,
     "original_filename": "469858023_1133219848805377_1942032479325380947_n",
     "api_key": "224734247257462"
   },
@@ -2036,9 +2279,12 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995147/news/469904592_1133804972080198_6444601213339189530_n.jpg",
     "asset_folder": "news",
     "display_name": "469904592_1133804972080198_6444601213339189530_n",
-    "existing": true,
-    "api_key": "224734247257462",
-    "original_filename": "469904592_1133804972080198_6444601213339189530_n"
+    "metadata": {
+      "lqip": 235876
+    },
+    "overwritten": true,
+    "original_filename": "469904592_1133804972080198_6444601213339189530_n",
+    "api_key": "224734247257462"
   },
   "news/470157748_1136807515113277_7478260843579468287_n.jpg": {
     "asset_id": "cc0cc0fc9db3f068913a9d1a91e6fa46",
@@ -2060,7 +2306,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995422/news/470157748_1136807515113277_7478260843579468287_n.jpg",
     "asset_folder": "news",
     "display_name": "470157748_1136807515113277_7478260843579468287_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 154211
+    },
+    "overwritten": true,
     "original_filename": "470157748_1136807515113277_7478260843579468287_n",
     "api_key": "224734247257462"
   },
@@ -2084,9 +2333,12 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995148/news/470195686_1134620228665339_5736100585239419450_n.jpg",
     "asset_folder": "news",
     "display_name": "470195686_1134620228665339_5736100585239419450_n",
-    "existing": true,
-    "api_key": "224734247257462",
-    "original_filename": "470195686_1134620228665339_5736100585239419450_n"
+    "metadata": {
+      "lqip": 239971
+    },
+    "overwritten": true,
+    "original_filename": "470195686_1134620228665339_5736100585239419450_n",
+    "api_key": "224734247257462"
   },
   "news/470234291_1136936985100330_9031824890093056640_n.jpg": {
     "asset_id": "c80ce07e2c16b65925b5eadf61457bc3",
@@ -2108,9 +2360,12 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995149/news/470234291_1136936985100330_9031824890093056640_n.jpg",
     "asset_folder": "news",
     "display_name": "470234291_1136936985100330_9031824890093056640_n",
-    "existing": true,
-    "api_key": "224734247257462",
-    "original_filename": "470234291_1136936985100330_9031824890093056640_n"
+    "metadata": {
+      "lqip": 82147
+    },
+    "overwritten": true,
+    "original_filename": "470234291_1136936985100330_9031824890093056640_n",
+    "api_key": "224734247257462"
   },
   "news/470473320_120214292109430375_2493103909946229092_n.jpg": {
     "asset_id": "afb109a8c0e95d2b26711dfe0f13234d",
@@ -2132,9 +2387,12 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995149/news/470473320_120214292109430375_2493103909946229092_n.jpg",
     "asset_folder": "news",
     "display_name": "470473320_120214292109430375_2493103909946229092_n",
-    "existing": true,
-    "api_key": "224734247257462",
-    "original_filename": "470473320_120214292109430375_2493103909946229092_n"
+    "metadata": {
+      "lqip": -109085
+    },
+    "overwritten": true,
+    "original_filename": "470473320_120214292109430375_2493103909946229092_n",
+    "api_key": "224734247257462"
   },
   "news/470606347_1139098811550814_5758538582435792156_n.jpg": {
     "asset_id": "62a117cc677597cd43ff549fa89cc850",
@@ -2156,7 +2414,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995424/news/470606347_1139098811550814_5758538582435792156_n.jpg",
     "asset_folder": "news",
     "display_name": "470606347_1139098811550814_5758538582435792156_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 169699
+    },
+    "overwritten": true,
     "original_filename": "470606347_1139098811550814_5758538582435792156_n",
     "api_key": "224734247257462"
   },
@@ -2180,9 +2441,12 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995151/news/470608428_1138366001624095_5298997308606208259_n.jpg",
     "asset_folder": "news",
     "display_name": "470608428_1138366001624095_5298997308606208259_n",
-    "existing": true,
-    "api_key": "224734247257462",
-    "original_filename": "470608428_1138366001624095_5298997308606208259_n"
+    "metadata": {
+      "lqip": -179997
+    },
+    "overwritten": true,
+    "original_filename": "470608428_1138366001624095_5298997308606208259_n",
+    "api_key": "224734247257462"
   },
   "news/470844272_1139912871469408_3869954720503344659_n.jpg": {
     "asset_id": "0b3df4ab0492716601bb811a69d64183",
@@ -2204,7 +2468,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995425/news/470844272_1139912871469408_3869954720503344659_n.jpg",
     "asset_folder": "news",
     "display_name": "470844272_1139912871469408_3869954720503344659_n",
-    "existing": false,
+    "metadata": {
+      "lqip": -109085
+    },
+    "overwritten": true,
     "original_filename": "470844272_1139912871469408_3869954720503344659_n",
     "api_key": "224734247257462"
   },
@@ -2228,7 +2495,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995426/news/470879751_120214260121610375_6605965928643341316_n.jpg",
     "asset_folder": "news",
     "display_name": "470879751_120214260121610375_6605965928643341316_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 82147
+    },
+    "overwritten": true,
     "original_filename": "470879751_120214260121610375_6605965928643341316_n",
     "api_key": "224734247257462"
   },
@@ -2252,7 +2522,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995426/news/471164481_1142229674571061_3683564821939941375_n.jpg",
     "asset_folder": "news",
     "display_name": "471164481_1142229674571061_3683564821939941375_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 169380
+    },
+    "overwritten": true,
     "original_filename": "471164481_1142229674571061_3683564821939941375_n",
     "api_key": "224734247257462"
   },
@@ -2276,7 +2549,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995427/news/471220318_1148274827299879_9114220777054746340_n.jpg",
     "asset_folder": "news",
     "display_name": "471220318_1148274827299879_9114220777054746340_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 503075
+    },
+    "overwritten": true,
     "original_filename": "471220318_1148274827299879_9114220777054746340_n",
     "api_key": "224734247257462"
   },
@@ -2300,7 +2576,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995428/news/471931043_120214471662860375_6411716118462005538_n.jpg",
     "asset_folder": "news",
     "display_name": "471931043_120214471662860375_6411716118462005538_n",
-    "existing": false,
+    "metadata": {
+      "lqip": -178973
+    },
+    "overwritten": true,
     "original_filename": "471931043_120214471662860375_6411716118462005538_n",
     "api_key": "224734247257462"
   },
@@ -2324,7 +2603,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995429/news/474595985_1164622382331790_4297055107299502503_n.jpg",
     "asset_folder": "news",
     "display_name": "474595985_1164622382331790_4297055107299502503_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 147684
+    },
+    "overwritten": true,
     "original_filename": "474595985_1164622382331790_4297055107299502503_n",
     "api_key": "224734247257462"
   },
@@ -2348,9 +2630,12 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995151/news/477875083_1185750670218961_3609524125544817237_n.jpg",
     "asset_folder": "news",
     "display_name": "477875083_1185750670218961_3609524125544817237_n",
-    "existing": true,
-    "api_key": "224734247257462",
-    "original_filename": "477875083_1185750670218961_3609524125544817237_n"
+    "metadata": {
+      "lqip": 513379
+    },
+    "overwritten": true,
+    "original_filename": "477875083_1185750670218961_3609524125544817237_n",
+    "api_key": "224734247257462"
   },
   "news/480313372_1190957896364905_6158252774261981105_n.jpg": {
     "asset_id": "cd123f9a473afef1337f7ff6cd25be38",
@@ -2372,7 +2657,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995429/news/480313372_1190957896364905_6158252774261981105_n.jpg",
     "asset_folder": "news",
     "display_name": "480313372_1190957896364905_6158252774261981105_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 82147
+    },
+    "overwritten": true,
     "original_filename": "480313372_1190957896364905_6158252774261981105_n",
     "api_key": "224734247257462"
   },
@@ -2396,7 +2684,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995430/news/480448815_1192154196245275_6992410307998658723_n.jpg",
     "asset_folder": "news",
     "display_name": "480448815_1192154196245275_6992410307998658723_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 147683
+    },
+    "overwritten": true,
     "original_filename": "480448815_1192154196245275_6992410307998658723_n",
     "api_key": "224734247257462"
   },
@@ -2420,7 +2711,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995431/news/480478548_1194049452722416_1975298719742302617_n.jpg",
     "asset_folder": "news",
     "display_name": "480478548_1194049452722416_1975298719742302617_n",
-    "existing": false,
+    "metadata": {
+      "lqip": -179988
+    },
+    "overwritten": true,
     "original_filename": "480478548_1194049452722416_1975298719742302617_n",
     "api_key": "224734247257462"
   },
@@ -2444,7 +2738,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995431/news/480677784_1188347169959311_8449259729783127635_n.jpg",
     "asset_folder": "news",
     "display_name": "480677784_1188347169959311_8449259729783127635_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 513371
+    },
+    "overwritten": true,
     "original_filename": "480677784_1188347169959311_8449259729783127635_n",
     "api_key": "224734247257462"
   },
@@ -2468,7 +2765,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995432/news/480761175_120216428673930375_4456371332511522161_n.jpg",
     "asset_folder": "news",
     "display_name": "480761175_120216428673930375_4456371332511522161_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 513379
+    },
+    "overwritten": true,
     "original_filename": "480761175_120216428673930375_4456371332511522161_n",
     "api_key": "224734247257462"
   },
@@ -2492,7 +2792,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995432/news/491959660_1243935601067134_7088561563480328918_n.jpg",
     "asset_folder": "news",
     "display_name": "491959660_1243935601067134_7088561563480328918_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 82147
+    },
+    "overwritten": true,
     "original_filename": "491959660_1243935601067134_7088561563480328918_n",
     "api_key": "224734247257462"
   },
@@ -2516,7 +2819,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995433/news/492323567_1242620984531929_7504827637953347074_n.jpg",
     "asset_folder": "news",
     "display_name": "492323567_1242620984531929_7504827637953347074_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 503075
+    },
+    "overwritten": true,
     "original_filename": "492323567_1242620984531929_7504827637953347074_n",
     "api_key": "224734247257462"
   },
@@ -2540,7 +2846,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995434/news/492374576_1244001771060517_5360823943474899650_n.jpg",
     "asset_folder": "news",
     "display_name": "492374576_1244001771060517_5360823943474899650_n",
-    "existing": false,
+    "metadata": {
+      "lqip": -179988
+    },
+    "overwritten": true,
     "original_filename": "492374576_1244001771060517_5360823943474899650_n",
     "api_key": "224734247257462"
   },
@@ -2564,7 +2873,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995435/news/492416132_1243991681061526_2244182259806715204_n.jpg",
     "asset_folder": "news",
     "display_name": "492416132_1243991681061526_2244182259806715204_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 147683
+    },
+    "overwritten": true,
     "original_filename": "492416132_1243991681061526_2244182259806715204_n",
     "api_key": "224734247257462"
   },
@@ -2588,7 +2900,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995435/news/492557564_1243925087734852_1501020511084624790_n.jpg",
     "asset_folder": "news",
     "display_name": "492557564_1243925087734852_1501020511084624790_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 513371
+    },
+    "overwritten": true,
     "original_filename": "492557564_1243925087734852_1501020511084624790_n",
     "api_key": "224734247257462"
   },
@@ -2612,7 +2927,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995436/news/493544127_1243002834493744_4720337775089543098_n.jpg",
     "asset_folder": "news",
     "display_name": "493544127_1243002834493744_4720337775089543098_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 147684
+    },
+    "overwritten": true,
     "original_filename": "493544127_1243002834493744_4720337775089543098_n",
     "api_key": "224734247257462"
   },
@@ -2636,7 +2954,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995437/news/495278063_1276594121134615_6923833638232698194_n.jpg",
     "asset_folder": "news",
     "display_name": "495278063_1276594121134615_6923833638232698194_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 169443
+    },
+    "overwritten": true,
     "original_filename": "495278063_1276594121134615_6923833638232698194_n",
     "api_key": "224734247257462"
   },
@@ -2660,9 +2981,12 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995152/news/504257640_1281087457351948_6628872914733315363_n.jpg",
     "asset_folder": "news",
     "display_name": "504257640_1281087457351948_6628872914733315363_n",
-    "existing": true,
-    "api_key": "224734247257462",
-    "original_filename": "504257640_1281087457351948_6628872914733315363_n"
+    "metadata": {
+      "lqip": 174819
+    },
+    "overwritten": true,
+    "original_filename": "504257640_1281087457351948_6628872914733315363_n",
+    "api_key": "224734247257462"
   },
   "news/505410272_9762371197225913_1621932711008459042_n.jpg": {
     "asset_id": "e184143ae3ed804a0517e8a08f241dc4",
@@ -2684,7 +3008,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995438/news/505410272_9762371197225913_1621932711008459042_n.jpg",
     "asset_folder": "news",
     "display_name": "505410272_9762371197225913_1621932711008459042_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 174819
+    },
+    "overwritten": true,
     "original_filename": "505410272_9762371197225913_1621932711008459042_n",
     "api_key": "224734247257462"
   },
@@ -2708,7 +3035,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995439/news/508403876_1423476835517148_4705069028339164524_n.jpg",
     "asset_folder": "news",
     "display_name": "508403876_1423476835517148_4705069028339164524_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 174819
+    },
+    "overwritten": true,
     "original_filename": "508403876_1423476835517148_4705069028339164524_n",
     "api_key": "224734247257462"
   },
@@ -2732,7 +3062,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995440/news/516337387_1316980717095955_9087713918238166240_n.jpg",
     "asset_folder": "news",
     "display_name": "516337387_1316980717095955_9087713918238166240_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 169315
+    },
+    "overwritten": true,
     "original_filename": "516337387_1316980717095955_9087713918238166240_n",
     "api_key": "224734247257462"
   },
@@ -2756,7 +3089,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995440/news/516363965_1323222146471812_8045310025431229541_n.jpg",
     "asset_folder": "news",
     "display_name": "516363965_1323222146471812_8045310025431229541_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 497963
+    },
+    "overwritten": true,
     "original_filename": "516363965_1323222146471812_8045310025431229541_n",
     "api_key": "224734247257462"
   },
@@ -2780,7 +3116,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995441/news/516425911_1317369570390403_5507537412575034891_n.jpg",
     "asset_folder": "news",
     "display_name": "516425911_1317369570390403_5507537412575034891_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 169444
+    },
+    "overwritten": true,
     "original_filename": "516425911_1317369570390403_5507537412575034891_n",
     "api_key": "224734247257462"
   },
@@ -2804,7 +3143,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995442/news/516752169_1318218433638850_6138889862673661098_n.jpg",
     "asset_folder": "news",
     "display_name": "516752169_1318218433638850_6138889862673661098_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 157284
+    },
+    "overwritten": true,
     "original_filename": "516752169_1318218433638850_6138889862673661098_n",
     "api_key": "224734247257462"
   },
@@ -2828,7 +3170,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995442/news/516789322_1787639658766689_3325532440998972787_n.jpg",
     "asset_folder": "news",
     "display_name": "516789322_1787639658766689_3325532440998972787_n",
-    "existing": false,
+    "metadata": {
+      "lqip": -261909
+    },
+    "overwritten": true,
     "original_filename": "516789322_1787639658766689_3325532440998972787_n",
     "api_key": "224734247257462"
   },
@@ -2852,9 +3197,12 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995153/news/519419187_1313775510749809_6816286863374403167_n.jpg",
     "asset_folder": "news",
     "display_name": "519419187_1313775510749809_6816286863374403167_n",
-    "existing": true,
-    "api_key": "224734247257462",
-    "original_filename": "519419187_1313775510749809_6816286863374403167_n"
+    "metadata": {
+      "lqip": -103709
+    },
+    "overwritten": true,
+    "original_filename": "519419187_1313775510749809_6816286863374403167_n",
+    "api_key": "224734247257462"
   },
   "news/519480978_1316451613815532_5442266653015697465_n.jpg": {
     "asset_id": "48b9093656a04300f3da8a6ba63371f9",
@@ -2876,7 +3224,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995444/news/519480978_1316451613815532_5442266653015697465_n.jpg",
     "asset_folder": "news",
     "display_name": "519480978_1316451613815532_5442266653015697465_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 174819
+    },
+    "overwritten": true,
     "original_filename": "519480978_1316451613815532_5442266653015697465_n",
     "api_key": "224734247257462"
   },
@@ -2900,7 +3251,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995444/news/519484542_1318771803583513_7651386982911475631_n.jpg",
     "asset_folder": "news",
     "display_name": "519484542_1318771803583513_7651386982911475631_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 92772
+    },
+    "overwritten": true,
     "original_filename": "519484542_1318771803583513_7651386982911475631_n",
     "api_key": "224734247257462"
   },
@@ -2924,7 +3278,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995445/news/520259866_1319203880206972_8551308550497422203_n.jpg",
     "asset_folder": "news",
     "display_name": "520259866_1319203880206972_8551308550497422203_n",
-    "existing": false,
+    "metadata": {
+      "lqip": -169373
+    },
+    "overwritten": true,
     "original_filename": "520259866_1319203880206972_8551308550497422203_n",
     "api_key": "224734247257462"
   },
@@ -2948,7 +3305,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995446/news/521583268_1319639563496737_4907031449832058557_n.jpg",
     "asset_folder": "news",
     "display_name": "521583268_1319639563496737_4907031449832058557_n",
-    "existing": false,
+    "metadata": {
+      "lqip": -26012
+    },
+    "overwritten": true,
     "original_filename": "521583268_1319639563496737_4907031449832058557_n",
     "api_key": "224734247257462"
   },
@@ -2972,7 +3332,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995446/news/522192012_705021772348099_9188732319707879294_n.jpg",
     "asset_folder": "news",
     "display_name": "522192012_705021772348099_9188732319707879294_n",
-    "existing": false,
+    "metadata": {
+      "lqip": -103709
+    },
+    "overwritten": true,
     "original_filename": "522192012_705021772348099_9188732319707879294_n",
     "api_key": "224734247257462"
   },
@@ -2996,7 +3359,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995447/news/523116109_1319834843477209_6678400118808173812_n.jpg",
     "asset_folder": "news",
     "display_name": "523116109_1319834843477209_6678400118808173812_n",
-    "existing": false,
+    "metadata": {
+      "lqip": -108189
+    },
+    "overwritten": true,
     "original_filename": "523116109_1319834843477209_6678400118808173812_n",
     "api_key": "224734247257462"
   },
@@ -3020,7 +3386,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995448/news/523352562_1247690479806283_7835909073780687582_n.jpg",
     "asset_folder": "news",
     "display_name": "523352562_1247690479806283_7835909073780687582_n",
-    "existing": false,
+    "metadata": {
+      "lqip": -88413
+    },
+    "overwritten": true,
     "original_filename": "523352562_1247690479806283_7835909073780687582_n",
     "api_key": "224734247257462"
   },
@@ -3044,7 +3413,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995448/news/523498476_1320569653403728_7444828812858697712_n.jpg",
     "asset_folder": "news",
     "display_name": "523498476_1320569653403728_7444828812858697712_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 109156
+    },
+    "overwritten": true,
     "original_filename": "523498476_1320569653403728_7444828812858697712_n",
     "api_key": "224734247257462"
   },
@@ -3068,7 +3440,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995449/news/523861914_1549071959244056_4004149624692388468_n.jpg",
     "asset_folder": "news",
     "display_name": "523861914_1549071959244056_4004149624692388468_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 91554
+    },
+    "overwritten": true,
     "original_filename": "523861914_1549071959244056_4004149624692388468_n",
     "api_key": "224734247257462"
   },
@@ -3092,7 +3467,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995450/news/523974551_1319887823471911_7309806504342628283_n.jpg",
     "asset_folder": "news",
     "display_name": "523974551_1319887823471911_7309806504342628283_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 239972
+    },
+    "overwritten": true,
     "original_filename": "523974551_1319887823471911_7309806504342628283_n",
     "api_key": "224734247257462"
   },
@@ -3116,7 +3494,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995451/news/524148766_1320736403387053_3122837224732162702_n.jpg",
     "asset_folder": "news",
     "display_name": "524148766_1320736403387053_3122837224732162702_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 170340
+    },
+    "overwritten": true,
     "original_filename": "524148766_1320736403387053_3122837224732162702_n",
     "api_key": "224734247257462"
   },
@@ -3140,7 +3521,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995451/news/524173724_2204024490047118_6874133789236689804_n.jpg",
     "asset_folder": "news",
     "display_name": "524173724_2204024490047118_6874133789236689804_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 170275
+    },
+    "overwritten": true,
     "original_filename": "524173724_2204024490047118_6874133789236689804_n",
     "api_key": "224734247257462"
   },
@@ -3164,7 +3548,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995452/news/524190757_1320117830115577_966403662017485906_n.jpg",
     "asset_folder": "news",
     "display_name": "524190757_1320117830115577_966403662017485906_n",
-    "existing": false,
+    "metadata": {
+      "lqip": -103901
+    },
+    "overwritten": true,
     "original_filename": "524190757_1320117830115577_966403662017485906_n",
     "api_key": "224734247257462"
   },
@@ -3188,7 +3575,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995453/news/524305466_1320487893411904_498252978551960034_n.jpg",
     "asset_folder": "news",
     "display_name": "524305466_1320487893411904_498252978551960034_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 431459
+    },
+    "overwritten": true,
     "original_filename": "524305466_1320487893411904_498252978551960034_n",
     "api_key": "224734247257462"
   },
@@ -3212,7 +3602,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995453/news/524489018_1503859064289374_8533369135449262556_n.jpg",
     "asset_folder": "news",
     "display_name": "524489018_1503859064289374_8533369135449262556_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 169315
+    },
+    "overwritten": true,
     "original_filename": "524489018_1503859064289374_8533369135449262556_n",
     "api_key": "224734247257462"
   },
@@ -3236,7 +3629,10 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995454/news/524728668_809135921448988_2895840552947867387_n.jpg",
     "asset_folder": "news",
     "display_name": "524728668_809135921448988_2895840552947867387_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 157027
+    },
+    "overwritten": true,
     "original_filename": "524728668_809135921448988_2895840552947867387_n",
     "api_key": "224734247257462"
   },
@@ -3260,9 +3656,12 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995153/news/524806557_1562721618044541_7209764002667965342_n.jpg",
     "asset_folder": "news",
     "display_name": "524806557_1562721618044541_7209764002667965342_n",
-    "existing": true,
-    "api_key": "224734247257462",
-    "original_filename": "524806557_1562721618044541_7209764002667965342_n"
+    "metadata": {
+      "lqip": 169308
+    },
+    "overwritten": true,
+    "original_filename": "524806557_1562721618044541_7209764002667965342_n",
+    "api_key": "224734247257462"
   },
   "news/525005649_1324706386323388_3080774829592701131_n.jpg": {
     "asset_id": "e29d4aea810fc306073281b65db5229b",
@@ -3284,9 +3683,12 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995154/news/525005649_1324706386323388_3080774829592701131_n.jpg",
     "asset_folder": "news",
     "display_name": "525005649_1324706386323388_3080774829592701131_n",
-    "existing": true,
-    "api_key": "224734247257462",
-    "original_filename": "525005649_1324706386323388_3080774829592701131_n"
+    "metadata": {
+      "lqip": 228706
+    },
+    "overwritten": true,
+    "original_filename": "525005649_1324706386323388_3080774829592701131_n",
+    "api_key": "224734247257462"
   },
   "news/525505675_2234356287029904_3640305143215266304_n.jpg": {
     "asset_id": "7602f6cfdf985b432b42fe1a16843a04",
@@ -3308,8 +3710,95 @@
     "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1754995456/news/525505675_2234356287029904_3640305143215266304_n.jpg",
     "asset_folder": "news",
     "display_name": "525505675_2234356287029904_3640305143215266304_n",
-    "existing": false,
+    "metadata": {
+      "lqip": 235811
+    },
+    "overwritten": true,
     "original_filename": "525505675_2234356287029904_3640305143215266304_n",
+    "api_key": "224734247257462"
+  },
+  "hero-bg-big.avif": {
+    "asset_id": "084509ad1065f3412185a5d29d720bbc",
+    "public_id": "hero-bg-big",
+    "version": 1755147428,
+    "version_id": "6741339ae51754df91e2e6bed0295efd",
+    "signature": "c1380fffb1cd2f23670f11e1b26c5a8555f10220",
+    "width": 3360,
+    "height": 1680,
+    "format": "avif",
+    "resource_type": "image",
+    "created_at": "2025-08-12T10:42:43Z",
+    "tags": [],
+    "pages": 1,
+    "bytes": 530056,
+    "type": "upload",
+    "etag": "2c9b21b492e8559001568750d99779ee",
+    "placeholder": false,
+    "url": "http://res.cloudinary.com/studnice-fest/image/upload/v1755147428/hero-bg-big.avif",
+    "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1755147428/hero-bg-big.avif",
+    "asset_folder": "",
+    "display_name": "hero-bg-big",
+    "metadata": {
+      "lqip": 170339
+    },
+    "overwritten": true,
+    "original_filename": "hero-bg-big",
+    "api_key": "224734247257462"
+  },
+  "hero-bg-small.avif": {
+    "asset_id": "f07a7ddabcdba4f2b811aa9a19e47a53",
+    "public_id": "hero-bg-small",
+    "version": 1755147430,
+    "version_id": "114a683c5bd53245eda6eb27f146f03f",
+    "signature": "d713d7bbe4571505a6cea10e30deb23c8865b7f8",
+    "width": 960,
+    "height": 1920,
+    "format": "avif",
+    "resource_type": "image",
+    "created_at": "2025-08-12T10:42:45Z",
+    "tags": [],
+    "pages": 1,
+    "bytes": 277269,
+    "type": "upload",
+    "etag": "62ddb9e415a1164c7d4d4a3ab6f4e02f",
+    "placeholder": false,
+    "url": "http://res.cloudinary.com/studnice-fest/image/upload/v1755147430/hero-bg-small.avif",
+    "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1755147430/hero-bg-small.avif",
+    "asset_folder": "",
+    "display_name": "hero-bg-small",
+    "metadata": {
+      "lqip": -103837
+    },
+    "overwritten": true,
+    "original_filename": "hero-bg-small",
+    "api_key": "224734247257462"
+  },
+  "info-bg.avif": {
+    "asset_id": "1d1632cdf3b428452d8742368ec64293",
+    "public_id": "info-bg",
+    "version": 1755147431,
+    "version_id": "23826014596489fc3d482ec70874ae32",
+    "signature": "6c071a2d44bc7af9d2404f43d8997230a90cfe4c",
+    "width": 1630,
+    "height": 852,
+    "format": "avif",
+    "resource_type": "image",
+    "created_at": "2025-08-12T10:42:46Z",
+    "tags": [],
+    "pages": 1,
+    "bytes": 60710,
+    "type": "upload",
+    "etag": "b6b997de11866b92e745c5d63d606e50",
+    "placeholder": false,
+    "url": "http://res.cloudinary.com/studnice-fest/image/upload/v1755147431/info-bg.avif",
+    "secure_url": "https://res.cloudinary.com/studnice-fest/image/upload/v1755147431/info-bg.avif",
+    "asset_folder": "",
+    "display_name": "info-bg",
+    "metadata": {
+      "lqip": -91614
+    },
+    "overwritten": true,
+    "original_filename": "info-bg",
     "api_key": "224734247257462"
   }
 }

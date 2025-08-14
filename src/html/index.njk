@@ -66,11 +66,13 @@
       </header>
       {% for post in filterNews(news) | take(5) %}
         {% set image = images[post.image] %}
+        {% set metadata =  images[post.name].metadata %}
         <article>
           <a href="/novinky/#{{ post.time }}">
             <time datetime="{{ post.time }}">{{ post.time | formatDate }}</time>
             {% if image %}
               <img alt="" width="462" height="462" loading="lazy"
+                   style="{% if metadata.lqip %}--lqip:{{ metadata.lqip }}{% endif %}"
                    sizes="(min-width: 840px) 462px, 88.43vw"
                    src="{{ image["public_id"] | cloudinaryUrl({ crop: 'fill', ar: 1.0 }) }}">
             {% endif %}
@@ -139,10 +141,12 @@
       {% for key in event.artists %}
         {% set artist = artists[key] %}
         {% set image = images["artists/" + artist.image]["public_id"] %}
+        {% set metadata =  images["artists/" + artist.image].metadata %}
         {% set ts = tss.get(key) %}
         <article class="artists-list__item" id="{{ key }}" data-level="{{ artist.heroLevel }}">
           <h3>{{ artist.title }}</h3>
           <img src="{{ image | cloudinaryUrl(ar=1,crop="fill",gravity="auto") }}" alt="{{ artist.title }}"
+               style="{% if metadata.lqip %}--lqip:{{ metadata.lqip }}{% endif %}"
                width="296" height="296" loading="lazy"
                sizes="(min-width: 840px) 296px, 88.43vw">
         </article>

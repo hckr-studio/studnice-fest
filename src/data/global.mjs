@@ -12,9 +12,9 @@ export default {
     text: "19. ročník festivalu",
     cta: "Koupit si vstupenky",
     footer: "#VidimeSeVLese",
-    "bg-big": "hero-bg-big.jpg",
-    "bg-medium": "hero-bg-big.jpg",
-    "bg-small": "hero-bg-small.jpg"
+    "bg-big": "hero-bg-big.avif",
+    "bg-medium": "hero-bg-big.avif",
+    "bg-small": "hero-bg-small.avif"
   },
   info: {
     visible: true,
@@ -37,7 +37,7 @@ export default {
       [2, [{ days: 2, price: 790 }]],
       [1, [{ days: 2, price: 690 }]],
     ],
-    
+
   },
   event: {
     name: "Studnice Fest",

@@ -76,11 +76,13 @@
     <div class="article-list">
       {% for post in filterNews(news) %}
         {% set image = images[post.image] %}
+        {% set metadata =  image.metadata %}
         <article id="{{ post.time }}"
                  class="{{ "has-image" if image }} {{ "has-long-text" if post.text.length > 200 }} {{ "has-xlong-text" if post.text.length > 400 }}">
           <time datetime="{{ post.time }}">{{ post.time | formatDate }}</time>
           {% if image %}
             <img alt="" width="{{ image.width }}" height="{{ image.height }}" loading="lazy"
+                 style="{% if metadata.lqip %}--lqip:{{ metadata.lqip }}{% endif %}"
                  sizes="(min-width: 840px) 300px, 88.43vw"
                  src="{{ image["public_id"] | cloudinaryUrl() }}">
           {% endif %}
