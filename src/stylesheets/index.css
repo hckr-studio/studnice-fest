@@ -450,6 +450,12 @@ section p {
   --body-column: full;
   --text-color: white;
   --hero-bg: var(--hero-bg-small);
+  @media screen and (min-width: 480px) {
+    --hero-bg: var(--hero-bg-medium);
+  }
+  @media screen and (min-width: 1280px) {
+    --hero-bg: var(--hero-bg-big);
+  }
 
   color: var(--text-color);
   text-align: center;
@@ -465,14 +471,6 @@ section p {
 
   min-height: 100svh;
   min-height: 100cqh;
-
-  @media screen and (min-width: 480px) {
-    --hero-bg: var(--hero-bg-medium);
-  }
-
-  @media screen and (min-width: 1280px) {
-    --hero-bg: var(--hero-bg-big);
-  }
 
   hgroup:has(h2) {
     justify-self: center;
@@ -864,9 +862,11 @@ section p {
         opacity: 0.3;
       }
     }
+
     &.tickets__item--oneday {
       padding-inline: 1.75em;
     }
+
     &.tickets__item--onsite {
       background-color: var(--accent3-color);
       padding-inline: 3.25em;

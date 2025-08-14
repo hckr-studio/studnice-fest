@@ -19,24 +19,27 @@
 {% block content %}
   <div class="hero" id="header">
     <style>
-      {% set small = images[hero["bg-small"]].public_id %}
-      {% set medium = images[hero["bg-medium"]].public_id %}
-      {% set big = images[hero["bg-big"]].public_id %}
+      {% set small = images[hero["bg-small"]] %}
+      {% set medium = images[hero["bg-medium"]] %}
+      {% set big = images[hero["bg-big"]] %}
       .hero {
+        --lqip-small: {{ small.matadata.lqip }};
+        --lqip-medium: {{ medium.matadata.lqip }};
+        --lqip-big: {{ big.matadata.lqip }};
         --hero-bg-small: image-set(
-          "{{ small | cloudinaryUrl({dpr:1,width:480}) }}" 1x,
-          "{{ small | cloudinaryUrl({dpr:1.5,width:480}) }}" 1.5x,
-          "{{ small | cloudinaryUrl({dpr:2,width:480}) }}" 2x
+          "{{ small.public_id | cloudinaryUrl({dpr:1,width:480}) }}" 1x,
+          "{{ small.public_id | cloudinaryUrl({dpr:1.5,width:480}) }}" 1.5x,
+          "{{ small.public_id | cloudinaryUrl({dpr:2,width:480}) }}" 2x
         );
         --hero-bg-medium: image-set(
-          "{{ medium | cloudinaryUrl({dpr:1,width:1280}) }}" 1x,
-          "{{ medium | cloudinaryUrl({dpr:1.5,width:1280}) }}" 1.5x,
-          "{{ medium | cloudinaryUrl({dpr:2,width:1280}) }}" 2x
+          "{{ medium.public_id | cloudinaryUrl({dpr:1,width:1280}) }}" 1x,
+          "{{ medium.public_id | cloudinaryUrl({dpr:1.5,width:1280}) }}" 1.5x,
+          "{{ medium.public_id | cloudinaryUrl({dpr:2,width:1280}) }}" 2x
         );
         --hero-bg-big: image-set(
-          "{{ big | cloudinaryUrl({dpr:1}) }}" 1x,
-          "{{ big | cloudinaryUrl({dpr:1.5}) }}" 1.5x,
-          "{{ big | cloudinaryUrl({dpr:2}) }}" 2x
+          "{{ big.public_id | cloudinaryUrl({dpr:1}) }}" 1x,
+          "{{ big.public_id | cloudinaryUrl({dpr:1.5}) }}" 1.5x,
+          "{{ big.public_id | cloudinaryUrl({dpr:2}) }}" 2x
         );
       }
     </style>
