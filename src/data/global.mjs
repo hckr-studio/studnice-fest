@@ -1,5 +1,5 @@
 export default {
-  title: "STUDNICE FEST 2025",
+  title: "STUDNICE FEST 2026",
   analytics: {
     gtmID: "G-1V8Y40118V",
   },
@@ -9,7 +9,7 @@ export default {
   },
   hero: {
     heading: "",
-    text: "19. ročník festivalu",
+    text: "20. ročník festivalu",
     cta: "Koupit si vstupenky",
     footer: "#VidimeSeVLese",
     "bg-big": "hero-bg-big.avif",
@@ -44,7 +44,7 @@ export default {
     startDate: new Date("2025-07-25T15:00:00+02:00"),
     endDate: new Date("2025-07-27T03:00:00+02:00"),
     location: "Cihelka, Hlinsko v Čechách",
-    description: "Letní hudební festival Studnice Fest je opět tu! V Hlinsku v Čechách se potkáme 25. - 26. 7. 2025",
+    description: "Letní hudební festival Studnice Fest je opět tu! V Hlinsku v Čechách se potkáme 24. - 25. 7. 2026",
     artists: [
       "the-subways",
       "tata-bojs",
@@ -76,7 +76,7 @@ export default {
     }
   },
   lineup: {
-    visible: true,
+    visible: false,
     heading: "Na 19. ročníku vystoupí",
     friday: {
       title: "Pátek 25. 7.",
