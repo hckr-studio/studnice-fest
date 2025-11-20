@@ -56,7 +56,7 @@ export default {
   },
   lineup: {
     visible: false,
-    heading: "Na 19. ročníku vystoupí",
+    heading: "Na 20. ročníku vystoupí",
     friday: {
       title: "Pátek 25. 7.",
       schedule: [
