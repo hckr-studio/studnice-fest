@@ -1,6 +1,6 @@
 ---
 image: udg.jpg
-heroLevel: 1
+heroLevel: 2
 ---
 
 # UDG
