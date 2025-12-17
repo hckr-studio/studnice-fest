@@ -47,6 +47,7 @@ export default {
     description: "Letní hudební festival Studnice Fest je opět tu! V Hlinsku v Čechách se potkáme 24. - 25. 7. 2026",
     artists: [
       "mnaga-a-zdorp",
+      "david-koller",
       "udg"
     ],
     stages: {
