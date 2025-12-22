@@ -48,6 +48,7 @@ export default {
     artists: [
       "mnaga-a-zdorp",
       "david-koller",
+      "barbora-polakova",
       "letni-kapela",
       "udg"
     ],
