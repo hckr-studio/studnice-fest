@@ -50,7 +50,8 @@ export default {
       "david-koller",
       "barbora-polakova",
       "letni-kapela",
-      "udg"
+      "udg",
+      "midi-lidi"
     ],
     stages: {
       main: "Hlavní stage",
