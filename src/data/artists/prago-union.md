@@ -1,5 +1,5 @@
 ---
-image: prago-union.jpg
+image: prago-union-26.jpg
 heroLevel: 2
 ---
 
