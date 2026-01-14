@@ -51,7 +51,8 @@ export default {
       "barbora-polakova",
       "letni-kapela",
       "udg",
-      "midi-lidi"
+      "midi-lidi",
+      "prago-union"
     ],
     stages: {
       main: "Hlavní stage",
