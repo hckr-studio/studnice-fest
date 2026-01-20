@@ -16,7 +16,7 @@
     "@hckr_/blendid": "9.6.3",
     "fancy-log": "2.0.0",
     "undertaker-registry": "2.0.0",
-    "wrangler": "4.29.1"
+    "wrangler": "4.59.3"
   },
   "resolutions": {
     "esbuild": "0.25.5"
