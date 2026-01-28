@@ -52,7 +52,8 @@ export default {
       "letni-kapela",
       "udg",
       "midi-lidi",
-      "prago-union"
+      "prago-union",
+      "lazer-viking"
     ],
     stages: {
       main: "Hlavní stage",
