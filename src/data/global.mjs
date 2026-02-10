@@ -53,7 +53,8 @@ export default {
       "udg",
       "midi-lidi",
       "prago-union",
-      "lazer-viking"
+      "lazer-viking",
+      "dukla-vozovna"
     ],
     stages: {
       main: "Hlavní stage",
