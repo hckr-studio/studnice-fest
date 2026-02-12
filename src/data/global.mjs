@@ -46,6 +46,7 @@ export default {
     location: "Cihelka, Hlinsko v Čechách",
     description: "Letní hudební festival Studnice Fest je opět tu! V Hlinsku v Čechách se potkáme 24. - 25. 7. 2026",
     artists: [
+      "dub-fx",
       "mnaga-a-zdorp",
       "david-koller",
       "barbora-polakova",
