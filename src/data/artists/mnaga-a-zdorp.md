@@ -1,6 +1,6 @@
 ---
 image: mnaga-a-zdorp.jpg
-heroLevel: 1
+heroLevel: 2
 ---
 
 # Mňága a Žďorp
