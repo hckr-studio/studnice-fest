@@ -44,14 +44,14 @@
       }
     </style>
     <hgroup>
-      {% if hero.heading %}<h2>{{ hero.heading }}</h2>{% endif %}
+      {% if hero.heading %}<h2>{{ hero.heading | safe }}</h2>{% endif %}
     </hgroup>
     <section>
       <ol>
         {% for key in event.artists %}
           {% set artist = collections.artists[key] %}
           {% if artist.heroLevel %}
-            <li data-level="{{ artist.heroLevel }}">{# <a href="#{{ key }}"> #}{{ artist.title }}{# </a> #}</li>
+            <li data-level="{{ artist.heroLevel | safe }}">{# <a href="#{{ key }}"> #}{{ artist.title | safe }}{# </a> #}</li>
           {% endif %}
         {% endfor %}
       </ol>
