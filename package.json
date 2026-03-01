@@ -12,7 +12,7 @@
     "@thi.ng/transducers": "9.6.8"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20250813.0",
+    "@cloudflare/workers-types": "4.20260301.1",
     "@hckr_/blendid": "9.6.3",
     "fancy-log": "2.0.0",
     "undertaker-registry": "2.0.0",
