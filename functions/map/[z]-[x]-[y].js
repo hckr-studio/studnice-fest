@@ -12,15 +12,17 @@ export async function onRequestGet({ params, request, env }) {
     return new Response(value, metadata);
   }
 
-  const url = `https://api.mapy.cz/v1/${key}?apikey=${API_KEY}`;
-  const resp = await fetch(url, request);
-  const result = resp.clone(); // keep the response unconsumed for return, because cache will consume the body stream
-  await env.MAPTILES_CACHE.put(key, resp.body, {
-    expirationTtl: 60 * 60 * 24, // one day
-    metadata: {
-      status: resp.status,
-      headers: Array.from(resp.headers.entries())
-    }
-  });
-  return result;
+  const resp = await fetch(`https://api.mapy.cz/v1/${key}?apikey=${API_KEY}`, request);
+  if (resp.ok) {
+    const result = resp.clone(); // keep the response unconsumed for return, because cache will consume the body stream
+    await env.MAPTILES_CACHE.put(key, resp.body, {
+      expirationTtl: 60 * 60 * 24, // one day
+      metadata: {
+        status: resp.status,
+        headers: Array.from(resp.headers.entries())
+      }
+    });
+    return result;
+  }
+  return resp;
 }
