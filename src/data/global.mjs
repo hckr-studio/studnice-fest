@@ -51,7 +51,6 @@ export default {
       "david-koller",
       "barbora-polakova",
       "letni-kapela",
-      "udg",
       "midi-lidi",
       "prago-union",
       "lazer-viking",
