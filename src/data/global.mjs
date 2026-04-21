@@ -53,6 +53,7 @@ export default {
       "letni-kapela",
       "midi-lidi",
       "prago-union",
+      "xavier-baumaxa",
       "lazer-viking",
       "dukla-vozovna"
     ],
