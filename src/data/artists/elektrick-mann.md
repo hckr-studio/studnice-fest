@@ -1,6 +1,6 @@
 \---
 
-image: electrick-mann.jpg
+image: elektrick-mann.jpg
 
 ---
 
