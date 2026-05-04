@@ -54,6 +54,7 @@ export default {
       "midi-lidi",
       "prago-union",
       "skyline",
+      "elektrick-mann",
       "xavier-baumaxa",
       "lazer-viking",
       "dukla-vozovna"
