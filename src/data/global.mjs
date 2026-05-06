@@ -57,7 +57,8 @@ export default {
       "elektrick-mann",
       "xavier-baumaxa",
       "lazer-viking",
-      "dukla-vozovna"
+      "dukla-vozovna",
+      "mr-moss"
     ],
     stages: {
       main: "Hlavní stage",
