@@ -1,5 +1,5 @@
 ---
-image: dukla.jpg
+image: elektrick-mann.jpg
 ---
 
-# Dukla
+# Elektrïck Mann
