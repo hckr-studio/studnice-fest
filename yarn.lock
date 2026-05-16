@@ -62,10 +62,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cloudflare/workers-types@npm:4.20250813.0":
-  version: 4.20250813.0
-  resolution: "@cloudflare/workers-types@npm:4.20250813.0"
-  checksum: 10c0/c61370ce004c40881de9bd21f77a24afbcb9560cfc8fb156790439880ff2d6176a329a366c71909d9bed5566ced510449a1ae1fbe9a53a8e5fbb8510b3c601fd
+"@cloudflare/workers-types@npm:4.20260516.1":
+  version: 4.20260516.1
+  resolution: "@cloudflare/workers-types@npm:4.20260516.1"
+  checksum: 10c0/e329981e8c5f46eeb071eace13b090ddc6d424dfa1b697656187435f908567c0349cb62db88dcc9f80f9c90a662369475795550f5413e2d4bd7253feb0eb165a
   languageName: node
   linkType: hard
 
@@ -6731,7 +6731,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "studnice-fest@workspace:."
   dependencies:
-    "@cloudflare/workers-types": "npm:4.20250813.0"
+    "@cloudflare/workers-types": "npm:4.20260516.1"
     "@hckr_/blendid": "npm:9.6.3"
     "@thi.ng/transducers": "npm:9.6.8"
     fancy-log: "npm:2.0.0"
