@@ -55,6 +55,7 @@ parking: { days: 2, price: 200, id: "ticket-group-7e605dcc-ee61-4f10-a41c-3261d1
       "prago-union",
       "skyline",
       "elektrick-mann",
+      "nikola-mucha",
       "xavier-baumaxa",
       "lazer-viking",
       "dukla-vozovna",
