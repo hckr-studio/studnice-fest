@@ -1,5 +1,5 @@
 ---
-image: mr-moss.jpg
+image: nikola-mucha.jpg
 ---
 
-# Mr. Moss
+# Nikola Mucha
