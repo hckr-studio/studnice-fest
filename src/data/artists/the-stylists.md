@@ -1,5 +1,5 @@
 ---
-image: mr-moss.jpg
+image: the-stylists.jpg
 ---
 
-# Mr. Moss
+# The Stylists
