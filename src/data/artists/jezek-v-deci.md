@@ -1,5 +1,5 @@
 ---
-image: mr-moss.jpg
+image: jezek-v-deci.jpg
 ---
 
-# Mr. Moss
+# Ježek v deci
