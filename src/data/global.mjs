@@ -41,7 +41,7 @@ parking: { days: 2, price: 200, id: "ticket-group-7e605dcc-ee61-4f10-a41c-3261d1
   },
   event: {
     name: "Studnice Fest",
-    startDate: new Date("2026-07-24T15:00:00+02:00"),
+    startDate: new Date("2026-07-23T15:00:00+02:00"),
     endDate: new Date("2026-07-26T03:00:00+02:00"),
     location: "Cihelka, Hlinsko v Čechách",
     description: "Letní hudební festival Studnice Fest je opět tu! V Hlinsku v Čechách se potkáme 24. - 25. 7. 2026",
@@ -60,6 +60,7 @@ parking: { days: 2, price: 200, id: "ticket-group-7e605dcc-ee61-4f10-a41c-3261d1
       "xavier-baumaxa",
       "lazer-viking",
       "dukla-vozovna",
+      "zavis",
       "mr-moss",
       "jezek-v-deci"
     ],
