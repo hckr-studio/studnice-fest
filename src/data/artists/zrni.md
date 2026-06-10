@@ -1,5 +1,5 @@
 ---
-image: mr-moss.jpg
+image: zrni.jpg
 ---
 
-# Mr. Moss
+# Zrní
