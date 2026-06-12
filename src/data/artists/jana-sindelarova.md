@@ -1,5 +1,5 @@
 ---
-image: mr-moss.jpg
+image: jana-sindelarova.jpg
 ---
 
-# Mr. Moss
+# Jana Šindelářová
