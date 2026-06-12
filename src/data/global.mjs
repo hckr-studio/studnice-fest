@@ -64,7 +64,8 @@ parking: { days: 3, price: 200, id: "ticket-group-7e605dcc-ee61-4f10-a41c-3261d1
       "dukla-vozovna",
       "zavis",
       "mr-moss",
-      "jezek-v-deci"
+      "jezek-v-deci",
+      "jana-sindelarova"
     ],
     stages: {
       main: "Hlavní stage",
