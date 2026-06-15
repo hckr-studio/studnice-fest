@@ -62,6 +62,7 @@ parking: { days: 3, price: 200, id: "ticket-group-7e605dcc-ee61-4f10-a41c-3261d1
       "xavier-baumaxa",
       "lazer-viking",
       "dukla-vozovna",
+      "volant",
       "zavis",
       "mr-moss",
       "jezek-v-deci",
