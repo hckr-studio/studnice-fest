@@ -1,5 +1,5 @@
 ---
-image: mr-moss.jpg
+image: byt-cislo-4.jpg
 ---
 
-# Mr. Moss
+# Byt číslo 4
