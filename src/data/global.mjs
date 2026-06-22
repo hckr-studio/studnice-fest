@@ -76,7 +76,7 @@ parking: { days: 3, price: 200, id: "ticket-group-7e605dcc-ee61-4f10-a41c-3261d1
     }
   },
   lineup: {
-  visible: true,
+  visible: false,
   heading: "Na 20. ročníku vystoupí",
   thursday: {
     title: "Čtvrtek 23. 7.",
