@@ -117,7 +117,7 @@ parking: { days: 3, price: 200, id: "ticket-group-7e605dcc-ee61-4f10-a41c-3261d1
       { date: "2026-07-26", time: "01:00", stage: "main", slug: "skyline" }
     ]
   },
-}
+},
   currentYear: new Date().getFullYear(),
   timeslots,
   formatTime,
