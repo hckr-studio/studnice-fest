@@ -76,41 +76,48 @@ parking: { days: 3, price: 200, id: "ticket-group-7e605dcc-ee61-4f10-a41c-3261d1
     }
   },
   lineup: {
-    visible: false,
-    heading: "Na 20. ročníku vystoupí",
-    friday: {
-      title: "Pátek 25. 7.",
-      schedule: [
-        { date: "2025-07-25", time: "16:00", stage: "main", slug: "neni-zac" },
-        { date: "2025-07-25", time: "17:00", stage: "outlook", title: "Slavíček" },
-        { date: "2025-07-25", time: "18:00", stage: "main", slug: "dukla-vozovna" },
-        { date: "2025-07-25", time: "19:00", stage: "outlook", title: "Vojtaano stand-up" },
-        { date: "2025-07-25", time: "19:50", stage: "main", slug: "mucha" },
-        { date: "2025-07-25", time: "21:00", stage: "outlook", slug: "brixtn" },
-        { date: "2025-07-25", time: "22:30", stage: "main", slug: "tata-bojs" },
-        { date: "2025-07-25", time: "23:50", stage: "outlook", slug: "vojtaano" },
-        { date: "2025-07-26", time: "01:00", stage: "main", slug: "jamaron" }
-      ]
-    },
-    saturday: {
-      title: "Sobota 26. 7.",
-      schedule: [
-        { date: "2025-07-26", time: "11:30", stage: "main", slug: "rodan" },
-        { date: "2025-07-26", time: "12:20", stage: "tent", slug: "anicka" },
-        { date: "2025-07-26", time: "13:10", stage: "main", slug: "fast-food-orchestra" },
-        { date: "2025-07-26", time: "14:10", stage: "tent", slug: "tybrdo-divadlo" },
-        { date: "2025-07-26", time: "15:00", stage: "main", slug: "volant" },
-        { date: "2025-07-26", time: "16:10", stage: "outlook", slug: "pokac" },
-        { date: "2025-07-26", time: "17:30", stage: "main", slug: "i-love-you-honey-bunny" },
-        { date: "2025-07-26", time: "18:40", stage: "outlook", slug: "rozalie" },
-        { date: "2025-07-26", time: "20:00", stage: "main", slug: "the-prostitutes" },
-        { date: "2025-07-26", time: "21:10", stage: "outlook", slug: "dukla" },
-        { date: "2025-07-26", time: "22:40", stage: "main", slug: "the-subways" },
-        { date: "2025-07-26", time: "23:50", stage: "tent", slug: "zavis" },
-        { date: "2025-07-27", time: "01:00", stage: "main", slug: "skyline" }
-      ]
-    },
+  visible: false,
+  heading: "Na 20. ročníku vystoupí",
+  thursday: {
+    title: "Čtvrtek 23. 7.",
+    schedule: [
+      { date: "2026-07-23", time: "19:00", stage: "main", slug: "dukla-vozovna" },
+      { date: "2026-07-23", time: "21:00", stage: "main", slug: "zrni" },
+      { date: "2026-07-23", time: "23:00", stage: "main", slug: "prekvapeni" }
+    ]
   },
+  friday: {
+    title: "Pátek 24. 7.",
+    schedule: [
+      { date: "2026-07-24", time: "14:30", stage: "main", slug: "byt-cislo-4" },
+      { date: "2026-07-24", time: "16:30", stage: "main", slug: "volant" },
+      { date: "2026-07-24", time: "17:30", stage: "outlook", slug: "jana-sindelarova" },
+      { date: "2026-07-24", time: "18:30", stage: "main", slug: "letni-kapela" },
+      { date: "2026-07-24", time: "19:35", stage: "outlook", slug: "jezek-v-deci" },
+      { date: "2026-07-24", time: "20:30", stage: "main", slug: "midi-lidi" },
+      { date: "2026-07-24", time: "21:30", stage: "outlook", slug: "xavier-baumaxa" },
+      { date: "2026-07-24", time: "22:45", stage: "main", slug: "dub-fx" },
+      { date: "2026-07-25", time: "00:00", stage: "tent", slug: "zavis" },
+      { date: "2026-07-25", time: "01:00", stage: "main", slug: "electrick-mann" }
+    ]
+  },
+  saturday: {
+    title: "Sobota 25. 7.",
+    schedule: [
+      { date: "2026-07-25", time: "11:40", stage: "outlook", slug: "anicka" },
+      { date: "2026-07-25", time: "12:50", stage: "main", slug: "mr-moss" },
+      { date: "2026-07-25", time: "13:50", stage: "tent", slug: "tybrdo-divadlo" },
+      { date: "2026-07-25", time: "14:50", stage: "main", slug: "bara-polakova" },
+      { date: "2026-07-25", time: "17:00", stage: "main", slug: "david-koller" },
+      { date: "2026-07-25", time: "18:20", stage: "outlook", slug: "lazer-viking" },
+      { date: "2026-07-25", time: "19:40", stage: "main", slug: "mnaga-a-zdorp" },
+      { date: "2026-07-25", time: "21:00", stage: "outlook", slug: "nikola-mucha" },
+      { date: "2026-07-25", time: "22:20", stage: "main", slug: "the-stylists" },
+      { date: "2026-07-25", time: "23:40", stage: "outlook", slug: "prago-union" },
+      { date: "2026-07-26", time: "01:00", stage: "main", slug: "skyline" }
+    ]
+  },
+}
   currentYear: new Date().getFullYear(),
   timeslots,
   formatTime,
