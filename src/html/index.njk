@@ -122,9 +122,15 @@
             </div>
           {% endmacro %}
           <div>
+          <h3>{{ lineup.thursday.title }}</h3>
+            {% for item in lineup.thursday.schedule %}
+              {{ lineupItem(item) }}
+            {% endfor %}
+          </div>
+          <div>
             <h3>{{ lineup.friday.title }}</h3>
             {% for item in lineup.friday.schedule %}
-              {{ lineupItem(item) }}
+              {{ lineupItem(item) | safe }}
             {% endfor %}
           </div>
           <div>
