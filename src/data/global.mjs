@@ -98,7 +98,7 @@ parking: { days: 3, price: 200, id: "ticket-group-7e605dcc-ee61-4f10-a41c-3261d1
       { date: "2026-07-24", time: "21:30", stage: "outlook", slug: "xavier-baumaxa" },
       { date: "2026-07-24", time: "22:45", stage: "main", slug: "dub-fx" },
       { date: "2026-07-25", time: "00:00", stage: "tent", slug: "zavis" },
-      { date: "2026-07-25", time: "01:00", stage: "main", slug: "electrick-mann" }
+      { date: "2026-07-25", time: "01:00", stage: "main", slug: "elektrick-mann" }
     ]
   },
   saturday: {
