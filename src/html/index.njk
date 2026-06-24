@@ -121,6 +121,14 @@
               <small class="{{ item.stage }}">{{ event.stages[item.stage] }}</small>
             </div>
           {% endmacro %}
+          {% if lineup.thursday %}
+          <div>
+            <h3>{{ lineup.thursday.title }}</h3>
+            {% for item in lineup.thursday.schedule %}
+              {{ lineupItem(item) }}
+            {% endfor %}
+          </div>
+          {% endif %}
           <div>
             <h3>{{ lineup.friday.title }}</h3>
             {% for item in lineup.friday.schedule %}

@@ -759,7 +759,9 @@ section p {
     --_day-gap: 0;
     .lineup__days {
       display: grid;
-      grid-template: "fr sa" / 1fr 1fr;
+      grid-template-areas: "fr sa" "fr sa";
+      grid-auto-flow: row;
+      grid-template-columns: 1fr 1fr;
       gap: 2em;
     }
   }
@@ -771,9 +773,16 @@ section p {
     column-gap: 1ch;
   }
 
-  .lineup__days > div + div {
+  .lineup__days > div:last-child {
     margin-block-start: var(--_day-gap);
     grid-area: sa;
+  }
+  .lineup__days:has(> :last-child:nth-child(3)) > div:nth-child(2) {
+    grid-row: span 2;
+    grid-column: fr;
+  }
+  .lineup__days:has(> :last-child:nth-child(3)) > div:last-child {
+    grid-row: 0/span 3;
   }
 
   .lineup__days h3 {
