@@ -875,7 +875,6 @@ section p {
 
     &.tickets__item--parking {
       background-color: var(--accent2-color);
-      padding-inline: 2.25em;
     }
 
     h3, p {
