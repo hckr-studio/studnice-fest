@@ -9,14 +9,14 @@
   "private": true,
   "packageManager": "yarn@4.15.0",
   "dependencies": {
-    "@thi.ng/transducers": "9.6.8"
+    "@thi.ng/transducers": "9.6.40"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20250813.0",
-    "@hckr_/blendid": "9.6.3",
+    "@cloudflare/workers-types": "4.20260629.1",
+    "@hckr_/blendid": "9.6.16",
     "fancy-log": "2.0.0",
     "undertaker-registry": "2.0.0",
-    "wrangler": "4.29.1"
+    "wrangler": "4.105.0"
   },
   "resolutions": {
     "esbuild": "0.25.5"
