@@ -1076,6 +1076,10 @@ body > footer {
   }
 }
 
+#vstupenky {
+  --main-column: wide;
+}
+
 #vstupenky,
 #informace-a-upozorneni {
   --background-image: asset-url("images", "wood.svg");
