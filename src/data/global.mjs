@@ -27,18 +27,20 @@ export default {
     currentWave: 5, //"onsite",
     waves: [
       ["onsite", [{ days: 1, price: 990 }, { days: 3, price: 1290 }]],
-      [6, [
-        { days: 3, price: 1090, id: "ticket-group-content-651201b9-d36e-4e67-96b7-1674d1662f7a" },
-        { days: 1, price: 890, id: "ticket-group-609e91ee-d505-41f4-99ea-edb2d82fcc1c" }]
-      ],
-      [6, [{ days: 3, price: 1240 }, { days: 1, price: 890, id: "ticket-group-609e91ee-d505-41f4-99ea-edb2d82fcc1c" }]],
-      [5, [{ days: 3, price: 1090 }, { days: 1, price: 890, id: "ticket-group-609e91ee-d505-41f4-99ea-edb2d82fcc1c" }]],
+      [6, [{ days: 3, price: 1240 }, { days: 1, price: 890, id: "ticket-name-ac63f98f-5b8f-425f-bd2d-a9776ce3733b" }]],
+      [5, [
+        { days: 3, price: 1090, id: "ticket-name-005552b5-2c97-4ab6-96c7-6fa93d760321" },
+        { days: 1, price: 890, id: "ticket-name-ac63f98f-5b8f-425f-bd2d-a9776ce3733b" }
+      ]],
       [4, [{ days: 3, price: 990 }]],
       [3, [{ days: 3, price: 890 }]],
       [2, [{ days: 3, price: 790 }]],
       [1, [{ days: 3, price: 690 }]],
     ],
-parking: { days: 3, price: 200, id: "ticket-group-7e605dcc-ee61-4f10-a41c-3261d1de7025" },
+    parking: [
+      { days: 3, name: "osobní automobil", price: 200, id: "ticket-name-1c343dd9-44dd-4728-967d-7aa3c46fdc6c" },
+      { days: 3, name: "obytňák s elektrikou", price: 800, id: "ticket-name-25a3b6c1-bd9a-4455-9ea6-50b8b8a5e77f" }
+    ],
   },
   event: {
     name: "Studnice Fest",
@@ -121,6 +123,9 @@ parking: { days: 3, price: 200, id: "ticket-group-7e605dcc-ee61-4f10-a41c-3261d1
   currentYear: new Date().getFullYear(),
   timeslots,
   formatTime,
+  formatNumber(n) {
+    return Intl.NumberFormat("cs").format(n);
+  },
   filterNews(news) {
     const excluded = new Set(this.ctx.newsList.exclude);
     return news.filter(({ url }) => !excluded.has(url));

@@ -51,7 +51,8 @@
         {% for key in event.artists %}
           {% set artist = collections.artists[key] %}
           {% if artist.heroLevel %}
-            <li data-level="{{ artist.heroLevel | safe }}">{# <a href="#{{ key }}"> #}{{ artist.title | safe }}{# </a> #}</li>
+            <li
+              data-level="{{ artist.heroLevel | safe }}">{# <a href="#{{ key }}"> #}{{ artist.title | safe }}{# </a> #}</li>
           {% endif %}
         {% endfor %}
       </ol>
@@ -122,12 +123,12 @@
             </div>
           {% endmacro %}
           {% if lineup.thursday %}
-          <div>
-            <h3>{{ lineup.thursday.title }}</h3>
-            {% for item in lineup.thursday.schedule %}
-              {{ lineupItem(item) }}
-            {% endfor %}
-          </div>
+            <div>
+              <h3>{{ lineup.thursday.title }}</h3>
+              {% for item in lineup.thursday.schedule %}
+                {{ lineupItem(item) }}
+              {% endfor %}
+            </div>
           {% endif %}
           <div>
             <h3>{{ lineup.friday.title }}</h3>
@@ -168,7 +169,8 @@
         <h2>Vstupenky</h2>
       </header>
       <p>Vstupenky na 2026 jsou již v předprodeji na&nbsp;<a
-          href="https://tickets.nfctron.com/event/eupathia/studnice-fest-2026">NFCTron.cz</a>. V&nbsp;ceně vstupenky je i&nbsp;stanové
+          href="https://tickets.nfctron.com/event/eupathia/studnice-fest-2026">NFCTron.cz</a>. V&nbsp;ceně vstupenky je
+        i&nbsp;stanové
         městečko. Parkovací stání se platí zvlášť.</p>
 
       <div class="tickets__list">
@@ -182,16 +184,18 @@
                 <h3>Na místě</h3>
                 {% for ticket in items %}
                   <p>{{ ticket.days }}-denní</p>
-                  <p>{{ ticket.price }}&nbsp;Kč</p>
+                  <p>{{ formatNumber(ticket.price) }}&nbsp;Kč</p>
                 {% endfor %}
               </div>
             {% else %}
               {% for ticket in items %}
-                <div class="tickets__item {{ "tickets__item--disabled" if not isCurrentWave }} {{ "tickets__item--oneday" if ticket.days == 1 }}">
+                <div
+                  class="tickets__item {{ "tickets__item--disabled" if not isCurrentWave }} {{ "tickets__item--oneday" if ticket.days == 1 }}">
                   <a href="{{ tickets.url }}#{{ ticket.id }}">
                     <h3>{{ ticket.days }}-denní</h3>
-                    <p>{% if ticket.days > 1 %}{{ wave }}.&nbsp;vlna vstupenek{% else %}&nbsp;vstupenka&nbsp;<br>&nbsp;{% endif %}</p>
-                    <p>{{ ticket.price }}&nbsp;Kč</p>
+                    <p>{% if ticket.days > 1 %}{{ wave }}.&nbsp;vlna vstupenek{% else %}&nbsp;vstupenka&nbsp;
+                        <br>&nbsp;{% endif %}</p>
+                    <p>{{ formatNumber(ticket.price) }}&nbsp;Kč</p>
                     {% if isCurrentWave %}
                       <a href="{{ tickets.url }}#{{ ticket.id }}" class="button">Koupit</a>
                     {% else %}
@@ -201,14 +205,16 @@
                 </div>
               {% endfor %}
               {% if isCurrentWave and tickets.parking %}
-                <div class="tickets__item tickets__item--parking">
-                  <a href="{{ tickets.url }}#{{ tickets.parking.id }}">
-                    <h3>Parkování</h3>
-                    <p>{{ tickets.parking.days }}-denní&nbsp;<br>&nbsp;</p>
-                    <p>{{ tickets.parking.price }}&nbsp;Kč</p>
-                    <a href="{{ tickets.url }}#{{ tickets.parking.id }}" class="button">Koupit</a>
-                  </a>
-                </div>
+                {% for parking in tickets.parking %}
+                  <div class="tickets__item tickets__item--parking">
+                    <a href="{{ tickets.url }}#{{ parking.id }}">
+                      <h3>Parkování</h3>
+                      <p>{{ parking.name | processTypography }}</p>
+                      <p>{{ formatNumber(parking.price) }}&nbsp;Kč</p>
+                      <a href="{{ tickets.url }}#{{ parking.id }}" class="button">Koupit</a>
+                    </a>
+                  </div>
+                {% endfor %}
               {% endif %}
             {% endif %}
           {% endif %}
@@ -218,6 +224,14 @@
       <div class="tickets__free">
         <p>Děti do 150cm, obyvatelé Studnice a ZTP vstup zdarma.</p>
       </div>
+
+      <svg width="0" height="0">
+        <mask id="ticket-shape">
+          <path
+            d="m1.32,55.997 q-0.16,0,-0.32,0.003 v-55 h147 v55.003 c-8.143,0.17,-14.7,6.834,-14.7,15.017 s6.557,14.846,14.7,15.016 v61.96 h-147 v-61.964 q0.16,0.003,0.32,0.003 c8.29,0,15.019,-6.73,15.019,-15.02 s-6.73,-15.02,-15.02,-15.02"
+            fill="green"/>
+        </mask>
+      </svg>
     </section>
 
     <article id="mapa">
