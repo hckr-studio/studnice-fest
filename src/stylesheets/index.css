@@ -1076,7 +1076,7 @@ body > footer {
   }
 }
 
-#vstupenky {
+#vstupenky:has(.tickets__item:nth-of-type(7)) {
   --main-column: wide;
 }
 
