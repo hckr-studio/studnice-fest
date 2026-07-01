@@ -24,10 +24,13 @@ export default {
   },
   tickets: {
     url: "https://tickets.nfctron.com/event/eupathia/studnice-fest-2026",
-    currentWave: 5, //"onsite",
+    currentWave: 6, //"onsite",
     waves: [
       ["onsite", [{ days: 1, price: 990 }, { days: 3, price: 1290 }]],
-      [6, [{ days: 3, price: 1240 }, { days: 1, price: 890, id: "ticket-name-ac63f98f-5b8f-425f-bd2d-a9776ce3733b" }]],
+      [6, [
+        { days: 3, price: 1240, id: "ticket-name-54d15a6c-918c-4e57-9d42-02ef7ed7b1a4" },
+        { days: 1, price: 890, id: "ticket-name-ac63f98f-5b8f-425f-bd2d-a9776ce3733b" }
+      ]],
       [5, [
         { days: 3, price: 1090, id: "ticket-name-005552b5-2c97-4ab6-96c7-6fa93d760321" },
         { days: 1, price: 890, id: "ticket-name-ac63f98f-5b8f-425f-bd2d-a9776ce3733b" }
