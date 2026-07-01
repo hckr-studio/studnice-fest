@@ -191,13 +191,13 @@
               {% for ticket in items %}
                 <div
                   class="tickets__item {{ "tickets__item--disabled" if not isCurrentWave }} {{ "tickets__item--oneday" if ticket.days == 1 }}">
-                  <a href="{{ tickets.url }}#{{ ticket.id }}">
+                  <a href="{{ tickets.url }}#{{ ticket.id | urlencode }}">
                     <h3>{{ ticket.days }}-denní</h3>
                     <p>{% if ticket.days > 1 %}{{ wave }}.&nbsp;vlna vstupenek{% else %}&nbsp;vstupenka&nbsp;
                         <br>&nbsp;{% endif %}</p>
                     <p>{{ formatNumber(ticket.price) }}&nbsp;Kč</p>
                     {% if isCurrentWave %}
-                      <a href="{{ tickets.url }}#{{ ticket.id }}" class="button">Koupit</a>
+                      <a href="{{ tickets.url }}#{{ ticket.id | urlencode }}" class="button">Koupit</a>
                     {% else %}
                       <a href="" class="button">Vyprodáno</a>
                     {% endif %}
@@ -207,11 +207,11 @@
               {% if isCurrentWave and tickets.parking %}
                 {% for parking in tickets.parking %}
                   <div class="tickets__item tickets__item--parking">
-                    <a href="{{ tickets.url }}#{{ parking.id }}">
+                    <a href="{{ tickets.url }}#{{ parking.id | urlencode }}">
                       <h3>Parkování</h3>
                       <p>{{ parking.name | processTypography }}</p>
                       <p>{{ formatNumber(parking.price) }}&nbsp;Kč</p>
-                      <a href="{{ tickets.url }}#{{ parking.id }}" class="button">Koupit</a>
+                      <a href="{{ tickets.url }}#{{ parking.id| urlencode }}" class="button">Koupit</a>
                     </a>
                   </div>
                 {% endfor %}

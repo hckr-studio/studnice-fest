@@ -28,12 +28,12 @@ export default {
     waves: [
       ["onsite", [{ days: 1, price: 990 }, { days: 3, price: 1290 }]],
       [6, [
-        { days: 3, price: 1240, id: "ticket-name-54d15a6c-918c-4e57-9d42-02ef7ed7b1a4" },
-        { days: 1, price: 890, id: "ticket-name-ac63f98f-5b8f-425f-bd2d-a9776ce3733b" }
+        { days: 3, price: 1240, id: "celofestivalová---6.-vlna" },
+        { days: 1, price: 890, id: "jednodenní---pátek" }
       ]],
       [5, [
-        { days: 3, price: 1090, id: "ticket-name-005552b5-2c97-4ab6-96c7-6fa93d760321" },
-        { days: 1, price: 890, id: "ticket-name-ac63f98f-5b8f-425f-bd2d-a9776ce3733b" }
+        { days: 3, price: 1090, id: "tcelofestivalová---5.-vlna" },
+        { days: 1, price: 890, id: "jednodenní---pátek" }
       ]],
       [4, [{ days: 3, price: 990 }]],
       [3, [{ days: 3, price: 890 }]],
@@ -41,8 +41,8 @@ export default {
       [1, [{ days: 3, price: 690 }]],
     ],
     parking: [
-      { days: 3, name: "osobní automobil", price: 200, id: "ticket-name-1c343dd9-44dd-4728-967d-7aa3c46fdc6c" },
-      { days: 3, name: "obytňák s elektrikou", price: 800, id: "ticket-name-25a3b6c1-bd9a-4455-9ea6-50b8b8a5e77f" }
+      { days: 3, name: "osobní automobil", price: 200, id: "parkování---osobní-automobil---3-dny" },
+      { days: 3, name: "obytňák s elektrikou", price: 800, id: "parkovaní---obytný-vůz-s-elektřinou---3-dny" }
     ],
   },
   event: {
