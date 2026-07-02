@@ -32,8 +32,7 @@ export default {
         { days: 1, price: 890, id: "jednodenní---pátek" }
       ]],
       [5, [
-        { days: 3, price: 1090, id: "tcelofestivalová---5.-vlna" },
-        { days: 1, price: 890, id: "jednodenní---pátek" }
+        { days: 3, price: 1090, id: "tcelofestivalová---5.-vlna" }
       ]],
       [4, [{ days: 3, price: 990 }]],
       [3, [{ days: 3, price: 890 }]],
