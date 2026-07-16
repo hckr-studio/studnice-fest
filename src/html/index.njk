@@ -118,7 +118,7 @@
             {% set artist = collections.artists[item.slug] %}
             <div class="lineup__item" data-artist-id="{{ item.slug }}">
               <time datetime="{{ item.date }}T{{ item.time }}:00.000+02:00">{{ item.time }}</time>
-              <strong>{{ artist.title or item.title }}</strong>
+              <strong>{{ (artist.title or item.title) | safe }}</strong>
               <small class="{{ item.stage }}">{{ event.stages[item.stage] }}</small>
             </div>
           {% endmacro %}
