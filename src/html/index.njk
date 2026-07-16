@@ -133,7 +133,7 @@
           <div>
             <h3>{{ lineup.friday.title }}</h3>
             {% for item in lineup.friday.schedule %}
-              {{ lineupItem(item) | safe }}
+              {{ lineupItem(item) }}
             {% endfor %}
           </div>
           <div>
