@@ -17,7 +17,7 @@ export default {
     "bg-small": "hero-bg-small.avif"
   },
   info: {
-    visible: false,
+    visible: true,
   },
   newsList: {
     exclude: ["https://www.facebook.com/100063521171808/posts/1029078449219518"]
