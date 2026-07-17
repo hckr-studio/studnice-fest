@@ -1,5 +1,5 @@
 ---
-image: prekvapeni.png
+image: mr-moss.jpg
 ---
 
-# Překvapení
+# Mr. Moss
