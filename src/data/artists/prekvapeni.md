@@ -1,5 +1,5 @@
 ---
-image: prekvapeni.jpg
+image: prekvapeni.png
 ---
 
 # Překvapení
