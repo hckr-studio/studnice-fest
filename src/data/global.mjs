@@ -55,6 +55,7 @@ export default {
       "mnaga-a-zdorp",
       "david-koller",
       "barbora-polakova",
+       "prekvapeni",
       "letni-kapela",
       "midi-lidi",
       "prago-union",
@@ -70,6 +71,7 @@ export default {
       "zavis",
       "byt-cislo-4",
       "mr-moss",
+      "anicka",
       "jezek-v-deci",
       "jana-sindelarova"
     ],
