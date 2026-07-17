@@ -26,6 +26,7 @@
 - Parkování na místě bude organizováno pořadateli, dbejte prosím jejich instrukcí a doporučení.
 - Přímo u areálu je parkování zakázáno (bude sloužit pouze pro kapely, stánkaře a pořadatele).
 - Stanování je zdarma, parkování za 200 Kč v [předprodeji](https://tickets.nfctron.com/event/eupathia/studnice-fest-2026), 250 Kč na místě (platba v hotovosti) - dostanete samolepku na sklo.
+- Nově jsme domluvili možnost sprch v rámci fotbalového hřiště v Hlinsku což je něco málo přes 2 km - přesné info, mapu a podmínky ještě upřesníme.
 
 ### Platby v rámci areálu
 
@@ -92,6 +93,5 @@ budete potřebovat stále hotovost!
   pódiu.
 - V rohu naproti hlavnímu podiu bude chill-out zóna kde si buete moct užít blízkost lesa a u toho pozorovat z dálky kapely.
 - Obdobně jako v předchozích letech mohou naši nejmenší návštěvníci využít dětský stan jako dočasný úkryt před
-  festivalovým rejem. V sobotu odpoledne se nejmenší mohou těšit na divadelní vystoupení TýBrďo divadlo!, určitě si ovšem užijí i Fast Foody od 13:10 nebo Pokáče od 16:10! Stan bude klasicky za
+  festivalovým rejem. V sobotu odpoledne se nejmenší mohou těšit na divadelní vystoupení TýBrďo divadlo! Stan bude klasicky za
   hlavním pódiem.
-- Současně na Studnici můžete zažít Flow ateliér - detaily níže v samostatné sekci.
