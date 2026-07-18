@@ -1,16 +1,16 @@
 ### Podrobněji ke vstupenkám
 
 - Vstupenky jsou stále dostupné v [předprodeji](https://tickets.nfctron.com/event/eupathia/studnice-fest-2026) až za 1240 Kč 3-denní a 890 Kč 1-denní.
-- Na místě vstupenky budou (pokud se nevyprodají předem) za 1290 Kč (celofestivalové) a na jeden den za 990 Kč. Pokud jsou 
+- Na místě vstupenky budou (pokud se nevyprodají předem) za 1290 Kč (celofestivalové) a na jeden den za 990 Kč. Nyní je prodáno cca 90 % celofestivalových vstupenek a do vyprodání budou dostupné v síti NFCtron.
 - Nedoporučujeme kupovat vstupenky mimo oficiální předprodej (na vstupenku se stejným kódem bude vpuštěn pouze návštěvník, který ji
-  předloží jako první).
+  předloží jako první). Případně doporučujeme využít oficiální [NFCtron Tickets Market](https://tickets.nfctron.com/market/eupathia/studnice-fest-2026?locale=cs&organizerSlug=eupathia&eventSlug=studnice-fest-2026)
 - Vstup zdarma pro děti do 150 cm, ZTP a obyvatele Studnic u Hlinska (po předložení platného OP).
 
 ### Doprava
 
 - Festival se koná v areálu [Cihelka](https://maps.app.goo.gl/3u582mbjLMaMM3Uj6) u Hlinska v Čechách.
-- Pokud pojedete autem, jeďte z Hlinska směr Kameničky
-- Pokud pojedete vlakem, tak cílovou stanici
+- Pokud pojedete autem, jeďte z Hlinska směr Kameničky.
+- Pokud pojedete vlakem, tak cílovou stanici.
   volte [Hlinsko v Čechách](https://jizdnirady.idnes.cz/vlaky/spojeni/?f=&t=Hlinsko+v+%c4%8cech%c3%a1ch&fc=1&tc=100003&submit=false)
 - Z vlakového nádraží jsou to necelé 3 km, vyhněte se hlavní silnici 343 mimo Hlinsko a vezměte to přes Rataje.
 - GPS souřadnice: 49°45'12.0"N 15°55'49.3"E (49.753332, 15.930372)
@@ -19,14 +19,14 @@
 
 - Parkování i stanování je tradičně na louce nad areálem - cesta bude značena.
 - Louka bude rozdělena na tři části - spodní část bude vyhrazena čistě pro stany, střední část bude sloužit jako
-  parkoviště a horní část pro spaní v autě, dodávky, karavy apod. + sekce vyhrazená pro karavny s elektřinou.
+  parkoviště a horní část pro spaní v autě, dodávky, karavany apod. + sekce vyhrazená pro karavny s elektřinou.
 - Louka bude posekaná, ale samozřejmě raději přibalte dle počasí holiny a repelent.
 - Na louku dojedete po lesní cestě, na které se budete míjet s pěšími. Prosíme tedy o velmi opatrnou jízdu a respekt k
   ostatním návštěvníkům.
 - Parkování na místě bude organizováno pořadateli, dbejte prosím jejich instrukcí a doporučení.
 - Přímo u areálu je parkování zakázáno (bude sloužit pouze pro kapely, stánkaře a pořadatele).
 - Stanování je zdarma, parkování za 200 Kč v [předprodeji](https://tickets.nfctron.com/event/eupathia/studnice-fest-2026), 250 Kč na místě (platba v hotovosti) - dostanete samolepku na sklo.
-- Nově jsme domluvili možnost sprch v rámci fotbalového hřiště v Hlinsku což je něco málo přes 2 km - přesné info, mapu a podmínky ještě upřesníme.
+- Nově jsme domluvili možnost sprch v rámci [fotbalového hřiště v Hlinsku](https://mapy.com/s/barufasalu) což je něco málo přes 2 km - přesné info, mapu a podmínky ještě upřesníme.
 
 ### Platby v rámci areálu
 
