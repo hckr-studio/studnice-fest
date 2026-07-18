@@ -19,7 +19,7 @@
 
 - Parkování i stanování je tradičně na louce nad areálem - cesta bude značena.
 - Louka bude rozdělena na tři části - spodní část bude vyhrazena čistě pro stany, střední část bude sloužit jako
-  parkoviště a horní část pro spaní v autě, dodávky, karavany apod. + sekce vyhrazená pro karavny s elektřinou.
+  parkoviště a horní část pro spaní v autě, dodávky, karavany apod. + sekce vyhrazená pro karavany s elektřinou.
 - Louka bude posekaná, ale samozřejmě raději přibalte dle počasí holiny a repelent.
 - Na louku dojedete po lesní cestě, na které se budete míjet s pěšími. Prosíme tedy o velmi opatrnou jízdu a respekt k
   ostatním návštěvníkům.
