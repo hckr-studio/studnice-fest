@@ -1,6 +1,6 @@
 ### Podrobněji ke vstupenkám
 
-- Vstupenky jsou stále dostupné v [předprodeji](https://tickets.nfctron.com/event/eupathia/studnice-fest-2026) až za 1240 Kč 3-denní a 890 Kč 1-denní.
+- Vstupenky jsou stále dostupné v [předprodeji](https://tickets.nfctron.com/event/eupathia/studnice-fest-2026) za 1240 Kč 3-denní a 890 Kč 1-denní.
 - Na místě vstupenky budou (pokud se nevyprodají předem) za 1290 Kč (celofestivalové) a na jeden den za 990 Kč. Nyní je prodáno cca 90 % celofestivalových vstupenek a do vyprodání budou dostupné v síti NFCtron.
 - Nedoporučujeme kupovat vstupenky mimo oficiální předprodej (na vstupenku se stejným kódem bude vpuštěn pouze návštěvník, který ji
   předloží jako první). Případně doporučujeme využít oficiální [NFCtron Tickets Market](https://tickets.nfctron.com/market/eupathia/studnice-fest-2026?locale=cs&organizerSlug=eupathia&eventSlug=studnice-fest-2026)
@@ -39,7 +39,7 @@ Letošní Studnice bude typicky “cashless” se systémem NFCtron. A kredit si
   a také pro veškeré platby v rámci areálu Studnice Festu.
 - Následně si na čip dobijete kredit na dobíjecím místě - zaplatit můžete hotově nebo platební kartou.
 - Kredit si také můžete dobít už dopředu online. Na označeném dobíjecím místě stačí ukázat QR kód s
-  dobitím, který naleznete ve svém účtu NFCtron. Dále je možnost si dobít čip přímo v aplikaci NFCtron a tím vůbec nebudeta muset na dobíjecí místo.
+  dobitím, který naleznete ve svém účtu NFCtron. Dále je možnost si dobít čip přímo v aplikaci NFCtron a následně nebudete muset vůbec na dobíjecí místo.
 - Poté už stačí vyrazit na pivo či hamburger. Místo hledání hotovosti stačí přiložit čip ke čtečce na prodejním místě.
   Na displeji čtečky uvidíte strženou částku a zbývající zůstatek.
 - Pokud vám po skončení akce na čipu zůstane kredit, jednoduše si ho můžete na pár kliknutí zaslat na účet. Pokud si ho nevyberte, tak skončí u nás u pořadatelů a využijeme ho na zvelebování dalších ročníků :)
@@ -65,7 +65,7 @@ budete potřebovat stále hotovost!
 - Kvalitní káva tradičně v podání Cafe Biograf.
 - Točit se bude Chotěboř 11 NA.EX z nedalekého pivovaru a opět bude navíc Amercian Pale Ale z pivovaru Clock.
 - Mimo jiné bude dostupné i točené nealko pivo (ochucené i neochucené) a těšit se můžete také na cider.
-- Standardem je již Lesní bar s kavlitními drinky (i nealko), premiovými rumy, giny a whisky.
+- Standardem je již Lesní bar s kvalitními drinky (i nealko), premiovými rumy, giny a whisky.
 - Snídaně - tradičně se můžete těšit na snídaně, které budou k dispozici v areálu v pátek a sobotu ráno od 9 do 11
   hodin. Budete si moct dát english breakfast, palačinky, polévku, párečky či koláče a vše zapít výbornou kávou z Café
   Biograf. Neváhejte tedy nastartovat sobotu pořádnou snídaní!
