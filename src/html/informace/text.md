@@ -7,15 +7,15 @@
 - Vstup zdarma pro děti do 150 cm, ZTP a obyvatele Studnic u Hlinska (po předložení platného OP).
 
 ### Extra čtvrteční večírek
-- Na čtvteční večírek můžete přijít s jakoukoliv platnou vstupenkou na letošní Studnici (celofetivalová/jednodenní).
-- Samostatné vstupenky jen na čtvrtek neprodáváme - extra čtvrtek je hlavně oslava 20. Studnice jako poděkování pro dobrovolníky a fanoušky našeho festivalu.
+- Na čtvrteční večírek můžete přijít s jakoukoliv platnou vstupenkou na letošní Studnici (celofestivalová/jednodenní).
+- Samostatné vstupenky jen na čtvrtek neprodáváme - extra čtvrteční večírek je hlavně oslava 20. Studnice jako poděkování dobrovolníkům a fanouškům našeho festivalu.
 - Parkování platí na celé 3 dny.
 - Vstupné na čtvrteční warm-up bude dobrovolné a pokud se vám tenhle narozeninový bonus líbí, budeme moc rádi, když nám na místě přispějete libovolnou částkou.
 
 ### Doprava
 
 - Festival se koná v areálu [Cihelka](https://maps.app.goo.gl/3u582mbjLMaMM3Uj6) u Hlinska v Čechách.
-- Pokud pojedete autem, jeďte z Hlinska směr Kameničky.
+- Pokud pojedete autem, jeďte z Hlinska směrem na Kameničky.
 - Pokud pojedete vlakem, tak cílovou stanici.
   volte [Hlinsko v Čechách](https://jizdnirady.idnes.cz/vlaky/spojeni/?f=&t=Hlinsko+v+%c4%8cech%c3%a1ch&fc=1&tc=100003&submit=false)
 - Z vlakového nádraží jsou to necelé 3 km, vyhněte se hlavní silnici 343 mimo Hlinsko a vezměte to přes Rataje.
@@ -33,7 +33,7 @@
 - Parkování na místě bude organizováno pořadateli, dbejte prosím jejich instrukcí a doporučení.
 - Přímo u areálu je parkování zakázáno (bude sloužit pouze pro kapely, stánkaře a pořadatele).
 - Stanování je zdarma, parkování za 200 Kč v [předprodeji](https://tickets.nfctron.com/event/eupathia/studnice-fest-2026), 250 Kč na místě (platba v hotovosti) - dostanete samolepku na sklo.
-- Nově jsme domluvili možnost sprch v rámci [fotbalového hřiště v Hlinsku](https://mapy.com/s/barufasalu) což je něco málo přes 2 km - přesné info, mapu a podmínky ještě upřesníme. Předběžně budou pro nás sprchy dostupné v pátek 10–13h a sobotu 13–15h (po skončení fotbalového zápasu).
+- Nově jsme domluvili možnost sprch v rámci [fotbalového hřiště v Hlinsku](https://mapy.com/s/barufasalu) což je něco málo přes 2 km - přesné info, mapu a podmínky ještě upřesníme. Předběžně budou pro nás sprchy dostupné v pátek 10–13h a v sobotu 13–15h (po skončení fotbalového zápasu).
 
 ### Platby v rámci areálu
 
