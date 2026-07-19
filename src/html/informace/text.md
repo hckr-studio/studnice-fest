@@ -6,6 +6,13 @@
   předloží jako první). Případně doporučujeme využít oficiální [NFCtron Tickets Market](https://tickets.nfctron.com/market/eupathia/studnice-fest-2026?locale=cs&organizerSlug=eupathia&eventSlug=studnice-fest-2026)
 - Vstup zdarma pro děti do 150 cm, ZTP a obyvatele Studnic u Hlinska (po předložení platného OP).
 
+### Extra čtvrteční večírek
+- Na čtvteční večírek můžete přijít s jakoukoliv s platnou vstupenkou na letošní Studnici (celofetivalová/jednodenní).
+- Samostatné vstupenky jen na čtvrtek neprodáváme - extra čtvrtek je hlavně oslava 20. Studnice jako poděkování pro fanoušky našeho festivalu.
+- Parkování platí na celé 3 dny.
+- Vstupné na čtvrteční warm-up bude dobrovolné a pokud se vám tenhle narozeninový bonus líbí, budeme moc rádi, když nám na místě přispějete libovolnou částkou.
+- A co je překvapení? Sami nevíme zda to bude překvapení do poslední chvíle nebo se to dozvíme už dříve?  :-)
+
 ### Doprava
 
 - Festival se koná v areálu [Cihelka](https://maps.app.goo.gl/3u582mbjLMaMM3Uj6) u Hlinska v Čechách.
