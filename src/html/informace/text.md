@@ -7,11 +7,10 @@
 - Vstup zdarma pro děti do 150 cm, ZTP a obyvatele Studnic u Hlinska (po předložení platného OP).
 
 ### Extra čtvrteční večírek
-- Na čtvteční večírek můžete přijít s jakoukoliv s platnou vstupenkou na letošní Studnici (celofetivalová/jednodenní).
-- Samostatné vstupenky jen na čtvrtek neprodáváme - extra čtvrtek je hlavně oslava 20. Studnice jako poděkování pro fanoušky našeho festivalu.
+- Na čtvteční večírek můžete přijít s jakoukoliv platnou vstupenkou na letošní Studnici (celofetivalová/jednodenní).
+- Samostatné vstupenky jen na čtvrtek neprodáváme - extra čtvrtek je hlavně oslava 20. Studnice jako poděkování pro dobrovolníky a fanoušky našeho festivalu.
 - Parkování platí na celé 3 dny.
 - Vstupné na čtvrteční warm-up bude dobrovolné a pokud se vám tenhle narozeninový bonus líbí, budeme moc rádi, když nám na místě přispějete libovolnou částkou.
-- A co je překvapení? Sami nevíme zda to bude překvapení do poslední chvíle nebo se to dozvíme už dříve?  :-)
 
 ### Doprava
 
@@ -25,19 +24,20 @@
 ### Parkování a stanování
 
 - Parkování i stanování je tradičně na louce nad areálem - cesta bude značena.
-- Louka bude rozdělena na tři části - spodní část bude vyhrazena čistě pro stany, střední část bude sloužit jako
-  parkoviště a horní část pro spaní v autě, dodávky, karavany apod. + sekce vyhrazená pro karavany s elektřinou.
+- Louka bude rozdělena na čtyři části - spodní část bude vyhrazena čistě pro stany, nad ní sekce vyhrazená pro karavany s elektřinou, střední část bude sloužit jako
+  parkoviště a horní část pro spaní v autě, dodávky apod.
 - Louka bude posekaná, ale samozřejmě raději přibalte dle počasí holiny a repelent.
+- Louku rozděluje neposekaný pruh pro chráněného modráska - respektujte prosím jeho bydliště. 
 - Na louku dojedete po lesní cestě, na které se budete míjet s pěšími. Prosíme tedy o velmi opatrnou jízdu a respekt k
   ostatním návštěvníkům.
 - Parkování na místě bude organizováno pořadateli, dbejte prosím jejich instrukcí a doporučení.
 - Přímo u areálu je parkování zakázáno (bude sloužit pouze pro kapely, stánkaře a pořadatele).
 - Stanování je zdarma, parkování za 200 Kč v [předprodeji](https://tickets.nfctron.com/event/eupathia/studnice-fest-2026), 250 Kč na místě (platba v hotovosti) - dostanete samolepku na sklo.
-- Nově jsme domluvili možnost sprch v rámci [fotbalového hřiště v Hlinsku](https://mapy.com/s/barufasalu) což je něco málo přes 2 km - přesné info, mapu a podmínky ještě upřesníme.
+- Nově jsme domluvili možnost sprch v rámci [fotbalového hřiště v Hlinsku](https://mapy.com/s/barufasalu) což je něco málo přes 2 km - přesné info, mapu a podmínky ještě upřesníme. Předběžně budou pro nás sprchy dostupné v pátek 10–13h a sobotu 13–15h (po skončení fotbalového zápasu).
 
 ### Platby v rámci areálu
 
-Letošní Studnice bude typicky “cashless” se systémem NFCtron. A kredit si můžete samozřejmě [dobít předem](https://pass.nfctron.com/event/eupathia/studnice-fest-2026/overview), pokud jste tak už neudělali. Všechny transakce vč. náramku jsou zcela zdarma! Nově bude i možnost si dobít náramek v aplikace NFCtron platební kartou a nemusíte tak vůbec na dobíjecí místo. 
+Letošní Studnice bude typicky “cashless” se systémem NFCtron. A kredit si můžete samozřejmě [dobít předem](https://pass.nfctron.com/event/eupathia/studnice-fest-2026/overview), pokud jste tak už neudělali. Všechny transakce vč. náramku jsou zcela zdarma! Nově bude i možnost si dobít náramek v aplikaci NFCtron platební kartou a nemusíte tak vůbec na dobíjecí místo. 
 
 #### Jak to typicky probíhá?
 
@@ -58,7 +58,7 @@ budete potřebovat stále hotovost!
 
 ### Vstup do areálu
 
-- Areál bude otevřen od čtvrtka od 18:00 do 1:00, v pátek a sobotu od 8:00 do do 2:30.
+- Areál bude otevřen od čtvrtka od 18:00 do 1:00, v pátek a sobotu od 8:00 do 2:30.
 - Zákaz vnášení skla, zbraní a dalších nebezpečných předmětů.
 - Zákaz vnášení hořlavin, pyrotechnických předmětů či otevřeného ohně.
 - Zákaz vstupu se psy.
@@ -71,8 +71,8 @@ budete potřebovat stále hotovost!
   nebo guláš. V nabídce budou i vegetariánská/veganská jídla.
 - Kvalitní káva tradičně v podání Cafe Biograf.
 - Točit se bude Chotěboř 11 NA.EX z nedalekého pivovaru a opět bude navíc Amercian Pale Ale z pivovaru Clock.
-- Mimo jiné bude dostupné i točené nealko pivo (ochucené i neochucené) a těšit se můžete také na cider.
-- Standardem je již Lesní bar s kvalitními drinky (i nealko), premiovými rumy, giny a whisky.
+- Mimo jiné bude dostupné i točené nealko pivo (ochucené i neochucené) a těšit se můžete také na cider a nealko Krystuse od Clocka.
+- Standardem je již Lesní bar s kvalitními drinky (i nealko), prémiovými rumy, giny a whisky.
 - Snídaně - tradičně se můžete těšit na snídaně, které budou k dispozici v areálu v pátek a sobotu ráno od 9 do 11
   hodin. Budete si moct dát english breakfast, palačinky, polévku, párečky či koláče a vše zapít výbornou kávou z Café
   Biograf. Neváhejte tedy nastartovat sobotu pořádnou snídaní!
@@ -98,7 +98,7 @@ budete potřebovat stále hotovost!
 
 - Opět se můžete těšit na alternativní pódium "Na vyhlídce". Interpreti nám z tohoto místa zpříjemní "pauzy" na hlavním
   pódiu.
-- V rohu naproti hlavnímu podiu bude chill-out zóna kde si buete moct užít blízkost lesa a u toho pozorovat z dálky kapely.
+- V rohu naproti hlavnímu podiu bude chill-out zóna, kde si budete moct užít blízkost lesa a u toho pozorovat z dálky kapely.
 - Obdobně jako v předchozích letech mohou naši nejmenší návštěvníci využít dětský stan jako dočasný úkryt před
   festivalovým rejem. V sobotu odpoledne se nejmenší mohou těšit na divadelní vystoupení TýBrďo divadlo! Stan bude klasicky za
   hlavním pódiem.
