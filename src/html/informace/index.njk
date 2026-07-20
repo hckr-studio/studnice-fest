@@ -1,6 +1,8 @@
 {% extends 'layouts/master.njk' %}
 {% set title = "Praktické informace" %}
 
+{% set bgImage = collections.images["info-bg-prak.jpeg"]  %}
+
 {% block head_preconnect %}
   <link rel="preconnect" href="https://unpkg.com">
   <link rel="preconnect" href="https://api.mapy.cz">
@@ -69,7 +71,7 @@
       z-index: 1;
       border-radius: var(--corner-radius);
       background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.0) 33%),
-      url("{{ collections.images["info-bg.avif"].public_id | cloudinaryUrl() }}");
+      url("{{ bgImage.public_id | cloudinaryUrl() }}");
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -86,7 +88,7 @@
 
 {% block content %}
   <main>
-    <hgroup style="--lqip: {{ collections.images["info-bg-prak.jpg"].metadata.lqip }}">
+    <hgroup style="--lqip: {{ bgImage.metadata.lqip }}">
       <h2>Důležité informace</h2>
       <p>Co by měl každý návštěvník vědět, než na Studnici vyrazí?</p>
     </hgroup>
