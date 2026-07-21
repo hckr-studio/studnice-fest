@@ -207,12 +207,16 @@
               {% endfor %}
               {% if isCurrentWave and tickets.parking %}
                 {% for parking in tickets.parking %}
-                  <div class="tickets__item tickets__item--parking">
+                  <div class="tickets__item tickets__item--parking {{ "tickets__item--disabled" if parking.soldOut }}">
                     <a href="{{ tickets.url }}#{{ parking.id | urlencode }}">
                       <h3>Parkování</h3>
                       <p>{{ parking.name | processTypography }}</p>
                       <p>{{ formatNumber(parking.price) }}&nbsp;Kč</p>
+                      {% if parking.soldOut %}
+                        <a href="" class="button">Vyprodáno</a>
+                      {% else %}
                       <a href="{{ tickets.url }}#{{ parking.id| urlencode }}" class="button">Koupit</a>
+                      {% endif %}
                     </a>
                   </div>
                 {% endfor %}
