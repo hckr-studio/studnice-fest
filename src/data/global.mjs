@@ -110,10 +110,11 @@ export default {
   saturday: {
     title: "Sobota 25. 7.",
     schedule: [
-      { date: "2026-07-25", time: "11:40", stage: "outlook", slug: "anicka" },
-      { date: "2026-07-25", time: "12:50", stage: "main", slug: "mr-moss" },
-      { date: "2026-07-25", time: "13:50", stage: "tent", slug: "tybrdo-divadlo" },
-      { date: "2026-07-25", time: "14:50", stage: "main", slug: "barbora-polakova" },
+     
+      { date: "2026-07-25", time: "11:50", stage: "main", slug: "mr-moss" },
+      { date: "2026-07-25", time: "14:00", stage: "main", slug: "barbora-polakova" }, 
+      { date: "2026-07-25", time: "15:00", stage: "tent", slug: "tybrdo-divadlo" },
+      { date: "2026-07-25", time: "15:50", stage: "outlook", slug: "anicka" },
       { date: "2026-07-25", time: "17:00", stage: "main", slug: "david-koller" },
       { date: "2026-07-25", time: "18:20", stage: "outlook", slug: "lazer-viking" },
       { date: "2026-07-25", time: "19:40", stage: "main", slug: "mnaga-a-zdorp" },
