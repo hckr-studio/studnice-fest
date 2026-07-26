@@ -23,7 +23,7 @@ export default {
     exclude: ["https://www.facebook.com/100063521171808/posts/1029078449219518"]
   },
   tickets: {
-    url: "https://tickets.nfctron.com/event/eupathia/studnice-fest-2026",
+    url: "https://tickets.nfctron.com/event/eupathia/studnice-fest-2027",
     currentWave: 6, //"onsite",
     waves: [
       ["onsite", [{ days: 1, price: 990 }, { days: 3, price: 1290 }]],
