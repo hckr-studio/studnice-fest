@@ -28,8 +28,8 @@ export default {
     waves: [
       ["onsite", [{ days: 1, price: 990 }, { days: 3, price: 1290 }]],
       [6, [
-        { days: 3, price: 1240, id: "celofestivalová---6.-vlna" },
-        { days: 1, price: 890, id: "jednodenní---pátek" }
+        { days: 3, price: 1240, id: "celofestivalová---6.-vlna", soldOut: true },
+        { days: 1, price: 890, id: "jednodenní---pátek", soldOut: true }
       ]],
       [5, [
         { days: 3, price: 1090, id: "tcelofestivalová---5.-vlna" }
