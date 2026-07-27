@@ -24,7 +24,7 @@ export default {
   },
   tickets: {
     url: "https://tickets.nfctron.com/event/eupathia/studnice-fest-2027",
-    currentWave: 6, //"onsite",
+    currentWave: 2, //"onsite",
     waves: [
       ["onsite", [{ days: 1, price: 990 }, { days: 3, price: 1290 }]],
       [6, [
@@ -36,8 +36,8 @@ export default {
       ]],
       [4, [{ days: 3, price: 990 }]],
       [3, [{ days: 3, price: 890 }]],
-      [2, [{ days: 3, price: 790 }]],
-      [1, [{ days: 3, price: 690 }]],
+      [2, [{ days: 2, price: 950 }]],
+      [1, [{ days: 2, price: 850 }]],
     ],
     parking: [
       { days: 3, name: "osobní automobil", price: 200, id: "parkování---osobní-automobil---3-dny" },
