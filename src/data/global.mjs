@@ -39,10 +39,6 @@ export default {
       [2, [{ days: 2, price: 950 }]],
       [1, [{ days: 2, price: 850 }]],
     ],
-    parking: [
-      { days: 3, name: "osobní automobil", price: 200, id: "parkování---osobní-automobil---3-dny" },
-      { days: 3, name: "obytňák s elektrikou", price: 800, id: "parkovaní---obytný-vůz-s-elektřinou---3-dny", soldOut: true }
-    ],
   },
   event: {
     name: "Studnice Fest",
