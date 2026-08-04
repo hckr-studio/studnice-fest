@@ -1,20 +1,7 @@
 {% extends "layouts/master.njk" %}
 {% set title = "Fotogalerie" %}
 
-{% set galleryFiles = [
-  "news/747440090_1637001081760582_7976112127521873814_n.jpg",
-  "news/733810392_1622292656564758_2631984031874575034_n.jpg",
-  "news/732920340_1618538293606861_3965313674994700324_n.jpg",
-  "news/732654845_1621395283321162_6878042197233655970_n.jpg",
-  "news/731500878_857905037002527_6756465575801817919_n.jpg",
-  "news/729972521_1615139090613448_4750006666060649627_n.jpg",
-  "news/728527786_1614688807325143_3039926743057739175_n.jpg",
-  "news/725698457_1612004067593617_6075188720977002238_n.jpg",
-  "news/724086975_1605460321581325_800741960846414726_n.jpg",
-  "news/722911143_1605365224924168_7485720396796001364_n.jpg",
-  "news/722769105_1609052551222102_8436323044811687755_n.jpg",
-  "news/722030332_1610267844433906_2497068132755101269_n.jpg"
-] %}
+{% set galleryCount = 166 %}
 
 {% block head_stylesheets %}
   <style>
@@ -161,12 +148,17 @@
     </div>
 
     <div class="gallery-grid" data-gallery>
-      {% for filename in galleryFiles %}
+      {% for photoNumber in range(0, galleryCount) %}
+        {% if photoNumber == 0 %}
+          {% set filename = "gallery/2026/studnice-fest-2026.jpg" %}
+        {% else %}
+          {% set filename = "gallery/2026/studnice-fest-2026_" ~ photoNumber ~ ".jpg" %}
+        {% endif %}
         {% set image = collections.images[filename] %}
         {% if image %}
           <button class="gallery-item" type="button"
                   data-full="{{ image.public_id | cloudinaryUrl({ width: 2000 }) }}"
-                  aria-label="Otevřít fotografii {{ loop.index }} z {{ galleryFiles.length }}">
+                  aria-label="Otevřít fotografii {{ loop.index }} z {{ galleryCount }}">
             <img alt="" width="{{ image.width }}" height="{{ image.height }}" loading="lazy"
                  style="{% if image.metadata.lqip %}--lqip:{{ image.metadata.lqip }}{% endif %}"
                  sizes="(min-width: 960px) 22vw, (min-width: 600px) 30vw, 46vw"
