@@ -1,0 +1,241 @@
+{% extends "layouts/master.njk" %}
+{% set title = "Fotogalerie" %}
+
+{% set galleryFiles = [
+  "news/747440090_1637001081760582_7976112127521873814_n.jpg",
+  "news/733810392_1622292656564758_2631984031874575034_n.jpg",
+  "news/732920340_1618538293606861_3965313674994700324_n.jpg",
+  "news/732654845_1621395283321162_6878042197233655970_n.jpg",
+  "news/731500878_857905037002527_6756465575801817919_n.jpg",
+  "news/729972521_1615139090613448_4750006666060649627_n.jpg",
+  "news/728527786_1614688807325143_3039926743057739175_n.jpg",
+  "news/725698457_1612004067593617_6075188720977002238_n.jpg",
+  "news/724086975_1605460321581325_800741960846414726_n.jpg",
+  "news/722911143_1605365224924168_7485720396796001364_n.jpg",
+  "news/722769105_1609052551222102_8436323044811687755_n.jpg",
+  "news/722030332_1610267844433906_2497068132755101269_n.jpg"
+] %}
+
+{% block head_stylesheets %}
+  <style>
+    .gallery-intro {
+      max-width: 65ch;
+      margin-bottom: 2em;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: clamp(0.45rem, 1.5vw, 1rem);
+    }
+
+    @media (min-width: 600px) {
+      .gallery-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+    }
+
+    @media (min-width: 960px) {
+      .gallery-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
+    }
+
+    .gallery-item {
+      appearance: none;
+      border: 0;
+      border-radius: calc(var(--corner-radius) / 2);
+      background: var(--blue-background-color);
+      padding: 0;
+      overflow: hidden;
+      cursor: zoom-in;
+      aspect-ratio: 4 / 3;
+    }
+
+    .gallery-item img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 180ms ease;
+    }
+
+    .gallery-item:hover img,
+    .gallery-item:focus-visible img {
+      transform: scale(1.035);
+    }
+
+    .gallery-item:focus-visible,
+    .lightbox button:focus-visible {
+      outline: 3px solid var(--accent3-color);
+      outline-offset: 3px;
+    }
+
+    .lightbox {
+      width: 100vw;
+      max-width: none;
+      height: 100dvh;
+      max-height: none;
+      margin: 0;
+      border: 0;
+      padding: 0;
+      background: rgb(7 11 14 / 96%);
+      color: #fff;
+      overflow: hidden;
+    }
+
+    .lightbox::backdrop {
+      background: rgb(7 11 14 / 96%);
+    }
+
+    .lightbox__figure {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      display: grid;
+      place-items: center;
+      touch-action: pan-y;
+    }
+
+    .lightbox__image {
+      display: block;
+      max-width: calc(100vw - 2rem);
+      max-height: calc(100dvh - 5rem);
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      user-select: none;
+      -webkit-user-drag: none;
+    }
+
+    .lightbox button {
+      position: fixed;
+      z-index: 2;
+      display: grid;
+      place-items: center;
+      width: 2.75rem;
+      height: 2.75rem;
+      border: 0;
+      border-radius: 999px;
+      background: rgb(0 0 0 / 55%);
+      color: #fff;
+      font: 700 1.8rem/1 var(--main-font);
+      cursor: pointer;
+    }
+
+    .lightbox__close {
+      top: 1rem;
+      right: 1rem;
+    }
+
+    .lightbox__prev,
+    .lightbox__next {
+      top: 50%;
+      translate: 0 -50%;
+    }
+
+    .lightbox__prev { left: 1rem; }
+    .lightbox__next { right: 1rem; }
+
+    .lightbox__counter {
+      position: fixed;
+      bottom: 1rem;
+      left: 50%;
+      translate: -50% 0;
+      margin: 0;
+      padding: 0.35rem 0.8rem;
+      border-radius: 999px;
+      background: rgb(0 0 0 / 55%);
+      font-family: var(--accented-font);
+      font-weight: 700;
+    }
+  </style>
+{% endblock %}
+
+{% block content %}
+  <main>
+    <h2>Fotogalerie</h2>
+    <div class="gallery-intro">
+      <h3>Studnice Fest 2026</h3>
+      <p>Ukázková galerie využívající fotografie uložené ve stávajícím Cloudinary účtu.</p>
+    </div>
+
+    <div class="gallery-grid" data-gallery>
+      {% for filename in galleryFiles %}
+        {% set image = collections.images[filename] %}
+        {% if image %}
+          <button class="gallery-item" type="button"
+                  data-full="{{ image.public_id | cloudinaryUrl({ width: 2000 }) }}"
+                  aria-label="Otevřít fotografii {{ loop.index }} z {{ galleryFiles.length }}">
+            <img alt="" width="{{ image.width }}" height="{{ image.height }}" loading="lazy"
+                 style="{% if image.metadata.lqip %}--lqip:{{ image.metadata.lqip }}{% endif %}"
+                 sizes="(min-width: 960px) 22vw, (min-width: 600px) 30vw, 46vw"
+                 src="{{ image.public_id | cloudinaryUrl({ crop: 'fill', width: 600, ar: 1.333 }) }}">
+          </button>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </main>
+
+  <dialog class="lightbox" data-lightbox aria-label="Prohlížeč fotografií">
+    <button class="lightbox__close" type="button" aria-label="Zavřít">×</button>
+    <button class="lightbox__prev" type="button" aria-label="Předchozí fotografie">‹</button>
+    <figure class="lightbox__figure">
+      <img class="lightbox__image" alt="">
+      <figcaption class="lightbox__counter" aria-live="polite"></figcaption>
+    </figure>
+    <button class="lightbox__next" type="button" aria-label="Následující fotografie">›</button>
+  </dialog>
+{% endblock %}
+
+{% block scripts %}
+  <script type="module">
+    const items = [...document.querySelectorAll("[data-gallery] .gallery-item")];
+    const lightbox = document.querySelector("[data-lightbox]");
+    const image = lightbox.querySelector(".lightbox__image");
+    const counter = lightbox.querySelector(".lightbox__counter");
+    const figure = lightbox.querySelector(".lightbox__figure");
+    let currentIndex = 0;
+    let pointerStart = null;
+
+    function show(index) {
+      currentIndex = (index + items.length) % items.length;
+      image.src = items[currentIndex].dataset.full;
+      counter.textContent = `${currentIndex + 1} / ${items.length}`;
+    }
+
+    items.forEach((item, index) => item.addEventListener("click", () => {
+      show(index);
+      lightbox.showModal();
+    }));
+
+    lightbox.querySelector(".lightbox__close").addEventListener("click", () => lightbox.close());
+    lightbox.querySelector(".lightbox__prev").addEventListener("click", () => show(currentIndex - 1));
+    lightbox.querySelector(".lightbox__next").addEventListener("click", () => show(currentIndex + 1));
+
+    lightbox.addEventListener("click", event => {
+      if (event.target === lightbox || event.target === figure) lightbox.close();
+    });
+
+    lightbox.addEventListener("keydown", event => {
+      if (event.key === "ArrowLeft") show(currentIndex - 1);
+      if (event.key === "ArrowRight") show(currentIndex + 1);
+    });
+
+    figure.addEventListener("pointerdown", event => {
+      pointerStart = event.clientX;
+    });
+
+    figure.addEventListener("pointerup", event => {
+      if (pointerStart === null) return;
+      const distance = event.clientX - pointerStart;
+      if (Math.abs(distance) > 50) show(currentIndex + (distance < 0 ? 1 : -1));
+      pointerStart = null;
+    });
+
+    lightbox.addEventListener("close", () => {
+      image.removeAttribute("src");
+      items[currentIndex]?.focus();
+    });
+  </script>
+{% endblock %}
