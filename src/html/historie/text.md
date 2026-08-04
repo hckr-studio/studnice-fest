@@ -6,5 +6,5 @@ Termín: 23. - 25.7.
 
 ### 2025
 - na 19. ročník dorazili britšttí The Subways a v sobotu byl Studnice podruhé v historii vyprodaná
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ugo-XkJv448?si=K9Xvc04C7gMy040_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
