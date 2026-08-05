@@ -6,7 +6,8 @@ Dub FX & Woodnote, David Koller, Mňága a Žďorp, Barbora Poláková, Prago Un
 - V rámci oslavy 20. ročníku byl Studnice Fest poprvé třídenní – přidali jsme extra čtvrteční večírek s překvapením.
 - Čtvrteční překvapení obstarala Vypsaná fiXa, která se na Studnici vrátila ke společné oslavě dvaceti ročníků v lese.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sK-eE2CCUv4?si=3qZlb1_qGMyJL2N_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<lite-youtube videoid="sK-eE2CCUv4" params="hl=cs&amp;modestbranding=1" 
+  title="Aftermovie Studnice Fest 2026" class="responsive"></lite-youtube>
 
 ### Studnice Fest 2025
 Termín: 25.–26. 7.
@@ -16,7 +17,8 @@ The Subways, Tata Bojs, Pokáč, Skyline, Mucha, Fast Food Orchestra, I Love You
 - Na 19. ročník dorazili britští The Subways.
 - V sobotu byla Studnice podruhé ve své historii vyprodaná.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ugo-XkJv448?si=K9Xvc04C7gMy040_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<lite-youtube videoid="ugo-XkJv448" params="hl=cs&amp;modestbranding=1"
+  title="Aftermovie Studnice Fest 2025" class="responsive"></lite-youtube>
 
 ### Studnice Fest 2024
 Termín: 26.–27. 7.

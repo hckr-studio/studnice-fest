@@ -4634,6 +4634,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lite-youtube-embed@npm:0.3.4":
+  version: 0.3.4
+  resolution: "lite-youtube-embed@npm:0.3.4"
+  checksum: 10c0/10b1bec37e83baa90c0a2cd731f760be9c98c83a17b91bcee5cdf8e3c0b8f72d90f493e9b7ddc7b6fa1ea494e4d3b5e060d6a948347c5ce42fc36a1f061e01c1
+  languageName: node
+  linkType: hard
+
 "lodash-es@npm:4.18.1":
   version: 4.18.1
   resolution: "lodash-es@npm:4.18.1"
@@ -7026,6 +7033,7 @@ __metadata:
     "@hckr_/blendid": "npm:9.6.16"
     "@thi.ng/transducers": "npm:9.6.40"
     fancy-log: "npm:2.0.0"
+    lite-youtube-embed: "npm:0.3.4"
     undertaker-registry: "npm:2.0.0"
     wrangler: "npm:4.105.0"
   languageName: unknown
