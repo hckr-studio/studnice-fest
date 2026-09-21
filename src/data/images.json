@@ -9398,5 +9398,32 @@
     "existing": false,
     "original_filename": "studnice-fest-2026_99",
     "api_key": "919444725386367"
+  },
+  "news/784075326_1044376535242077_2191019192215751710_n.jpg": {
+    "asset_id": "cb1c5c671ffb6f0a262d16e552e3c6f4",
+    "public_id": "news/784075326_1044376535242077_2191019192215751710_n",
+    "version": 1787673776,
+    "version_id": "6647c7c359f34096e59e42e473425428",
+    "signature": "a6b074f389fd7b06af019eb5b58e5466f49bee7f",
+    "width": 540,
+    "height": 960,
+    "format": "jpg",
+    "resource_type": "image",
+    "created_at": "2026-08-25T16:02:56Z",
+    "tags": [],
+    "bytes": 55300,
+    "type": "upload",
+    "etag": "d09f7e0909967fdc14e58dbe2b25c061",
+    "placeholder": false,
+    "url": "http://res.cloudinary.com/studnicefest-cz/image/upload/v1787673776/news/784075326_1044376535242077_2191019192215751710_n.jpg",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1787673776/news/784075326_1044376535242077_2191019192215751710_n.jpg",
+    "asset_folder": "news",
+    "display_name": "784075326_1044376535242077_2191019192215751710_n",
+    "metadata": {
+      "lqip": "174635"
+    },
+    "existing": true,
+    "api_key": "919444725386367",
+    "original_filename": "784075326_1044376535242077_2191019192215751710_n"
   }
 }
