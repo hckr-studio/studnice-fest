@@ -7,7 +7,7 @@
   "author": "Aleš Roubíček <ales@roubicek.name>",
   "license": "MIT",
   "private": true,
-  "packageManager": "yarn@4.18.0",
+  "packageManager": "yarn@4.18.1",
   "dependencies": {
     "@thi.ng/transducers": "9.7.0",
     "lite-youtube-embed": "0.3.4"
