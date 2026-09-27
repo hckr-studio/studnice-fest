@@ -1,9 +1,11 @@
-import { Registry } from "@hckr_/blendid/registry";
-import projectPath from "@hckr_/blendid/project-path";
-import { logger } from "@hckr_/blendid/logger";
-import { join } from "node:path";
-import { mkdir, writeFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
+import { mkdir, writeFile } from "node:fs/promises";
+import { join } from "node:path";
+import { logger } from "@hckr_/blendid/logger";
+import projectPath from "@hckr_/blendid/project-path";
+import { Registry } from "@hckr_/blendid/registry";
+
+/** @typedef {import("@types/gulp").Gulp} Gulp */
 
 async function getLatestNews() {
   logger.info("Loading latest news…");
@@ -47,6 +49,7 @@ export class NewsRegistry extends Registry {
     };
   }
 
+  /** @param {Gulp} gulp */
   init({ task }) {
     task("prepare-data", async () => {
       const news = await getLatestNews();
@@ -59,7 +62,7 @@ export class NewsRegistry extends Registry {
           const fileName = url.pathname.split("/").at(-1);
           item.image = `news/${fileName}`;
           const data = Buffer.from(await resp.arrayBuffer());
-          if (data.toString() == "URL signature expired") {
+          if (data.toString() === "URL signature expired") {
             console.warn("URL signature expired", { url: url.href });
             // skip expired images
             continue;
