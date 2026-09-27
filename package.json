@@ -13,10 +13,10 @@
     "lite-youtube-embed": "0.3.4"
   },
   "devDependencies": {
+    "@biomejs/biome": "2.5.14",
     "@cloudflare/workers-types": "5.20260921.1",
-    "@hckr_/blendid": "9.7.6",
-    "fancy-log": "2.0.0",
-    "undertaker-registry": "2.0.0",
+    "@hckr_/blendid": "9.8.1",
+    "@types/gulp": "4.0.18",
     "wrangler": "4.135.0"
   },
   "resolutions": {

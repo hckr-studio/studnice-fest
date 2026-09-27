@@ -1,4 +1,4 @@
-import { texyTypography } from "@hckr_/blendid/lib/texy.mjs";
+import { texyTypography } from "@hckr_/blendid/texy";
 import { take } from "@thi.ng/transducers";
 import pathConfig from "./path-config.mjs";
 import { NewsRegistry } from "./news-registry.mjs";
@@ -28,23 +28,28 @@ export default {
 
   generate: {
     exclude: ["artists.json", "news.json", "images.json"],
-    json: [{
-      collection: "artists",
-      stripTitle: true,
-      transform(data, file) {
-        return Object.assign({ filename: file.basename, slug: file.stem }, data);
-      },
-      mergeOptions: {
-        concatArrays: true,
-        edit(json) {
-          return { [json.slug]: json };
+    json: [
+      {
+        collection: "artists",
+        stripTitle: true,
+        transform(data, file) {
+          return Object.assign(
+            { filename: file.basename, slug: file.stem },
+            data
+          );
+        },
+        mergeOptions: {
+          concatArrays: true,
+          edit(json) {
+            return { [json.slug]: json };
+          }
         }
       }
-    }]
+    ]
   },
 
   html: {
-    data: {collections: ["news", "artists", "images"]},
+    data: { collections: ["news", "artists", "images"] },
     markedExtensions: [texyTypography("cs")],
     nunjucksRender: {
       filters: {
@@ -65,11 +70,11 @@ export default {
 
   additionalTasks: {
     development: {
-      prebuild: ["prepare-data"],
+      prebuild: ["prepare-data"]
     },
     production: {
-      prebuild: ["prepare-data"],
-    },
+      prebuild: ["prepare-data"]
+    }
   },
 
   watch: {

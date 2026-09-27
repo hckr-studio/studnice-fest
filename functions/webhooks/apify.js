@@ -1,22 +1,29 @@
 async function getAllNewsIndex(env) {
   const items = (await env.NEWS.get("/news", "json")) ?? [];
-  return new Map(items.map(({ timestamp, postId }) => [postId, { timestamp, postId }]));
+  return new Map(
+    items.map(({ timestamp, postId }) => [postId, { timestamp, postId }])
+  );
 }
 
 async function saveAllNewsIndex(env, allNews) {
   // sort news by date desc so we can easily fetch them
-  const items = Array.from(allNews.values()).sort((a, b) => b.timestamp - a.timestamp);
+  const items = Array.from(allNews.values()).sort(
+    (a, b) => b.timestamp - a.timestamp
+  );
   await env.NEWS.put("/news", JSON.stringify(items));
   return items;
 }
 
 async function fetchScrapeResults(env, defaultDatasetId) {
-  const resp = await fetch(`https://api.apify.com/v2/datasets/${defaultDatasetId}/items`, {
-    headers: { "Authorization": env.APIFY_TOKEN }
-  });
+  const resp = await fetch(
+    `https://api.apify.com/v2/datasets/${defaultDatasetId}/items`,
+    {
+      headers: { Authorization: env.APIFY_TOKEN }
+    }
+  );
   const items = await resp.json();
   // ignore updates without text
-  return items.filter(x => x.text);
+  return items.filter((x) => x.text);
 }
 
 function updateNewsIndex(allNews, items) {

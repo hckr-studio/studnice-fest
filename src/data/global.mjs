@@ -1,7 +1,7 @@
 export default {
   title: "STUDNICE FEST 2026",
   analytics: {
-    gtmID: "G-1V8Y40118V",
+    gtmID: "G-1V8Y40118V"
   },
   meta: {
     title: "Studnice fest",
@@ -17,7 +17,7 @@ export default {
     "bg-small": "hero-bg-small.avif"
   },
   info: {
-    visible: true,
+    visible: true
   },
   newsList: {
     exclude: ["https://www.facebook.com/100063521171808/posts/1029078449219518"]
@@ -26,32 +26,45 @@ export default {
     url: "https://tickets.nfctron.com/event/eupathia/studnice-fest-2027",
     currentWave: 2, //"onsite",
     waves: [
-      ["onsite", [{ days: 1, price: 990 }, { days: 3, price: 1290 }]],
-      [6, [
-        { days: 3, price: 1240, id: "celofestivalová---6.-vlna", soldOut: true },
-        { days: 1, price: 890, id: "jednodenní---pátek", soldOut: true }
-      ]],
-      [5, [
-        { days: 3, price: 1090, id: "tcelofestivalová---5.-vlna" }
-      ]],
+      [
+        "onsite",
+        [
+          { days: 1, price: 990 },
+          { days: 3, price: 1290 }
+        ]
+      ],
+      [
+        6,
+        [
+          {
+            days: 3,
+            price: 1240,
+            id: "celofestivalová---6.-vlna",
+            soldOut: true
+          },
+          { days: 1, price: 890, id: "jednodenní---pátek", soldOut: true }
+        ]
+      ],
+      [5, [{ days: 3, price: 1090, id: "tcelofestivalová---5.-vlna" }]],
       [4, [{ days: 3, price: 990 }]],
       [3, [{ days: 3, price: 890 }]],
       [2, [{ days: 2, price: 950 }]],
-      [1, [{ days: 2, price: 850 }]],
-    ],
+      [1, [{ days: 2, price: 850 }]]
+    ]
   },
   event: {
     name: "Studnice Fest",
     startDate: new Date("2026-07-23T15:00:00+02:00"),
     endDate: new Date("2026-07-26T03:00:00+02:00"),
     location: "Cihelka, Hlinsko v Čechách",
-    description: "Letní hudební festival Studnice Fest je opět tu! V Hlinsku v Čechách se potkáme 23. - 25. 7. 2026",
+    description:
+      "Letní hudební festival Studnice Fest je opět tu! V Hlinsku v Čechách se potkáme 23. - 25. 7. 2026",
     artists: [
       "dub-fx",
       "mnaga-a-zdorp",
       "david-koller",
       "barbora-polakova",
-       "prekvapeni",
+      "prekvapeni",
       "letni-kapela",
       "midi-lidi",
       "prago-union",
@@ -74,53 +87,127 @@ export default {
     stages: {
       main: "Hlavní stage",
       outlook: "Na Vyhlídce",
-      tent: "Dětský stan",
+      tent: "Dětský stan"
     }
   },
   lineup: {
-  visible: true,
-  heading: "Na 20. ročníku vystoupí",
-  thursday: {
-    title: "Čtvrtek 23. 7.",
-    schedule: [
-      { date: "2026-07-23", time: "19:00", stage: "main", slug: "dukla-vozovna" },
-      { date: "2026-07-23", time: "21:00", stage: "main", slug: "zrni" },
-      { date: "2026-07-23", time: "23:00", stage: "main", slug: "prekvapeni" }
-    ]
+    visible: true,
+    heading: "Na 20. ročníku vystoupí",
+    thursday: {
+      title: "Čtvrtek 23. 7.",
+      schedule: [
+        {
+          date: "2026-07-23",
+          time: "19:00",
+          stage: "main",
+          slug: "dukla-vozovna"
+        },
+        { date: "2026-07-23", time: "21:00", stage: "main", slug: "zrni" },
+        { date: "2026-07-23", time: "23:00", stage: "main", slug: "prekvapeni" }
+      ]
+    },
+    friday: {
+      title: "Pátek 24. 7.",
+      schedule: [
+        {
+          date: "2026-07-24",
+          time: "14:30",
+          stage: "main",
+          slug: "byt-cislo-4"
+        },
+        { date: "2026-07-24", time: "16:30", stage: "main", slug: "volant" },
+        {
+          date: "2026-07-24",
+          time: "17:30",
+          stage: "outlook",
+          slug: "jana-sindelarova"
+        },
+        {
+          date: "2026-07-24",
+          time: "18:30",
+          stage: "main",
+          slug: "letni-kapela"
+        },
+        {
+          date: "2026-07-24",
+          time: "19:35",
+          stage: "outlook",
+          slug: "jezek-v-deci"
+        },
+        { date: "2026-07-24", time: "20:30", stage: "main", slug: "midi-lidi" },
+        {
+          date: "2026-07-24",
+          time: "21:30",
+          stage: "outlook",
+          slug: "xavier-baumaxa"
+        },
+        { date: "2026-07-24", time: "22:45", stage: "main", slug: "dub-fx" },
+        { date: "2026-07-25", time: "00:00", stage: "tent", slug: "zavis" },
+        {
+          date: "2026-07-25",
+          time: "01:00",
+          stage: "main",
+          slug: "elektrick-mann"
+        }
+      ]
+    },
+    saturday: {
+      title: "Sobota 25. 7.",
+      schedule: [
+        { date: "2026-07-25", time: "11:50", stage: "main", slug: "mr-moss" },
+        {
+          date: "2026-07-25",
+          time: "14:00",
+          stage: "main",
+          slug: "barbora-polakova"
+        },
+        {
+          date: "2026-07-25",
+          time: "15:00",
+          stage: "tent",
+          slug: "tybrdo-divadlo"
+        },
+        { date: "2026-07-25", time: "15:50", stage: "outlook", slug: "anicka" },
+        {
+          date: "2026-07-25",
+          time: "17:00",
+          stage: "main",
+          slug: "david-koller"
+        },
+        {
+          date: "2026-07-25",
+          time: "18:20",
+          stage: "outlook",
+          slug: "lazer-viking"
+        },
+        {
+          date: "2026-07-25",
+          time: "19:40",
+          stage: "main",
+          slug: "mnaga-a-zdorp"
+        },
+        {
+          date: "2026-07-25",
+          time: "21:00",
+          stage: "outlook",
+          slug: "nikola-mucha"
+        },
+        {
+          date: "2026-07-25",
+          time: "22:20",
+          stage: "main",
+          slug: "the-stylists"
+        },
+        {
+          date: "2026-07-25",
+          time: "23:40",
+          stage: "outlook",
+          slug: "prago-union"
+        },
+        { date: "2026-07-26", time: "01:00", stage: "main", slug: "skyline" }
+      ]
+    }
   },
-  friday: {
-    title: "Pátek 24. 7.",
-    schedule: [
-      { date: "2026-07-24", time: "14:30", stage: "main", slug: "byt-cislo-4" },
-      { date: "2026-07-24", time: "16:30", stage: "main", slug: "volant" },
-      { date: "2026-07-24", time: "17:30", stage: "outlook", slug: "jana-sindelarova" },
-      { date: "2026-07-24", time: "18:30", stage: "main", slug: "letni-kapela" },
-      { date: "2026-07-24", time: "19:35", stage: "outlook", slug: "jezek-v-deci" },
-      { date: "2026-07-24", time: "20:30", stage: "main", slug: "midi-lidi" },
-      { date: "2026-07-24", time: "21:30", stage: "outlook", slug: "xavier-baumaxa" },
-      { date: "2026-07-24", time: "22:45", stage: "main", slug: "dub-fx" },
-      { date: "2026-07-25", time: "00:00", stage: "tent", slug: "zavis" },
-      { date: "2026-07-25", time: "01:00", stage: "main", slug: "elektrick-mann" }
-    ]
-  },
-  saturday: {
-    title: "Sobota 25. 7.",
-    schedule: [
-     
-      { date: "2026-07-25", time: "11:50", stage: "main", slug: "mr-moss" },
-      { date: "2026-07-25", time: "14:00", stage: "main", slug: "barbora-polakova" }, 
-      { date: "2026-07-25", time: "15:00", stage: "tent", slug: "tybrdo-divadlo" },
-      { date: "2026-07-25", time: "15:50", stage: "outlook", slug: "anicka" },
-      { date: "2026-07-25", time: "17:00", stage: "main", slug: "david-koller" },
-      { date: "2026-07-25", time: "18:20", stage: "outlook", slug: "lazer-viking" },
-      { date: "2026-07-25", time: "19:40", stage: "main", slug: "mnaga-a-zdorp" },
-      { date: "2026-07-25", time: "21:00", stage: "outlook", slug: "nikola-mucha" },
-      { date: "2026-07-25", time: "22:20", stage: "main", slug: "the-stylists" },
-      { date: "2026-07-25", time: "23:40", stage: "outlook", slug: "prago-union" },
-      { date: "2026-07-26", time: "01:00", stage: "main", slug: "skyline" }
-    ]
-  },
-},
   currentYear: new Date().getFullYear(),
   timeslots,
   formatTime,
@@ -131,17 +218,25 @@ export default {
     const excluded = new Set(this.ctx.newsList.exclude);
     return news.filter(({ url }) => !excluded.has(url));
   }
-}
+};
 
 function timeslots({ friday, saturday }) {
   return new Map(
-    friday.schedule.map(x => [x.slug, { day: "pátek", time: x.time }]).concat(
-      saturday.schedule.map(x => [x.slug, { day: "sobotu", time: x.time }]))
+    friday.schedule
+      .map((x) => [x.slug, { day: "pátek", time: x.time }])
+      .concat(
+        saturday.schedule.map((x) => [x.slug, { day: "sobotu", time: x.time }])
+      )
   );
 }
 
 function hasLongPreposition(time) {
-  return time.startsWith("2") || time.startsWith("12") || time.startsWith("13") || time.startsWith("14");
+  return (
+    time.startsWith("2") ||
+    time.startsWith("12") ||
+    time.startsWith("13") ||
+    time.startsWith("14")
+  );
 }
 
 function formatTime({ day, time }) {

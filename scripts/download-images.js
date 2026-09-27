@@ -18,11 +18,10 @@ const oldurls = new Set([
   "https://www.studnicefest.cz/data/bands/band-gop.jpg"
 ]);
 
-
 const urls = [
   // Get images from page:
   // Array.from(document.getElementById("bands").querySelectorAll(".band img")).map(x => x.src);
-].filter(x => !oldurls.has(x));
+].filter((x) => !oldurls.has(x));
 
 for (const url of urls) {
   const resp = await fetch(url);
