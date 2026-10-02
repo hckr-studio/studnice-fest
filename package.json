@@ -17,7 +17,7 @@
     "@cloudflare/workers-types": "5.20260927.1",
     "@hckr_/blendid": "9.8.1",
     "@types/gulp": "4.0.18",
-    "wrangler": "4.142.0"
+    "wrangler": "4.147.0"
   },
   "resolutions": {
     "esbuild": "0.25.5"
