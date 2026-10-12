@@ -17,7 +17,7 @@ export default {
     "bg-small": "hero-bg-small.avif"
   },
   info: {
-    visible: true
+    visible: false
   },
   newsList: {
     exclude: ["https://www.facebook.com/100063521171808/posts/1029078449219518"]
@@ -91,7 +91,7 @@ export default {
     }
   },
   lineup: {
-    visible: true,
+    visible: false,
     heading: "Na 20. ročníku vystoupí",
     thursday: {
       title: "Čtvrtek 23. 7.",
