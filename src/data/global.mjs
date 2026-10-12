@@ -60,29 +60,7 @@ export default {
     description:
       "Letní hudební festival Studnice Fest je opět tu! V Hlinsku v Čechách se potkáme 30. - 31. 7. 2027",
     artists: [
-      "dub-fx",
-      "mnaga-a-zdorp",
-      "david-koller",
-      "barbora-polakova",
-      "prekvapeni",
-      "letni-kapela",
-      "midi-lidi",
-      "prago-union",
-      "skyline",
-      "elektrick-mann",
-      "zrni",
-      "the-stylists",
-      "nikola-mucha",
-      "xavier-baumaxa",
-      "lazer-viking",
-      "dukla-vozovna",
-      "volant",
-      "zavis",
-      "byt-cislo-4",
-      "mr-moss",
-      "anicka",
-      "jezek-v-deci",
-      "jana-sindelarova"
+     
     ],
     stages: {
       main: "Hlavní stage",
