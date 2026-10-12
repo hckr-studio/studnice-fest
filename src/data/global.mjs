@@ -70,7 +70,7 @@ export default {
   },
   lineup: {
     visible: false,
-    heading: "Na 20. ročníku vystoupí",
+    heading: "Na 21. ročníku vystoupí",
     thursday: {
       title: "Čtvrtek 23. 7.",
       schedule: [
