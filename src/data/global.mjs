@@ -54,8 +54,8 @@ export default {
   },
   event: {
     name: "Studnice Fest",
-    startDate: new Date("2026-07-30T15:00:00+02:00"),
-    endDate: new Date("2026-07-31T03:00:00+02:00"),
+    startDate: new Date("2027-07-30T15:00:00+02:00"),
+    endDate: new Date("2027-07-31T03:00:00+02:00"),
     location: "Cihelka, Hlinsko v Čechách",
     description:
       "Letní hudební festival Studnice Fest je opět tu! V Hlinsku v Čechách se potkáme 30. - 31. 7. 2027",
