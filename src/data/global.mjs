@@ -1,5 +1,5 @@
 export default {
-  title: "STUDNICE FEST 2026",
+  title: "STUDNICE FEST 2027",
   analytics: {
     gtmID: "G-1V8Y40118V"
   },
@@ -9,7 +9,7 @@ export default {
   },
   hero: {
     heading: "",
-    text: "20. ročník festivalu",
+    text: "21. ročník festivalu",
     cta: "Koupit si vstupenky",
     footer: "#VidimeSeVLese",
     "bg-big": "hero-bg-big.avif",
@@ -54,11 +54,11 @@ export default {
   },
   event: {
     name: "Studnice Fest",
-    startDate: new Date("2026-07-23T15:00:00+02:00"),
-    endDate: new Date("2026-07-26T03:00:00+02:00"),
+    startDate: new Date("2026-07-30T15:00:00+02:00"),
+    endDate: new Date("2026-07-31T03:00:00+02:00"),
     location: "Cihelka, Hlinsko v Čechách",
     description:
-      "Letní hudební festival Studnice Fest je opět tu! V Hlinsku v Čechách se potkáme 23. - 25. 7. 2026",
+      "Letní hudební festival Studnice Fest je opět tu! V Hlinsku v Čechách se potkáme 30. - 31. 7. 2027",
     artists: [
       "dub-fx",
       "mnaga-a-zdorp",
