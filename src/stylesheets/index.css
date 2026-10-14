@@ -599,6 +599,46 @@ section p {
   }
 }
 
+.vibe {
+  display: grid;
+  gap: 1.5em;
+  margin-block-end: var(--spacer, 2em);
+
+  header {
+    text-align: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  .vibe__lead {
+    max-inline-size: 42ch;
+    margin: 0.5em auto 0;
+    font-size: 1.1em;
+  }
+
+  .vibe__video {
+    margin: 0;
+    width: 100%;
+    max-width: 960px;
+    justify-self: center;
+
+    lite-youtube {
+      max-width: none;
+      border-radius: var(--corner-radius);
+      overflow: hidden;
+    }
+
+    figcaption {
+      margin-block-start: 0.4em;
+      text-align: center;
+      font-family: var(--accented-font);
+      font-size: var(--smaller);
+    }
+  }
+}
+
 .news-list {
   --columns: 2;
 

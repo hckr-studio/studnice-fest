@@ -64,6 +64,21 @@
     </section>
   </div>
   <main>
+    {% if vibe.visible %}
+      <section class="vibe" id="video">
+        <header>
+          <h2>{{ vibe.heading }}</h2>
+          {% if vibe.text %}<p class="vibe__lead">{{ vibe.text | processTypography }}</p>{% endif %}
+        </header>
+        {% if vibe.video %}
+          <figure class="vibe__video">
+            <lite-youtube videoid="{{ vibe.video.id }}" params="hl=cs&amp;modestbranding=1"
+                          title="{{ vibe.video.title }}" class="responsive"></lite-youtube>
+            {% if vibe.video.caption %}<figcaption>{{ vibe.video.caption }}</figcaption>{% endif %}
+          </figure>
+        {% endif %}
+      </section>
+    {% endif %}
     <section class="news-list" id="novinky">
       <header id="news">
         <h2>Novinky</h2>
@@ -250,6 +265,9 @@
 {% endblock %}
 
 {% block scripts %}
+  {% if vibe.visible and vibe.video %}
+    <script type="module" src="{{ "vibe.js" | assetUrl("esm") }}"></script>
+  {% endif %}
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
           integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin defer></script>
   <script type="module">

@@ -19,6 +19,18 @@ export default {
   info: {
     visible: false
   },
+  // Sekce s aftermovie hned pod hero. visible: false ji skryje.
+  vibe: {
+    visible: true,
+    heading: "Malý festival s velkou energií",
+    // Volitelný text pod nadpisem – prázdný = nezobrazí se.
+    text: "",
+    video: {
+      id: "sK-eE2CCUv4",
+      title: "Aftermovie Studnice Fest 2026",
+      caption: "Aftermovie z 20. ročníku"
+    }
+  },
   newsList: {
     exclude: ["https://www.facebook.com/100063521171808/posts/1029078449219518"]
   },
