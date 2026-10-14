@@ -136,3 +136,6 @@ dist
 
 # Cloudflare Pages
 .dev.vars
+
+# Stránky ročníků galerie generuje config/gallery-registry.mjs
+src/html/galerie/[0-9][0-9][0-9][0-9]/

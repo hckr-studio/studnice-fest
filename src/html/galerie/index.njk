@@ -1,186 +1,123 @@
 {% extends "layouts/master.njk" %}
+{#
+  Rozcestník galerií. Každý ročník (složka src/cloudinary/gallery/<rok>/)
+  má upoutávku s pár fotkami a odkaz na vlastní stránku /galerie/<rok>/.
+#}
 {% set title = "Fotogalerie" %}
-
 {% set years = galleries(collections.images) %}
+{% set teaserCount = 5 %}
 
 {% block head_stylesheets %}
   <style>
-    .gallery-intro {
+    .gallery-head p {
       max-width: 65ch;
-      margin-bottom: 2em;
-    }
-
-    .gallery-grid {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: clamp(0.45rem, 1.5vw, 1rem);
-    }
-
-    @media (min-width: 600px) {
-      .gallery-grid {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-      }
-    }
-
-    @media (min-width: 960px) {
-      .gallery-grid {
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-      }
-    }
-
-    .gallery-item {
-      appearance: none;
-      border: 0;
-      border-radius: calc(var(--corner-radius) / 2);
-      background: var(--blue-background-color);
-      padding: 0;
-      overflow: hidden;
-      cursor: zoom-in;
-      aspect-ratio: 4 / 3;
-    }
-
-    .gallery-item img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      transition: transform 180ms ease;
-    }
-
-    .gallery-item:hover img,
-    .gallery-item:focus-visible img {
-      transform: scale(1.035);
-    }
-
-    .gallery-item:focus-visible,
-    .lightbox button:focus-visible {
-      outline: 3px solid var(--accent3-color);
-      outline-offset: 3px;
-    }
-
-    .lightbox {
-      width: 100vw;
-      max-width: none;
-      height: 100dvh;
-      max-height: none;
-      margin: 0;
-      border: 0;
-      padding: 0;
-      background: rgb(7 11 14 / 96%);
-      color: #fff;
-      overflow: hidden;
-    }
-
-    .lightbox::backdrop {
-      background: rgb(7 11 14 / 96%);
-    }
-
-    .lightbox__figure {
-      width: 100%;
-      height: 100%;
-      margin: 0;
-      display: grid;
-      place-items: center;
-      touch-action: pan-y;
-    }
-
-    .lightbox__image {
-      display: block;
-      max-width: calc(100vw - 2rem);
-      max-height: calc(100dvh - 5rem);
-      width: auto;
-      height: auto;
-      object-fit: contain;
-      user-select: none;
-      -webkit-user-drag: none;
-    }
-
-    .lightbox button {
-      position: fixed;
-      z-index: 2;
-      display: grid;
-      place-items: center;
-      width: 2.75rem;
-      height: 2.75rem;
-      border: 0;
-      border-radius: 999px;
-      background: rgb(0 0 0 / 55%);
-      color: #fff;
-      font: 700 1.8rem/1 var(--main-font);
-      cursor: pointer;
-    }
-
-    .lightbox__close {
-      top: 1rem;
-      right: 1rem;
-    }
-
-    .lightbox__prev,
-    .lightbox__next {
-      top: 50%;
-      translate: 0 -50%;
-    }
-
-    .lightbox__prev { left: 1rem; }
-    .lightbox__next { right: 1rem; }
-
-    .lightbox__counter {
-      position: fixed;
-      bottom: 1rem;
-      left: 50%;
-      translate: -50% 0;
-      margin: 0;
-      padding: 0.35rem 0.8rem;
-      border-radius: 999px;
-      background: rgb(0 0 0 / 55%);
-      font-family: var(--accented-font);
-      font-weight: 700;
+      margin-block: 0.5em 0;
     }
 
     .gallery-years {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5em;
-      margin: 1em 0 0;
-      padding: 0;
-      list-style: none;
-
-      a {
-        display: inline-block;
-        padding: 0.35em 1em;
-        border: 2px solid var(--accent-color);
-        border-radius: 999px;
-        font: 700 1.05em var(--accented-font);
-        color: var(--accent-color-darker);
-        text-decoration: none;
-
-        &:hover,
-        &:focus-visible {
-          background: var(--accent-color);
-          color: #fff;
-        }
-      }
+      display: grid;
+      gap: 2.5em;
     }
 
-    .gallery-year {
-      scroll-margin-block-start: 5em;
-      margin-block-end: 3em;
-
+    .gallery-teaser {
       header {
         display: flex;
+        flex-wrap: wrap;
         align-items: baseline;
         justify-content: space-between;
-        gap: 1em;
-        margin-block-end: 1em;
+        gap: 0.25em 1em;
+        margin-block-end: 0.75em;
       }
 
       h3 {
         margin: 0;
+
+        a {
+          color: inherit;
+          text-decoration: none;
+        }
       }
 
-      header small {
-        font-family: var(--accented-font);
-        opacity: 0.75;
+      header > a {
+        font: 700 1.05em var(--accented-font);
+        color: var(--accent-color-darker);
+      }
+    }
+
+    .gallery-teaser__photos {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: clamp(0.35rem, 1.2vw, 0.75rem);
+      aspect-ratio: 2.2;
+
+      a {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        border-radius: calc(var(--corner-radius) / 2);
+        background: var(--blue-background-color);
+
+        &:first-child {
+          grid-row: span 2;
+        }
+      }
+
+      img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: scale 300ms ease;
+      }
+
+      a:hover img,
+      a:focus-visible img {
+        scale: 1.04;
+      }
+
+      .gallery-teaser__more {
+        position: absolute;
+        inset: 0;
+        display: grid;
+        place-items: center;
+        background: rgb(0 0 0 / 45%);
+        color: #fff;
+        font: 700 clamp(1rem, 0.8rem + 1vw, 1.5rem) var(--accented-font);
+      }
+
+      .gallery-teaser__more[hidden] {
+        display: none;
+      }
+    }
+
+    main {
+      row-gap: 2em;
+    }
+
+    @media (max-width: 480px) {
+      .gallery-teaser__photos {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        aspect-ratio: auto;
+
+        a {
+          aspect-ratio: 4 / 3;
+
+          &:first-child {
+            grid-row: auto;
+            grid-column: span 2;
+            aspect-ratio: 16 / 9;
+          }
+
+          &:nth-child(n + 4) {
+            display: none;
+          }
+
+          &:nth-child(3) .gallery-teaser__more {
+            display: grid;
+          }
+        }
       }
     }
   </style>
@@ -188,107 +125,40 @@
 
 {% block content %}
   <main>
-    <h2>Fotogalerie</h2>
-    <div class="gallery-intro">
-      <p>Fotky z&nbsp;posledních ročníků Studnice Festu. Klikněte na fotku pro zvětšení,
-        šipkami nebo přejetím prstu se posunete na další.</p>
-      {% if years | length > 1 %}
-        <nav aria-label="Ročníky">
-          <ul class="gallery-years">
-            {% for g in years %}
-              <li><a href="#rok-{{ g.year }}">{{ g.year }}</a></li>
+    <header class="gallery-head">
+      <h2>Fotogalerie</h2>
+      <p>Fotky z&nbsp;posledních ročníků Studnice Festu. Vyberte ročník a&nbsp;prohlédněte si celou galerii.</p>
+    </header>
+
+    <div class="gallery-years">
+      {% for g in years %}
+        {% set url = "/galerie/" ~ g.year ~ "/" %}
+        {% set count = g.photos | length %}
+        <section class="gallery-teaser" id="rok-{{ g.year }}">
+          <header>
+            <h3><a href="{{ url }}">Studnice Fest {{ g.year }}</a></h3>
+            <a href="{{ url }}">Všech {{ count }} fotek →</a>
+          </header>
+          <div class="gallery-teaser__photos">
+            {% for image in g.photos.slice(0, teaserCount) %}
+              <a href="{{ url }}" {% if not loop.first %}tabindex="-1" aria-hidden="true"{% else %}aria-label="Fotogalerie {{ g.year }}"{% endif %}>
+                <img alt="" loading="lazy"
+                     width="{{ image.width }}" height="{{ image.height }}"
+                     style="{% if image.metadata.lqip %}--lqip:{{ image.metadata.lqip }}{% endif %}"
+                     sizes="{{ '(min-width: 960px) 420px, 92vw' if loop.first else '(min-width: 960px) 210px, 46vw' }}"
+                     src="{{ image.public_id | cloudinaryUrl({ crop: 'fill', width: 900 if loop.first else 450, ar: 1.333 }) }}">
+                {% if loop.last and count > teaserCount %}
+                  <span class="gallery-teaser__more">+{{ count - teaserCount }}</span>
+                {% elif loop.index == 3 and count > 3 %}
+                  <span class="gallery-teaser__more" hidden>+{{ count - 3 }}</span>
+                {% endif %}
+              </a>
             {% endfor %}
-          </ul>
-        </nav>
-      {% endif %}
+          </div>
+        </section>
+      {% else %}
+        <p>Fotky zatím nejsou k&nbsp;dispozici.</p>
+      {% endfor %}
     </div>
-
-    {% for g in years %}
-      <section class="gallery-year" id="rok-{{ g.year }}">
-        <header>
-          <h3>Studnice Fest {{ g.year }}</h3>
-          <small>{{ g.photos | length }} fotek</small>
-        </header>
-        <div class="gallery-grid" data-gallery>
-          {% for image in g.photos %}
-            <button class="gallery-item" type="button"
-                    data-full="{{ image.public_id | cloudinaryUrl({ width: 2000 }) }}"
-                    aria-label="Otevřít fotografii {{ loop.index }} z {{ g.photos | length }} ({{ g.year }})">
-              <img alt="" width="{{ image.width }}" height="{{ image.height }}" loading="lazy"
-                   style="{% if image.metadata.lqip %}--lqip:{{ image.metadata.lqip }}{% endif %}"
-                   sizes="(min-width: 960px) 22vw, (min-width: 600px) 30vw, 46vw"
-                   src="{{ image.public_id | cloudinaryUrl({ crop: 'fill', width: 600, ar: 1.333 }) }}">
-            </button>
-          {% endfor %}
-        </div>
-      </section>
-    {% endfor %}
   </main>
-
-  <dialog class="lightbox" data-lightbox aria-label="Prohlížeč fotografií">
-    <button class="lightbox__close" type="button" aria-label="Zavřít">×</button>
-    <button class="lightbox__prev" type="button" aria-label="Předchozí fotografie">‹</button>
-    <figure class="lightbox__figure">
-      <img class="lightbox__image" alt="">
-      <figcaption class="lightbox__counter" aria-live="polite"></figcaption>
-    </figure>
-    <button class="lightbox__next" type="button" aria-label="Následující fotografie">›</button>
-  </dialog>
-{% endblock %}
-
-{% block scripts %}
-  <script type="module">
-    // Prohlížeč listuje vždy jen v rámci jednoho ročníku.
-    let items = [];
-    const lightbox = document.querySelector("[data-lightbox]");
-    const image = lightbox.querySelector(".lightbox__image");
-    const counter = lightbox.querySelector(".lightbox__counter");
-    const figure = lightbox.querySelector(".lightbox__figure");
-    let currentIndex = 0;
-    let pointerStart = null;
-
-    function show(index) {
-      currentIndex = (index + items.length) % items.length;
-      image.src = items[currentIndex].dataset.full;
-      counter.textContent = `${currentIndex + 1} / ${items.length}`;
-    }
-
-    for (const gallery of document.querySelectorAll("[data-gallery]")) {
-      const galleryItems = [...gallery.querySelectorAll(".gallery-item")];
-      galleryItems.forEach((item, index) => item.addEventListener("click", () => {
-        items = galleryItems;
-        show(index);
-        lightbox.showModal();
-      }));
-    }
-
-    lightbox.querySelector(".lightbox__close").addEventListener("click", () => lightbox.close());
-    lightbox.querySelector(".lightbox__prev").addEventListener("click", () => show(currentIndex - 1));
-    lightbox.querySelector(".lightbox__next").addEventListener("click", () => show(currentIndex + 1));
-
-    lightbox.addEventListener("click", event => {
-      if (event.target === lightbox || event.target === figure) lightbox.close();
-    });
-
-    lightbox.addEventListener("keydown", event => {
-      if (event.key === "ArrowLeft") show(currentIndex - 1);
-      if (event.key === "ArrowRight") show(currentIndex + 1);
-    });
-
-    figure.addEventListener("pointerdown", event => {
-      pointerStart = event.clientX;
-    });
-
-    figure.addEventListener("pointerup", event => {
-      if (pointerStart === null) return;
-      const distance = event.clientX - pointerStart;
-      if (Math.abs(distance) > 50) show(currentIndex + (distance < 0 ? 1 : -1));
-      pointerStart = null;
-    });
-
-    lightbox.addEventListener("close", () => {
-      image.removeAttribute("src");
-      items[currentIndex]?.focus();
-    });
-  </script>
 {% endblock %}
