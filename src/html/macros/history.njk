@@ -1,0 +1,32 @@
+{#
+  Všichni vystupující jednoho ročníku na stránce Historie.
+  items: pole ze `history[rok]` v global.mjs (slug, nebo { slug, title }).
+  Mřížka je sbalená na pár řádků a rozbaluje se tlačítkem (historie.js).
+  Bez JS se zobrazí celá. Výstup je bez prázdných řádků, aby ho markdown
+  nechal jako HTML blok.
+#}
+{% macro bands(items) -%}
+<div class="history-lineup">
+  <h4>Všichni vystupující</h4>
+  <div class="history-lineup__clip">
+    <ul class="history-bands">
+      {%- for item in items -%}
+        {%- set slug = item.slug if item.slug else item -%}
+        {%- set artist = collections.artists[slug] -%}
+        {%- set title = item.title or (artist.title if artist else item) -%}
+        {%- set image = collections.images["artists/" + artist.image] if (artist and artist.image) else null -%}
+        <li class="history-bands__item{% if not image %} history-bands__item--text{% endif %}">
+          {%- if image -%}
+            <img src="{{ image.public_id | cloudinaryUrl(ar=1,crop="fill",gravity="auto") }}" alt=""
+                 {%- if image.metadata.lqip %} style="--lqip:{{ image.metadata.lqip }}"{% endif %}
+                 width="160" height="160" loading="lazy" sizes="(min-width: 840px) 160px, 30vw">
+          {%- endif -%}
+          <span>{{ title | safe }}</span>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+  <button type="button" class="history-lineup__toggle" aria-expanded="false" hidden
+          data-more="Zobrazit všechny ({{ items | length }})" data-less="Skrýt">Zobrazit všechny ({{ items | length }})</button>
+</div>
+{%- endmacro %}

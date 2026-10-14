@@ -59,14 +59,65 @@ export default {
     location: "Cihelka, Hlinsko v Čechách",
     description:
       "Letní hudební festival Studnice Fest je opět tu! V Hlinsku v Čechách se potkáme 30. - 31. 7. 2027",
-    artists: [
-     
-    ],
+    artists: [],
     stages: {
       main: "Hlavní stage",
       outlook: "Na Vyhlídce",
       tent: "Dětský stan"
     }
+  },
+  history: {
+    // Všichni vystupující u ročníků na stránce Historie (sbalená mřížka dlaždic).
+    // Slug z src/data/artists = dlaždice s fotkou; { slug, title } přepíše jméno.
+    // Nový ročník: přidej sem pole a do historie/text.md {{ bands(history[ROK]) }}.
+    2026: [
+      "dub-fx",
+      "mnaga-a-zdorp",
+      "david-koller",
+      "barbora-polakova",
+      { slug: "vypsana-fixa", title: "Vypsaná fiXa (překvapení)" },
+      "letni-kapela",
+      "midi-lidi",
+      "prago-union",
+      "skyline",
+      "elektrick-mann",
+      "zrni",
+      "the-stylists",
+      "nikola-mucha",
+      "xavier-baumaxa",
+      "lazer-viking",
+      "dukla-vozovna",
+      "volant",
+      "zavis",
+      "byt-cislo-4",
+      "mr-moss",
+      "anicka",
+      "jezek-v-deci",
+      "jana-sindelarova"
+    ],
+    2025: [
+      "the-subways",
+      "tata-bojs",
+      "skyline",
+      "pokac",
+      "the-prostitutes",
+      "jamaron",
+      "mucha",
+      "fast-food-orchestra",
+      "vojtaano",
+      "dukla-vozovna",
+      "i-love-you-honey-bunny",
+      "volant",
+      "dukla",
+      "zavis",
+      "brixtn",
+      "rozalie",
+      "rodan",
+      "neni-zac",
+      "anicka",
+      "slavicek",
+      "tybrdo-divadlo"
+    ]
   },
   lineup: {
     visible: false,

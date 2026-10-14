@@ -1,3 +1,4 @@
+{% from "macros/history.njk" import bands with context %}
 ### Studnice Fest 2026
 Termín: 23.–25. 7.
 
@@ -9,6 +10,8 @@ Dub FX & Woodnote, David Koller, Mňága a Žďorp, Barbora Poláková, Prago Un
 <lite-youtube videoid="sK-eE2CCUv4" params="hl=cs&amp;modestbranding=1" 
   title="Aftermovie Studnice Fest 2026" class="responsive"></lite-youtube>
 
+{{ bands(history[2026]) }}
+
 ### Studnice Fest 2025
 Termín: 25.–26. 7.
 
@@ -19,6 +22,8 @@ The Subways, Tata Bojs, Pokáč, Skyline, Mucha, Fast Food Orchestra, I Love You
 
 <lite-youtube videoid="ugo-XkJv448" params="hl=cs&amp;modestbranding=1"
   title="Aftermovie Studnice Fest 2025" class="responsive"></lite-youtube>
+
+{{ bands(history[2025]) }}
 
 ### Studnice Fest 2024
 Termín: 26.–27. 7.
