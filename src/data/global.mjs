@@ -82,7 +82,8 @@ const data = {
   history: {
     // Všichni vystupující u ročníků na stránce Historie (sbalená mřížka dlaždic).
     // Slug z src/data/artists = dlaždice s fotkou; { slug, title } přepíše jméno.
-    // Nový ročník: přidej sem pole a do historie/text.md {{ bands(history[ROK]) }}.
+    // Nový ročník: přidej sem pole a do historie/text.md {{ bands(history[ROK]) }}
+    // (poslední dva ročníky dlaždice s fotkou), starší {{ bandList(history[ROK]) }}.
     2026: [
       "dub-fx",
       "mnaga-a-zdorp",
@@ -130,6 +131,166 @@ const data = {
       "anicka",
       "slavicek",
       "tybrdo-divadlo"
+    ],
+    // Starší ročníky: zjednodušený výpis (bez fotek). 2004–2012 jen jména,
+    // která známe z textů historie – doplnit, až budou kompletní seznamy.
+    2024: [
+      "vypsana-fixa",
+      "noha",
+      "mydy",
+      "lenny",
+      "prago-union",
+      "ventolin",
+      "imodium",
+      "xavier-baumaxa",
+      "zavis",
+      "volant",
+      "dukla-vozovna",
+      "zadnej-stres",
+      "circus-problem",
+      "anatol-svahilec",
+      "gorale-originale-pardubicensis",
+      "the-stryc",
+      { title: "DVA" }
+    ],
+    2023: [
+      "tata-bojs",
+      { title: "Monkey Business" },
+      "mnaga-a-zdorp",
+      "skyline",
+      "lazer-viking",
+      { title: "Gaia Mesiah" },
+      "letni-kapela",
+      { title: "Vasilův rubáš" },
+      "dukla-vozovna",
+      { title: "Fredy & Krasty" },
+      { title: "Wyfe" },
+      { title: "The Atavists" },
+      "i-love-you-honey-bunny",
+      "zavis",
+      { title: "Corpulent Provocateur" },
+      { title: "B1nary" },
+      { title: "themayrevolution" },
+      { title: "The Valentines" },
+      { title: "Sešlost" }
+    ],
+    2022: [
+      "vypsana-fixa",
+      { title: "Gaia Mesiah" },
+      "noha",
+      { title: "Sto zvířat" },
+      { title: "Kapitán Demo" },
+      "zrni",
+      "ventolin",
+      "fast-food-orchestra",
+      { title: "Vltava" },
+      { title: "The Atavists" },
+      "vojtaano",
+      "dukla-vozovna",
+      "zavis",
+      { title: "Aiko" },
+      { title: "něco něco" },
+      { title: "A Dull Set" },
+      "drum-for-fun"
+    ],
+    2021: [
+      "tata-bojs",
+      { title: "Visací zámek" },
+      "skyline",
+      "midi-lidi",
+      { title: "Hentai Corporation" },
+      { title: "Lenka Dusilová" },
+      "xavier-baumaxa",
+      { title: "Aid Kid" },
+      { title: "John Wolfhooker" },
+      { title: "Circus Brothers" },
+      "fast-food-orchestra",
+      { title: "Deaf Heart" },
+      "dukla-vozovna",
+      "volant",
+      "lazer-viking",
+      "zavis",
+      { title: "Corpulent Provocateur" },
+      { title: "Herbert Einstein" }
+    ],
+    2020: [
+      "pokac",
+      "vypsana-fixa",
+      { title: "Monkey Business" },
+      { title: "Gaia Mesiah" },
+      "skyline",
+      { title: "The Atavists" },
+      { title: "Kurtizány z 25. avenue" },
+      "dukla-vozovna",
+      { title: "The Silver Spoons" },
+      "volant"
+    ],
+    2019: [
+      { title: "Wohnout" },
+      { title: "Pipes and Pints" },
+      "skyline",
+      { title: "Kapitán Demo" },
+      { title: "Jiří Schmitzer" },
+      "ventolin",
+      "circus-problem",
+      { title: "Big S" },
+      { title: "Corpulent Provocateur" },
+      "dukla-vozovna",
+      { title: "Esence" },
+      { title: "Ghost of You" },
+      { title: "Herbert Einstein" },
+      { title: "MoveBreakers" },
+      { title: "Sabrage" },
+      "volant"
+    ],
+    2018: [
+      "tata-bojs",
+      "mydy",
+      { title: "Michal Hrůza" },
+      "skyline",
+      { title: "Poletíme?" },
+      "fast-food-orchestra",
+      "dukla-vozovna",
+      { title: "Honza Křížek" },
+      "volant",
+      "zavis"
+    ],
+    2017: [
+      { title: "Buty" },
+      "skyline",
+      { title: "Lenka Dusilová & Baromantika" },
+      "fast-food-orchestra",
+      "xavier-baumaxa",
+      "imodium",
+      "dukla-vozovna",
+      { title: "Lety Mimo" },
+      { title: "Smrtislav" },
+      "volant",
+      "zavis"
+    ],
+    "2008–2012": [
+      { title: "Clou" },
+      { title: "Southpaw" },
+      { title: "Sunshine" },
+      "skyline",
+      "the-prostitutes",
+      { title: "Green Frog Feet" }
+    ],
+    2007: [
+      { title: "Gaia Mesiah" },
+      { title: "Mañana" }
+    ],
+    2006: [
+      { title: "Tleskači" }
+    ],
+    2005: [
+      { title: "Tleskači" },
+      "imodium"
+    ],
+    2004: [
+      "vypsana-fixa",
+      { title: "Gaia Mesiah" },
+      "dukla-vozovna"
     ]
   },
   lineup: {
@@ -281,7 +442,10 @@ const data = {
 // Kapely, které mají stránku s detailem (/kapely/<slug>/): poslední dva
 // ročníky z `history` + chystaný ročník (event.artists).
 data.artistPages = (() => {
-  const years = Object.keys(data.history).map(Number).sort((a, b) => b - a);
+  const years = Object.keys(data.history)
+    .filter((y) => /^\d{4}$/.test(y))
+    .map(Number)
+    .sort((a, b) => b - a);
   const slugs = new Set(data.event.artists);
   for (const year of years.slice(0, 2)) {
     for (const item of data.history[year]) slugs.add(item.slug ?? item);
