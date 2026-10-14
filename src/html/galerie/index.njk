@@ -1,7 +1,7 @@
 {% extends "layouts/master.njk" %}
 {% set title = "Fotogalerie" %}
 
-{% set galleryCount = 166 %}
+{% set years = galleries(collections.images) %}
 
 {% block head_stylesheets %}
   <style>
@@ -136,6 +136,53 @@
       font-family: var(--accented-font);
       font-weight: 700;
     }
+
+    .gallery-years {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5em;
+      margin: 1em 0 0;
+      padding: 0;
+      list-style: none;
+
+      a {
+        display: inline-block;
+        padding: 0.35em 1em;
+        border: 2px solid var(--accent-color);
+        border-radius: 999px;
+        font: 700 1.05em var(--accented-font);
+        color: var(--accent-color-darker);
+        text-decoration: none;
+
+        &:hover,
+        &:focus-visible {
+          background: var(--accent-color);
+          color: #fff;
+        }
+      }
+    }
+
+    .gallery-year {
+      scroll-margin-block-start: 5em;
+      margin-block-end: 3em;
+
+      header {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 1em;
+        margin-block-end: 1em;
+      }
+
+      h3 {
+        margin: 0;
+      }
+
+      header small {
+        font-family: var(--accented-font);
+        opacity: 0.75;
+      }
+    }
   </style>
 {% endblock %}
 
@@ -143,30 +190,39 @@
   <main>
     <h2>Fotogalerie</h2>
     <div class="gallery-intro">
-      <h3>Studnice Fest 2026</h3>
-      <p>Ukázková galerie využívající fotografie uložené ve stávajícím Cloudinary účtu.</p>
+      <p>Fotky z&nbsp;posledních ročníků Studnice Festu. Klikněte na fotku pro zvětšení,
+        šipkami nebo přejetím prstu se posunete na další.</p>
+      {% if years | length > 1 %}
+        <nav aria-label="Ročníky">
+          <ul class="gallery-years">
+            {% for g in years %}
+              <li><a href="#rok-{{ g.year }}">{{ g.year }}</a></li>
+            {% endfor %}
+          </ul>
+        </nav>
+      {% endif %}
     </div>
 
-    <div class="gallery-grid" data-gallery>
-      {% for photoNumber in range(0, galleryCount) %}
-        {% if photoNumber == 0 %}
-          {% set filename = "gallery/2026/studnice-fest-2026.jpg" %}
-        {% else %}
-          {% set filename = "gallery/2026/studnice-fest-2026_" ~ photoNumber ~ ".jpg" %}
-        {% endif %}
-        {% set image = collections.images[filename] %}
-        {% if image %}
-          <button class="gallery-item" type="button"
-                  data-full="{{ image.public_id | cloudinaryUrl({ width: 2000 }) }}"
-                  aria-label="Otevřít fotografii {{ loop.index }} z {{ galleryCount }}">
-            <img alt="" width="{{ image.width }}" height="{{ image.height }}" loading="lazy"
-                 style="{% if image.metadata.lqip %}--lqip:{{ image.metadata.lqip }}{% endif %}"
-                 sizes="(min-width: 960px) 22vw, (min-width: 600px) 30vw, 46vw"
-                 src="{{ image.public_id | cloudinaryUrl({ crop: 'fill', width: 600, ar: 1.333 }) }}">
-          </button>
-        {% endif %}
-      {% endfor %}
-    </div>
+    {% for g in years %}
+      <section class="gallery-year" id="rok-{{ g.year }}">
+        <header>
+          <h3>Studnice Fest {{ g.year }}</h3>
+          <small>{{ g.photos | length }} fotek</small>
+        </header>
+        <div class="gallery-grid" data-gallery>
+          {% for image in g.photos %}
+            <button class="gallery-item" type="button"
+                    data-full="{{ image.public_id | cloudinaryUrl({ width: 2000 }) }}"
+                    aria-label="Otevřít fotografii {{ loop.index }} z {{ g.photos | length }} ({{ g.year }})">
+              <img alt="" width="{{ image.width }}" height="{{ image.height }}" loading="lazy"
+                   style="{% if image.metadata.lqip %}--lqip:{{ image.metadata.lqip }}{% endif %}"
+                   sizes="(min-width: 960px) 22vw, (min-width: 600px) 30vw, 46vw"
+                   src="{{ image.public_id | cloudinaryUrl({ crop: 'fill', width: 600, ar: 1.333 }) }}">
+            </button>
+          {% endfor %}
+        </div>
+      </section>
+    {% endfor %}
   </main>
 
   <dialog class="lightbox" data-lightbox aria-label="Prohlížeč fotografií">
@@ -182,7 +238,8 @@
 
 {% block scripts %}
   <script type="module">
-    const items = [...document.querySelectorAll("[data-gallery] .gallery-item")];
+    // Prohlížeč listuje vždy jen v rámci jednoho ročníku.
+    let items = [];
     const lightbox = document.querySelector("[data-lightbox]");
     const image = lightbox.querySelector(".lightbox__image");
     const counter = lightbox.querySelector(".lightbox__counter");
@@ -196,10 +253,14 @@
       counter.textContent = `${currentIndex + 1} / ${items.length}`;
     }
 
-    items.forEach((item, index) => item.addEventListener("click", () => {
-      show(index);
-      lightbox.showModal();
-    }));
+    for (const gallery of document.querySelectorAll("[data-gallery]")) {
+      const galleryItems = [...gallery.querySelectorAll(".gallery-item")];
+      galleryItems.forEach((item, index) => item.addEventListener("click", () => {
+        items = galleryItems;
+        show(index);
+        lightbox.showModal();
+      }));
+    }
 
     lightbox.querySelector(".lightbox__close").addEventListener("click", () => lightbox.close());
     lightbox.querySelector(".lightbox__prev").addEventListener("click", () => show(currentIndex - 1));

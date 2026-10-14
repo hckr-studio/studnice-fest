@@ -242,6 +242,7 @@ export default {
   timeslots,
   formatTime,
   festivalDay,
+  galleries,
   formatNumber(n) {
     return Intl.NumberFormat("cs").format(n);
   },
@@ -271,6 +272,28 @@ function festivalDay(date, isEnd = false) {
     month: Number(parts.month),
     year: Number(parts.year)
   };
+}
+
+// Fotogalerie podle ročníků: složky src/cloudinary/gallery/<rok>/.
+// Vrací [{ year, photos: [image, …] }] od nejnovějšího ročníku,
+// fotky seřazené podle názvu souboru (přirozeně: _2 před _10).
+function galleries(images) {
+  const byYear = new Map();
+  for (const [key, image] of Object.entries(images ?? {})) {
+    const match = key.match(/^gallery\/(\d{4})\//);
+    if (!match) continue;
+    const year = Number(match[1]);
+    if (!byYear.has(year)) byYear.set(year, []);
+    byYear.get(year).push({ key, ...image });
+  }
+  const collator = new Intl.Collator("cs", { numeric: true });
+  const stem = (key) => key.replace(/\.[^.]+$/, "");
+  return [...byYear.entries()]
+    .sort(([a], [b]) => b - a)
+    .map(([year, photos]) => ({
+      year,
+      photos: photos.sort((a, b) => collator.compare(stem(a.key), stem(b.key)))
+    }));
 }
 
 function timeslots({ friday, saturday }) {
