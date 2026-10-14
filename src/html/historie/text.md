@@ -25,6 +25,8 @@ The Subways, Tata Bojs, Pokáč, Skyline, Mucha, Fast Food Orchestra, I Love You
 <lite-youtube videoid="ugo-XkJv448" params="hl=cs&amp;modestbranding=1"
   title="Aftermovie Studnice Fest 2025" class="responsive"></lite-youtube>
 
+[Fotogalerie ročníku 2025 →](/galerie/2025/)
+
 {{ bands(history[2025]) }}
 
 ### Studnice Fest 2024
@@ -34,6 +36,8 @@ Vypsaná fiXa, N.O.H.A., Mydy, Lenny, Prago Union, Ventolin, Imodium, Xavier Bau
 
 - Osmnáctý ročník spojil návraty stálic Studnice s výraznými jmény napříč rockem, elektronikou i hip hopem.
 - Na hlavní scéně se potkali Vypsaná fiXa, N.O.H.A., Mydy a Lenny.
+
+[Fotogalerie ročníku 2024 →](/galerie/2024/)
 
 ### Studnice Fest 2023
 Termín: 28.–29. 7.
@@ -51,6 +55,8 @@ Vypsaná fiXa, Gaia Mesiah, N.O.H.A., Sto zvířat, Kapitán Demo, Zrní, Ventol
 - Ročník nabídl jednu z nejpestřejších sestav – od Vypsané fiXy a Gaia Mesiah přes N.O.H.A. až po Kapitána Demo.
 - Do Cihelky se vrátily také kapely Sto zvířat, Zrní, Vltava a Fast Food Orchestra.
 
+[Fotogalerie ročníku 2022 →](/galerie/2022/)
+
 ### Studnice Fest 2021
 Termín: 30.–31. 7.
 
@@ -59,6 +65,8 @@ Tata Bojs, Visací zámek, Skyline, Midi Lidi, Hentai Corporation, Lenka Dusilov
 - Po nejisté covidové sezóně jsme se znovu potkali na plnohodnotné dvoudenní Studnici.
 - Program propojil Tata Bojs a Lenku Dusilovou s Visacím zámkem, Skyline, Midi Lidi a Hentai Corporation.
 
+[Fotogalerie ročníku 2021 →](/galerie/2021/)
+
 ### Studnice Fest 2020
 Termín: 31. 7.–1. 8.
 
@@ -66,6 +74,8 @@ Pokáč, Vypsaná fiXa, Monkey Business, Gaia Mesiah, Skyline, The Atavists, Kur
 
 - Navzdory covidovým omezením se Studnice i v tomto komplikovaném létě uskutečnila.
 - Do lesa dorazili Pokáč, Vypsaná fiXa, Monkey Business, Gaia Mesiah i Skyline.
+
+[Fotogalerie ročníku 2020 →](/galerie/2020/)
 
 ### Studnice Fest 2019
 Termín: 2.–3. 8.
