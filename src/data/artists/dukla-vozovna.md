@@ -1,10 +1,10 @@
 ---
 image: dukla-vozovna.jpg
 
-# YouTube ID videa (z odkazu youtube.com/watch?v=…)
-video: wSSApXR-pgg
-# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
-spotify: https://open.spotify.com/album/3WOyNlJBZiSJFSFKmgWA0u
+# YouTube videa: ID z odkazu youtube.com/watch?v=… (první nejsledovanější, druhé novější)
+videos: ["wSSApXR-pgg", "c1Ty7azDHyY"]
+# Spotify – odkaz na profil interpreta (Sdílet → Kopírovat odkaz); přehrávač ukáže top skladby
+spotify: https://open.spotify.com/artist/4bDVwlWNaxn5syR7Si1DEa
 ---
 
 # Dukla Vozovna

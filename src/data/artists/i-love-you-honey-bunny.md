@@ -2,10 +2,10 @@
 image: i-love-you-honey-bunny.jpg
 genre: indie pop · rock
 origin: Praha
-# YouTube ID videa (z odkazu youtube.com/watch?v=…)
-video: e985Ksz6n7k
-# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
-spotify: https://open.spotify.com/track/4MVKQOQqPeOdzufk19CC5D
+# YouTube videa: ID z odkazu youtube.com/watch?v=… (první nejsledovanější, druhé novější)
+videos: ["BsDMteCTI5Y", "lNA-7oLVXaQ"]
+# Spotify – odkaz na profil interpreta (Sdílet → Kopírovat odkaz); přehrávač ukáže top skladby
+spotify: https://open.spotify.com/artist/76KsF7zmlGiwXMoxU6HOl9
 ---
 
 # I Love You Honey Bunny

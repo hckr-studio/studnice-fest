@@ -1,9 +1,9 @@
 ---
 image: rozalie.jpg
 genre: šanson · swing · jazz
-# YouTube ID videa (z odkazu youtube.com/watch?v=…)
-video: jPQnXEroLDY
-# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
+# YouTube videa: ID z odkazu youtube.com/watch?v=… (první nejsledovanější, druhé novější)
+videos: ["sxJdTI0c7FQ", "Q4T4bwrCTnk"]
+# Spotify – odkaz na profil interpreta (Sdílet → Kopírovat odkaz); přehrávač ukáže top skladby
 spotify: https://open.spotify.com/artist/0n7pn5aQRhP7rj5BjkbWju
 ---
 

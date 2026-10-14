@@ -1,10 +1,10 @@
 ---
 image: brixtn.jpg
 genre: indie-electro pop
-# YouTube ID videa (z odkazu youtube.com/watch?v=…)
-video: d4ZdH65RzyM
-# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
-spotify: https://open.spotify.com/track/4YYKyYZGPEheqyKlYYqhMT
+# YouTube videa: ID z odkazu youtube.com/watch?v=… (první nejsledovanější, druhé novější)
+videos: ["H2BcMyc9QwY", "lo_Y7KUdDyA"]
+# Spotify – odkaz na profil interpreta (Sdílet → Kopírovat odkaz); přehrávač ukáže top skladby
+spotify: https://open.spotify.com/artist/6PrQVyCdkVr354Ym1jVfZ1
 ---
 
 # Brixtn

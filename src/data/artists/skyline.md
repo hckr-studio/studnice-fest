@@ -1,10 +1,10 @@
 ---
 image: skyline2.jpg
 genre: elektro-rock
-# YouTube ID videa (z odkazu youtube.com/watch?v=…)
-video: KP-zFlixgrs
-# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
-spotify:
+# YouTube videa: ID z odkazu youtube.com/watch?v=… (první nejsledovanější, druhé novější)
+videos: ["OUaq8mrfSzk", "YSSlP6UPcHo"]
+# Spotify – odkaz na profil interpreta (Sdílet → Kopírovat odkaz); přehrávač ukáže top skladby
+spotify: https://open.spotify.com/artist/3LgjyPxp7w2Znrur7lfl0Q
 ---
 
 # Skyline

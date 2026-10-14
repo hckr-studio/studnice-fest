@@ -1,10 +1,10 @@
 ---
 image: pokac.jpg
 genre: písničkář
-# YouTube ID videa (z odkazu youtube.com/watch?v=…)
-video: lUrW_eHugjw
-# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
-spotify: https://open.spotify.com/track/46gXy9AQ6z0DXw29uCaEsB
+# YouTube videa: ID z odkazu youtube.com/watch?v=… (první nejsledovanější, druhé novější)
+videos: ["p3y4XQ4B4Vw", "iJNUTZO7WI4"]
+# Spotify – odkaz na profil interpreta (Sdílet → Kopírovat odkaz); přehrávač ukáže top skladby
+spotify: https://open.spotify.com/artist/5YmH8W9CJRTj4LKg6qyYtE
 ---
 
 # Pokáč

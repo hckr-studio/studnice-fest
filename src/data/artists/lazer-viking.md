@@ -1,10 +1,10 @@
 ---
 image: lazer-viking.jpg
 genre: one-man band
-# YouTube ID videa (z odkazu youtube.com/watch?v=…)
-video: TW36mGql20I
-# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
-spotify: https://open.spotify.com/track/47uf7tyrsmWt43D4lvwSHM
+# YouTube videa: ID z odkazu youtube.com/watch?v=… (první nejsledovanější, druhé novější)
+videos: ["UNf9Q56nL1Y", "9fQqDRnNWZU"]
+# Spotify – odkaz na profil interpreta (Sdílet → Kopírovat odkaz); přehrávač ukáže top skladby
+spotify: https://open.spotify.com/artist/5jnfd4fvvqHd77Wb8Rob9Q
 ---
 
 # Lazer Viking

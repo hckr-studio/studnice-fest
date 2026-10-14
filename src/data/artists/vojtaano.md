@@ -1,10 +1,10 @@
 ---
 image: vojtaano.jpg
 genre: písničkář · hip hop · reggae
-# YouTube ID videa (z odkazu youtube.com/watch?v=…)
-video: sCk6YpgcKYU
-# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
-spotify: https://open.spotify.com/track/5yJdUTxvzf0jhZICYqHIsN
+# YouTube videa: ID z odkazu youtube.com/watch?v=… (první nejsledovanější, druhé novější)
+videos: ["RoekL9RJdPo", "Hu9Md33qxk0"]
+# Spotify – odkaz na profil interpreta (Sdílet → Kopírovat odkaz); přehrávač ukáže top skladby
+spotify: https://open.spotify.com/artist/2wHicAG4gMIseKmYuPUcIw
 ---
 
 # Vojtaano

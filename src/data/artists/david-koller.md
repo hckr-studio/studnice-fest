@@ -1,10 +1,10 @@
 ---
 image: david-koller.jpg
 genre: rock
-# YouTube ID videa (z odkazu youtube.com/watch?v=…)
-video: G5Fa3kR6KOI
-# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
-spotify: https://open.spotify.com/album/0AQF0ufvq6YFHVsOnnArad
+# YouTube videa: ID z odkazu youtube.com/watch?v=… (první nejsledovanější, druhé novější)
+videos: ["Dc0khKo_egE", "HuThG1ndHes"]
+# Spotify – odkaz na profil interpreta (Sdílet → Kopírovat odkaz); přehrávač ukáže top skladby
+spotify: https://open.spotify.com/artist/5lq1tp9zahj157KpMyF8VQ
 ---
 
 # David Koller

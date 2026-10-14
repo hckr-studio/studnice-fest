@@ -1,9 +1,9 @@
 ---
 image: fast-food-orchestra.jpg
 genre: ska · reggae · hip hop
-# YouTube ID videa (z odkazu youtube.com/watch?v=…)
-video: rlAkWeVDxuU
-# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
+# YouTube videa: ID z odkazu youtube.com/watch?v=… (první nejsledovanější, druhé novější)
+videos: ["oU3ggAt_gQE", "2_YuoaB6_HQ"]
+# Spotify – odkaz na profil interpreta (Sdílet → Kopírovat odkaz); přehrávač ukáže top skladby
 spotify: https://open.spotify.com/artist/2EjBCwIB8BXPEdWQKTeEqN
 ---
 
