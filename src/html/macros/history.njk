@@ -32,3 +32,21 @@
           data-more="Zobrazit všechny ({{ items | length }})" data-less="Skrýt">Zobrazit všechny ({{ items | length }})</button>
 </div>
 {%- endmacro %}
+
+{#
+  Zjednodušený výpis vystupujících starších ročníků – jen jména jako štítky.
+  Kapely se stránkou s detailem jsou odkazy. label: volitelný nadpis řádku.
+#}
+{% macro bandList(items, label) -%}
+<div class="history-list">
+  <h4>{{ label or "Všichni vystupující" }}</h4>
+  <ul class="history-chips">
+    {%- for item in items -%}
+      {%- set slug = item.slug if item.slug else (item if item is string else "") -%}
+      {%- set artist = collections.artists[slug] if slug else null -%}
+      {%- set title = item.title or (artist.title if artist else item) -%}
+      <li>{% if artist and slug in artistPages %}<a href="/kapely/{{ slug }}/">{{ title | safe }}</a>{% else %}<span>{{ title | safe }}</span>{% endif %}</li>
+    {%- endfor -%}
+  </ul>
+</div>
+{%- endmacro %}

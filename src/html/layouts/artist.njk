@@ -27,17 +27,17 @@
 {% set image = collections.images["artists/" + artist.image] if artist.image else null %}
 {% set title = artist.title | striptags | replace("&amp;", "&") %}
 
-{# Ročníky: z historie (global.mjs history), z aktuálního ročníku a z „years“ v .md #}
+{# Ročníky: z historie (global.mjs history, i rozsahy „2008–2012“), z aktuálního ročníku a z „years“ v .md #}
 {% set playedYears = [] %}
 {% for year, items in history %}
   {% for item in items %}
-    {% if (item.slug or item) == slug and not (year | int) in playedYears %}
-      {% set playedYears = (playedYears.push(year | int), playedYears) %}
+    {% if (item.slug or item) == slug and not (year | string) in playedYears %}
+      {% set playedYears = (playedYears.push(year | string), playedYears) %}
     {% endif %}
   {% endfor %}
 {% endfor %}
 {% for year in artist.years or [] %}
-  {% if not year in playedYears %}{% set playedYears = (playedYears.push(year), playedYears) %}{% endif %}
+  {% if not (year | string) in playedYears %}{% set playedYears = (playedYears.push(year | string), playedYears) %}{% endif %}
 {% endfor %}
 {% set playedYears = playedYears | sort(true) %}
 {% set upcoming = slug in event.artists %}
@@ -394,10 +394,11 @@
 
         {% if playedYears.length %}
           <section class="artist__years">
-            <h3>Na Studnici</h3>
+            <h3>Na Studnici{% if playedYears.length > 1 %} <small>{{ playedYears.length }}×</small>{% endif %}</h3>
             <ul>
               {% for year in playedYears %}
-                <li><a href="/historie/#studnice-fest-{{ year }}">{{ year }}</a></li>
+                {% set y = year.slice(0, 4) | int %}
+                <li><a href="/historie/#studnice-fest-{{ '20042012' if (y >= 2004 and y <= 2012) else year }}">{{ year }}</a></li>
               {% endfor %}
             </ul>
           </section>

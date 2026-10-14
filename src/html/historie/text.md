@@ -1,4 +1,4 @@
-{% from "macros/history.njk" import bands with context %}
+{% from "macros/history.njk" import bands, bandList with context %}
 ### Studnice Fest 2026
 Termín: 23.–25. 7.
 
@@ -39,6 +39,8 @@ Vypsaná fiXa, N.O.H.A., Mydy, Lenny, Prago Union, Ventolin, Imodium, Xavier Bau
 
 [Fotogalerie ročníku 2024 →](/galerie/2024/)
 
+{{ bandList(history[2024]) }}
+
 ### Studnice Fest 2023
 Termín: 28.–29. 7.
 
@@ -46,6 +48,8 @@ Tata Bojs, Monkey Business, Mňága a Žďorp, Skyline, Gaia Mesiah, Letní kape
 
 - Sedmnáctý ročník přivezl do lesa Tata Bojs i Monkey Business.
 - K výrazným návratům patřili Mňága a Žďorp, Skyline a Gaia Mesiah.
+
+{{ bandList(history[2023]) }}
 
 ### Studnice Fest 2022
 Termín: 29.–30. 7.
@@ -57,6 +61,8 @@ Vypsaná fiXa, Gaia Mesiah, N.O.H.A., Sto zvířat, Kapitán Demo, Zrní, Ventol
 
 [Fotogalerie ročníku 2022 →](/galerie/2022/)
 
+{{ bandList(history[2022]) }}
+
 ### Studnice Fest 2021
 Termín: 30.–31. 7.
 
@@ -66,6 +72,8 @@ Tata Bojs, Visací zámek, Skyline, Midi Lidi, Hentai Corporation, Lenka Dusilov
 - Program propojil Tata Bojs a Lenku Dusilovou s Visacím zámkem, Skyline, Midi Lidi a Hentai Corporation.
 
 [Fotogalerie ročníku 2021 →](/galerie/2021/)
+
+{{ bandList(history[2021]) }}
 
 ### Studnice Fest 2020
 Termín: 31. 7.–1. 8.
@@ -77,6 +85,8 @@ Pokáč, Vypsaná fiXa, Monkey Business, Gaia Mesiah, Skyline, The Atavists, Kur
 
 [Fotogalerie ročníku 2020 →](/galerie/2020/)
 
+{{ bandList(history[2020]) }}
+
 ### Studnice Fest 2019
 Termín: 2.–3. 8.
 
@@ -84,6 +94,8 @@ Wohnout, Pipes and Pints, Skyline, Kapitán Demo, Jiří Schmitzer, Ventolin, Ci
 
 - Třináctý ročník přivezl Wohnout, Pipes and Pints a Kapitána Demo.
 - Vedle velkých koncertů dostali prostor Jiří Schmitzer, Ventolin, Circus Problem a další žánrově pestrá jména.
+
+{{ bandList(history[2019]) }}
 
 ### Studnice Fest 2018
 Termín: 3.–4. 8.
@@ -93,6 +105,8 @@ Tata Bojs, Mydy Rabycad, Michal Hrůza, Skyline, Poletíme?, Fast Food Orchestra
 - Tata Bojs, Mydy Rabycad a Michal Hrůza vystoupili na Studnici poprvé.
 - Novinkou byla samostatná dětská scéna, která rozšířila program pro rodiny s dětmi.
 
+{{ bandList(history[2018]) }}
+
 ### Studnice Fest 2017
 Termín: 4.–5. 8.
 
@@ -100,6 +114,9 @@ Buty, Skyline, Lenka Dusilová & Baromantika, Fast Food Orchestra, Xavier Baumax
 
 - Po pěti letech pauzy se Studnice Fest vrátil na tradiční místo v lesním areálu Cihelka.
 - Návratový ročník vedli Buty, Skyline a Lenka Dusilová & Baromantika.
+
+{{ bandList(history[2017]) }}
+
 ### Studnice Fest 2004–2012
 
 „Tak vy nám chcete přivézt do Hlinska nějaké punkáče!?“ Přesně takhle nás přivítal tehdejší šéf městské policie, když se dozvěděl, že se druhý ročník Studnice bude stěhovat do areálu Cihelka.
@@ -129,6 +146,15 @@ Následující roky přinesly další jména – Clou, Southpaw, Sunshine, Skyli
 Jenže festival není jen o krásných vzpomínkách. Počasí několikrát nepřálo, ekonomika byla čím dál náročnější a kolem roku 2010 jsme začali mít pocit, že se festival trochu točí v kruhu. Přibylo práce, ubylo času a v roce 2011 nám navíc někdo vykradl bar. Také jsme dostávali zpětnou vazbu, že pořád zveme ty samé kapely.
 
 Po devátém ročníku jsme se proto rozhodli, že Studnice 2012 bude poslední. Byla to krásná rozlučka. Když festival skončil, opravdu jsme nevěděli, jestli se ještě někdy vrátí. Dnes už víme, že to nebyl konec.
+
+<div class="history-older">
+<p class="history-older__title">Kdo u nás tehdy hrál <small>(výpis zatím není kompletní)</small></p>
+{{ bandList(history[2004], "2004") }}
+{{ bandList(history[2005], "2005") }}
+{{ bandList(history[2006], "2006") }}
+{{ bandList(history[2007], "2007") }}
+{{ bandList(history["2008–2012"], "2008–2012") }}
+</div>
 
 ### Studnice Fest 2003
 Termín: 12. 7.
