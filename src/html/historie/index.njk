@@ -146,16 +146,72 @@
       }
     }
 
-    .history-bands__item--more {
-      background-color: transparent;
-      border: 2px dashed var(--accent-color);
+    /* Všichni vystupující – sbalené na pár řádků, plynulé rozbalení */
+    .history-lineup {
+      margin-block: 1.5em 2em;
 
-      span {
-        place-self: center stretch;
-        color: var(--accent-color);
-        background: none;
-        text-shadow: none;
-        text-transform: none;
+      h4 {
+        margin: 0 0 0.25em;
+        font: 700 1.1em var(--accented-font);
+      }
+
+      .history-bands {
+        margin-block: 0.5em 0;
+      }
+    }
+
+    .history-lineup__clip {
+      position: relative;
+      overflow: hidden;
+      transition: max-height 700ms cubic-bezier(.4, 0, .2, 1);
+
+      &::after {
+        content: "";
+        position: absolute;
+        inset: auto 0 0;
+        height: 70%;
+        background: linear-gradient(to bottom, transparent, var(--background-color));
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity 500ms ease;
+      }
+    }
+
+    .history-lineup.is-collapsible:not(.is-open) .history-lineup__clip::after {
+      opacity: 1;
+    }
+
+    .history-lineup__toggle {
+      display: block;
+      margin: 0.75em auto 0;
+      padding: 0.45em 1.2em;
+      font: 700 0.95em var(--accented-font);
+      color: var(--accent-color-darker);
+      background: transparent;
+      border: 2px solid var(--accent-color);
+      border-radius: 999px;
+      cursor: pointer;
+      transition: background-color 200ms, color 200ms;
+
+      &:hover,
+      &:focus-visible {
+        background-color: var(--accent-color);
+        color: #fff;
+      }
+
+      &::after {
+        content: "▾";
+        display: inline-block;
+        margin-inline-start: 0.4em;
+        transition: rotate 300ms;
+      }
+
+      &[aria-expanded="true"]::after {
+        rotate: 180deg;
+      }
+
+      &[hidden] {
+        display: none;
       }
     }
   </style>
