@@ -145,6 +145,66 @@
       margin-block: 0;
     }
 
+    /* Mobil: fotka zůstane volná, přes ni jen nadpis; úvodní text pod ní */
+    @media screen and (max-width: 480px) {
+      main > hgroup {
+        aspect-ratio: auto;
+        justify-content: flex-start;
+        padding: 0;
+        color: var(--text-color);
+        background: var(--background-color) none !important;
+        overflow: hidden;
+      }
+
+      main > hgroup::before {
+        position: static;
+        aspect-ratio: 1.91;
+        border-radius: var(--corner-radius) var(--corner-radius) 0 0;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.0) 45%),
+        url("{{ bgImage.public_id | cloudinaryUrl() }}");
+      }
+
+      main > hgroup > h2 {
+        margin-block-start: -1.45em;
+        padding-inline: 0.75rem;
+        color: #fff;
+        font-size: 1.9rem;
+        line-height: 1.3;
+      }
+
+      main > hgroup > p {
+        margin: 0;
+        padding: 0.85rem 1rem 1rem;
+        font-size: 0.95rem;
+        line-height: 1.5;
+      }
+    }
+
+    /* Výraznější oddělení jednotlivých ročníků */
+    .main article h3[id] {
+      margin-block: 2.25em 0.5em;
+      padding-block-start: 1.25em;
+      border-block-start: 3px solid color-mix(in srgb, var(--accent-color), transparent 65%);
+      font-size: 1.5em;
+      color: var(--accent-color-darker);
+    }
+
+    .main article h3[id]:first-child {
+      margin-block-start: 0.75em;
+      padding-block-start: 0;
+      border-block-start: 0;
+    }
+
+    .main article h3[id]:not(#studnice-fest-20042012) + p {
+      display: inline-block;
+      margin-block: 0 0.5em;
+      padding: 0.2em 0.75em;
+      border-radius: 999px;
+      background-color: var(--blue-background-color);
+      font-weight: 600;
+      font-size: 0.95em;
+    }
+
     /* Kapely ročníku – zmenšená obdoba karet z hlavní stránky */
     .history-bands {
       list-style: none;
