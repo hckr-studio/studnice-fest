@@ -819,6 +819,12 @@ section p {
       border: 1px solid var(--accent3-color);
     }
 
+    /* odkaz na detail kapely – nemění rozložení dlaždice */
+    .artists-list__link {
+      display: contents;
+      text-decoration: none;
+    }
+
     &[data-level="1"] {
       --colspan: 2;
     }

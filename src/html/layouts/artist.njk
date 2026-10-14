@@ -1,0 +1,403 @@
+{% extends "layouts/master.njk" %}
+{#
+  Detail kapely. Stránky src/html/kapely/<slug>/index.njk generuje
+  config/artist-registry.mjs a nastaví v nich `slug`.
+
+  Data bere ze src/data/artists/<slug>.md – vše kromě jména a fotky je volitelné:
+    ---
+    image: dub-fx.jpg
+    genre: beatbox, dub          # štítek pod jménem
+    origin: Austrálie            # odkud kapela je
+    years: [2018, 2022]          # starší ročníky, které nejsou v history (global.mjs)
+    video: sK-eE2CCUv4           # YouTube ID
+    spotify: 2CIMQHirSU0MQqyYHq0eOx   # Spotify ID interpreta (nebo odkaz na open.spotify.com/artist/…)
+    links:
+      web: https://…
+      instagram: https://…
+      facebook: https://…
+      spotify: https://…
+      youtube: https://…
+      bandcamp: https://…
+    ---
+    # Jméno kapely
+    Popis kapely v markdownu…
+#}
+{% set artist = collections.artists[slug] %}
+{% set image = collections.images["artists/" + artist.image] if artist.image else null %}
+{% set title = artist.title | striptags | replace("&amp;", "&") %}
+
+{# Ročníky: z historie (global.mjs history), z aktuálního ročníku a z „years“ v .md #}
+{% set playedYears = [] %}
+{% for year, items in history %}
+  {% for item in items %}
+    {% if (item.slug or item) == slug and not (year | int) in playedYears %}
+      {% set playedYears = (playedYears.push(year | int), playedYears) %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+{% for year in artist.years or [] %}
+  {% if not year in playedYears %}{% set playedYears = (playedYears.push(year), playedYears) %}{% endif %}
+{% endfor %}
+{% set playedYears = playedYears | sort(true) %}
+{% set upcoming = slug in event.artists %}
+{% set spotifyId = (artist.spotify or (artist.links.spotify if artist.links else "") or "") | replace("https://open.spotify.com/artist/", "") | replace("http://open.spotify.com/artist/", "") %}
+{% set spotifyId = spotifyId.split("?")[0] if spotifyId else "" %}
+{% set upcomingYear = event.startDate.getFullYear() %}
+
+{# Další kapely: z nejnovějšího ročníku, kde kapela hrála (nebo z chystaného) #}
+{% set relatedSource = event.artists if upcoming else (history[playedYears[0]] if playedYears.length else []) %}
+{% set related = [] %}
+{% for item in relatedSource %}
+  {% set s = item.slug or item %}
+  {% set a = collections.artists[s] %}
+  {% if s != slug and a and a.image and s in artistPages and related.length < 6 %}
+    {% set related = (related.push(a), related) %}
+  {% endif %}
+{% endfor %}
+
+{% set linkLabels = {
+  web: "Web",
+  instagram: "Instagram",
+  facebook: "Facebook",
+  spotify: "Spotify",
+  youtube: "YouTube",
+  bandcamp: "Bandcamp",
+  soundcloud: "SoundCloud",
+  tiktok: "TikTok"
+} %}
+
+{% block head_stylesheets %}
+  <style>
+    main {
+      row-gap: 2em;
+    }
+
+    .artist-back {
+      margin: 0;
+      font: 700 1em var(--accented-font);
+
+      a {
+        color: var(--accent-color-darker);
+      }
+    }
+
+    .artist {
+      display: grid;
+      gap: clamp(1rem, 0.5rem + 2vw, 2rem);
+      background-color: var(--background-color);
+      border-radius: var(--corner-radius);
+      padding: clamp(1rem, 0.5rem + 2vw, 2rem);
+
+      @media screen and (min-width: 801px) {
+        grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+        align-items: start;
+      }
+    }
+
+    .artist__photo {
+      margin: 0;
+
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1;
+        object-fit: cover;
+        border-radius: var(--corner-radius);
+        background: var(--blue-background-color);
+      }
+
+      @media screen and (min-width: 801px) {
+        position: sticky;
+        top: 6em;
+      }
+    }
+
+    .artist__head {
+      h2 {
+        margin: 0;
+        font-size: clamp(2rem, 1.4rem + 2.5vw, 3.25rem);
+        line-height: 1.05;
+        text-wrap: balance;
+      }
+    }
+
+    .artist__meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4em;
+      margin: 0.75em 0 0;
+      padding: 0;
+      list-style: none;
+
+      li {
+        padding: 0.2em 0.75em;
+        border-radius: 999px;
+        background-color: var(--blue-background-color);
+        font-weight: 600;
+        font-size: 0.95em;
+      }
+    }
+
+    .artist__upcoming {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5em;
+      margin-block-start: 1em;
+      padding: 0.5em 1em;
+      border-radius: var(--corner-radius);
+      background-color: var(--accent-color);
+      color: #fff;
+      font: 700 1.05em var(--accented-font);
+      text-decoration: none;
+
+      &:hover,
+      &:focus-visible {
+        background-color: var(--accent-color-darker);
+      }
+    }
+
+    .artist__years {
+      margin-block-start: 1.25em;
+
+      h3 {
+        margin: 0 0 0.4em;
+        font: 700 1em var(--accented-font);
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        color: var(--accent-color-darker);
+      }
+
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4em;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      a {
+        display: block;
+        padding: 0.3em 0.85em;
+        border: 2px solid var(--accent-color);
+        border-radius: 999px;
+        color: var(--accent-color-darker);
+        font: 700 1em var(--accented-font);
+        text-decoration: none;
+
+        &:hover,
+        &:focus-visible {
+          background-color: var(--accent-color);
+          color: #fff;
+        }
+      }
+    }
+
+    .artist__body {
+      margin-block-start: 1.25em;
+
+      > :first-child {
+        margin-block-start: 0;
+      }
+    }
+
+    .artist__video {
+      margin-block-start: 1.5em;
+      border-radius: var(--corner-radius);
+      overflow: hidden;
+    }
+
+    .artist__spotify {
+      display: block;
+      width: 100%;
+      height: 352px;
+      margin-block-start: 1.5em;
+      border: 0;
+      border-radius: 12px;
+    }
+
+    .artist__links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5em;
+      margin: 1.5em 0 0;
+      padding: 0;
+      list-style: none;
+
+      a {
+        display: block;
+        padding: 0.45em 1.1em;
+        border-radius: 999px;
+        background-color: var(--dark-blue-background-color);
+        color: #fff;
+        font: 700 0.95em var(--accented-font);
+        text-decoration: none;
+
+        &:hover,
+        &:focus-visible {
+          background-color: var(--accent-color-darker);
+        }
+
+        &::after {
+          content: " ↗";
+        }
+      }
+    }
+
+    .artist-related {
+      background-color: var(--background-color);
+      border-radius: var(--corner-radius);
+      padding: clamp(1rem, 0.5rem + 2vw, 2rem);
+
+      h3 {
+        margin: 0 0 0.75em;
+      }
+
+      ul {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+
+        @media screen and (min-width: 801px) {
+          grid-template-columns: repeat(6, minmax(0, 1fr));
+        }
+        gap: 0.6em;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      a {
+        position: relative;
+        display: grid;
+        grid-template: minmax(0, 1fr) / minmax(0, 1fr);
+        aspect-ratio: 1;
+        overflow: hidden;
+        border-radius: var(--corner-radius);
+        background: var(--dark-blue-background-color);
+        text-decoration: none;
+
+        img {
+          grid-area: 1/1;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: scale 400ms ease;
+        }
+
+        span {
+          grid-area: 1/1;
+          place-self: end stretch;
+          z-index: 1;
+          padding: 1.5em 0.4em 0.45em;
+          color: #fff;
+          font: 700 clamp(0.7rem, 0.6rem + 0.3vw, 0.85rem)/1.15 var(--accented-font);
+          text-align: center;
+          text-transform: uppercase;
+          text-wrap: balance;
+          background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.6));
+        }
+
+        &:hover img,
+        &:focus-visible img {
+          scale: 1.06;
+        }
+      }
+    }
+  </style>
+{% endblock %}
+
+{% block content %}
+  <main>
+    <p class="artist-back">
+      <a href="{{ '/#vystoupi' if upcoming else '/historie/' }}">← {{ "Kdo vystoupí" if upcoming else "Historie" }}</a>
+    </p>
+
+    <article class="artist">
+      {% if image %}
+        <figure class="artist__photo">
+          <img alt="{{ title }}" width="600" height="600"
+               {% if image.metadata.lqip %}style="--lqip:{{ image.metadata.lqip }}"{% endif %}
+               sizes="(min-width: 801px) 520px, 92vw"
+               src="{{ image.public_id | cloudinaryUrl(ar=1, crop="fill", gravity="auto", width=1000) }}">
+        </figure>
+      {% endif %}
+
+      <div>
+        <header class="artist__head">
+          <h2>{{ artist.title | safe }}</h2>
+          {% if artist.genre or artist.origin %}
+            <ul class="artist__meta">
+              {% if artist.genre %}<li>{{ artist.genre }}</li>{% endif %}
+              {% if artist.origin %}<li>{{ artist.origin }}</li>{% endif %}
+            </ul>
+          {% endif %}
+          {% if upcoming %}
+            <a class="artist__upcoming" href="/#vstupenky">Hraje na Studnici {{ upcomingYear }} – vstupenky →</a>
+          {% endif %}
+        </header>
+
+        {% if playedYears.length %}
+          <section class="artist__years">
+            <h3>Na Studnici</h3>
+            <ul>
+              {% for year in playedYears %}
+                <li><a href="/historie/#studnice-fest-{{ year }}">{{ year }}</a></li>
+              {% endfor %}
+            </ul>
+          </section>
+        {% endif %}
+
+        {% if artist.body %}
+          <div class="artist__body">{{ artist.body | safe }}</div>
+        {% endif %}
+
+        {% if artist.video %}
+          <div class="artist__video">
+            <lite-youtube videoid="{{ artist.video }}" params="hl=cs&amp;modestbranding=1"
+                          title="{{ title }}" class="responsive"></lite-youtube>
+          </div>
+        {% endif %}
+
+        {% if spotifyId %}
+          <iframe class="artist__spotify" title="{{ title }} na Spotify" loading="lazy"
+                  src="https://open.spotify.com/embed/artist/{{ spotifyId }}?utm_source=generator&amp;theme=0"
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        {% endif %}
+
+        {% if artist.links %}
+          <ul class="artist__links">
+            {% for key, url in artist.links %}
+              <li><a href="{{ url }}" rel="noopener" target="_blank">{{ linkLabels[key] or key }}</a></li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
+    </article>
+
+    {% if related.length %}
+      <section class="artist-related">
+        <h3>{{ "Na Studnici " ~ upcomingYear ~ " dále hrají" if upcoming else "Na Studnici " ~ playedYears[0] ~ " hráli také" }}</h3>
+        <ul>
+          {% for a in related %}
+            {% set img = collections.images["artists/" + a.image] %}
+            <li>
+              <a href="/kapely/{{ a.slug }}/">
+                <img alt="" width="180" height="180" loading="lazy"
+                     {% if img.metadata.lqip %}style="--lqip:{{ img.metadata.lqip }}"{% endif %}
+                     src="{{ img.public_id | cloudinaryUrl(ar=1, crop="fill", gravity="auto", width=360) }}">
+                <span>{{ a.title | safe }}</span>
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+  </main>
+{% endblock %}
+
+{% block scripts %}
+  {% if artist.video %}
+    <script type="module" src="{{ "kapela.js" | assetUrl("esm") }}"></script>
+  {% endif %}
+{% endblock %}

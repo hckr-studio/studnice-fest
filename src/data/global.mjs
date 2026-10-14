@@ -1,4 +1,4 @@
-export default {
+const data = {
   title: "STUDNICE FEST 2027",
   analytics: {
     gtmID: "G-1V8Y40118V"
@@ -277,6 +277,19 @@ export default {
     return news.filter(({ url }) => !excluded.has(url));
   }
 };
+
+// Kapely, které mají stránku s detailem (/kapely/<slug>/): poslední dva
+// ročníky z `history` + chystaný ročník (event.artists).
+data.artistPages = (() => {
+  const years = Object.keys(data.history).map(Number).sort((a, b) => b - a);
+  const slugs = new Set(data.event.artists);
+  for (const year of years.slice(0, 2)) {
+    for (const item of data.history[year]) slugs.add(item.slug ?? item);
+  }
+  return [...slugs];
+})();
+
+export default data;
 
 // Den a měsíc festivalu v pražském čase. Konec akce je v noci po posledním
 // dni, proto se od něj odečte pár hodin, aby vyšel skutečný poslední den

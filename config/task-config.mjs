@@ -2,6 +2,7 @@ import { texyTypography } from "@hckr_/blendid/texy";
 import { take } from "@thi.ng/transducers";
 import { defineLqipProperty } from "@hckr_/blendid/lib/cloudinary.mjs";
 import pathConfig from "./path-config.mjs";
+import { ArtistRegistry } from "./artist-registry.mjs";
 import { GalleryRegistry } from "./gallery-registry.mjs";
 import { NewsRegistry } from "./news-registry.mjs";
 
@@ -81,15 +82,16 @@ export default {
 
   registries: [
     new NewsRegistry({}, pathConfig),
-    new GalleryRegistry({}, pathConfig)
+    new GalleryRegistry({}, pathConfig),
+    new ArtistRegistry({}, pathConfig)
   ],
 
   additionalTasks: {
     development: {
-      prebuild: ["prepare-data", "prepare-galleries"]
+      prebuild: ["prepare-data", "prepare-galleries", "prepare-artists"]
     },
     production: {
-      prebuild: ["prepare-data", "prepare-galleries"]
+      prebuild: ["prepare-data", "prepare-galleries", "prepare-artists"]
     }
   },
 

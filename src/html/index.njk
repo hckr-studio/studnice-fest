@@ -174,11 +174,13 @@
         {% set metadata =  image.metadata %}
         {% set ts = tss.get(key) %}
         <article class="artists-list__item" id="{{ key }}" data-level="{{ artist.heroLevel }}">
+          <a {% if key in artistPages %}href="/kapely/{{ key }}/" {% endif %}class="artists-list__link">
           <h3>{{ artist.title | safe }}</h3>
           <img src="{{ image.public_id | cloudinaryUrl(ar=1,crop="fill",gravity="auto") }}" alt="{{ artist.title }}"
                style="{% if metadata.lqip %}--lqip:{{ metadata.lqip }}{% endif %}"
                width="296" height="296" loading="lazy"
                sizes="(min-width: 840px) 296px, 88.43vw">
+          </a>
         </article>
       {% endfor %}
       {% if lineup.moreSoon %}

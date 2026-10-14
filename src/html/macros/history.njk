@@ -16,12 +16,14 @@
         {%- set title = item.title or (artist.title if artist else item) -%}
         {%- set image = collections.images["artists/" + artist.image] if (artist and artist.image) else null -%}
         <li class="history-bands__item{% if not image %} history-bands__item--text{% endif %}">
+          {%- if artist and slug in artistPages %}<a href="/kapely/{{ slug }}/">{% endif -%}
           {%- if image -%}
             <img src="{{ image.public_id | cloudinaryUrl(ar=1,crop="fill",gravity="auto") }}" alt=""
                  {%- if image.metadata.lqip %} style="--lqip:{{ image.metadata.lqip }}"{% endif %}
                  width="160" height="160" loading="lazy" sizes="(min-width: 840px) 160px, 30vw">
           {%- endif -%}
           <span>{{ title | safe }}</span>
+          {%- if artist and slug in artistPages %}</a>{% endif -%}
         </li>
       {%- endfor -%}
     </ul>
