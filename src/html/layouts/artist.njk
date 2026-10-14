@@ -151,7 +151,6 @@
       display: inline-flex;
       align-items: center;
       gap: 0.5em;
-      margin-block-start: 1em;
       padding: 0.5em 1em;
       border-radius: var(--corner-radius);
       background-color: var(--accent-color);
@@ -163,6 +162,12 @@
       &:focus-visible {
         background-color: var(--accent-color-darker);
       }
+    }
+
+    .artist__tickets {
+      margin: 1.75em 0 0;
+      padding-block-start: 1.25em;
+      border-block-start: 1px solid var(--blue-background-color);
     }
 
     .artist__years {
@@ -344,9 +349,6 @@
               {% if artist.origin %}<li>{{ artist.origin }}</li>{% endif %}
             </ul>
           {% endif %}
-          {% if upcoming %}
-            <a class="artist__upcoming" href="/#vstupenky">Hraje na Studnici {{ upcomingYear }} – vstupenky →</a>
-          {% endif %}
         </header>
 
         {% if playedYears.length %}
@@ -383,6 +385,12 @@
               <li><a href="{{ url }}" rel="noopener" target="_blank">{{ linkLabels[key] or key }}</a></li>
             {% endfor %}
           </ul>
+        {% endif %}
+
+        {% if upcoming %}
+          <p class="artist__tickets">
+            <a class="artist__upcoming" href="/#vstupenky">Hraje na Studnici {{ upcomingYear }} – vstupenky →</a>
+          </p>
         {% endif %}
       </div>
     </article>
