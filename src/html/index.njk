@@ -82,33 +82,6 @@
         {% endif %}
       </section>
     {% endif %}
-    <section class="news-list" id="novinky">
-      <header id="news">
-        <h2>Novinky</h2>
-      </header>
-      {% for post in filterNews(collections.news) | take(5) %}
-        {% set image =  collections.images[post.image] %}
-        {% set metadata =  image.metadata %}
-        <article>
-          <a href="/novinky/#{{ post.time }}">
-            <time datetime="{{ post.time }}">{{ post.time | formatDate }}</time>
-            {% if image %}
-              <img alt="" width="462" height="462" loading="lazy"
-                   style="{% if metadata.lqip %}--lqip:{{ metadata.lqip }}{% endif %}"
-                   sizes="(min-width: 840px) 462px, 88.43vw"
-                   src="{{ image["public_id"] | cloudinaryUrl({ crop: 'fill', ar: 1.0 }) }}">
-            {% endif %}
-          </a>
-          {% markdown %}
-            {{ post.text | removeHashtags }}
-
-            {% if post.likes %}Líbilo se&nbsp;
-              <data value="{{ post.likes }}">{{ post.likes }}×</data>{% endif %}
-          {% endmarkdown %}
-        </article>
-      {% endfor %}
-      <a href="/novinky/" class="cta">Zobrazit všechny novinky</a>
-    </section>
     {% if info.visible %}
       <section id="informace-a-upozorneni">
         <header>
@@ -186,6 +159,33 @@
       {% if lineup.moreSoon %}
         <p class="artists-list__more">{{ lineup.moreSoon }}</p>
       {% endif %}
+    </section>
+    <section class="news-list" id="novinky">
+      <header id="news">
+        <h2>Novinky</h2>
+      </header>
+      {% for post in filterNews(collections.news) | take(5) %}
+        {% set image =  collections.images[post.image] %}
+        {% set metadata =  image.metadata %}
+        <article>
+          <a href="/novinky/#{{ post.time }}">
+            <time datetime="{{ post.time }}">{{ post.time | formatDate }}</time>
+            {% if image %}
+              <img alt="" width="462" height="462" loading="lazy"
+                   style="{% if metadata.lqip %}--lqip:{{ metadata.lqip }}{% endif %}"
+                   sizes="(min-width: 840px) 462px, 88.43vw"
+                   src="{{ image["public_id"] | cloudinaryUrl({ crop: 'fill', ar: 1.0 }) }}">
+            {% endif %}
+          </a>
+          {% markdown %}
+            {{ post.text | removeHashtags }}
+
+            {% if post.likes %}Líbilo se&nbsp;
+              <data value="{{ post.likes }}">{{ post.likes }}×</data>{% endif %}
+          {% endmarkdown %}
+        </article>
+      {% endfor %}
+      <a href="/novinky/" class="cta">Zobrazit všechny novinky</a>
     </section>
     <section id="vstupenky">
       <header id="info">
