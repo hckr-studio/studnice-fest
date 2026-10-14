@@ -1,10 +1,10 @@
 ---
 image: jamaron.avif
 genre: rock
-# YouTube ID videa (z odkazu youtube.com/watch?v=…)
-video: AoirnY3hPs4
-# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
-spotify: https://open.spotify.com/track/33hPhkh5eVJFkOAQpIay8p
+# YouTube videa: ID z odkazu youtube.com/watch?v=… (první nejsledovanější, druhé novější)
+videos: ["7YCmQwPJAS4", "2xgVo3ldrAQ"]
+# Spotify – odkaz na profil interpreta (Sdílet → Kopírovat odkaz); přehrávač ukáže top skladby
+spotify: https://open.spotify.com/artist/76AUHV7rkMOcbc8bArqTT2
 ---
 
 # Jamaron

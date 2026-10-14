@@ -2,10 +2,10 @@
 image: vypsana-fixa.jpg
 genre: punk rock
 origin: Pardubice
-# YouTube ID videa (z odkazu youtube.com/watch?v=…)
-video: HFk01SMsKKU
-# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
-spotify: https://open.spotify.com/track/1mBG5L4fiBOptJ1ZEl2Fiu
+# YouTube videa: ID z odkazu youtube.com/watch?v=… (první nejsledovanější, druhé novější)
+videos: ["ascEL_ZX60M", "y36wozohRCM"]
+# Spotify – odkaz na profil interpreta (Sdílet → Kopírovat odkaz); přehrávač ukáže top skladby
+spotify: https://open.spotify.com/artist/1sojChx5H9UtPIVnRgHDGz
 ---
 
 # Vypsaná fixa

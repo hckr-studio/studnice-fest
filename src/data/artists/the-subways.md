@@ -2,10 +2,10 @@
 image: the-subways.jpg
 genre: rock
 origin: Velká Británie
-# YouTube ID videa (z odkazu youtube.com/watch?v=…)
-video: wAQUsdw01IA
-# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
-spotify: https://open.spotify.com/track/4HEmdU9NP8dFvecaW1QpPr
+# YouTube videa: ID z odkazu youtube.com/watch?v=… (první nejsledovanější, druhé novější)
+videos: ["lLZvJ_rtZO8", "XhDFHVQ8cW0"]
+# Spotify – odkaz na profil interpreta (Sdílet → Kopírovat odkaz); přehrávač ukáže top skladby
+spotify: https://open.spotify.com/artist/4BntNFyiN3VGG4hhRRZt9d
 ---
 
 # The Subways

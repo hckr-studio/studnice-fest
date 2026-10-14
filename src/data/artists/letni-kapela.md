@@ -1,9 +1,9 @@
 ---
 image: letni-kapela.jpg
-# YouTube ID videa (z odkazu youtube.com/watch?v=…)
-video: 6E-aIblCXkM
-# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
-spotify: https://open.spotify.com/track/2qVZqukW8zxrvGKP7lMyxw
+# YouTube videa: ID z odkazu youtube.com/watch?v=… (první nejsledovanější, druhé novější)
+videos: ["OsDTE_oRPyg", "tD332pD2_9U"]
+# Spotify – odkaz na profil interpreta (Sdílet → Kopírovat odkaz); přehrávač ukáže top skladby
+spotify: https://open.spotify.com/artist/6u5MWNUZaFMjITbJOJfYF3
 ---
 
 # Letní Kapela

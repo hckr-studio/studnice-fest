@@ -1,10 +1,10 @@
 ---
 image: volant.jpg
 origin: Pardubice
-# YouTube ID videa (z odkazu youtube.com/watch?v=…)
-video: jO5Q46G9bzw
-# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
-spotify: https://open.spotify.com/track/6KTYsg4YGfYkwA5HdhMdDt
+# YouTube videa: ID z odkazu youtube.com/watch?v=… (první nejsledovanější, druhé novější)
+videos: ["Ll8B0d5mi9Y", "ppKoyg1k2TI"]
+# Spotify – odkaz na profil interpreta (Sdílet → Kopírovat odkaz); přehrávač ukáže top skladby
+spotify: https://open.spotify.com/artist/6rPwkqIhsHQuhIEatC6cL4
 ---
 
 # Volant

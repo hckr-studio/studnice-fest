@@ -1,9 +1,9 @@
 ---
 image: mr-moss.jpg
 genre: swing · jazz · rock · electro
-# YouTube ID videa (z odkazu youtube.com/watch?v=…)
-video: HYX4U7ZthZY
-# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
+# YouTube videa: ID z odkazu youtube.com/watch?v=… (první nejsledovanější, druhé novější)
+videos: ["PkyVle48tRo", "HYX4U7ZthZY"]
+# Spotify – odkaz na profil interpreta (Sdílet → Kopírovat odkaz); přehrávač ukáže top skladby
 spotify: https://open.spotify.com/artist/0GLPfmHCGujAHpsDt5xQkT
 ---
 

@@ -1,9 +1,9 @@
 ---
 image: zrni.jpg
-# YouTube ID videa (z odkazu youtube.com/watch?v=…)
-video: OwHD8gaSyzs
-# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
-spotify: https://open.spotify.com/track/1JZPSjM4HLHh8MCA0jZwHv
+# YouTube videa: ID z odkazu youtube.com/watch?v=… (první nejsledovanější, druhé novější)
+videos: ["l1iDFFHO93w", "gd5hNUQDuyQ"]
+# Spotify – odkaz na profil interpreta (Sdílet → Kopírovat odkaz); přehrávač ukáže top skladby
+spotify: https://open.spotify.com/artist/25lSouuskuxVFXdJvUhkJX
 ---
 
 # Zrní

@@ -2,10 +2,10 @@
 image: prago-union-26.jpg
 genre: hip hop
 origin: Praha
-# YouTube ID videa (z odkazu youtube.com/watch?v=…)
-video: riXHYLhQYNI
-# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
-spotify: https://open.spotify.com/album/5P5xKxSN2OT8Nbe8mjXld5
+# YouTube videa: ID z odkazu youtube.com/watch?v=… (první nejsledovanější, druhé novější)
+videos: ["zykjQzBflvQ", "_4SXenAiq6Q"]
+# Spotify – odkaz na profil interpreta (Sdílet → Kopírovat odkaz); přehrávač ukáže top skladby
+spotify: https://open.spotify.com/artist/7B87nnff5Kbl42pSlOjpbm
 ---
 
 # Prago Union

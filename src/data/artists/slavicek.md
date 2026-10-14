@@ -1,9 +1,9 @@
 ---
 image: slavicek.jpg
 genre: pop
-# YouTube ID videa (z odkazu youtube.com/watch?v=…)
-video: ozv1cEtz3Y4
-# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
+# YouTube videa: ID z odkazu youtube.com/watch?v=… (první nejsledovanější, druhé novější)
+videos: ["77hcTXXRgkE", "OKYhUcl0uT0"]
+# Spotify – odkaz na profil interpreta (Sdílet → Kopírovat odkaz); přehrávač ukáže top skladby
 spotify: https://open.spotify.com/artist/5GfK8A8u8ruvdFiDFS1X9l
 ---
 

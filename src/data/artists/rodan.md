@@ -1,10 +1,10 @@
 ---
 image: rodan.jpg
 genre: pop · písničkář
-# YouTube ID videa (z odkazu youtube.com/watch?v=…)
-video: ACuGZwYzp7A
-# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
-spotify:
+# YouTube videa: ID z odkazu youtube.com/watch?v=… (první nejsledovanější, druhé novější)
+videos: ["ACuGZwYzp7A"]
+# Spotify – odkaz na profil interpreta (Sdílet → Kopírovat odkaz); přehrávač ukáže top skladby
+spotify: https://open.spotify.com/artist/7iVzqVToZjxMHsG7XD7boW
 ---
 
 # Rodan

@@ -1,4 +1,5 @@
 {% extends "layouts/master.njk" %}
+{% from "macros/social-icon.njk" import socialIcon %}
 {#
   Detail kapely. Stránky src/html/kapely/<slug>/index.njk generuje
   config/artist-registry.mjs a nastaví v nich `slug`.
@@ -9,7 +10,7 @@
     genre: beatbox, dub          # štítek pod jménem
     origin: Austrálie            # odkud kapela je
     years: [2018, 2022]          # starší ročníky, které nejsou v history (global.mjs)
-    video: sK-eE2CCUv4           # YouTube ID
+    videos: [sK-eE2CCUv4, …]     # YouTube ID videí (1–2; staré pole video: funguje taky)
     spotify: https://open.spotify.com/artist/…   # interpret, album, skladba nebo playlist
     links:
       web: https://…
@@ -51,6 +52,16 @@
   {% set spotifyPath = "artist/" ~ sp %}
 {% endif %}
 {% set upcomingYear = event.startDate.getFullYear() %}
+{% set videos = artist.videos or ([artist.video] if artist.video else []) %}
+
+{# Odkazy na sítě: z „links“ v .md, Spotify doplní z profilu interpreta #}
+{% set socials = [] %}
+{% for key, url in artist.links or {} %}
+  {% set socials = (socials.push({ key: key, url: url }), socials) %}
+{% endfor %}
+{% if spotifyPath.startsWith("artist/") and not (artist.links and artist.links.spotify) %}
+  {% set socials = (socials.push({ key: "spotify", url: "https://open.spotify.com/" ~ spotifyPath }), socials) %}
+{% endif %}
 
 {# Další kapely: z nejnovějšího ročníku, kde kapela hrála (nebo z chystaného) #}
 {% set relatedSource = event.artists if upcoming else (history[playedYears[0]] if playedYears.length else []) %}
@@ -81,7 +92,7 @@
     }
 
     .artist-back {
-      margin: 0;
+      margin: 0 0 0.75em;
       font: 700 1em var(--accented-font);
 
       a {
@@ -104,6 +115,16 @@
 
     .artist__photo {
       margin: 0;
+
+      /* mobil: fotka přes celou šířku karty nahoře */
+      @media screen and (max-width: 800px) {
+        margin: calc(-1 * clamp(1rem, 0.5rem + 2vw, 2rem)) calc(-1 * clamp(1rem, 0.5rem + 2vw, 2rem)) 0;
+
+        img {
+          aspect-ratio: 5 / 4;
+          border-radius: var(--corner-radius) var(--corner-radius) 0 0;
+        }
+      }
 
       img {
         display: block;
@@ -165,9 +186,48 @@
     }
 
     .artist__tickets {
+      display: grid;
+      justify-items: start;
+      gap: 0.6em;
       margin: 1.75em 0 0;
       padding-block-start: 1.25em;
       border-block-start: 1px solid var(--blue-background-color);
+
+      span {
+        font: 700 1.1em var(--accented-font);
+      }
+    }
+
+    .artist__social {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5em;
+      margin: 1em 0 0;
+      padding: 0;
+      list-style: none;
+
+      a {
+        display: grid;
+        place-items: center;
+        width: 2.6rem;
+        height: 2.6rem;
+        border-radius: 50%;
+        background-color: var(--dark-blue-background-color);
+        color: #fff;
+        font: 700 1.1rem var(--accented-font);
+        text-decoration: none;
+        transition: background-color 200ms;
+
+        &:hover,
+        &:focus-visible {
+          background-color: var(--accent-color-darker);
+        }
+      }
+
+      svg {
+        width: 1.3rem;
+        height: 1.3rem;
+      }
     }
 
     .artist__years {
@@ -234,34 +294,6 @@
       height: 152px;
     }
 
-    .artist__links {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5em;
-      margin: 1.5em 0 0;
-      padding: 0;
-      list-style: none;
-
-      a {
-        display: block;
-        padding: 0.45em 1.1em;
-        border-radius: 999px;
-        background-color: var(--dark-blue-background-color);
-        color: #fff;
-        font: 700 0.95em var(--accented-font);
-        text-decoration: none;
-
-        &:hover,
-        &:focus-visible {
-          background-color: var(--accent-color-darker);
-        }
-
-        &::after {
-          content: " ↗";
-        }
-      }
-    }
-
     .artist-related {
       background-color: var(--background-color);
       border-radius: var(--corner-radius);
@@ -326,21 +358,21 @@
 
 {% block content %}
   <main>
-    <p class="artist-back">
-      <a href="{{ '/#vystoupi' if upcoming else '/historie/' }}">← {{ "Kdo vystoupí" if upcoming else "Historie" }}</a>
-    </p>
-
     <article class="artist">
       {% if image %}
         <figure class="artist__photo">
           <img alt="{{ title }}" width="600" height="600"
                {% if image.metadata.lqip %}style="--lqip:{{ image.metadata.lqip }}"{% endif %}
-               sizes="(min-width: 801px) 520px, 92vw"
+               sizes="(min-width: 801px) 520px, 100vw"
                src="{{ image.public_id | cloudinaryUrl(ar=1, crop="fill", gravity="auto", width=1000) }}">
         </figure>
       {% endif %}
 
-      <div>
+      <div class="artist__content">
+        <p class="artist-back">
+          <a href="{{ '/#vystoupi' if upcoming else '/historie/' }}">← {{ "Zpět na Kdo vystoupí" if upcoming else "Zpět na Historii" }}</a>
+        </p>
+
         <header class="artist__head">
           <h2>{{ artist.title | safe }}</h2>
           {% if artist.genre or artist.origin %}
@@ -350,6 +382,15 @@
             </ul>
           {% endif %}
         </header>
+
+        {% if socials.length %}
+          <ul class="artist__social">
+            {% for s in socials %}
+              <li><a href="{{ s.url }}" rel="noopener" target="_blank" title="{{ linkLabels[s.key] or s.key }}"
+                     aria-label="{{ title }} – {{ linkLabels[s.key] or s.key }}">{{ socialIcon(s.key) }}</a></li>
+            {% endfor %}
+          </ul>
+        {% endif %}
 
         {% if playedYears.length %}
           <section class="artist__years">
@@ -366,29 +407,22 @@
           <div class="artist__body">{{ artist.body | safe }}</div>
         {% endif %}
 
-        {% if artist.video %}
-          <div class="artist__video">
-            <lite-youtube videoid="{{ artist.video }}" params="hl=cs&amp;modestbranding=1"
-                          title="{{ title }}" class="responsive"></lite-youtube>
-          </div>
-        {% endif %}
-
         {% if spotifyPath %}
           <iframe class="artist__spotify{% if spotifyPath.startsWith("track/") %} artist__spotify--track{% endif %}" title="{{ title }} na Spotify" loading="lazy"
                   src="https://open.spotify.com/embed/{{ spotifyPath }}?utm_source=generator&amp;theme=0"
                   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
         {% endif %}
 
-        {% if artist.links %}
-          <ul class="artist__links">
-            {% for key, url in artist.links %}
-              <li><a href="{{ url }}" rel="noopener" target="_blank">{{ linkLabels[key] or key }}</a></li>
-            {% endfor %}
-          </ul>
-        {% endif %}
+        {% for id in videos %}
+          <div class="artist__video">
+            <lite-youtube videoid="{{ id }}" params="hl=cs&amp;modestbranding=1"
+                          title="{{ title }}" class="responsive"></lite-youtube>
+          </div>
+        {% endfor %}
 
         {% if upcoming %}
           <p class="artist__tickets">
+            <span>Nenechte si ujít {{ title }} živě na Studnici {{ upcomingYear }}!</span>
             <a class="artist__upcoming" href="/#vstupenky">Chci vstupenky →</a>
           </p>
         {% endif %}
@@ -417,7 +451,7 @@
 {% endblock %}
 
 {% block scripts %}
-  {% if artist.video %}
+  {% if videos.length %}
     <script type="module" src="{{ "kapela.js" | assetUrl("esm") }}"></script>
   {% endif %}
 {% endblock %}

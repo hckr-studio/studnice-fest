@@ -2,10 +2,10 @@
 image: mnaga-a-zdorp.jpg
 genre: rock
 origin: Valašské Meziříčí
-# YouTube ID videa (z odkazu youtube.com/watch?v=…)
-video: 0B4CTlvIsnA
-# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
-spotify: https://open.spotify.com/album/1UvF7ypN5v09Bl7EyCGC1s
+# YouTube videa: ID z odkazu youtube.com/watch?v=… (první nejsledovanější, druhé novější)
+videos: ["0B4CTlvIsnA", "WrEiKhlySOc"]
+# Spotify – odkaz na profil interpreta (Sdílet → Kopírovat odkaz); přehrávač ukáže top skladby
+spotify: https://open.spotify.com/artist/0Oi6c6kx9gKmJWQBpGKRKD
 ---
 
 # Mňága a Žďorp

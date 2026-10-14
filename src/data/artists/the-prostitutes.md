@@ -2,9 +2,9 @@
 image: the-prostitutes.jpg
 genre: indie rock · post-punk
 origin: Praha
-# YouTube ID videa (z odkazu youtube.com/watch?v=…)
-video: cfISAKM-9JY
-# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
+# YouTube videa: ID z odkazu youtube.com/watch?v=… (první nejsledovanější, druhé novější)
+videos: ["cfISAKM-9JY", "mm7Yk3jkSz8"]
+# Spotify – odkaz na profil interpreta (Sdílet → Kopírovat odkaz); přehrávač ukáže top skladby
 spotify: https://open.spotify.com/artist/45Wjs37C3oR5zIywGHbteV
 ---
 

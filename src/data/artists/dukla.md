@@ -2,9 +2,9 @@
 image: dukla.jpg
 genre: synthpop · kytarový pop
 origin: Praha
-# YouTube ID videa (z odkazu youtube.com/watch?v=…)
-video: 26xWYtqERpE
-# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
+# YouTube videa: ID z odkazu youtube.com/watch?v=… (první nejsledovanější, druhé novější)
+videos: ["DMgjX7U90VY", "iRSDl0S9o9w"]
+# Spotify – odkaz na profil interpreta (Sdílet → Kopírovat odkaz); přehrávač ukáže top skladby
 spotify: https://open.spotify.com/artist/6zhUFqznWunfrf0dK3shcR
 ---
 

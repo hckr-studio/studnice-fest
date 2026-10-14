@@ -2,10 +2,10 @@
 image: xavier-baumaxa.jpg
 genre: písničkář
 origin: Litvínov
-# YouTube ID videa (z odkazu youtube.com/watch?v=…)
-video: 8nZrEm-mEgM
-# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
-spotify: https://open.spotify.com/track/5G070nIhLWaK41PDWN32AD
+# YouTube videa: ID z odkazu youtube.com/watch?v=… (první nejsledovanější, druhé novější)
+videos: ["8HwVOLzA7Eo", "-p_GU5Fu-KI"]
+# Spotify – odkaz na profil interpreta (Sdílet → Kopírovat odkaz); přehrávač ukáže top skladby
+spotify: https://open.spotify.com/artist/2Zz2s24n5Hz8YkHFy5S8hy
 ---
 
 # Xavier Baumaxa

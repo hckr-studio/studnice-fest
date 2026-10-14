@@ -1,9 +1,9 @@
 ---
 image: the-stylists.jpg
-# YouTube ID videa (z odkazu youtube.com/watch?v=…)
-video: eHq2_dhHWV8
-# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
-spotify:
+# YouTube videa: ID z odkazu youtube.com/watch?v=… (první nejsledovanější, druhé novější)
+videos: ["wMsoykHOasg", "Y2F0qLjWDWo"]
+# Spotify – odkaz na profil interpreta (Sdílet → Kopírovat odkaz); přehrávač ukáže top skladby
+spotify: https://open.spotify.com/artist/6r2Xj51uw6P9k2hzMxDYnW
 ---
 
 # The Stylists

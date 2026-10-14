@@ -2,10 +2,10 @@
 image: midi-lidi.jpg
 genre: elektro-pop
 origin: Praha
-# YouTube ID videa (z odkazu youtube.com/watch?v=…)
-video: 8ixaKAKI0zo
-# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
-spotify: https://open.spotify.com/track/2FIWr8w7tIng8eDVb4a1OR
+# YouTube videa: ID z odkazu youtube.com/watch?v=… (první nejsledovanější, druhé novější)
+videos: ["rHoBDmD4ofU", "CjmeQ0GPmTI"]
+# Spotify – odkaz na profil interpreta (Sdílet → Kopírovat odkaz); přehrávač ukáže top skladby
+spotify: https://open.spotify.com/artist/3VhIkkxDekiXF9OuVhWRdD
 ---
 
 # Midi Lidi
