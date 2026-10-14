@@ -1,5 +1,74 @@
 import "lite-youtube-embed";
 
+// Navigace ročníků: výška hlavičky pro připnutý pás (mobil)
+// a zvýraznění ročníku, který je právě na obrazovce.
+const header = document.querySelector("body > header");
+if (header) {
+  const setHeaderHeight = () =>
+    document.documentElement.style.setProperty(
+      "--header-height",
+      `${header.offsetHeight}px`
+    );
+  new ResizeObserver(setHeaderHeight).observe(header);
+  setHeaderHeight();
+}
+
+const nav = document.querySelector('.main aside nav ol');
+if (nav) {
+  const links = new Map(
+    [...nav.querySelectorAll('a[href^="#"]')].map((a) => [
+      decodeURIComponent(a.hash.slice(1)),
+      a
+    ])
+  );
+  const headings = [...links.keys()]
+    .map((id) => document.getElementById(id))
+    .filter(Boolean);
+  let active;
+
+  const setActive = (id) => {
+    const link = links.get(id);
+    if (!link || link === active) return;
+    active?.removeAttribute("aria-current");
+    link.setAttribute("aria-current", "true");
+    active = link;
+    // posunout pás roků tak, aby aktivní rok byl vidět (jen vodorovně)
+    if (nav.scrollWidth > nav.clientWidth) {
+      const li = link.parentElement;
+      nav.scrollTo({
+        left: li.offsetLeft - (nav.clientWidth - li.offsetWidth) / 2,
+        behavior: "smooth"
+      });
+    }
+  };
+
+  // aktivní je poslední ročník, jehož nadpis už přejel horní třetinu obrazovky
+  const update = () => {
+    const line = innerHeight / 3;
+    let current = headings[0];
+    for (const h of headings) {
+      if (h.getBoundingClientRect().top <= line) current = h;
+      else break;
+    }
+    if (current) setActive(current.id);
+  };
+
+  let ticking = false;
+  addEventListener(
+    "scroll",
+    () => {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(() => {
+        ticking = false;
+        update();
+      });
+    },
+    { passive: true }
+  );
+  update();
+}
+
 // Sbalené mřížky „Všichni vystupující“ – ukazují prvních pár řádků,
 // zbytek se plynule rozbalí tlačítkem.
 const VISIBLE_ROWS = 2;

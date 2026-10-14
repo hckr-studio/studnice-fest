@@ -50,6 +50,69 @@
       text-wrap: balance;
     }
 
+    .main aside a[aria-current="true"] {
+      color: var(--accent-color-darker);
+      text-decoration-thickness: 2px;
+    }
+
+    /* Mobil: roky jako připnutý vodorovný pás „pilulek“ místo dlouhého seznamu */
+    @media screen and (max-width: 480px) {
+      .main aside {
+        position: sticky;
+        top: calc(var(--header-height, 3.5rem) - 1px);
+        z-index: 10;
+        min-width: 0;
+        margin-inline: -0.25em;
+        padding: 0.4em 0.25em;
+        font-size: 1rem;
+        background-color: color-mix(in srgb, var(--background-color), transparent 8%);
+        backdrop-filter: blur(4px);
+        border-radius: var(--corner-radius);
+        box-shadow: 0 2px 8px rgb(0 0 0 / 12%);
+      }
+
+      .main aside ol {
+        display: flex;
+        gap: 0.4em;
+        margin: 0;
+        overflow-x: auto;
+        overscroll-behavior-x: contain;
+        scroll-snap-type: x proximity;
+        scrollbar-width: none;
+
+        &::-webkit-scrollbar {
+          display: none;
+        }
+      }
+
+      .main aside ol li {
+        flex: none;
+        padding: 0;
+        scroll-snap-align: center;
+      }
+
+      .main aside a {
+        display: block;
+        padding: 0.35em 0.85em;
+        border: 2px solid var(--accent-color);
+        border-radius: 999px;
+        color: var(--accent-color-darker);
+        text-decoration: none;
+        white-space: nowrap;
+        transition: background-color 200ms, color 200ms;
+      }
+
+      .main aside a[aria-current="true"] {
+        background-color: var(--accent-color);
+        color: #fff;
+      }
+
+      /* skok na ročník nesmí skončit pod hlavičkou a pásem roků */
+      .main article h3[id] {
+        scroll-margin-block-start: calc(var(--header-height, 3.5rem) + 4rem);
+      }
+    }
+
     main > hgroup {
       color: #fff;
       grid-column: wide;
@@ -241,7 +304,7 @@
             <li><a href="#studnice-fest-2019">2019</a></li>
             <li><a href="#studnice-fest-2018">2018</a></li>
             <li><a href="#studnice-fest-2017">2017</a></li>
-            <li><a href="#studnice-fest-2004-2012">2004-2012</a></li>
+            <li><a href="#studnice-fest-20042012">2004–2012</a></li>
             <li><a href="#studnice-fest-2003">2003</a></li>
           </ol>
         </nav>
