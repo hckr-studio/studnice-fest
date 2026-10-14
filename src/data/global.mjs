@@ -55,7 +55,8 @@ export default {
   event: {
     name: "Studnice Fest",
     startDate: new Date("2027-07-30T15:00:00+02:00"),
-    endDate: new Date("2027-07-31T03:00:00+02:00"),
+    // Konec = noc po posledním dni (např. sobota 31. 7. → neděle 1. 8. 3:00)
+    endDate: new Date("2027-08-01T03:00:00+02:00"),
     location: "Cihelka, Hlinsko v Čechách",
     description:
       "Letní hudební festival Studnice Fest je opět tu! V Hlinsku v Čechách se potkáme 30. - 31. 7. 2027",
@@ -240,6 +241,7 @@ export default {
   currentYear: new Date().getFullYear(),
   timeslots,
   formatTime,
+  festivalDay,
   formatNumber(n) {
     return Intl.NumberFormat("cs").format(n);
   },
@@ -248,6 +250,28 @@ export default {
     return news.filter(({ url }) => !excluded.has(url));
   }
 };
+
+// Den a měsíc festivalu v pražském čase. Konec akce je v noci po posledním
+// dni, proto se od něj odečte pár hodin, aby vyšel skutečný poslední den
+// (funguje i přes přelom měsíce).
+function festivalDay(date, isEnd = false) {
+  const d = new Date(date.getTime() - (isEnd ? 6 * 3600 * 1000 : 0));
+  const parts = Object.fromEntries(
+    new Intl.DateTimeFormat("cs", {
+      timeZone: "Europe/Prague",
+      day: "numeric",
+      month: "numeric",
+      year: "numeric"
+    })
+      .formatToParts(d)
+      .map((p) => [p.type, p.value])
+  );
+  return {
+    day: Number(parts.day),
+    month: Number(parts.month),
+    year: Number(parts.year)
+  };
+}
 
 function timeslots({ friday, saturday }) {
   return new Map(

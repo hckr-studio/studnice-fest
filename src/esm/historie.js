@@ -24,10 +24,7 @@ for (const section of document.querySelectorAll(".history-lineup")) {
   };
 
   const update = () => {
-    if (section.classList.contains("is-open")) {
-      clip.style.maxHeight = `${list.scrollHeight}px`;
-      return;
-    }
+    if (section.classList.contains("is-open")) return;
     if (fitsCollapsed()) {
       // Vše se vejde – není co rozbalovat.
       section.classList.remove("is-collapsible");
@@ -46,10 +43,23 @@ for (const section of document.querySelectorAll(".history-lineup")) {
     button.setAttribute("aria-expanded", String(open));
     button.textContent = open ? button.dataset.less : button.dataset.more;
     if (open) {
-      clip.style.maxHeight = `${list.scrollHeight}px`;
+      clip.style.maxHeight = `${clip.scrollHeight}px`;
     } else {
+      // z „none“ na pevnou výšku, aby animace sbalení měla odkud začít
+      clip.style.maxHeight = `${clip.scrollHeight}px`;
+      clip.offsetHeight;
       collapse();
       section.scrollIntoView({ block: "nearest", behavior: "smooth" });
+    }
+  });
+
+  // Po rozbalení uvolnit výšku, aby se nic neořezávalo (ani při změně šířky).
+  clip.addEventListener("transitionend", (e) => {
+    if (
+      e.propertyName === "max-height" &&
+      section.classList.contains("is-open")
+    ) {
+      clip.style.maxHeight = "none";
     }
   });
 

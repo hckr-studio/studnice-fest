@@ -116,10 +116,11 @@
   </h1>
   <div>
     <p class="header__time">
-      <time property="startDate" datetime="{{ event.startDate.toISOString() }}">{{ event.startDate.getDate() }}.</time>
+      {% set fStart = festivalDay(event.startDate) %}
+      {% set fEnd = festivalDay(event.endDate, true) %}
+      <time property="startDate" datetime="{{ event.startDate.toISOString() }}">{{ fStart.day }}.{% if fStart.month != fEnd.month %}&nbsp;{{ fStart.month }}.{% endif %}</time>
       -
-      <time property="endDate" datetime="{{ event.endDate.toISOString() }}">{{ event.endDate.getDate() - 1 }}
-        .&nbsp;{{ event.endDate.getMonth() + 1 }}.&nbsp;{{ event.endDate.getFullYear() }}</time>
+      <time property="endDate" datetime="{{ event.endDate.toISOString() }}">{{ fEnd.day }}.&nbsp;{{ fEnd.month }}.&nbsp;{{ fEnd.year }}</time>
     </p>
     <p class="header__location" property="location">{{ event.location }}</p>
   </div>
