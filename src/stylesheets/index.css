@@ -726,6 +726,42 @@ section p {
     overflow: hidden;
     text-overflow: ellipsis;
   }
+
+  /* Mobil: novinky pod sebou – první velká, další jako řádky s náhledem vlevo */
+  @media screen and (max-width: 480px) {
+    --columns: 1;
+
+    article,
+    article:first-of-type {
+      grid-column: 1 / -1;
+      grid-row: auto;
+    }
+
+    article + article {
+      display: flow-root;
+
+      a {
+        float: left;
+        width: 6.5rem;
+        margin-inline-end: 0.85em;
+      }
+
+      p {
+        margin-block: 0 0.4em;
+        font-size: 0.95em;
+        max-height: 6.2em;
+      }
+
+      img {
+        clip-path: none;
+      }
+
+      time {
+        font-size: 0.85em;
+        margin-block-start: 0.3em;
+      }
+    }
+  }
 }
 
 .artists-list {
