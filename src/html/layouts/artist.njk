@@ -10,6 +10,7 @@
     origin: Austrálie            # odkud kapela je
     years: [2018, 2022]          # starší ročníky, které nejsou v history (global.mjs)
     video: sK-eE2CCUv4           # YouTube ID
+    spotify: 2CIMQHirSU0MQqyYHq0eOx   # Spotify ID interpreta (nebo odkaz na open.spotify.com/artist/…)
     links:
       web: https://…
       instagram: https://…
@@ -39,6 +40,8 @@
 {% endfor %}
 {% set playedYears = playedYears | sort(true) %}
 {% set upcoming = slug in event.artists %}
+{% set spotifyId = (artist.spotify or (artist.links.spotify if artist.links else "") or "") | replace("https://open.spotify.com/artist/", "") | replace("http://open.spotify.com/artist/", "") %}
+{% set spotifyId = spotifyId.split("?")[0] if spotifyId else "" %}
 {% set upcomingYear = event.startDate.getFullYear() %}
 
 {# Další kapely: z nejnovějšího ročníku, kde kapela hrála (nebo z chystaného) #}
@@ -47,7 +50,7 @@
 {% for item in relatedSource %}
   {% set s = item.slug or item %}
   {% set a = collections.artists[s] %}
-  {% if s != slug and a and a.image and related.length < 6 %}
+  {% if s != slug and a and a.image and s in artistPages and related.length < 6 %}
     {% set related = (related.push(a), related) %}
   {% endif %}
 {% endfor %}
@@ -205,6 +208,15 @@
       overflow: hidden;
     }
 
+    .artist__spotify {
+      display: block;
+      width: 100%;
+      height: 352px;
+      margin-block-start: 1.5em;
+      border: 0;
+      border-radius: 12px;
+    }
+
     .artist__links {
       display: flex;
       flex-wrap: wrap;
@@ -345,6 +357,12 @@
             <lite-youtube videoid="{{ artist.video }}" params="hl=cs&amp;modestbranding=1"
                           title="{{ title }}" class="responsive"></lite-youtube>
           </div>
+        {% endif %}
+
+        {% if spotifyId %}
+          <iframe class="artist__spotify" title="{{ title }} na Spotify" loading="lazy"
+                  src="https://open.spotify.com/embed/artist/{{ spotifyId }}?utm_source=generator&amp;theme=0"
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
         {% endif %}
 
         {% if artist.links %}

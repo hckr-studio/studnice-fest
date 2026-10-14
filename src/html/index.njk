@@ -174,7 +174,7 @@
         {% set metadata =  image.metadata %}
         {% set ts = tss.get(key) %}
         <article class="artists-list__item" id="{{ key }}" data-level="{{ artist.heroLevel }}">
-          <a href="/kapely/{{ key }}/" class="artists-list__link">
+          <a {% if key in artistPages %}href="/kapely/{{ key }}/" {% endif %}class="artists-list__link">
           <h3>{{ artist.title | safe }}</h3>
           <img src="{{ image.public_id | cloudinaryUrl(ar=1,crop="fill",gravity="auto") }}" alt="{{ artist.title }}"
                style="{% if metadata.lqip %}--lqip:{{ metadata.lqip }}{% endif %}"
