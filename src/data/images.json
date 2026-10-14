@@ -28505,5 +28505,2630 @@
     "metadata": {
       "lqip": "169259"
     }
+  },
+  "gallery/2020/studnice-fest-2020_001.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_001",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_001.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_001",
+    "original_filename": "studnice-fest-2020_001",
+    "metadata": {
+      "lqip": "186723"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_002.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_002",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_002.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_002",
+    "original_filename": "studnice-fest-2020_002",
+    "metadata": {
+      "lqip": "169571"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_003.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_003",
+    "width": 1335,
+    "height": 2000,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_003.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_003",
+    "original_filename": "studnice-fest-2020_003",
+    "metadata": {
+      "lqip": "501091"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_004.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_004",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_004.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_004",
+    "original_filename": "studnice-fest-2020_004",
+    "metadata": {
+      "lqip": "-22173"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_005.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_005",
+    "width": 1335,
+    "height": 2000,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_005.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_005",
+    "original_filename": "studnice-fest-2020_005",
+    "metadata": {
+      "lqip": "152932"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_006.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_006",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_006.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_006",
+    "original_filename": "studnice-fest-2020_006",
+    "metadata": {
+      "lqip": "173412"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_007.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_007",
+    "width": 1335,
+    "height": 2000,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_007.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_007",
+    "original_filename": "studnice-fest-2020_007",
+    "metadata": {
+      "lqip": "174692"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_008.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_008",
+    "width": 1335,
+    "height": 2000,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_008.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_008",
+    "original_filename": "studnice-fest-2020_008",
+    "metadata": {
+      "lqip": "416612"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_009.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_009",
+    "width": 1335,
+    "height": 2000,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_009.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_009",
+    "original_filename": "studnice-fest-2020_009",
+    "metadata": {
+      "lqip": "190051"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_010.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_010",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_010.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_010",
+    "original_filename": "studnice-fest-2020_010",
+    "metadata": {
+      "lqip": "236067"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_011.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_011",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_011.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_011",
+    "original_filename": "studnice-fest-2020_011",
+    "metadata": {
+      "lqip": "158051"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_012.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_012",
+    "width": 1335,
+    "height": 2000,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_012.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_012",
+    "original_filename": "studnice-fest-2020_012",
+    "metadata": {
+      "lqip": "-173397"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_013.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_013",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_013.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_013",
+    "original_filename": "studnice-fest-2020_013",
+    "metadata": {
+      "lqip": "-107925"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_014.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_014",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_014.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_014",
+    "original_filename": "studnice-fest-2020_014",
+    "metadata": {
+      "lqip": "154211"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_015.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_015",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_015.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_015",
+    "original_filename": "studnice-fest-2020_015",
+    "metadata": {
+      "lqip": "159267"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_016.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_016",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_016.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_016",
+    "original_filename": "studnice-fest-2020_016",
+    "metadata": {
+      "lqip": "-108189"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_017.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_017",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_017.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_017",
+    "original_filename": "studnice-fest-2020_017",
+    "metadata": {
+      "lqip": "-87709"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_018.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_018",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_018.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_018",
+    "original_filename": "studnice-fest-2020_018",
+    "metadata": {
+      "lqip": "109412"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_019.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_019",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_019.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_019",
+    "original_filename": "studnice-fest-2020_019",
+    "metadata": {
+      "lqip": "-91551"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_020.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_020",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_020.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_020",
+    "original_filename": "studnice-fest-2020_020",
+    "metadata": {
+      "lqip": "170601"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_021.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_021",
+    "width": 1335,
+    "height": 2000,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_021.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_021",
+    "original_filename": "studnice-fest-2020_021",
+    "metadata": {
+      "lqip": "173668"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_022.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_022",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_022.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_022",
+    "original_filename": "studnice-fest-2020_022",
+    "metadata": {
+      "lqip": "-71133"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_023.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_023",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_023.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_023",
+    "original_filename": "studnice-fest-2020_023",
+    "metadata": {
+      "lqip": "158059"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_024.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_024",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_024.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_024",
+    "original_filename": "studnice-fest-2020_024",
+    "metadata": {
+      "lqip": "488810"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_025.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_025",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_025.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_025",
+    "original_filename": "studnice-fest-2020_025",
+    "metadata": {
+      "lqip": "-107925"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_026.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_026",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_026.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_026",
+    "original_filename": "studnice-fest-2020_026",
+    "metadata": {
+      "lqip": "-431445"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_027.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_027",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_027.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_027",
+    "original_filename": "studnice-fest-2020_027",
+    "metadata": {
+      "lqip": "-92573"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_028.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_028",
+    "width": 1335,
+    "height": 2000,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_028.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_028",
+    "original_filename": "studnice-fest-2020_028",
+    "metadata": {
+      "lqip": "415139"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_029.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_029",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_029.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_029",
+    "original_filename": "studnice-fest-2020_029",
+    "metadata": {
+      "lqip": "152931"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_030.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_030",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_030.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_030",
+    "original_filename": "studnice-fest-2020_030",
+    "metadata": {
+      "lqip": "153955"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_031.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_031",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_031.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_031",
+    "original_filename": "studnice-fest-2020_031",
+    "metadata": {
+      "lqip": "152931"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_032.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_032",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_032.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_032",
+    "original_filename": "studnice-fest-2020_032",
+    "metadata": {
+      "lqip": "169571"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_033.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_033",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_033.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_033",
+    "original_filename": "studnice-fest-2020_033",
+    "metadata": {
+      "lqip": "-163101"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_034.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_034",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_034.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_034",
+    "original_filename": "studnice-fest-2020_034",
+    "metadata": {
+      "lqip": "-108189"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_035.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_035",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_035.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_035",
+    "original_filename": "studnice-fest-2020_035",
+    "metadata": {
+      "lqip": "-108188"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_036.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_036",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_036.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_036",
+    "original_filename": "studnice-fest-2020_036",
+    "metadata": {
+      "lqip": "-175645"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_037.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_037",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_037.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_037",
+    "original_filename": "studnice-fest-2020_037",
+    "metadata": {
+      "lqip": "154211"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_038.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_038",
+    "width": 1335,
+    "height": 2000,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_038.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_038",
+    "original_filename": "studnice-fest-2020_038",
+    "metadata": {
+      "lqip": "-20949"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_039.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_039",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_039.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_039",
+    "original_filename": "studnice-fest-2020_039",
+    "metadata": {
+      "lqip": "174443"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_040.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_040",
+    "width": 1335,
+    "height": 2000,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_040.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_040",
+    "original_filename": "studnice-fest-2020_040",
+    "metadata": {
+      "lqip": "-154012"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_041.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_041",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_041.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_041",
+    "original_filename": "studnice-fest-2020_041",
+    "metadata": {
+      "lqip": "-92829"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_042.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_042",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_042.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_042",
+    "original_filename": "studnice-fest-2020_042",
+    "metadata": {
+      "lqip": "153955"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_043.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_043",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_043.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_043",
+    "original_filename": "studnice-fest-2020_043",
+    "metadata": {
+      "lqip": "174627"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_044.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_044",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_044.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_044",
+    "original_filename": "studnice-fest-2020_044",
+    "metadata": {
+      "lqip": "169315"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_045.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_045",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_045.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_045",
+    "original_filename": "studnice-fest-2020_045",
+    "metadata": {
+      "lqip": "169324"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_046.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_046",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_046.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_046",
+    "original_filename": "studnice-fest-2020_046",
+    "metadata": {
+      "lqip": "-107933"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_047.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_047",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_047.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_047",
+    "original_filename": "studnice-fest-2020_047",
+    "metadata": {
+      "lqip": "170531"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_048.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_048",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_048.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_048",
+    "original_filename": "studnice-fest-2020_048",
+    "metadata": {
+      "lqip": "170339"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_049.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_049",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_049.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_049",
+    "original_filename": "studnice-fest-2020_049",
+    "metadata": {
+      "lqip": "154148"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_050.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_050",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_050.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_050",
+    "original_filename": "studnice-fest-2020_050",
+    "metadata": {
+      "lqip": "174627"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_051.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_051",
+    "width": 1335,
+    "height": 2000,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_051.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_051",
+    "original_filename": "studnice-fest-2020_051",
+    "metadata": {
+      "lqip": "153892"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_052.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_052",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_052.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_052",
+    "original_filename": "studnice-fest-2020_052",
+    "metadata": {
+      "lqip": "154212"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_053.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_053",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_053.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_053",
+    "original_filename": "studnice-fest-2020_053",
+    "metadata": {
+      "lqip": "-103844"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_054.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_054",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_054.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_054",
+    "original_filename": "studnice-fest-2020_054",
+    "metadata": {
+      "lqip": "234860"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_055.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_055",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_055.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_055",
+    "original_filename": "studnice-fest-2020_055",
+    "metadata": {
+      "lqip": "502059"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_056.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_056",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_056.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_056",
+    "original_filename": "studnice-fest-2020_056",
+    "metadata": {
+      "lqip": "152931"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_057.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_057",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_057.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_057",
+    "original_filename": "studnice-fest-2020_057",
+    "metadata": {
+      "lqip": "174627"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_058.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_058",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_058.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_058",
+    "original_filename": "studnice-fest-2020_058",
+    "metadata": {
+      "lqip": "158243"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_059.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_059",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_059.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_059",
+    "original_filename": "studnice-fest-2020_059",
+    "metadata": {
+      "lqip": "152931"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_060.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_060",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_060.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_060",
+    "original_filename": "studnice-fest-2020_060",
+    "metadata": {
+      "lqip": "-105109"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_061.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_061",
+    "width": 1335,
+    "height": 2000,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_061.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_061",
+    "original_filename": "studnice-fest-2020_061",
+    "metadata": {
+      "lqip": "174627"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_062.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_062",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_062.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_062",
+    "original_filename": "studnice-fest-2020_062",
+    "metadata": {
+      "lqip": "-107932"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_063.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_063",
+    "width": 1335,
+    "height": 2000,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_063.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_063",
+    "original_filename": "studnice-fest-2020_063",
+    "metadata": {
+      "lqip": "240227"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_064.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_064",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_064.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_064",
+    "original_filename": "studnice-fest-2020_064",
+    "metadata": {
+      "lqip": "-157341"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_065.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_065",
+    "width": 1335,
+    "height": 2000,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_065.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_065",
+    "original_filename": "studnice-fest-2020_065",
+    "metadata": {
+      "lqip": "252452"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_066.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_066",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_066.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_066",
+    "original_filename": "studnice-fest-2020_066",
+    "metadata": {
+      "lqip": "-75229"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_067.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_067",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_067.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_067",
+    "original_filename": "studnice-fest-2020_067",
+    "metadata": {
+      "lqip": "170531"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_068.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_068",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_068.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_068",
+    "original_filename": "studnice-fest-2020_068",
+    "metadata": {
+      "lqip": "170531"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_069.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_069",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_069.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_069",
+    "original_filename": "studnice-fest-2020_069",
+    "metadata": {
+      "lqip": "155171"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_070.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_070",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_070.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_070",
+    "original_filename": "studnice-fest-2020_070",
+    "metadata": {
+      "lqip": "174636"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_071.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_071",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_071.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_071",
+    "original_filename": "studnice-fest-2020_071",
+    "metadata": {
+      "lqip": "235811"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_072.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_072",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_072.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_072",
+    "original_filename": "studnice-fest-2020_072",
+    "metadata": {
+      "lqip": "256546"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_073.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_073",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_073.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_073",
+    "original_filename": "studnice-fest-2020_073",
+    "metadata": {
+      "lqip": "174636"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_074.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_074",
+    "width": 1335,
+    "height": 2000,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_074.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_074",
+    "original_filename": "studnice-fest-2020_074",
+    "metadata": {
+      "lqip": "169324"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_075.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_075",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_075.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_075",
+    "original_filename": "studnice-fest-2020_075",
+    "metadata": {
+      "lqip": "-104157"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_076.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_076",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_076.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_076",
+    "original_filename": "studnice-fest-2020_076",
+    "metadata": {
+      "lqip": "-108253"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_077.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_077",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_077.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_077",
+    "original_filename": "studnice-fest-2020_077",
+    "metadata": {
+      "lqip": "158243"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_078.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_078",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_078.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_078",
+    "original_filename": "studnice-fest-2020_078",
+    "metadata": {
+      "lqip": "87331"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_079.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_079",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_079.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_079",
+    "original_filename": "studnice-fest-2020_079",
+    "metadata": {
+      "lqip": "-173789"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_080.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_080",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_080.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_080",
+    "original_filename": "studnice-fest-2020_080",
+    "metadata": {
+      "lqip": "-108253"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_081.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_081",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_081.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_081",
+    "original_filename": "studnice-fest-2020_081",
+    "metadata": {
+      "lqip": "-91613"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_082.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_082",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_082.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_082",
+    "original_filename": "studnice-fest-2020_082",
+    "metadata": {
+      "lqip": "157987"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_083.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_083",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_083.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_083",
+    "original_filename": "studnice-fest-2020_083",
+    "metadata": {
+      "lqip": "174380"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_084.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_084",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_084.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_084",
+    "original_filename": "studnice-fest-2020_084",
+    "metadata": {
+      "lqip": "170540"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_085.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_085",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_085.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_085",
+    "original_filename": "studnice-fest-2020_085",
+    "metadata": {
+      "lqip": "-87509"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_086.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_086",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_086.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_086",
+    "original_filename": "studnice-fest-2020_086",
+    "metadata": {
+      "lqip": "-91605"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_087.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_087",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_087.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_087",
+    "original_filename": "studnice-fest-2020_087",
+    "metadata": {
+      "lqip": "240172"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_088.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_088",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_088.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_088",
+    "original_filename": "studnice-fest-2020_088",
+    "metadata": {
+      "lqip": "-169556"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_089.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_089",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_089.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_089",
+    "original_filename": "studnice-fest-2020_089",
+    "metadata": {
+      "lqip": "-86485"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_090.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_090",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_090.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_090",
+    "original_filename": "studnice-fest-2020_090",
+    "metadata": {
+      "lqip": "-148893"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_091.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_091",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_091.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_091",
+    "original_filename": "studnice-fest-2020_091",
+    "metadata": {
+      "lqip": "93731"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_092.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_092",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_092.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_092",
+    "original_filename": "studnice-fest-2020_092",
+    "metadata": {
+      "lqip": "355883"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_093.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_093",
+    "width": 1335,
+    "height": 2000,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_093.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_093",
+    "original_filename": "studnice-fest-2020_093",
+    "metadata": {
+      "lqip": "169316"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_094.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_094",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_094.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_094",
+    "original_filename": "studnice-fest-2020_094",
+    "metadata": {
+      "lqip": "170596"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_095.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_095",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_095.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_095",
+    "original_filename": "studnice-fest-2020_095",
+    "metadata": {
+      "lqip": "170540"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_096.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_096",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_096.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_096",
+    "original_filename": "studnice-fest-2020_096",
+    "metadata": {
+      "lqip": "-108956"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_097.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_097",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_097.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_097",
+    "original_filename": "studnice-fest-2020_097",
+    "metadata": {
+      "lqip": "152940"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_098.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_098",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_098.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_098",
+    "original_filename": "studnice-fest-2020_098",
+    "metadata": {
+      "lqip": "371492"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_099.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_099",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_099.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_099",
+    "original_filename": "studnice-fest-2020_099",
+    "metadata": {
+      "lqip": "-99804"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_100.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_100",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_100.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_100",
+    "original_filename": "studnice-fest-2020_100",
+    "metadata": {
+      "lqip": "-102878"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_101.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_101",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_101.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_101",
+    "original_filename": "studnice-fest-2020_101",
+    "metadata": {
+      "lqip": "162596"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_102.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_102",
+    "width": 1335,
+    "height": 2000,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_102.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_102",
+    "original_filename": "studnice-fest-2020_102",
+    "metadata": {
+      "lqip": "-86492"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_103.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_103",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_103.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_103",
+    "original_filename": "studnice-fest-2020_103",
+    "metadata": {
+      "lqip": "153900"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_104.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_104",
+    "width": 1335,
+    "height": 2000,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_104.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_104",
+    "original_filename": "studnice-fest-2020_104",
+    "metadata": {
+      "lqip": "-25044"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_105.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_105",
+    "width": 1335,
+    "height": 2000,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_105.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_105",
+    "original_filename": "studnice-fest-2020_105",
+    "metadata": {
+      "lqip": "-104092"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_106.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_106",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_106.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_106",
+    "original_filename": "studnice-fest-2020_106",
+    "metadata": {
+      "lqip": "416035"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_107.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_107",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_107.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_107",
+    "original_filename": "studnice-fest-2020_107",
+    "metadata": {
+      "lqip": "174636"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_108.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_108",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_108.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_108",
+    "original_filename": "studnice-fest-2020_108",
+    "metadata": {
+      "lqip": "170532"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_109.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_109",
+    "width": 1335,
+    "height": 2000,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_109.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_109",
+    "original_filename": "studnice-fest-2020_109",
+    "metadata": {
+      "lqip": "152931"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_110.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_110",
+    "width": 1335,
+    "height": 2000,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_110.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_110",
+    "original_filename": "studnice-fest-2020_110",
+    "metadata": {
+      "lqip": "-92829"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_111.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_111",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_111.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_111",
+    "original_filename": "studnice-fest-2020_111",
+    "metadata": {
+      "lqip": "353636"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_112.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_112",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_112.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_112",
+    "original_filename": "studnice-fest-2020_112",
+    "metadata": {
+      "lqip": "-96668"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_113.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_113",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_113.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_113",
+    "original_filename": "studnice-fest-2020_113",
+    "metadata": {
+      "lqip": "92707"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_114.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_114",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_114.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_114",
+    "original_filename": "studnice-fest-2020_114",
+    "metadata": {
+      "lqip": "-27357"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_115.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_115",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_115.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_115",
+    "original_filename": "studnice-fest-2020_115",
+    "metadata": {
+      "lqip": "-107997"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_116.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_116",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_116.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_116",
+    "original_filename": "studnice-fest-2020_116",
+    "metadata": {
+      "lqip": "-91613"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_117.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_117",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_117.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_117",
+    "original_filename": "studnice-fest-2020_117",
+    "metadata": {
+      "lqip": "-89374"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_118.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_118",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_118.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_118",
+    "original_filename": "studnice-fest-2020_118",
+    "metadata": {
+      "lqip": "-91861"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_119.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_119",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_119.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_119",
+    "original_filename": "studnice-fest-2020_119",
+    "metadata": {
+      "lqip": "-169429"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_120.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_120",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_120.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_120",
+    "original_filename": "studnice-fest-2020_120",
+    "metadata": {
+      "lqip": "174628"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_121.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_121",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_121.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_121",
+    "original_filename": "studnice-fest-2020_121",
+    "metadata": {
+      "lqip": "158052"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_122.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_122",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_122.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_122",
+    "original_filename": "studnice-fest-2020_122",
+    "metadata": {
+      "lqip": "153892"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_123.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_123",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_123.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_123",
+    "original_filename": "studnice-fest-2020_123",
+    "metadata": {
+      "lqip": "174884"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_124.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_124",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_124.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_124",
+    "original_filename": "studnice-fest-2020_124",
+    "metadata": {
+      "lqip": "87395"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_125.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_125",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_125.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_125",
+    "original_filename": "studnice-fest-2020_125",
+    "metadata": {
+      "lqip": "174628"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_126.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_126",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_126.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_126",
+    "original_filename": "studnice-fest-2020_126",
+    "metadata": {
+      "lqip": "149931"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_127.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_127",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_127.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_127",
+    "original_filename": "studnice-fest-2020_127",
+    "metadata": {
+      "lqip": "170530"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_128.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_128",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_128.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_128",
+    "original_filename": "studnice-fest-2020_128",
+    "metadata": {
+      "lqip": "154219"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_129.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_129",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_129.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_129",
+    "original_filename": "studnice-fest-2020_129",
+    "metadata": {
+      "lqip": "-103901"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_130.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_130",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_130.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_130",
+    "original_filename": "studnice-fest-2020_130",
+    "metadata": {
+      "lqip": "251178"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_131.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_131",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_131.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_131",
+    "original_filename": "studnice-fest-2020_131",
+    "metadata": {
+      "lqip": "170531"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_132.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_132",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_132.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_132",
+    "original_filename": "studnice-fest-2020_132",
+    "metadata": {
+      "lqip": "236060"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_133.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_133",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_133.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_133",
+    "original_filename": "studnice-fest-2020_133",
+    "metadata": {
+      "lqip": "223523"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_134.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_134",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_134.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_134",
+    "original_filename": "studnice-fest-2020_134",
+    "metadata": {
+      "lqip": "223523"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_135.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_135",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_135.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_135",
+    "original_filename": "studnice-fest-2020_135",
+    "metadata": {
+      "lqip": "513387"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_136.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_136",
+    "width": 1335,
+    "height": 2000,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_136.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_136",
+    "original_filename": "studnice-fest-2020_136",
+    "metadata": {
+      "lqip": "255276"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_137.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_137",
+    "width": 1335,
+    "height": 2000,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_137.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_137",
+    "original_filename": "studnice-fest-2020_137",
+    "metadata": {
+      "lqip": "-27349"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_138.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_138",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_138.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_138",
+    "original_filename": "studnice-fest-2020_138",
+    "metadata": {
+      "lqip": "154220"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_139.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_139",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_139.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_139",
+    "original_filename": "studnice-fest-2020_139",
+    "metadata": {
+      "lqip": "174635"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_140.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_140",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_140.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_140",
+    "original_filename": "studnice-fest-2020_140",
+    "metadata": {
+      "lqip": "174628"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_141.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_141",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_141.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_141",
+    "original_filename": "studnice-fest-2020_141",
+    "metadata": {
+      "lqip": "-153309"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_142.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_142",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_142.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_142",
+    "original_filename": "studnice-fest-2020_142",
+    "metadata": {
+      "lqip": "-108188"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_143.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_143",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_143.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_143",
+    "original_filename": "studnice-fest-2020_143",
+    "metadata": {
+      "lqip": "-103636"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_144.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_144",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_144.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_144",
+    "original_filename": "studnice-fest-2020_144",
+    "metadata": {
+      "lqip": "-169437"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_145.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_145",
+    "width": 1335,
+    "height": 2000,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_145.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_145",
+    "original_filename": "studnice-fest-2020_145",
+    "metadata": {
+      "lqip": "174380"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_146.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_146",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_146.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_146",
+    "original_filename": "studnice-fest-2020_146",
+    "metadata": {
+      "lqip": "480548"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_147.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_147",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_147.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_147",
+    "original_filename": "studnice-fest-2020_147",
+    "metadata": {
+      "lqip": "152932"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_148.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_148",
+    "width": 1335,
+    "height": 2000,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_148.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_148",
+    "original_filename": "studnice-fest-2020_148",
+    "metadata": {
+      "lqip": "-91294"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_149.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_149",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_149.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_149",
+    "original_filename": "studnice-fest-2020_149",
+    "metadata": {
+      "lqip": "-9630"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_150.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_150",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_150.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_150",
+    "original_filename": "studnice-fest-2020_150",
+    "metadata": {
+      "lqip": "174626"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_151.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_151",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_151.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_151",
+    "original_filename": "studnice-fest-2020_151",
+    "metadata": {
+      "lqip": "170338"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_152.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_152",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_152.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_152",
+    "original_filename": "studnice-fest-2020_152",
+    "metadata": {
+      "lqip": "162401"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_153.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_153",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_153.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_153",
+    "original_filename": "studnice-fest-2020_153",
+    "metadata": {
+      "lqip": "-10653"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_154.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_154",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_154.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_154",
+    "original_filename": "studnice-fest-2020_154",
+    "metadata": {
+      "lqip": "-136598"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_155.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_155",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_155.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_155",
+    "original_filename": "studnice-fest-2020_155",
+    "metadata": {
+      "lqip": "157986"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_156.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_156",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_156.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_156",
+    "original_filename": "studnice-fest-2020_156",
+    "metadata": {
+      "lqip": "170347"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_157.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_157",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_157.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_157",
+    "original_filename": "studnice-fest-2020_157",
+    "metadata": {
+      "lqip": "109099"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_158.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_158",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_158.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_158",
+    "original_filename": "studnice-fest-2020_158",
+    "metadata": {
+      "lqip": "158243"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_159.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_159",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_159.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_159",
+    "original_filename": "studnice-fest-2020_159",
+    "metadata": {
+      "lqip": "481570"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_160.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_160",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_160.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_160",
+    "original_filename": "studnice-fest-2020_160",
+    "metadata": {
+      "lqip": "234786"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_161.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_161",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_161.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_161",
+    "original_filename": "studnice-fest-2020_161",
+    "metadata": {
+      "lqip": "240930"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_162.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_162",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_162.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_162",
+    "original_filename": "studnice-fest-2020_162",
+    "metadata": {
+      "lqip": "170531"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_163.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_163",
+    "width": 1335,
+    "height": 2000,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_163.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_163",
+    "original_filename": "studnice-fest-2020_163",
+    "metadata": {
+      "lqip": "-157149"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_164.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_164",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_164.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_164",
+    "original_filename": "studnice-fest-2020_164",
+    "metadata": {
+      "lqip": "-108182"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_165.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_165",
+    "width": 1335,
+    "height": 2000,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_165.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_165",
+    "original_filename": "studnice-fest-2020_165",
+    "metadata": {
+      "lqip": "513579"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_166.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_166",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_166.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_166",
+    "original_filename": "studnice-fest-2020_166",
+    "metadata": {
+      "lqip": "498020"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_167.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_167",
+    "width": 1335,
+    "height": 2000,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_167.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_167",
+    "original_filename": "studnice-fest-2020_167",
+    "metadata": {
+      "lqip": "513571"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_168.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_168",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_168.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_168",
+    "original_filename": "studnice-fest-2020_168",
+    "metadata": {
+      "lqip": "496739"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_169.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_169",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_169.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_169",
+    "original_filename": "studnice-fest-2020_169",
+    "metadata": {
+      "lqip": "-104157"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_170.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_170",
+    "width": 1335,
+    "height": 2000,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_170.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_170",
+    "original_filename": "studnice-fest-2020_170",
+    "metadata": {
+      "lqip": "178530"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_171.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_171",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_171.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_171",
+    "original_filename": "studnice-fest-2020_171",
+    "metadata": {
+      "lqip": "350819"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_172.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_172",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_172.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_172",
+    "original_filename": "studnice-fest-2020_172",
+    "metadata": {
+      "lqip": "157987"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_173.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_173",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_173.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_173",
+    "original_filename": "studnice-fest-2020_173",
+    "metadata": {
+      "lqip": "-104093"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_174.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_174",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_174.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_174",
+    "original_filename": "studnice-fest-2020_174",
+    "metadata": {
+      "lqip": "-151773"
+    }
+  },
+  "gallery/2020/studnice-fest-2020_175.jpg": {
+    "public_id": "gallery/2020/studnice-fest-2020_175",
+    "width": 2000,
+    "height": 1335,
+    "format": "jpg",
+    "resource_type": "image",
+    "type": "upload",
+    "secure_url": "https://res.cloudinary.com/studnicefest-cz/image/upload/v1/gallery/2020/studnice-fest-2020_175.jpg",
+    "asset_folder": "gallery/2020",
+    "display_name": "studnice-fest-2020_175",
+    "original_filename": "studnice-fest-2020_175",
+    "metadata": {
+      "lqip": "170338"
+    }
   }
 }
