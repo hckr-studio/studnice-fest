@@ -1,6 +1,7 @@
 import { texyTypography } from "@hckr_/blendid/texy";
 import { take } from "@thi.ng/transducers";
 import pathConfig from "./path-config.mjs";
+import { GalleryRegistry } from "./gallery-registry.mjs";
 import { NewsRegistry } from "./news-registry.mjs";
 
 function formatDate(s) {
@@ -66,14 +67,17 @@ export default {
     rev: { exclude: ["favicon.ico", "_headers"] }
   },
 
-  registries: [new NewsRegistry({}, pathConfig)],
+  registries: [
+    new NewsRegistry({}, pathConfig),
+    new GalleryRegistry({}, pathConfig)
+  ],
 
   additionalTasks: {
     development: {
-      prebuild: ["prepare-data"]
+      prebuild: ["prepare-data", "prepare-galleries"]
     },
     production: {
-      prebuild: ["prepare-data"]
+      prebuild: ["prepare-data", "prepare-galleries"]
     }
   },
 

@@ -10,7 +10,7 @@ Dub FX & Woodnote, David Koller, Mňága a Žďorp, Barbora Poláková, Prago Un
 <lite-youtube videoid="sK-eE2CCUv4" params="hl=cs&amp;modestbranding=1" 
   title="Aftermovie Studnice Fest 2026" class="responsive"></lite-youtube>
 
-[Fotogalerie ročníku 2026 →](/galerie/#rok-2026)
+[Fotogalerie ročníku 2026 →](/galerie/2026/)
 
 {{ bands(history[2026]) }}
 

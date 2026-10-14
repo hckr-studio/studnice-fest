@@ -243,6 +243,18 @@ export default {
   formatTime,
   festivalDay,
   galleries,
+  // Jeden ročník galerie + sousední ročníky (newer/older) pro navigaci.
+  gallery(images, year) {
+    const all = galleries(images);
+    const i = all.findIndex((g) => g.year === Number(year));
+    if (i < 0) return null;
+    return {
+      ...all[i],
+      newer: all[i - 1]?.year ?? null,
+      older: all[i + 1]?.year ?? null
+    };
+  },
+
   formatNumber(n) {
     return Intl.NumberFormat("cs").format(n);
   },
