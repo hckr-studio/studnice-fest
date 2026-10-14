@@ -1,8 +1,10 @@
 ---
 image: zavis.jpg
 genre: písničkář
-# Odkaz na interpreta ze Spotify (Sdílet → Kopírovat odkaz) – zobrazí přehrávač
-spotify:
+# YouTube ID videa (z odkazu youtube.com/watch?v=…)
+video: Db0ihh8r--0
+# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
+spotify: https://open.spotify.com/track/2qmYItWb0FZNgnYr7ZZtyt
 ---
 
 # Záviš

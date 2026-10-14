@@ -3,8 +3,10 @@ image: tata-bojs.jpg
 heroLevel: 1
 genre: alternativní rock · pop
 origin: Praha
-# Odkaz na interpreta ze Spotify (Sdílet → Kopírovat odkaz) – zobrazí přehrávač
-spotify:
+# YouTube ID videa (z odkazu youtube.com/watch?v=…)
+video: wrq1dTXaRaA
+# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
+spotify: https://open.spotify.com/album/2t0t3fR3sgn86ocztJ6jOc
 ---
 
 # Tata Bojs

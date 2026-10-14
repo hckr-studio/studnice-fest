@@ -1,7 +1,9 @@
 ---
 image: skyline2.jpg
 genre: elektro-rock
-# Odkaz na interpreta ze Spotify (Sdílet → Kopírovat odkaz) – zobrazí přehrávač
+# YouTube ID videa (z odkazu youtube.com/watch?v=…)
+video: KP-zFlixgrs
+# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
 spotify:
 ---
 

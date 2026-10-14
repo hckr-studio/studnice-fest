@@ -1,8 +1,10 @@
 ---
 image: barbora-polakova.jpg
 genre: pop · písničkářka
-# Odkaz na interpreta ze Spotify (Sdílet → Kopírovat odkaz) – zobrazí přehrávač
-spotify:
+# YouTube ID videa (z odkazu youtube.com/watch?v=…)
+video: K5ViLv0EFsw
+# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
+spotify: https://open.spotify.com/artist/7i8cvoz4IkDWbIZ5sMP3y4
 ---
 
 # Barbora Poláková
