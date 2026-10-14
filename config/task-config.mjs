@@ -1,8 +1,12 @@
 import { texyTypography } from "@hckr_/blendid/texy";
 import { take } from "@thi.ng/transducers";
+import { defineLqipProperty } from "@hckr_/blendid/lib/cloudinary.mjs";
 import pathConfig from "./path-config.mjs";
 import { GalleryRegistry } from "./gallery-registry.mjs";
 import { NewsRegistry } from "./news-registry.mjs";
+
+/** @type {Promise<void> | undefined} */
+let lqipFieldReady;
 
 function formatDate(s) {
   const formatter = new Intl.DateTimeFormat("cs", {
@@ -20,7 +24,15 @@ function removeHashtags(s) {
 export default {
   images: true,
   cloudflare: true,
-  cloudinary: true,
+  cloudinary: {
+    // Blendid volá setup() před KAŽDÝM uploadem a ten dělá dotaz na Cloudinary
+    // Admin API (limit ~500 volání/hod). Při nahrání celého ročníku galerie
+    // to build shodí na rate limitu – stačí pole „lqip“ ověřit jednou za build.
+    setup(cloudinary) {
+      lqipFieldReady ??= defineLqipProperty(cloudinary);
+      return lqipFieldReady;
+    }
+  },
   fonts: true,
   static: true,
   svgSprite: false,
