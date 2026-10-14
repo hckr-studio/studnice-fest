@@ -4,21 +4,40 @@
   generuje config/gallery-registry.mjs a nastaví v nich `year`.
 #}
 {% set g = gallery(collections.images, year) %}
-{% set title = "Fotogalerie " ~ year %}
+{% set title = "Fotogalerie Studnice Fest " ~ year %}
 {% set newer = g.newer if g else null %}
 {% set older = g.older if g else null %}
 
 {% block head_stylesheets %}
   <style>
-    .gallery-intro {
-      max-width: 65ch;
-      margin-bottom: 2em;
+    /* Bílý podklad jako u obsahových částí webu */
+    .gallery-panel {
+      background-color: var(--background-color);
+      border-radius: var(--corner-radius);
+      padding: clamp(1rem, 0.5rem + 2vw, 2rem);
+    }
+
+    .gallery-head {
+      margin-block-end: 1.25em;
+
+      h2 {
+        margin: 0;
+      }
+
+      p {
+        margin: 0.35em 0 0;
+      }
+    }
+
+    .gallery-back {
+      font: 700 1em var(--accented-font);
+      color: var(--accent-color-darker);
     }
 
     .gallery-grid {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: clamp(0.45rem, 1.5vw, 1rem);
+      gap: clamp(0.35rem, 1.2vw, 0.75rem);
     }
 
     @media (min-width: 600px) {
@@ -42,19 +61,19 @@
       overflow: hidden;
       cursor: zoom-in;
       aspect-ratio: 4 / 3;
-    }
 
-    .gallery-item img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      transition: transform 180ms ease;
-    }
+      img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: scale 180ms ease;
+      }
 
-    .gallery-item:hover img,
-    .gallery-item:focus-visible img {
-      transform: scale(1.035);
+      &:hover img,
+      &:focus-visible img {
+        scale: 1.035;
+      }
     }
 
     .gallery-item:focus-visible,
@@ -63,6 +82,20 @@
       outline-offset: 3px;
     }
 
+    .gallery-pager {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 0.5em 1em;
+      margin: 1.5em 0 0;
+      font: 700 1.05em var(--accented-font);
+
+      a {
+        color: var(--accent-color-darker);
+      }
+    }
+
+    /* Prohlížeč: vodorovný pás fotek se snapováním – swipe jede za prstem */
     .lightbox {
       width: 100vw;
       max-width: none;
@@ -71,33 +104,45 @@
       margin: 0;
       border: 0;
       padding: 0;
-      background: rgb(7 11 14 / 96%);
+      background: #000;
       color: #fff;
       overflow: hidden;
     }
 
     .lightbox::backdrop {
-      background: rgb(7 11 14 / 96%);
+      background: #000;
     }
 
-    .lightbox__figure {
-      width: 100%;
+    .lightbox__track {
+      display: flex;
       height: 100%;
-      margin: 0;
+      overflow-x: auto;
+      overflow-y: hidden;
+      scroll-snap-type: x mandatory;
+      overscroll-behavior: contain;
+      scrollbar-width: none;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+
+    .lightbox__slide {
+      flex: 0 0 100%;
+      height: 100%;
       display: grid;
       place-items: center;
-      touch-action: pan-y;
-    }
+      scroll-snap-align: center;
+      scroll-snap-stop: always;
 
-    .lightbox__image {
-      display: block;
-      max-width: calc(100vw - 2rem);
-      max-height: calc(100dvh - 5rem);
-      width: auto;
-      height: auto;
-      object-fit: contain;
-      user-select: none;
-      -webkit-user-drag: none;
+      img {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+        user-select: none;
+        -webkit-user-drag: none;
+      }
     }
 
     .lightbox button {
@@ -116,7 +161,7 @@
     }
 
     .lightbox__close {
-      top: 1rem;
+      top: max(1rem, env(safe-area-inset-top));
       right: 1rem;
     }
 
@@ -129,9 +174,17 @@
     .lightbox__prev { left: 1rem; }
     .lightbox__next { right: 1rem; }
 
+    /* Na dotykových zařízeních jen swipe, bez šipek po stranách */
+    @media (pointer: coarse) {
+      .lightbox__prev,
+      .lightbox__next {
+        display: none !important;
+      }
+    }
+
     .lightbox__counter {
       position: fixed;
-      bottom: 1rem;
+      bottom: max(1rem, env(safe-area-inset-bottom));
       left: 50%;
       translate: -50% 0;
       margin: 0;
@@ -141,75 +194,46 @@
       font-family: var(--accented-font);
       font-weight: 700;
     }
-
-    main {
-      row-gap: 2em;
-    }
-
-    .gallery-head {
-      p {
-        margin-block: 0.5em 0;
-      }
-    }
-
-    .gallery-pager {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      gap: 0.5em 1em;
-      font: 700 1.05em var(--accented-font);
-
-      a {
-        color: var(--accent-color-darker);
-      }
-    }
   </style>
 {% endblock %}
 
 {% block content %}
   <main>
-    <header class="gallery-head">
+    <div class="gallery-panel">
+      <header class="gallery-head">
+        <h2>Fotogalerie Studnice Fest {{ year }}</h2>
+        <p><a class="gallery-back" href="/historie/#studnice-fest-{{ year }}">Historie ročníku {{ year }} →</a></p>
+      </header>
+
+      {% if g %}
+        <div class="gallery-grid" data-gallery>
+          {% for image in g.photos %}
+            <button class="gallery-item" type="button"
+                    data-src-m="{{ image.public_id | cloudinaryUrl({ width: 1280 }) }}"
+                    data-src-l="{{ image.public_id | cloudinaryUrl({ width: 2000 }) }}"
+                    aria-label="Otevřít fotografii {{ loop.index }} z {{ g.photos | length }}">
+              <img alt="" width="{{ image.width }}" height="{{ image.height }}" loading="lazy" decoding="async"
+                   style="{% if image.metadata.lqip %}--lqip:{{ image.metadata.lqip }}{% endif %}"
+                   src="{{ image.public_id | cloudinaryUrl({ crop: 'fill', width: 480, ar: 1.333 }) }}">
+            </button>
+          {% endfor %}
+        </div>
+      {% endif %}
+
       <p class="gallery-pager">
-        <a href="/galerie/">← Všechny ročníky</a>
-        <span>
-          {% if newer %}<a href="/galerie/{{ newer }}/">{{ newer }} →</a>{% endif %}
-        </span>
+        {% if older %}<a href="/galerie/{{ older }}/">← {{ older }}</a>{% else %}<span></span>{% endif %}
+        <a href="/galerie/">Všechny ročníky</a>
+        {% if newer %}<a href="/galerie/{{ newer }}/">{{ newer }} →</a>{% else %}<span></span>{% endif %}
       </p>
-      <h2>Fotogalerie {{ year }}</h2>
-      <p>{{ g.photos | length if g else 0 }} fotek ze Studnice Festu {{ year }}. Klikněte na fotku pro zvětšení,
-        šipkami nebo přejetím prstu se posunete na další.</p>
-    </header>
-
-    {% if g %}
-      <div class="gallery-grid" data-gallery>
-        {% for image in g.photos %}
-          <button class="gallery-item" type="button"
-                  data-full="{{ image.public_id | cloudinaryUrl({ width: 2000 }) }}"
-                  aria-label="Otevřít fotografii {{ loop.index }} z {{ g.photos | length }}">
-            <img alt="" width="{{ image.width }}" height="{{ image.height }}" loading="lazy"
-                 style="{% if image.metadata.lqip %}--lqip:{{ image.metadata.lqip }}{% endif %}"
-                 sizes="(min-width: 960px) 22vw, (min-width: 600px) 30vw, 46vw"
-                 src="{{ image.public_id | cloudinaryUrl({ crop: 'fill', width: 600, ar: 1.333 }) }}">
-          </button>
-        {% endfor %}
-      </div>
-    {% endif %}
-
-    <p class="gallery-pager">
-      {% if older %}<a href="/galerie/{{ older }}/">← {{ older }}</a>{% else %}<span></span>{% endif %}
-      <a href="/galerie/">Všechny ročníky</a>
-      {% if newer %}<a href="/galerie/{{ newer }}/">{{ newer }} →</a>{% else %}<span></span>{% endif %}
-    </p>
+    </div>
   </main>
 
   <dialog class="lightbox" data-lightbox aria-label="Prohlížeč fotografií">
+    <div class="lightbox__track"></div>
     <button class="lightbox__close" type="button" aria-label="Zavřít">×</button>
     <button class="lightbox__prev" type="button" aria-label="Předchozí fotografie">‹</button>
-    <figure class="lightbox__figure">
-      <img class="lightbox__image" alt="">
-      <figcaption class="lightbox__counter" aria-live="polite"></figcaption>
-    </figure>
     <button class="lightbox__next" type="button" aria-label="Následující fotografie">›</button>
+    <p class="lightbox__counter" aria-live="polite"></p>
   </dialog>
 {% endblock %}
 
@@ -217,50 +241,78 @@
   <script type="module">
     const items = [...document.querySelectorAll("[data-gallery] .gallery-item")];
     const lightbox = document.querySelector("[data-lightbox]");
-    const image = lightbox.querySelector(".lightbox__image");
+    const track = lightbox.querySelector(".lightbox__track");
     const counter = lightbox.querySelector(".lightbox__counter");
-    const figure = lightbox.querySelector(".lightbox__figure");
-    let currentIndex = 0;
-    let pointerStart = null;
+    const PRELOAD = 2; // kolik fotek dopředu/dozadu načíst
+    let current = 0;
 
-    function show(index) {
-      currentIndex = (index + items.length) % items.length;
-      image.src = items[currentIndex].dataset.full;
-      counter.textContent = `${currentIndex + 1} / ${items.length}`;
+    // Slidy vytvoříme jednou, obrázky se načítají jen kolem aktuální fotky.
+    const slides = items.map(() => {
+      const slide = document.createElement("div");
+      slide.className = "lightbox__slide";
+      const img = document.createElement("img");
+      img.alt = "";
+      img.decoding = "async";
+      slide.append(img);
+      track.append(slide);
+      return slide;
+    });
+
+    // Velikost podle displeje: telefony 1280 px, velké obrazovky 2000 px.
+    const sizeKey = () =>
+      Math.max(innerWidth, innerHeight) * devicePixelRatio > 1600 ? "srcL" : "srcM";
+
+    function load(index) {
+      const img = slides[index]?.firstChild;
+      if (img && !img.src) img.src = items[index].dataset[sizeKey()];
     }
 
+    function update(index) {
+      current = index;
+      counter.textContent = `${index + 1} / ${items.length}`;
+      for (let i = index - PRELOAD; i <= index + PRELOAD; i++) load(i);
+    }
+
+    function go(index, smooth = true) {
+      const i = Math.max(0, Math.min(items.length - 1, index));
+      track.scrollTo({ left: i * track.clientWidth, behavior: smooth ? "smooth" : "instant" });
+      update(i);
+    }
+
+    let scrollTimer;
+    track.addEventListener("scroll", () => {
+      const i = Math.round(track.scrollLeft / track.clientWidth);
+      if (i !== current) update(i);
+      clearTimeout(scrollTimer);
+      scrollTimer = setTimeout(() => update(Math.round(track.scrollLeft / track.clientWidth)), 120);
+    }, { passive: true });
+
     items.forEach((item, index) => item.addEventListener("click", () => {
-      show(index);
       lightbox.showModal();
+      update(index);
+      requestAnimationFrame(() => go(index, false));
     }));
 
     lightbox.querySelector(".lightbox__close").addEventListener("click", () => lightbox.close());
-    lightbox.querySelector(".lightbox__prev").addEventListener("click", () => show(currentIndex - 1));
-    lightbox.querySelector(".lightbox__next").addEventListener("click", () => show(currentIndex + 1));
+    lightbox.querySelector(".lightbox__prev").addEventListener("click", () => go(current - 1));
+    lightbox.querySelector(".lightbox__next").addEventListener("click", () => go(current + 1));
 
-    lightbox.addEventListener("click", event => {
-      if (event.target === lightbox || event.target === figure) lightbox.close();
+    lightbox.addEventListener("keydown", (event) => {
+      if (event.key === "ArrowLeft") { event.preventDefault(); go(current - 1); }
+      if (event.key === "ArrowRight") { event.preventDefault(); go(current + 1); }
     });
 
-    lightbox.addEventListener("keydown", event => {
-      if (event.key === "ArrowLeft") show(currentIndex - 1);
-      if (event.key === "ArrowRight") show(currentIndex + 1);
+    // Klik vedle fotky zavře prohlížeč (jen myší, ne po swipu).
+    track.addEventListener("click", (event) => {
+      if (event.target.classList.contains("lightbox__slide")) lightbox.close();
     });
 
-    figure.addEventListener("pointerdown", event => {
-      pointerStart = event.clientX;
-    });
-
-    figure.addEventListener("pointerup", event => {
-      if (pointerStart === null) return;
-      const distance = event.clientX - pointerStart;
-      if (Math.abs(distance) > 50) show(currentIndex + (distance < 0 ? 1 : -1));
-      pointerStart = null;
+    addEventListener("resize", () => {
+      if (lightbox.open) go(current, false);
     });
 
     lightbox.addEventListener("close", () => {
-      image.removeAttribute("src");
-      items[currentIndex]?.focus();
+      items[current]?.focus();
     });
   </script>
 {% endblock %}

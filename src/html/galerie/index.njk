@@ -9,9 +9,19 @@
 
 {% block head_stylesheets %}
   <style>
-    .gallery-head p {
-      max-width: 65ch;
-      margin-block: 0.5em 0;
+    /* Bílý podklad jako u obsahových částí webu */
+    .gallery-panel {
+      background-color: var(--background-color);
+      border-radius: var(--corner-radius);
+      padding: clamp(1rem, 0.5rem + 2vw, 2rem);
+    }
+
+    .gallery-head {
+      margin-block-end: 1.25em;
+
+      h2 {
+        margin: 0;
+      }
     }
 
     .gallery-years {
@@ -125,9 +135,9 @@
 
 {% block content %}
   <main>
+    <div class="gallery-panel">
     <header class="gallery-head">
       <h2>Fotogalerie</h2>
-      <p>Fotky z&nbsp;posledních ročníků Studnice Festu. Vyberte ročník a&nbsp;prohlédněte si celou galerii.</p>
     </header>
 
     <div class="gallery-years">
@@ -159,6 +169,7 @@
       {% else %}
         <p>Fotky zatím nejsou k&nbsp;dispozici.</p>
       {% endfor %}
+    </div>
     </div>
   </main>
 {% endblock %}
