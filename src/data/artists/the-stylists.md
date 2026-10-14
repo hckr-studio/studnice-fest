@@ -1,6 +1,8 @@
 ---
 image: the-stylists.jpg
-# Odkaz na interpreta ze Spotify (Sdílet → Kopírovat odkaz) – zobrazí přehrávač
+# YouTube ID videa (z odkazu youtube.com/watch?v=…)
+video: eHq2_dhHWV8
+# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
 spotify:
 ---
 

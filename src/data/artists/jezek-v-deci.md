@@ -1,7 +1,9 @@
 ---
 image: jezek-v-deci.jpg
 genre: šanson · punkšanson
-# Odkaz na interpreta ze Spotify (Sdílet → Kopírovat odkaz) – zobrazí přehrávač
+# YouTube ID videa (z odkazu youtube.com/watch?v=…)
+video:
+# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
 spotify:
 ---
 

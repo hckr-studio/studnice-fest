@@ -10,7 +10,7 @@
     origin: Austrálie            # odkud kapela je
     years: [2018, 2022]          # starší ročníky, které nejsou v history (global.mjs)
     video: sK-eE2CCUv4           # YouTube ID
-    spotify: 2CIMQHirSU0MQqyYHq0eOx   # Spotify ID interpreta (nebo odkaz na open.spotify.com/artist/…)
+    spotify: https://open.spotify.com/artist/…   # interpret, album, skladba nebo playlist
     links:
       web: https://…
       instagram: https://…
@@ -40,8 +40,16 @@
 {% endfor %}
 {% set playedYears = playedYears | sort(true) %}
 {% set upcoming = slug in event.artists %}
-{% set spotifyId = (artist.spotify or (artist.links.spotify if artist.links else "") or "") | replace("https://open.spotify.com/artist/", "") | replace("http://open.spotify.com/artist/", "") %}
-{% set spotifyId = spotifyId.split("?")[0] if spotifyId else "" %}
+{# Spotify: odkaz na interpreta, album, skladbu nebo playlist (nebo jen ID interpreta) #}
+{% set sp = (artist.spotify or (artist.links.spotify if artist.links else "") or "") | string %}
+{% set spotifyPath = "" %}
+{% if "open.spotify.com/" in sp %}
+  {% set spotifyPath = sp.split("open.spotify.com/")[1].split("?")[0] %}
+  {% if spotifyPath.startsWith("intl-") %}{% set spotifyPath = spotifyPath.split("/").slice(1).join("/") %}{% endif %}
+  {% if spotifyPath.startsWith("embed/") %}{% set spotifyPath = spotifyPath.slice(6) %}{% endif %}
+{% elif sp %}
+  {% set spotifyPath = "artist/" ~ sp %}
+{% endif %}
 {% set upcomingYear = event.startDate.getFullYear() %}
 
 {# Další kapely: z nejnovějšího ročníku, kde kapela hrála (nebo z chystaného) #}
@@ -217,6 +225,10 @@
       border-radius: 12px;
     }
 
+    .artist__spotify--track {
+      height: 152px;
+    }
+
     .artist__links {
       display: flex;
       flex-wrap: wrap;
@@ -359,9 +371,9 @@
           </div>
         {% endif %}
 
-        {% if spotifyId %}
-          <iframe class="artist__spotify" title="{{ title }} na Spotify" loading="lazy"
-                  src="https://open.spotify.com/embed/artist/{{ spotifyId }}?utm_source=generator&amp;theme=0"
+        {% if spotifyPath %}
+          <iframe class="artist__spotify{% if spotifyPath.startsWith("track/") %} artist__spotify--track{% endif %}" title="{{ title }} na Spotify" loading="lazy"
+                  src="https://open.spotify.com/embed/{{ spotifyPath }}?utm_source=generator&amp;theme=0"
                   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
         {% endif %}
 

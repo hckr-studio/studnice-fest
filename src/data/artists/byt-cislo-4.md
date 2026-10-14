@@ -2,8 +2,10 @@
 image: byt-cislo-4.jpg
 genre: punk rock
 origin: Šumperk
-# Odkaz na interpreta ze Spotify (Sdílet → Kopírovat odkaz) – zobrazí přehrávač
-spotify:
+# YouTube ID videa (z odkazu youtube.com/watch?v=…)
+video: auklX66my0Q
+# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
+spotify: https://open.spotify.com/track/6VBqtZZuqhoNj6LeGV6O9W
 ---
 
 # Byt číslo 4

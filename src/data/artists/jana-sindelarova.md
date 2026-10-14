@@ -1,7 +1,9 @@
 ---
 image: jana-sindelarova.jpg
 genre: písničkářka
-# Odkaz na interpreta ze Spotify (Sdílet → Kopírovat odkaz) – zobrazí přehrávač
+# YouTube ID videa (z odkazu youtube.com/watch?v=…)
+video: ntE-Jkk5Kbc
+# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
 spotify:
 ---
 

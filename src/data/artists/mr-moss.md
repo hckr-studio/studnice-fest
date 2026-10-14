@@ -1,8 +1,10 @@
 ---
 image: mr-moss.jpg
 genre: swing · jazz · rock · electro
-# Odkaz na interpreta ze Spotify (Sdílet → Kopírovat odkaz) – zobrazí přehrávač
-spotify:
+# YouTube ID videa (z odkazu youtube.com/watch?v=…)
+video: HYX4U7ZthZY
+# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
+spotify: https://open.spotify.com/artist/0GLPfmHCGujAHpsDt5xQkT
 ---
 
 # Mr. Moss

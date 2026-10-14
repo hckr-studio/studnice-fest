@@ -2,8 +2,10 @@
 image: elektrick-mann.jpg
 genre: hardcore rap · rock
 origin: Valašské Meziříčí
-# Odkaz na interpreta ze Spotify (Sdílet → Kopírovat odkaz) – zobrazí přehrávač
-spotify:
+# YouTube ID videa (z odkazu youtube.com/watch?v=…)
+video: DINkVQ7V8JE
+# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
+spotify: https://open.spotify.com/track/2HgZXaln6atFXox4rZQHgc
 ---
 
 # Elektrïck Mann

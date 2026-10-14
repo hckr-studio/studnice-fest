@@ -1,10 +1,14 @@
 ---
 image: pokac.jpg
 genre: písničkář
-# Odkaz na interpreta ze Spotify (Sdílet → Kopírovat odkaz) – zobrazí přehrávač
-spotify:
+# YouTube ID videa (z odkazu youtube.com/watch?v=…)
+video: lUrW_eHugjw
+# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
+spotify: https://open.spotify.com/track/46gXy9AQ6z0DXw29uCaEsB
 ---
 
 # Pokáč
 
-Písničkář, jehož vtipné písničky zná celý les nazpaměť. Na Studnici zahrál v roce 2025.
+Písničkář Jan Pokorný, který se proslavil na YouTube vtipnými písničkami o každodenních trablích. Kytara, nadhled a texty, které zná celý les nazpaměť.
+
+Na Studnici zahrál v roce 2025.

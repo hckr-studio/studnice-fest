@@ -2,8 +2,10 @@
 image: dub-fx.jpg
 genre: beatbox · live looping · dub
 origin: Melbourne, Austrálie
-# Odkaz na interpreta ze Spotify (Sdílet → Kopírovat odkaz) – zobrazí přehrávač
-spotify:
+# YouTube ID videa (z odkazu youtube.com/watch?v=…)
+video: naM7ZaAwImk
+# Spotify – odkaz na interpreta, album nebo skladbu (Sdílet → Kopírovat odkaz)
+spotify: https://open.spotify.com/track/06VYuoM6FfJgv7rANMp2uf
 ---
 
 # Dub FX & Woodnote
