@@ -81,6 +81,83 @@
     main > hgroup > h2 {
       margin-block: 0;
     }
+
+    /* Kapely ročníku – zmenšená obdoba karet z hlavní stránky */
+    .history-bands {
+      list-style: none;
+      margin: 1em 0 1.25em;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(clamp(5.5rem, 4.5rem + 3vw, 7rem), 1fr));
+      gap: 0.5em;
+    }
+
+    .history-bands__item {
+      margin: 0;
+      padding: 0;
+      aspect-ratio: 1;
+      border-radius: var(--corner-radius);
+      overflow: hidden;
+      display: grid;
+      background-color: var(--dark-blue-background-color);
+
+      &::marker {
+        content: none;
+      }
+
+      img {
+        grid-area: 1/1;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: scale 500ms cubic-bezier(.5, -.25, .75, 1);
+
+        &:hover {
+          scale: 1.1;
+        }
+      }
+
+      span {
+        grid-area: 1/1;
+        place-self: end stretch;
+        z-index: 1;
+        padding: 1.5em 0.35em 0.4em;
+        font: 700 clamp(0.7rem, 0.6rem + 0.3vw, 0.85rem)/1.15 var(--accented-font);
+        text-transform: uppercase;
+        text-align: center;
+        text-wrap: balance;
+        color: #fff;
+        text-shadow: 1px 1px #333;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.55) 100%);
+        pointer-events: none;
+      }
+    }
+
+    /* Kapely bez fotky – jen jméno na barevné dlaždici */
+    .history-bands__item--text {
+      background-color: var(--accent-color-darker);
+
+      span {
+        place-self: center stretch;
+        padding: 0.5em;
+        font-size: clamp(0.75rem, 0.65rem + 0.35vw, 0.95rem);
+        background: none;
+        text-shadow: none;
+      }
+    }
+
+    .history-bands__item--more {
+      background-color: transparent;
+      border: 2px dashed var(--accent-color);
+
+      span {
+        place-self: center stretch;
+        color: var(--accent-color);
+        background: none;
+        text-shadow: none;
+        text-transform: none;
+      }
+    }
   </style>
 {% endblock %}
 

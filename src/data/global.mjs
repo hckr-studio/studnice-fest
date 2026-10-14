@@ -68,6 +68,141 @@ export default {
       tent: "Dětský stan"
     }
   },
+  history: {
+    // Kapely jednotlivých ročníků pro stránku Historie.
+    // Slug z src/data/artists se zobrazí s fotkou, obyčejný text jako dlaždice se jménem.
+    // Objekt { slug, title } použije fotku, ale přepíše jméno (např. dřívější název kapely).
+    2026: [
+      "dub-fx",
+      "mnaga-a-zdorp",
+      "david-koller",
+      "barbora-polakova",
+      { slug: "vypsana-fixa", title: "Vypsaná fiXa (překvapení)" },
+      "letni-kapela",
+      "midi-lidi",
+      "prago-union",
+      "skyline",
+      "elektrick-mann",
+      "zrni",
+      "the-stylists",
+      "nikola-mucha",
+      "xavier-baumaxa",
+      "lazer-viking",
+      "dukla-vozovna",
+      "volant",
+      "zavis",
+      "byt-cislo-4",
+      "mr-moss",
+      "anicka",
+      "jezek-v-deci",
+      "jana-sindelarova"
+    ],
+    2025: [
+      "the-subways",
+      "tata-bojs",
+      "skyline",
+      "pokac",
+      "the-prostitutes",
+      "jamaron",
+      "mucha",
+      "fast-food-orchestra",
+      "vojtaano",
+      "dukla-vozovna",
+      "i-love-you-honey-bunny",
+      "volant",
+      "dukla",
+      "zavis",
+      "brixtn",
+      "rozalie",
+      "rodan",
+      "neni-zac",
+      "anicka",
+      "slavicek",
+      "tybrdo-divadlo"
+    ],
+    2024: [
+      "vypsana-fixa",
+      "noha",
+      "lenny",
+      "mydy",
+      "prago-union",
+      "ventolin",
+      "xavier-baumaxa",
+      "imodium",
+      "dukla-vozovna",
+      "volant",
+      "circus-problem",
+      "zavis",
+      "anatol-svahilec",
+      "drum-for-fun",
+      "zadnej-stres",
+      "the-stryc",
+      "gorale-originale-pardubicensis"
+    ],
+    2023: [
+      "tata-bojs",
+      "Monkey Business",
+      "mnaga-a-zdorp",
+      "skyline",
+      "Gaia Mesiah",
+      "letni-kapela",
+      "i-love-you-honey-bunny"
+    ],
+    2022: [
+      "vypsana-fixa",
+      "Gaia Mesiah",
+      "noha",
+      "Sto zvířat",
+      "Kapitán Demo",
+      "zrni",
+      "ventolin",
+      "Vltava"
+    ],
+    2021: [
+      "tata-bojs",
+      "Visací zámek",
+      "skyline",
+      "midi-lidi",
+      "Hentai Corporation",
+      "Lenka Dusilová",
+      "xavier-baumaxa"
+    ],
+    2020: [
+      "pokac",
+      "vypsana-fixa",
+      "Monkey Business",
+      "Gaia Mesiah",
+      "skyline",
+      "The Atavists",
+      "Kurtizány z 25. avenue"
+    ],
+    2019: [
+      "Wohnout",
+      "Pipes and Pints",
+      "skyline",
+      "Kapitán Demo",
+      "Jiří Schmitzer",
+      "ventolin",
+      "circus-problem"
+    ],
+    2018: [
+      "tata-bojs",
+      { slug: "mydy", title: "Mydy Rabycad" },
+      "Michal Hrůza",
+      "skyline",
+      "Poletíme?",
+      "fast-food-orchestra",
+      "dukla-vozovna"
+    ],
+    2017: [
+      "Buty",
+      "skyline",
+      "Lenka Dusilová & Baromantika",
+      "fast-food-orchestra",
+      "xavier-baumaxa",
+      "imodium"
+    ]
+  },
   lineup: {
     visible: false,
     heading: "Na 21. ročníku vystoupí",
