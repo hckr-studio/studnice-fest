@@ -55,6 +55,9 @@
               data-level="{{ artist.heroLevel | safe }}">{# <a href="#{{ key }}"> #}{{ artist.title | safe }}{# </a> #}</li>
           {% endif %}
         {% endfor %}
+        {% if lineup.moreSoon %}
+          <li class="hero__more">{{ lineup.moreSoon }}</li>
+        {% endif %}
       </ol>
       {% if hero.text %}<p>{{ hero.text }}</p>{% endif %}
       <div>
@@ -178,6 +181,9 @@
                sizes="(min-width: 840px) 296px, 88.43vw">
         </article>
       {% endfor %}
+      {% if lineup.moreSoon %}
+        <p class="artists-list__more">{{ lineup.moreSoon }}</p>
+      {% endif %}
     </section>
     <section id="vstupenky">
       <header id="info">

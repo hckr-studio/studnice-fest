@@ -543,6 +543,15 @@ section p {
       }
     }
 
+    li.hero__more {
+      display: block;
+      margin-block-start: 0.35em;
+      font-size: 0.45em;
+      font-weight: 400;
+      text-transform: none;
+      opacity: 0.9;
+    }
+
     li[data-level="2"] + li[data-level="2"]::before,
     li[data-level="3"] + li[data-level="3"]::before {
       content: "•";
@@ -722,6 +731,22 @@ section p {
 .artists-list {
   --columns: 2;
   --colspan: 1;
+
+  .artists-list__more {
+    grid-column: span var(--colspan);
+    display: grid;
+    place-items: center;
+    aspect-ratio: 1;
+    margin: 0;
+    padding: 1em;
+    border: 2px dashed var(--accent-color);
+    border-radius: var(--corner-radius);
+    font-family: var(--accented-font);
+    font-size: clamp(1.1em, 3vw, 1.5em);
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+  }
 
   container-type: inline-size;
   display: grid;

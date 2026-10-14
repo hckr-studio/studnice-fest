@@ -135,6 +135,8 @@ export default {
   lineup: {
     visible: false,
     heading: "Na 21. ročníku vystoupí",
+    // Doplněk za ohlášené kapely (hero + Kdo vystoupí). Prázdný řetězec = skryto.
+    moreSoon: "a brzy další…",
     thursday: {
       title: "Čtvrtek 23. 7.",
       schedule: [
