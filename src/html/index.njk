@@ -20,7 +20,7 @@
   {% set small = collections.images[hero["bg-small"]] %}
   {% set medium = collections.images[hero["bg-medium"]] %}
   {% set big = collections.images[hero["bg-big"]] %}
-  <div class="hero" id="header" style="--lqip: {{ small.metadata.lqip }}">
+  <div class="hero" id="header" role="region" aria-label="Úvod" style="--lqip: {{ small.metadata.lqip }}">
     <style>
       .hero {
         --lqip-small: {{ small.metadata.lqip }};
@@ -149,7 +149,7 @@
         <article class="artists-list__item" id="{{ key }}" data-level="{{ artist.heroLevel }}">
           <a {% if key in artistPages %}href="/kapely/{{ key }}/" {% endif %}class="artists-list__link">
           <h3>{{ artist.title | safe }}</h3>
-          <img src="{{ image.public_id | cloudinaryUrl(ar=1,crop="fill",gravity="auto") }}" alt="{{ artist.title }}"
+          <img src="{{ image.public_id | cloudinaryUrl(ar=1,crop="fill",gravity="auto") }}" alt=""
                style="{% if metadata.lqip %}--lqip:{{ metadata.lqip }}{% endif %}"
                width="296" height="296" loading="lazy"
                sizes="(min-width: 840px) 296px, 88.43vw">
