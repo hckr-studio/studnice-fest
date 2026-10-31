@@ -158,10 +158,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cloudflare/workers-types@npm:5.20261014.1":
-  version: 5.20261014.1
-  resolution: "@cloudflare/workers-types@npm:5.20261014.1"
-  checksum: 10c0/ad5f5a4a9f4d5bcfc18bc1ef8d86d2490d9e3301cd3cb3f0804b3a122082becc46bef28465208731a1a8ee54362b328cb505cf3c58610305acd347d19e211258
+"@cloudflare/workers-types@npm:5.20261031.1":
+  version: 5.20261031.1
+  resolution: "@cloudflare/workers-types@npm:5.20261031.1"
+  checksum: 10c0/280917f298d7f4a7c3acbcda0f432b699b4ecbc46b35e49e81da2d94a19b0aba267be924024e6e2172608eba59f2d3c3b71ae596dd75890934ebdeb1fb791baf
   languageName: node
   linkType: hard
 
@@ -5822,7 +5822,7 @@ __metadata:
   resolution: "studnice-fest@workspace:."
   dependencies:
     "@biomejs/biome": "npm:2.5.15"
-    "@cloudflare/workers-types": "npm:5.20261014.1"
+    "@cloudflare/workers-types": "npm:5.20261031.1"
     "@hckr_/blendid": "npm:9.9.0"
     "@thi.ng/transducers": "npm:9.7.0"
     "@types/gulp": "npm:4.0.18"
