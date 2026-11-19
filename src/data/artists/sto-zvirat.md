@@ -6,7 +6,7 @@ origin: Praha
 # YouTube videa: ID z odkazu youtube.com/watch?v=… (první nejsledovanější, druhé novější)
 # videos: ["", ""]
 # Spotify – odkaz na profil interpreta (Sdílet → Kopírovat odkaz); přehrávač ukáže top skladby
-# spotify: https://open.spotify.com/artist/…
+spotify: https://open.spotify.com/artist/4fLCFZWbgAALL8veJBj8lX
 ---
 
 # Sto zvířat
