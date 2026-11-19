@@ -72,7 +72,7 @@ const data = {
     location: "Cihelka, Hlinsko v Čechách",
     description:
       "Letní hudební festival Studnice Fest je opět tu! V Hlinsku v Čechách se potkáme 30. - 31. 7. 2027",
-    artists: ["tata-bojs"],
+    artists: ["tata-bojs", "sto-zvirat"],
     stages: {
       main: "Hlavní stage",
       outlook: "Na Vyhlídce",
