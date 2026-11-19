@@ -1,5 +1,6 @@
 ---
 image: sto-zvirat.jpg
+heroLevel: 2
 genre: ska · rocksteady · swing
 origin: Praha
 # YouTube videa: ID z odkazu youtube.com/watch?v=… (první nejsledovanější, druhé novější)
