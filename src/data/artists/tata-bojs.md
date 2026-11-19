@@ -1,5 +1,5 @@
 ---
-image: tata-bojs.jpg
+image: tata-bojs-2026.jpg
 heroLevel: 1
 genre: alternativní rock · pop
 origin: Praha
