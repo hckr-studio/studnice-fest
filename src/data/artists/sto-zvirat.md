@@ -4,7 +4,7 @@ heroLevel: 2
 genre: ska · rocksteady · swing
 origin: Praha
 # YouTube videa: ID z odkazu youtube.com/watch?v=… (první nejsledovanější, druhé novější)
-# videos: ["", ""]
+videos: ["t476ppvuxuc", "gQKcUq1WcJY"]
 # Spotify – odkaz na profil interpreta (Sdílet → Kopírovat odkaz); přehrávač ukáže top skladby
 spotify: https://open.spotify.com/artist/4fLCFZWbgAALL8veJBj8lX
 ---
