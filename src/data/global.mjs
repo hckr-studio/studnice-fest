@@ -36,7 +36,7 @@ const data = {
   },
   tickets: {
     url: "https://tickets.nfctron.com/event/eupathia/studnice-fest-2027",
-    currentWave: 2, //"onsite",
+    currentWave: 3, //"onsite",
     waves: [
       [
         "onsite",
@@ -59,7 +59,7 @@ const data = {
       ],
       [5, [{ days: 3, price: 1090, id: "tcelofestivalová---5.-vlna" }]],
       [4, [{ days: 3, price: 990 }]],
-      [3, [{ days: 3, price: 890 }]],
+      [3, [{ days: 2, price: 1050 }]],
       [2, [{ days: 2, price: 950 }]],
       [1, [{ days: 2, price: 850 }]]
     ]
